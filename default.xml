@@ -1,14 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <remote  name="korg"
+	   revision="gingerbread"
            fetch="git://android.git.kernel.org/"
            review="review.source.android.com" />
 
   <remote  name="github"
+	   revision="master"
            fetch="git://github.com/" />
 
-  <default revision="gingerbread"
-           remote="korg" />
+  <default remote="korg" />
 
   <project path="build" name="Evervolv/android_build" remote="github">
     <copyfile src="core/root.mk" dest="Makefile" />
