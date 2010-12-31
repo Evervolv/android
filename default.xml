@@ -144,7 +144,7 @@
   <project path="packages/apps/Gallery" name="platform/packages/apps/Gallery" />
   <project path="packages/apps/Gallery3D" name="Evervolv/android_packages_apps_Gallery3D" remote="github" revision="master"/>
   <project path="packages/apps/HTMLViewer" name="platform/packages/apps/HTMLViewer" />
-  <project path="packages/apps/Launcher2" name="Evervolv/android_packages_apps_Launcher2" revision="master"/>
+  <project path="packages/apps/Launcher2" name="Evervolv/android_packages_apps_Launcher2" remote="github" revision="master"/>
   <project path="packages/apps/Mms" name="Evervolv/android_packages_apps_Mms" remote="github" revision="master"/>
   <project path="packages/apps/Music" name="platform/packages/apps/Music" />
   <project path="packages/apps/Nfc" name="platform/packages/apps/Nfc" />
