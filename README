@@ -1,0 +1,13 @@
+Evervolv
+===========
+
+Getting Started
+---------------
+
+    repo init -u git://github.com/Evervolv/android.git
+
+Then to sync up:
+
+    repo sync
+
+
