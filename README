@@ -1,13 +1,125 @@
-Evervolv
-===========
+Guide to compiling the Evervolv source (Currently available for the Evo 4g (Sprint), and the Droid Incredible (Verizon).
+
+This guide is mainly taken from the CyanogenMod Wiki, which was derives from googles AOSP directions. Modified it to obviously be used for Evervolv. There any many steps not needed as there are in CM, however this is still a HUGE work in progress.
+
+==================================================
+
+
+Evervolv v1.x.x - Gingerbread
+
+
+==================================================
 
 Getting Started
----------------
 
-    repo init -u git://github.com/Evervolv/android.git
+--------------------------------------------------
 
-Then to sync up:
+Install the ADB
 
-    repo sync
+------Install the Android SDK. 
+
+Install the Build Packages
+
+-----Install using the package manager of your choice:
+
+----------For 32-bit & 64-bit systems:
+
+---------------git-core gnupg flex bison gperf libsdl1.2-dev libesd0-dev libwxgtk2.6-dev squashfs-tools build-essential zip curl libncurses5-dev zlib1g-dev sun-java6-jdk pngcrush 
+
+----------For 64-bit only systems:
+
+---------------g++-multilib lib32z1-dev lib32ncurses5-dev lib32readline5-dev gcc-4.3-multilib g++-4.3-multilib 
+
+-----Note: On Ubuntu 10.10, and variants, you need to enable the parter repository to install sun-java6-jdk:
+
+----------add-apt-repository "deb http://archive.canonical.com/ lucid partner" 
+
+
+==================================================
+
+
+Create the Directories
+
+-----You will need to set up some directories in your build environment.
+
+----------To create them:
+
+---------------mkdir -p ~/bin 
+
+---------------mkdir -p ~/android/system 
+
+
+==================================================
+
+
+Install the Repository
+
+-----Enter the following to download make executable the "repo" binary:
+
+----------curl http://android.git.kernel.org/repo > ~/bin/repo 
+
+----------chmod a+x ~/bin/repo
+
+-----You may need to reboot for these changes to take effect. 
+
+
+==================================================
+
+
+Now enter the following to initialize the repository:
+
+-----cd ~/android/system/ 
+
+-----repo init -u git://github.com/Evervolv/android.git
+
+Then to start the Sync. (This is gonna take awhile 2+ GB's to download.
+
+-----repo sync 
+
+
+==================================================
+
+
+All proprietary files are kept in the repo, no need to pull them from your device (unless adding devices).
+
+
+==================================================
+
+
+Configure Build 
+
+-----Now, your environment must be configured to build specifically for your device. To set up your build environment:
+
+---------- . build/envsetup.sh
+
+---------- lunch
+
+---------- Now choose the correct device, supersonic for the Evo 4g, inc for the Droid Incredible.
+
+
+==================================================
+
+
+Compile!
+
+-----Next, we will build the actual ROM. You have a few build choices, described below. 
+
+---------- First option will do a straight build. Do this if building on a single core machine.
+
+--------------- make 
+
+---------- Second option will specify the amount of jobs you want to run (replace # with number of cpu cores.)
+
+--------------- make -j#
+
+----------- Third option will create an OTA zip file that can be flashed through recovery (DO NOT DO THIS YET. We're still working on getting this properly, as of now if you flash this... you will lose root and your recovery.) This can be used with '-j#'.
+
+--------------- make otapackage
+
+
+==================================================
+
+
+Completed! Your compiled Evervolv rom will be located in ~/android/system/out/target/product/INSERTPRODUCTHERE/ (the entire build is in /system if you did not use otapackage).
 
 
