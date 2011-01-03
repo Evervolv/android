@@ -168,7 +168,7 @@
   <project path="packages/providers/DownloadProvider" name="Evervolv/android_packages_providers_DownloadProvider" remote="github" revision="master"/>
   <project path="packages/providers/DrmProvider" name="platform/packages/providers/DrmProvider" />
   <project path="packages/providers/GoogleContactsProvider" name="platform/packages/providers/GoogleContactsProvider" />
-  <project path="packages/providers/MediaProvider" name="platform/packages/providers/MediaProvider" />
+  <project path="packages/providers/MediaProvider" name="Evervolv/android_packages_providers_MediaProvider" remote="github" revision="master"/>
   <project path="packages/providers/TelephonyProvider" name="platform/packages/providers/TelephonyProvider" />
   <project path="packages/providers/UserDictionaryProvider" name="platform/packages/providers/UserDictionaryProvider" />
   <project path="packages/wallpapers/Basic" name="Evervolv/android_packages_wallpapers_Basic" remote="github" revision="master"/>
