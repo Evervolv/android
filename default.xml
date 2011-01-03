@@ -141,6 +141,7 @@
   <project path="packages/apps/DeskClock" name="Evervolv/android_packages_apps_DeskClock" remote="github" revision="master"/>
   <project path="packages/apps/Email" name="platform/packages/apps/Email" />
   <project path="packages/apps/EVParts" name="Evervolv/android_packages_apps_EVParts" remote="github" revision="master"/>
+  <project path="packages/apps/FileManager" name="Evervolv/android_packages_apps_FileManager" remote="github" revision="master"/>
   <project path="packages/apps/Gallery" name="platform/packages/apps/Gallery" />
   <project path="packages/apps/Gallery3D" name="Evervolv/android_packages_apps_Gallery3D" remote="github" revision="master"/>
   <project path="packages/apps/HTMLViewer" name="platform/packages/apps/HTMLViewer" />
