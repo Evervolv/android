@@ -187,6 +187,7 @@
   <project path="system/vold" name="Evervolv/android_system_vold" remote="github" revision="master"/>
   <project path="system/wlan/ti" name="Evervolv/android_system_wlan_ti" remote="github" revision="master"/>
   <project path="vendor/htc" name="Evervolv/android_vendor_htc" remote="github" revision="master"/>
+  <project path="vendor/evervolv" name="Evervolv/android_vendor_evervolv" remote="github" revision="master"/>
 
   <project path="android" name="Evervolv/android" remote="github" revision="master"/>
 
