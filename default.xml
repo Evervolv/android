@@ -27,6 +27,7 @@
   <project path="device/sample" name="device/sample" />
   <project path="external/apache-http" name="platform/external/apache-http" />
   <project path="external/astl" name="platform/external/astl" />
+  <project path="external/bash" name="Evervolv/android_external_bash" remote="github" revision="master"/>
   <project path="external/bison" name="platform/external/bison" />
   <project path="external/blktrace" name="platform/external/blktrace" />
   <project path="external/bluetooth/bluez" name="Evervolv/android_external_bluetooth_bluez" remote="github" revision="master"/>
@@ -42,7 +43,7 @@
   <project path="external/dhcpcd" name="platform/external/dhcpcd" />
   <project path="external/dnsmasq" name="platform/external/dnsmasq" />
   <project path="external/dropbear" name="Evervolv/android_external_dropbear" remote="github" revision="master"/>
-  <project path="external/e2fsprogs" name="platform/external/e2fsprogs" />
+  <project path="external/e2fsprogs" name="Evervolv/android_external_e2fsprogs" remote="github" revision="master"/>
   <project path="external/easymock" name="platform/external/easymock" />
   <project path="external/elfcopy" name="platform/external/elfcopy" />
   <project path="external/elfutils" name="platform/external/elfutils" />
@@ -79,6 +80,7 @@
   <project path="external/lzo" name="Evervolv/android_external_lzo" remote="github" revision="master"/>
   <project path="external/lsof" name="Evervolv/android_external_lsof" remote="github" revision="master"/>
   <project path="external/mtpd" name="Evervolv/android_external_mtpd" remote="github" revision="master"/>
+  <project path="external/nano" name="Evervolv/android_external_nano" remote="github" revision="master"/>
   <project path="external/netcat" name="platform/external/netcat" />
   <project path="external/netperf" name="platform/external/netperf" />
   <project path="external/neven" name="platform/external/neven" />
@@ -111,8 +113,8 @@
   <project path="external/vim" name="Evervolv/android_external_vim" remote="github" revision="master"/>
   <project path="external/webkit" name="Evervolv/android_external_webkit" remote="github" revision="master"/>
   <project path="external/wireless-tools" name="Evervolv/android_external_wireless-tools" remote="github" revision="master"/>
-  <project path="external/wpa_supplicant" name="platform/external/wpa_supplicant" />
-  <project path="external/wpa_supplicant_6" name="platform/external/wpa_supplicant_6" />
+  <project path="external/wpa_supplicant" name="Evervolv/android_wpa_supplicant" remote="github" revision="master" />
+  <project path="external/wpa_supplicant_6" name="Evervolv/android_wpa_supplicant_6" remote="github" revision="master" />
   <project path="external/xmlwriter" name="platform/external/xmlwriter" />
   <project path="external/yaffs2" name="Evervolv/android_external_yaffs2" remote="github" revision="master"/>
   <project path="external/zlib" name="platform/external/zlib" />
