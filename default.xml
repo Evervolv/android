@@ -22,6 +22,7 @@
   <project path="development" name="platform/development" />
   <project path="device/common" name="device/common" />
   <project path="device/htc/common" name="Evervolv/android_device_htc_common" remote="github" revision="master"/>
+  <project path="device/htc/heroc" name="Evervolv/android_device_htc_heroc" remote="github" revision="master"/>
   <project path="device/htc/inc" name="Evervolv/android_device_htc_inc" remote="github" revision="master"/>
   <project path="device/htc/supersonic" name="Evervolv/android_device_htc_supersonic" remote="github" revision="master"/>
   <project path="device/sample" name="device/sample" />
