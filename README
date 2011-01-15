@@ -112,7 +112,7 @@ Compile!
 
 --------------- make -j#
 
------------ Third option will create an OTA zip file that can be flashed through recovery (DO NOT DO THIS YET. We're still working on getting this properly, as of now if you flash this... you will lose root and your recovery.) This can be used with '-j#'.
+----------- Third option will create an OTA zip file that can be flashed through recovery This can be used with '-j#' (the filename's are still buggy, working on this).
 
 --------------- make otapackage
 
