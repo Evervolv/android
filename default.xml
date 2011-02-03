@@ -25,8 +25,11 @@
   <project path="device/htc/glacier" name="Evervolv/android_device_htc_glacier" remote="github" revision="master"/>
   <project path="device/htc/heroc" name="Evervolv/android_device_htc_heroc" remote="github" revision="master"/>
   <project path="device/htc/inc" name="Evervolv/android_device_htc_inc" remote="github" revision="master"/>
+  <project path="device/htc/passion" name="Evervolv/android_device_htc_passion" remote="github" revision="master"/>
+  <project path="device/htc/passion-common" name="Evervolv/android_device_htc_passion-common" remote="github" revision="master"/>
   <project path="device/htc/speedy" name="Evervolv/android_device_htc_speedy" remote="github" revision="master"/>
   <project path="device/htc/supersonic" name="Evervolv/android_device_htc_supersonic" remote="github" revision="master"/>
+  <project path="device/htc/vision" name="Evervolv/android_device_htc_vision" remote="github" revision="master"/>
   <project path="device/sample" name="device/sample" />
   <project path="external/apache-http" name="platform/external/apache-http" />
   <project path="external/astl" name="platform/external/astl" />
