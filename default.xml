@@ -25,11 +25,11 @@
   <project path="device/htc/glacier" name="Evervolv/android_device_htc_glacier" remote="github" revision="master"/>
   <project path="device/htc/heroc" name="Evervolv/android_device_htc_heroc" remote="github" revision="master"/>
   <project path="device/htc/inc" name="Evervolv/android_device_htc_inc" remote="github" revision="master"/>
-  <project path="device/htc/passion" name="Evervolv/android_device_htc_passion" remote="github" revision="master"/>
-  <project path="device/htc/passion-common" name="Evervolv/android_device_htc_passion-common" remote="github" revision="master"/>
+  <project path="device/htc/passion" name="Evervolv/android_device_htc_passion" remote="github"/>
+  <project path="device/htc/passion-common" name="Evervolv/android_device_htc_passion-common" remote="github"/>
   <project path="device/htc/speedy" name="Evervolv/android_device_htc_speedy" remote="github" revision="master"/>
   <project path="device/htc/supersonic" name="Evervolv/android_device_htc_supersonic" remote="github" revision="master"/>
-  <project path="device/htc/vision" name="Evervolv/android_device_htc_vision" remote="github" revision="master"/>
+  <project path="device/htc/vision" name="Evervolv/android_device_htc_vision" remote="github"/>
   <project path="device/sample" name="device/sample" />
   <project path="external/apache-http" name="platform/external/apache-http" />
   <project path="external/astl" name="platform/external/astl" />
@@ -134,12 +134,13 @@
   <project path="hardware/msm7k" name="Evervolv/android_hardware_msm7k" remote="github" revision="master"/>
   <project path="hardware/qcom/gps" name="Evervolv/android_hardware_qcom_gps" remote="github" revision="master"/>
   <project path="hardware/qcom/media" name="Evervolv/android_hardware_qcom_media" remote="github" revision="master"/>
-  <project path="hardware/ril" name="Evervolv/android_hardware_ril" remote="github" revision="gingerbread"/>
+  <project path="hardware/ril" name="Evervolv/android_hardware_ril" remote="github"/>
   <project path="hardware/ti/omap3" name="Evervolv/android_hardware_ti_omap3" remote="github" revision="master"/>
   <project path="hardware/ti/wlan" name="platform/hardware/ti/wlan" />
   <project path="libcore" name="platform/libcore" />
   <project path="ndk" name="platform/ndk" />
   <project path="packages/apps/AccountsAndSyncSettings" name="platform/packages/apps/AccountsAndSyncSettings" />
+  <project path="packages/apps/ADWLauncher" name="Evervolv/android_packages_apps_ADWLauncher" remote="github"/>
   <project path="packages/apps/Bluetooth" name="platform/packages/apps/Bluetooth" />
   <project path="packages/apps/Browser" name="Evervolv/android_packages_apps_Browser" remote="github" revision="master"/>
   <project path="packages/apps/Calculator" name="platform/packages/apps/Calculator" />
