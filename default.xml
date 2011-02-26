@@ -5,51 +5,52 @@
            review="review.source.android.com" />
 
   <remote  name="github"
-           fetch="git://github.com/" />
+           fetch="git://github.com/Evervolv/" 
+	   review="review.evervolv.com"/>
 
   <default 
 	   revision="gingerbread"
 	   remote="korg" />
 
-  <project path="build" name="Evervolv/android_build" remote="github" revision="master">
+  <project path="build" name="android_build" remote="github" revision="master">
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
-  <project path="bionic" name="Evervolv/android_bionic" remote="github" revision="master"/>
+  <project path="bionic" name="android_bionic" remote="github" revision="master"/>
   <project path="bootable/bootloader/legacy" name="platform/bootable/bootloader/legacy" />
   <project path="bootable/diskinstaller" name="platform/bootable/diskinstaller" />
-  <project path="bootable/recovery" name="Evervolv/android_bootable_recovery" remote="github" revision="master"/>
-  <project path="dalvik" name="Evervolv/android_dalvik" remote="github" revision="master"/>
+  <project path="bootable/recovery" name="android_bootable_recovery" remote="github" revision="master"/>
+  <project path="dalvik" name="android_dalvik" remote="github" revision="master"/>
   <project path="development" name="platform/development" />
   <project path="device/common" name="device/common" />
-  <project path="device/htc/common" name="Evervolv/android_device_htc_common" remote="github" revision="master"/>
-  <project path="device/htc/glacier" name="Evervolv/android_device_htc_glacier" remote="github" revision="master"/>
-  <project path="device/htc/heroc" name="Evervolv/android_device_htc_heroc" remote="github" revision="master"/>
-  <project path="device/htc/inc" name="Evervolv/android_device_htc_inc" remote="github" revision="master"/>
-  <project path="device/htc/passion" name="Evervolv/android_device_htc_passion" remote="github"/>
-  <project path="device/htc/passion-common" name="Evervolv/android_device_htc_passion-common" remote="github"/>
-  <project path="device/htc/speedy" name="Evervolv/android_device_htc_speedy" remote="github" revision="master"/>
-  <project path="device/htc/supersonic" name="Evervolv/android_device_htc_supersonic" remote="github" revision="master"/>
-  <project path="device/htc/vision" name="Evervolv/android_device_htc_vision" remote="github"/>
+  <project path="device/htc/common" name="android_device_htc_common" remote="github" revision="master"/>
+  <project path="device/htc/glacier" name="android_device_htc_glacier" remote="github" revision="master"/>
+  <project path="device/htc/heroc" name="android_device_htc_heroc" remote="github" revision="master"/>
+  <project path="device/htc/inc" name="android_device_htc_inc" remote="github" revision="master"/>
+  <project path="device/htc/passion" name="android_device_htc_passion" remote="github"/>
+  <project path="device/htc/passion-common" name="android_device_htc_passion-common" remote="github"/>
+  <project path="device/htc/speedy" name="android_device_htc_speedy" remote="github" revision="master"/>
+  <project path="device/htc/supersonic" name="android_device_htc_supersonic" remote="github" revision="master"/>
+  <project path="device/htc/vision" name="android_device_htc_vision" remote="github"/>
   <project path="device/sample" name="device/sample" />
   <project path="external/apache-http" name="platform/external/apache-http" />
   <project path="external/astl" name="platform/external/astl" />
-  <project path="external/bash" name="Evervolv/android_external_bash" remote="github" revision="master"/>
+  <project path="external/bash" name="android_external_bash" remote="github" revision="master"/>
   <project path="external/bison" name="platform/external/bison" />
   <project path="external/blktrace" name="platform/external/blktrace" />
-  <project path="external/bluetooth/bluez" name="Evervolv/android_external_bluetooth_bluez" remote="github" revision="master"/>
+  <project path="external/bluetooth/bluez" name="android_external_bluetooth_bluez" remote="github" revision="master"/>
   <project path="external/bluetooth/glib" name="platform/external/bluetooth/glib" />
   <project path="external/bluetooth/hcidump" name="platform/external/bluetooth/hcidump" />
   <project path="external/bouncycastle" name="platform/external/bouncycastle" />
   <project path="external/bsdiff" name="platform/external/bsdiff" />
-  <project path="external/busybox" name="Evervolv/android_external_busybox" remote="github" revision="master"/>
+  <project path="external/busybox" name="android_external_busybox" remote="github" revision="master"/>
   <project path="external/bzip2" name="platform/external/bzip2" />
   <project path="external/chromium" name="platform/external/chromium" />
-  <project path="external/clearsilver" name="Evervolv/android_external_clearsilver" remote="github" revision="master"/>
+  <project path="external/clearsilver" name="android_external_clearsilver" remote="github" revision="master"/>
   <project path="external/dbus" name="platform/external/dbus" />
   <project path="external/dhcpcd" name="platform/external/dhcpcd" />
   <project path="external/dnsmasq" name="platform/external/dnsmasq" />
-  <project path="external/dropbear" name="Evervolv/android_external_dropbear" remote="github" revision="master"/>
-  <project path="external/e2fsprogs" name="Evervolv/android_external_e2fsprogs" remote="github" revision="master"/>
+  <project path="external/dropbear" name="android_external_dropbear" remote="github" revision="master"/>
+  <project path="external/e2fsprogs" name="android_external_e2fsprogs" remote="github" revision="master"/>
   <project path="external/easymock" name="platform/external/easymock" />
   <project path="external/elfcopy" name="platform/external/elfcopy" />
   <project path="external/elfutils" name="platform/external/elfutils" />
@@ -71,101 +72,101 @@
   <project path="external/iptables" name="platform/external/iptables" />
   <project path="external/jdiff" name="platform/external/jdiff" />
   <project path="external/jhead" name="platform/external/jhead" />
-  <project path="external/jpeg" name="Evervolv/android_external_jpeg" remote="github" revision="master"/>
+  <project path="external/jpeg" name="android_external_jpeg" remote="github" revision="master"/>
   <project path="external/jsr305" name="platform/external/jsr305" />
   <project path="external/junit" name="platform/external/junit" />
   <project path="external/kernel-headers" name="platform/external/kernel-headers" />
   <project path="external/libffi" name="platform/external/libffi" />
   <project path="external/libgsm" name="platform/external/libgsm" />
-  <project path="external/libncurses" name="Evervolv/android_external_libncurses" remote="github" revision="master"/>
+  <project path="external/libncurses" name="android_external_libncurses" remote="github" revision="master"/>
   <project path="external/libnfc-nxp" name="platform/external/libnfc-nxp" />
   <project path="external/libpcap" name="platform/external/libpcap" />
-  <project path="external/libpng" name="Evervolv/android_external_libpng" remote="github" revision="master"/>
+  <project path="external/libpng" name="android_external_libpng" remote="github" revision="master"/>
   <project path="external/libvpx" name="platform/external/libvpx" />
   <project path="external/libxml2" name="platform/external/libxml2" />
-  <project path="external/lzo" name="Evervolv/android_external_lzo" remote="github" revision="master"/>
-  <project path="external/lsof" name="Evervolv/android_external_lsof" remote="github" revision="master"/>
-  <project path="external/mtpd" name="Evervolv/android_external_mtpd" remote="github" revision="master"/>
-  <project path="external/nano" name="Evervolv/android_external_nano" remote="github" revision="master"/>
+  <project path="external/lzo" name="android_external_lzo" remote="github" revision="master"/>
+  <project path="external/lsof" name="android_external_lsof" remote="github" revision="master"/>
+  <project path="external/mtpd" name="android_external_mtpd" remote="github" revision="master"/>
+  <project path="external/nano" name="android_external_nano" remote="github" revision="master"/>
   <project path="external/netcat" name="platform/external/netcat" />
   <project path="external/netperf" name="platform/external/netperf" />
   <project path="external/neven" name="platform/external/neven" />
   <project path="external/nist-sip" name="platform/external/nist-sip" />
   <project path="external/oauth" name="platform/external/oauth" />
-  <project path="external/openssl" name="Evervolv/android_external_openssl" remote="github" revision="master"/>
-  <project path="external/openvpn" name="Evervolv/android_external_openvpn" remote="github" revision="master"/>
+  <project path="external/openssl" name="android_external_openssl" remote="github" revision="master"/>
+  <project path="external/openvpn" name="android_external_openvpn" remote="github" revision="master"/>
   <project path="external/oprofile" name="platform/external/oprofile" />
   <project path="external/ping" name="platform/external/ping" />
   <project path="external/ppp" name="platform/external/ppp" />
   <project path="external/proguard" name="platform/external/proguard" />
   <project path="external/protobuf" name="platform/external/protobuf" />
   <project path="external/qemu" name="platform/external/qemu" revision="tools_r7" />
-  <project path="external/rsync" name="Evervolv/android_external_rsync" remote="github" revision="master"/>
+  <project path="external/rsync" name="android_external_rsync" remote="github" revision="master"/>
   <project path="external/quake" name="platform/external/quake" />
   <project path="external/safe-iop" name="platform/external/safe-iop" />
-  <project path="external/skia" name="Evervolv/android_external_skia" remote="github" revision="master"/>
+  <project path="external/skia" name="android_external_skia" remote="github" revision="master"/>
   <project path="external/sonivox" name="platform/external/sonivox" />
   <project path="external/speex" name="platform/external/speex" />
   <project path="external/sqlite" name="platform/external/sqlite" />
   <project path="external/srec" name="platform/external/srec" />
   <project path="external/stlport" name="platform/external/stlport" />
-  <project path="external/strace" name="Evervolv/android_external_strace" remote="github" revision="master"/>
+  <project path="external/strace" name="android_external_strace" remote="github" revision="master"/>
   <project path="external/svox" name="platform/external/svox" />
   <project path="external/tagsoup" name="platform/external/tagsoup" />
   <project path="external/tcpdump" name="platform/external/tcpdump" />
   <project path="external/tinyxml" name="platform/external/tinyxml" />
   <project path="external/tremolo" name="platform/external/tremolo" />
   <project path="external/v8" name="platform/external/v8" />
-  <project path="external/vim" name="Evervolv/android_external_vim" remote="github" revision="master"/>
-  <project path="external/webkit" name="Evervolv/android_external_webkit" remote="github" revision="master"/>
-  <project path="external/wireless-tools" name="Evervolv/android_external_wireless-tools" remote="github" revision="master"/>
-  <project path="external/wpa_supplicant" name="Evervolv/android_external_wpa_supplicant" remote="github" revision="master" />
-  <project path="external/wpa_supplicant_6" name="Evervolv/android_external_wpa_supplicant_6" remote="github" revision="master" />
+  <project path="external/vim" name="android_external_vim" remote="github" revision="master"/>
+  <project path="external/webkit" name="android_external_webkit" remote="github" revision="master"/>
+  <project path="external/wireless-tools" name="android_external_wireless-tools" remote="github" revision="master"/>
+  <project path="external/wpa_supplicant" name="android_external_wpa_supplicant" remote="github" revision="master" />
+  <project path="external/wpa_supplicant_6" name="android_external_wpa_supplicant_6" remote="github" revision="master" />
   <project path="external/xmlwriter" name="platform/external/xmlwriter" />
-  <project path="external/yaffs2" name="Evervolv/android_external_yaffs2" remote="github" revision="master"/>
+  <project path="external/yaffs2" name="android_external_yaffs2" remote="github" revision="master"/>
   <project path="external/zlib" name="platform/external/zlib" />
-  <project path="frameworks/base" name="Evervolv/android_frameworks_base" remote="github" revision="master"/>
+  <project path="frameworks/base" name="android_frameworks_base" remote="github" revision="master"/>
   <project path="frameworks/ex" name="platform/frameworks/ex" />
   <project path="frameworks/opt/emoji" name="platform/frameworks/opt/emoji" />
   <project path="hardware/broadcom/wlan" name="platform/hardware/broadcom/wlan" />
-  <project path="hardware/gpsshim" name="Evervolv/android_hardware_gpsshim" remote="github" revision="master"/>
-  <project path="hardware/libhardware" name="Evervolv/android_hardware_libhardware" remote="github" revision="master"/>
-  <project path="hardware/libhardware_legacy" name="Evervolv/android_hardware_libhardware_legacy" remote="github" revision="master"/>
-  <project path="hardware/msm7k" name="Evervolv/android_hardware_msm7k" remote="github" revision="master"/>
-  <project path="hardware/qcom/gps" name="Evervolv/android_hardware_qcom_gps" remote="github" revision="master"/>
-  <project path="hardware/qcom/media" name="Evervolv/android_hardware_qcom_media" remote="github" revision="master"/>
-  <project path="hardware/ril" name="Evervolv/android_hardware_ril" remote="github"/>
-  <project path="hardware/ti/omap3" name="Evervolv/android_hardware_ti_omap3" remote="github" revision="master"/>
+  <project path="hardware/gpsshim" name="android_hardware_gpsshim" remote="github" revision="master"/>
+  <project path="hardware/libhardware" name="android_hardware_libhardware" remote="github" revision="master"/>
+  <project path="hardware/libhardware_legacy" name="android_hardware_libhardware_legacy" remote="github" revision="master"/>
+  <project path="hardware/msm7k" name="android_hardware_msm7k" remote="github" revision="master"/>
+  <project path="hardware/qcom/gps" name="android_hardware_qcom_gps" remote="github" revision="master"/>
+  <project path="hardware/qcom/media" name="android_hardware_qcom_media" remote="github" revision="master"/>
+  <project path="hardware/ril" name="android_hardware_ril" remote="github"/>
+  <project path="hardware/ti/omap3" name="android_hardware_ti_omap3" remote="github" revision="master"/>
   <project path="hardware/ti/wlan" name="platform/hardware/ti/wlan" />
   <project path="libcore" name="platform/libcore" />
   <project path="ndk" name="platform/ndk" />
   <project path="packages/apps/AccountsAndSyncSettings" name="platform/packages/apps/AccountsAndSyncSettings" />
-  <project path="packages/apps/ADWLauncher" name="Evervolv/android_packages_apps_ADWLauncher" remote="github"/>
+  <project path="packages/apps/ADWLauncher" name="android_packages_apps_ADWLauncher" remote="github"/>
   <project path="packages/apps/Bluetooth" name="platform/packages/apps/Bluetooth" />
-  <project path="packages/apps/Browser" name="Evervolv/android_packages_apps_Browser" remote="github" revision="master"/>
+  <project path="packages/apps/Browser" name="android_packages_apps_Browser" remote="github" revision="master"/>
   <project path="packages/apps/Calculator" name="platform/packages/apps/Calculator" />
   <project path="packages/apps/Calendar" name="platform/packages/apps/Calendar" />
-  <project path="packages/apps/Camera" name="Evervolv/android_packages_apps_Camera" remote="github" revision="master"/>
+  <project path="packages/apps/Camera" name="android_packages_apps_Camera" remote="github" revision="master"/>
   <project path="packages/apps/CertInstaller" name="platform/packages/apps/CertInstaller" />
   <project path="packages/apps/Contacts" name="platform/packages/apps/Contacts" />
-  <project path="packages/apps/DeskClock" name="Evervolv/android_packages_apps_DeskClock" remote="github" revision="master"/>
+  <project path="packages/apps/DeskClock" name="android_packages_apps_DeskClock" remote="github" revision="master"/>
   <project path="packages/apps/Email" name="platform/packages/apps/Email" />
-  <project path="packages/apps/EVParts" name="Evervolv/android_packages_apps_EVParts" remote="github" revision="master"/>
-  <project path="packages/apps/FileManager" name="Evervolv/android_packages_apps_FileManager" remote="github" revision="master"/>
+  <project path="packages/apps/EVParts" name="android_packages_apps_EVParts" remote="github" revision="master"/>
+  <project path="packages/apps/FileManager" name="android_packages_apps_FileManager" remote="github" revision="master"/>
   <project path="packages/apps/Gallery" name="platform/packages/apps/Gallery" />
-  <project path="packages/apps/Gallery3D" name="Evervolv/android_packages_apps_Gallery3D" remote="github" revision="master"/>
+  <project path="packages/apps/Gallery3D" name="android_packages_apps_Gallery3D" remote="github" revision="master"/>
   <project path="packages/apps/HTMLViewer" name="platform/packages/apps/HTMLViewer" />
-  <project path="packages/apps/Launcher2" name="Evervolv/android_packages_apps_Launcher2" remote="github" revision="master"/>
-  <project path="packages/apps/Mms" name="Evervolv/android_packages_apps_Mms" remote="github" revision="master"/>
+  <project path="packages/apps/Launcher2" name="android_packages_apps_Launcher2" remote="github" revision="master"/>
+  <project path="packages/apps/Mms" name="android_packages_apps_Mms" remote="github" revision="master"/>
   <project path="packages/apps/Music" name="platform/packages/apps/Music" />
   <project path="packages/apps/Nfc" name="platform/packages/apps/Nfc" />
   <project path="packages/apps/PackageInstaller" name="platform/packages/apps/PackageInstaller" />
-  <project path="packages/apps/Phone" name="Evervolv/android_packages_apps_Phone" remote="github" revision="master"/>
-  <project path="packages/apps/Protips" name="Evervolv/android_packages_apps_Protips" remote="github" revision="master"/>
+  <project path="packages/apps/Phone" name="android_packages_apps_Phone" remote="github" revision="master"/>
+  <project path="packages/apps/Protips" name="android_packages_apps_Protips" remote="github" revision="master"/>
   <project path="packages/apps/Provision" name="platform/packages/apps/Provision" />
   <project path="packages/apps/QuickSearchBox" name="platform/packages/apps/QuickSearchBox" />
-  <project path="packages/apps/Settings" name="Evervolv/android_packages_apps_Settings" remote="github" revision="master"/>
-  <project path="packages/apps/SoundRecorder" name="Evervolv/android_packages_apps_SoundRecorder" remote="github" revision="master"/>
+  <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="github" revision="master"/>
+  <project path="packages/apps/SoundRecorder" name="android_packages_apps_SoundRecorder" remote="github" revision="master"/>
   <project path="packages/apps/Stk" name="platform/packages/apps/Stk" />
   <project path="packages/apps/Tag" name="platform/packages/apps/Tag" />
   <project path="packages/apps/VoiceDialer" name="platform/packages/apps/VoiceDialer" />
@@ -173,30 +174,32 @@
   <project path="packages/inputmethods/LatinIME" name="platform/packages/inputmethods/LatinIME" />
   <project path="packages/providers/ApplicationsProvider" name="platform/packages/providers/ApplicationsProvider" />
   <project path="packages/providers/CalendarProvider" name="platform/packages/providers/CalendarProvider" />
-  <project path="packages/providers/ContactsProvider" name="Evervolv/android_packages_providers_ContactsProvider" remote="github" revision="master"/>
-  <project path="packages/providers/DownloadProvider" name="Evervolv/android_packages_providers_DownloadProvider" remote="github" revision="master"/>
+  <project path="packages/providers/ContactsProvider" name="android_packages_providers_ContactsProvider" remote="github" revision="master"/>
+  <project path="packages/providers/DownloadProvider" name="android_packages_providers_DownloadProvider" remote="github" revision="master"/>
   <project path="packages/providers/DrmProvider" name="platform/packages/providers/DrmProvider" />
   <project path="packages/providers/GoogleContactsProvider" name="platform/packages/providers/GoogleContactsProvider" />
-  <project path="packages/providers/MediaProvider" name="Evervolv/android_packages_providers_MediaProvider" remote="github" revision="master"/>
+  <project path="packages/providers/MediaProvider" name="android_packages_providers_MediaProvider" remote="github" revision="master"/>
   <project path="packages/providers/TelephonyProvider" name="platform/packages/providers/TelephonyProvider" />
   <project path="packages/providers/UserDictionaryProvider" name="platform/packages/providers/UserDictionaryProvider" />
-  <project path="packages/wallpapers/Basic" name="Evervolv/android_packages_wallpapers_Basic" remote="github" revision="master"/>
+  <project path="packages/wallpapers/Basic" name="android_packages_wallpapers_Basic" remote="github" revision="master"/>
   <project path="packages/wallpapers/LivePicker" name="platform/packages/wallpapers/LivePicker" />
-  <project path="packages/wallpapers/MagicSmoke" name="Evervolv/android_packages_wallpapers_MagicSmoke" remote="github" revision="master"/>
+  <project path="packages/wallpapers/MagicSmoke" name="android_packages_wallpapers_MagicSmoke" remote="github" revision="master"/>
   <project path="packages/wallpapers/MusicVisualization" name="platform/packages/wallpapers/MusicVisualization" />
   <project path="prebuilt" name="platform/prebuilt" />
   <project path="sdk" name="platform/sdk" revision="tools_r7" />
   <project path="system/bluetooth" name="platform/system/bluetooth" />
-  <project path="system/core" name="Evervolv/android_system_core" remote="github" revision="master"/>
-  <project path="system/extras" name="Evervolv/android_system_extras" remote="github" revision="master"/>
+  <project path="system/core" name="android_system_core" remote="github" revision="master"/>
+  <project path="system/extras" name="android_system_extras" remote="github" revision="master"/>
   <project path="system/media" name="platform/system/media" />
-  <project path="system/netd" name="Evervolv/android_system_netd" remote="github" revision="master"/>
-  <project path="system/vold" name="Evervolv/android_system_vold" remote="github" revision="master"/>
-  <project path="system/wlan/ti" name="Evervolv/android_system_wlan_ti" remote="github" revision="master"/>
-  <project path="vendor/htc" name="Evervolv/android_vendor_htc" remote="github" revision="master"/>
-  <project path="vendor/evervolv" name="Evervolv/android_vendor_evervolv" remote="github" revision="master"/>
+  <project path="system/netd" name="android_system_netd" remote="github" revision="master"/>
+  <project path="system/vold" name="android_system_vold" remote="github" revision="master"/>
+  <project path="system/wlan/ti" name="android_system_wlan_ti" remote="github" revision="master"/>
+  <project path="vendor/htc" name="android_vendor_htc" remote="github" revision="master"/>
+  <project path="vendor/evervolv" name="android_vendor_evervolv" remote="github" revision="master"/>
 
-  <project path="android" name="Evervolv/android" remote="github" revision="master"/>
+  <project path="android" name="android" remote="github" revision="master"/>
 
 
 </manifest>
+
+  
