@@ -26,11 +26,11 @@
   <project path="device/htc/glacier" name="android_device_htc_glacier" remote="github" revision="master"/>
   <project path="device/htc/heroc" name="android_device_htc_heroc" remote="github" revision="master"/>
   <project path="device/htc/inc" name="android_device_htc_inc" remote="github" revision="master"/>
-  <project path="device/htc/passion" name="android_device_htc_passion" remote="github"/>
-  <project path="device/htc/passion-common" name="android_device_htc_passion-common" remote="github"/>
+  <project path="device/htc/passion" name="android_device_htc_passion" remote="github" revision="master"/>
+  <project path="device/htc/passion-common" name="android_device_htc_passion-common" remote="github" revision="master"/>
   <project path="device/htc/speedy" name="android_device_htc_speedy" remote="github" revision="master"/>
   <project path="device/htc/supersonic" name="android_device_htc_supersonic" remote="github" revision="master"/>
-  <project path="device/htc/vision" name="android_device_htc_vision" remote="github"/>
+  <project path="device/htc/vision" name="android_device_htc_vision" remote="github" revision="master"/>
   <project path="device/sample" name="device/sample" />
   <project path="external/apache-http" name="platform/external/apache-http" />
   <project path="external/astl" name="platform/external/astl" />
@@ -141,7 +141,7 @@
   <project path="libcore" name="platform/libcore" />
   <project path="ndk" name="platform/ndk" />
   <project path="packages/apps/AccountsAndSyncSettings" name="platform/packages/apps/AccountsAndSyncSettings" />
-  <project path="packages/apps/ADWLauncher" name="android_packages_apps_ADWLauncher" remote="github"/>
+  <project path="packages/apps/ADWLauncher" name="android_packages_apps_ADWLauncher" remote="github" revision="master"/>
   <project path="packages/apps/Bluetooth" name="platform/packages/apps/Bluetooth" />
   <project path="packages/apps/Browser" name="android_packages_apps_Browser" remote="github" revision="master"/>
   <project path="packages/apps/Calculator" name="platform/packages/apps/Calculator" />
