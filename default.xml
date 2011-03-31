@@ -198,6 +198,7 @@
   <project path="system/vold" name="android_system_vold" remote="github" revision="master"/>
   <project path="system/wlan/ti" name="android_system_wlan_ti" remote="github" revision="master"/>
   <project path="vendor/htc" name="android_vendor_htc" remote="github" revision="master"/>
+  <project path="vendor/nvidia" name="android_vendor_nvidia" remote="github" revision="master"/>
   <project path="vendor/evervolv" name="android_vendor_evervolv" remote="github" revision="master"/>
 
   <project path="android" name="android" remote="github" revision="master"/>
