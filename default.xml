@@ -30,7 +30,7 @@
   <project path="device/htc/passion-common" name="android_device_htc_passion-common" remote="github"/>
   <project path="device/htc/speedy" name="android_device_htc_speedy" remote="github" revision="master"/>
   <project path="device/htc/supersonic" name="android_device_htc_supersonic" remote="github" revision="master"/>
-  <project path="device/htc/supersonic" name="android_device_htc_supersonic" remote="github" revision="master"/>
+  <project path="device/htc/vision" name="android_device_htc_vision" remote="github" revision="master"/>
   <project path="device/nvidia/harmony" name="android_device_nvidia_harmony" remote="github" revision="master"/>
   <project path="device/sample" name="device/sample" />
   <project path="external/apache-http" name="platform/external/apache-http" />
