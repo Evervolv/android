@@ -118,7 +118,7 @@
   <project path="external/tcpdump" name="platform/external/tcpdump" />
   <project path="external/tinyxml" name="platform/external/tinyxml" />
   <project path="external/tremolo" name="platform/external/tremolo" />
-  <project path="external/v8" name="platform/external/v8" />
+  <project path="external/v8" name="android_external_v8" remote="github" revision="master"/>
   <project path="external/vim" name="android_external_vim" remote="github" revision="master"/>
   <project path="external/webkit" name="android_external_webkit" remote="github" revision="master"/>
   <project path="external/wireless-tools" name="android_external_wireless-tools" remote="github" revision="master"/>
