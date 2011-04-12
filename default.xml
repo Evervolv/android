@@ -201,6 +201,13 @@
   <project path="vendor/nvidia" name="android_vendor_nvidia" remote="github" revision="master"/>
   <project path="vendor/evervolv" name="android_vendor_evervolv" remote="github" revision="master"/>
 
+  <project path="vendor/tmobile/apps/ThemeChooser" name="Evervolv/themes-platform-vendor-tmobile-apps-ThemeChooser" remote="github" revision="master" />
+  <project path="vendor/tmobile/libs/com.tmobile.themes" name="themes-platform-vendor-tmobile-libs-com.tmobile.themes" remote="themes" revision="refs/heads/master" />
+  <project path="vendor/tmobile/providers/ThemeManager" name="themes-platform-vendor-tmobile-providers-ThemeManager" remote="themes" revision="refs/heads/master" />
+  <project path="vendor/tmobile/themes/Androidian" name="themes-platform-vendor-tmobile-themes-Androidian" remote="themes" revision="refs/heads/master" />
+  <project path="vendor/tmobile/themes/Cyanbread" name="themes-platform-vendor-tmobile-themes-Cyanbread" remote="themes" revision="refs/heads/master" />
+  <project path="vendor/tmobile/products/themes" name="themes-platform-vendor-tmobile-products-themes" remote="themes" revision="refs/heads/master" />
+
   <project path="android" name="android" remote="github" revision="master"/>
 
 
