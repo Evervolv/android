@@ -8,6 +8,9 @@
            fetch="git://github.com/Evervolv/" 
 	   review="review.evervolv.com"/>
 
+  <remote  name="themes"
+           fetch="git://github.com/tmobile" />
+
   <default 
 	   revision="gingerbread"
 	   remote="korg" />
