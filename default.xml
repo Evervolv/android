@@ -212,7 +212,7 @@
   <project path="vendor/tmobile/products/themes" name="themes-platform-vendor-tmobile-products-themes" remote="themes" revision="refs/heads/master" />
 
   <project path="android" name="android" remote="github" revision="master">
-    <copyfile src=".classpath" dest="../classpath" />
+    <copyfile src=".classpath" dest=".classpath" />
   </project>
 
 </manifest>
