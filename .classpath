@@ -25,9 +25,9 @@
 	<classpathentry kind="src" path="packages/apps/Stk/src"/>
 	<classpathentry kind="src" path="packages/apps/VoiceDialer/src"/>
 	<classpathentry kind="src" path="frameworks/base/packages/SystemUI/src"/>
-	<classpathentry kind="src" path="packages/providers/CalendarProvider/src"/>
-	<classpathentry kind="src" path="packages/providers/ContactsProvider/src"/>
-	<classpathentry kind="src" path="packages/providers/DownloadProvider/src"/>
+	<classpathentry kind="src" path="vendor/tmobile/apps/ThemeChooser/src"/>
+	<classpathentry kind="src" path="vendor/tmobile/libs/com.tmobile.themes/src"/>
+	<classpathentry kind="src" path="vendor/tmobile/providers/ThemeManager/src"/>
 	<classpathentry kind="src" path="packages/providers/DrmProvider/src"/>
 	<classpathentry kind="src" path="packages/providers/MediaProvider/src"/>
 	<classpathentry kind="src" path="packages/providers/TelephonyProvider/src"/>
