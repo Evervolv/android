@@ -212,6 +212,7 @@
   <project path="vendor/tmobile/libs/com.tmobile.themes" name="themes-platform-vendor-tmobile-libs-com.tmobile.themes" remote="github" revision="master"/>
   <project path="vendor/tmobile/providers/ThemeManager" name="themes-platform-vendor-tmobile-providers-ThemeManager" remote="github" revision="master"/>
   <project path="vendor/tmobile/themes/Androidian-6-100" name="theme-Androidian-6-100" remote="github" revision="master"/>
+  <project path="vendor/tmobile/themes/Gingerbread" name="theme-Gingerbread" remote="github" revision="master"/>
 
   <project path="packages/apps/CMWimaxSettings" name="android_packages_apps_CMWimaxSettings" remote="github" />
 
