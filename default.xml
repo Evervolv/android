@@ -29,6 +29,7 @@
   <project path="device/htc/glacier" name="android_device_htc_glacier" remote="github" revision="master"/>
   <project path="device/htc/heroc" name="android_device_htc_heroc" remote="github" revision="master"/>
   <project path="device/htc/inc" name="android_device_htc_inc" remote="github" revision="master"/>
+  <project path="device/htc/msm7x30-common" name="android_device_htc_msm7x30-common" remote="github"/>
   <project path="device/htc/passion" name="android_device_htc_passion" remote="github"/>
   <project path="device/htc/passion-common" name="android_device_htc_passion-common" remote="github"/>
   <project path="device/htc/speedy" name="android_device_htc_speedy" remote="github" revision="master"/>
