@@ -158,6 +158,7 @@
   <project path="packages/apps/Camera" name="android_packages_apps_Camera" remote="github" revision="master"/>
   <project path="packages/apps/CertInstaller" name="platform/packages/apps/CertInstaller" />
   <project path="packages/apps/Contacts" name="platform/packages/apps/Contacts" />
+  <project path="packages/apps/CreoLauncher" name="android_packages_apps_CreoLauncher" remote="github" revision="master"/>
   <project path="packages/apps/DeskClock" name="android_packages_apps_DeskClock" remote="github" revision="master"/>
   <project path="packages/apps/Email" name="platform/packages/apps/Email" />
   <project path="packages/apps/EVParts" name="android_packages_apps_EVParts" remote="github" revision="master"/>
