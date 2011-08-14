@@ -26,6 +26,7 @@
   <project path="development" name="platform/development" />
   <project path="device/common" name="device/common" />
   <project path="device/htc/common" name="android_device_htc_common" remote="github" revision="master"/>
+  <project path="device/htc/desirec" name="android_device_htc_desirec" remote="github"/>
   <project path="device/htc/glacier" name="android_device_htc_glacier" remote="github" revision="master"/>
   <project path="device/htc/heroc" name="android_device_htc_heroc" remote="github" revision="master"/>
   <project path="device/htc/inc" name="android_device_htc_inc" remote="github" revision="master"/>
