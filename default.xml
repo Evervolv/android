@@ -56,7 +56,7 @@
   <project path="external/bluetooth/bluez" name="android_external_bluetooth_bluez" remote="github" revision="master"/>
   <project path="external/bluetooth/glib" name="android_external_bluetooth_glib" />
   <project path="external/bluetooth/hcidump" name="android_external_bluetooth_hcidump" />
-  <project path="external/bouncycastle" name="pandroid_external_bouncycastle" />
+  <project path="external/bouncycastle" name="android_external_bouncycastle" />
   <project path="external/bsdiff" name="android_external_bsdiff" />
   <project path="external/busybox" name="android_external_busybox" remote="github" revision="master"/>
   <project path="external/bzip2" name="android_external_bzip2" />
