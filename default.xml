@@ -1,8 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-  <remote  name="aosp"
-           fetch=".." />
+  <remote name="aosp"
+           fetch="https://android.googlesource.com/" />
+
+  <remote name="github"
+           fetch="git://github.com/Evervolv-ICS/"
+	   review="review.evervolv.com"/>
+
   <default revision="refs/tags/android-4.0.1_r1"
            remote="aosp"
            sync-j="4" />
@@ -230,5 +235,7 @@
   <project path="system/media" name="platform/system/media" />
   <project path="system/netd" name="platform/system/netd" />
   <project path="system/vold" name="platform/system/vold" />
+
+  <project path="android" name="android" />
 
 </manifest>
