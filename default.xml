@@ -166,7 +166,7 @@
   <project path="hardware/libhardware_legacy" name="platform/hardware/libhardware_legacy" />
   <project path="hardware/msm7k" name="android_hardware_msm7k" remote="github" revision="ics"/>
   <project path="hardware/qcom/gps" name="android_hardware_qcom_gps" remote="github" revision="ics" />
-  <project path="hardware/qcom/media" name="platform/hardware/qcom/media" />
+  <project path="hardware/qcom/media" name="platform/hardware/qcom/media" remote="github" revision="ics" />
   <project path="hardware/ril" name="platform/hardware/ril" />
   <project path="hardware/ti/omap3" name="platform/hardware/ti/omap3" />
   <project path="hardware/ti/omap4xxx" name="platform/hardware/ti/omap4xxx" />
