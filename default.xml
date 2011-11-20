@@ -236,6 +236,6 @@
   <project path="system/netd" name="platform/system/netd" />
   <project path="system/vold" name="platform/system/vold" />
 
-  <project path="android" name="android" remote="github"/>
+  <project path="android" name="android" remote="github" revision="ics"/>
 
 </manifest>
