@@ -238,5 +238,6 @@
   <project path="system/vold" name="platform/system/vold" />
 
   <project path="android" name="android" remote="github" revision="ics"/>
+  <project path="device/htc/supersonic" name="android_device_htc_supersonic" remote="github" revision="ics"/>
 
 </manifest>
