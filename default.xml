@@ -6,7 +6,7 @@
 
   <remote name="github"
            fetch="git://github.com/Evervolv-ICS/"
-	   review="review.evervolv.com"/>
+	   review="absurd.evervolv.com"/>
 
   <default revision="refs/tags/android-4.0.1_r1"
            remote="aosp"
