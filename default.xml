@@ -239,6 +239,7 @@
   <project path="android" name="android" remote="github" revision="ics"/>
   <project path="device/htc/common" name="android_device_htc_common" remote="github" revision="ics"/>
   <project path="device/htc/supersonic" name="android_device_htc_supersonic" remote="github" revision="ics"/>
+  <project path="device/htc/passion" name="android_device_htc_passion" remote="github" revision="ics"/>
   <project path="device/htc/desirec" name="android_device_htc_desirec" remote="github" revision="ics"/>
   <project path="vendor/htc" name="android_vendor_htc" remote="github" revision="ics"/>
   <project path="vendor/evervolv" name="android_vendor_evervolv" remote="github" revision="ics"/>
