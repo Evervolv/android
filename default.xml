@@ -236,7 +236,7 @@
   <project path="system/media" name="platform/system/media" />
   <project path="system/netd" name="platform/system/netd" />
   <project path="system/vold" name="platform/system/vold" />
-
+  <project path="system/wlan/ti" name="android_system_wlan_ti" remote="github" revision="ics"/>
   <project path="android" name="android" remote="github" revision="ics"/>
   <project path="device/htc/common" name="android_device_htc_common" remote="github" revision="ics"/>
   <project path="device/htc/inc" name="android_device_htc_inc" remote="github" revision="ics"/>
