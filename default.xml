@@ -242,6 +242,7 @@
   <project path="device/htc/inc" name="android_device_htc_inc" remote="github" revision="ics"/>
   <project path="device/htc/supersonic" name="android_device_htc_supersonic" remote="github" revision="ics"/>
   <project path="device/htc/shooter" name="android_device_htc_shooter" remote="github" revision="ics"/>
+  <project path="device/htc/pyramid" name="android_device_htc_pyramid" remote="github" revision="ics"/>
   <project path="device/htc/passion" name="android_device_htc_passion" remote="github" revision="ics"/>
   <project path="device/htc/passion-common" name="android_device_htc_passion-common" remote="github" revision="ics"/>
   <project path="device/htc/desirec" name="android_device_htc_desirec" remote="github" revision="ics"/>
