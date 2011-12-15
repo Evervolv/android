@@ -169,7 +169,7 @@
   <project path="hardware/gpsshim" name="android_hardware_gpsshim" remote="github" revision="ics"/>
   <project path="hardware/invensense" name="platform/hardware/invensense" />
   <project path="hardware/libhardware" name="android_hardware_libhardware" remote="github" revision="ics"/>
-  <project path="hardware/libhardware_legacy" name="platform/hardware/libhardware_legacy" />
+  <project path="hardware/libhardware_legacy" name="android_hardware_libhardware_legacy" remote="github" revision="ics"/>
   <project path="hardware/msm7k" name="android_hardware_msm7k" remote="github" revision="ics"/>
   <project path="hardware/qcom/display" name="android_hardware_qcom_display" remote="github" revision="ics" />
   <project path="hardware/qcom/gps" name="android_hardware_qcom_gps" remote="github" revision="ics" />
