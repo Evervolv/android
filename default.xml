@@ -5,7 +5,7 @@
            fetch="https://android.googlesource.com/" />
 
   <remote name="github"
-           fetch="git://github.com/Evervolv-ICS/"
+           fetch="git://github.com/Evervolv/"
 	   review="absurd.evervolv.com"/>
 
   <remote  name="cm"
@@ -165,7 +165,7 @@
   <project path="external/xmlwriter" name="platform/external/xmlwriter" />
   <project path="external/yaffs2" name="platform/external/yaffs2" />
   <project path="external/zlib" name="platform/external/zlib" />
-  <project path="frameworks/base" name="cm_android_frameworks_base" remote="github" revision="ics"/>
+  <project path="frameworks/base" name="android_frameworks_base" remote="github" revision="ics"/>
   <project path="frameworks/compile/libbcc" name="platform/frameworks/compile/libbcc" />
   <project path="frameworks/compile/linkloader" name="platform/frameworks/compile/linkloader" />
   <project path="frameworks/compile/slang" name="platform/frameworks/compile/slang" />
