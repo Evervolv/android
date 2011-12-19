@@ -92,5 +92,3 @@ Next, we will build the actual ROM. You have a few build choices, described belo
 		make otapackage
 
 Completed! Your compiled Evervolv rom will be located in ~/android/system/out/target/product/INSERTPRODUCTHERE/ (the entire build is in /system if you did not use otapackage).
-
-test
