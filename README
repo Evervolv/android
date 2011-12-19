@@ -53,7 +53,7 @@ Now enter the following to initialize the repository:
 
 	cd ~/android/system/ 
 
-	repo init -u git://github.com/Evervolv-ICS/android.git -b ics
+	repo init -u git://github.com/Evervolv/android.git -b ics
 
 Then to start the Sync. (This is gonna take awhile)
 
