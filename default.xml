@@ -253,7 +253,7 @@
   <project path="system/extras" name="android_system_extras" remote="github" revision="ics"/>
   <project path="system/media" name="platform/system/media" />
   <project path="system/netd" name="platform/system/netd" />
-  <project path="system/vold" name="platform/system/vold" />
+  <project path="system/vold" name="android_system_vold" remote="github" revision="ics"/>
   <project path="system/wlan/ti" name="android_system_wlan_ti" remote="github" revision="ics"/>
   <project path="android" name="android" remote="github" revision="ics"/>
   <project path="device/lge/thundercls670" name="android_device_lge_thundercls670" remote="github" revision="ics"/>
