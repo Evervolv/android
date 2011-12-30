@@ -10,6 +10,7 @@
   <project path="hardware/evervolv/interfaces" name="android_hardware_evervolv_interfaces" remote="evervolv" />
   <project path="hardware/lineage" name="android_hardware_lineage" remote="evervolv" />
 
+  <project path="packages/apps/EVToolbox" name="android_packages_apps_EVToolbox" groups="pdk-fs" remote="evervolv" />
   <project path="packages/resources/devicesettings" name="android_packages_resources_devicesettings" groups="pdk-fs" remote="evervolv" />
 
   <project path="prebuilts/evervolv-tools" name="android_prebuilts_evervolv-tools" remote="evervolv-gitlab" clone-depth="1" />
