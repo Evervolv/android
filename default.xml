@@ -259,6 +259,7 @@
   <project path="android" name="android" remote="github" revision="ics"/>
   <project path="device/lge/thundercls670" name="android_device_lge_thundercls670" remote="github" revision="ics"/>
   <project path="device/htc/common" name="android_device_htc_common" remote="github" revision="ics"/>
+  <project path="device/htc/bravo" name="android_device_htc_bravo" remote="github" revision="ics" />
   <project path="device/htc/inc" name="android_device_htc_inc" remote="github" revision="ics"/>
   <project path="device/htc/supersonic" name="android_device_htc_supersonic" remote="github" revision="ics"/>
   <project path="device/htc/speedy" name="android_device_htc_speedy" remote="github" revision="ics"/>
