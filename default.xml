@@ -12,6 +12,9 @@
            fetch="git://github.com/CyanogenMod/" 
            review="review.cyanogenmod.com" />
 
+  <remote  name="crossbones"
+           fetch="git://github.com/Crossbones/" />
+
   <default revision="refs/tags/android-4.0.3_r1"
            remote="aosp"
            sync-j="4" />
@@ -35,8 +38,6 @@
   <project path="device/moto/stingray" name="device/moto/stingray" />
   <project path="device/moto/wingray" name="device/moto/wingray" />
   <project path="device/sample" name="device/sample" />
-  <project path="device/samsung/crespo" name="device/samsung/crespo" />
-  <project path="device/samsung/crespo4g" name="device/samsung/crespo4g" />
   <project path="device/samsung/maguro" name="device/samsung/maguro" />
   <project path="device/samsung/toro" name="device/samsung/toro" />
   <project path="device/samsung/tuna" name="device/samsung/tuna" />
@@ -270,6 +271,8 @@
   <project path="device/htc/desirec" name="android_device_htc_desirec" remote="github" revision="ics"/>
   <project path="device/htc/vivow" name="android_device_htc_vivow" remote="github" revision="ics"/>
   <project path="device/hp/tenderloin" name="android_device_hp_tenderloin" remote="github" revision="ics"/>
+  <project path="device/samsung/crespo" name="android_device_samsung_crespo" remote="github" revision="ics" />
+  <project path="device/samsung/crespo4g" name="android_device_samsung_crespo4g" remote="github" revision="ics" />
   <project path="packages/apps/AndroidTerm" name="android_packages_apps_AndroidTerm" remote="github" revision="ics"/>
   <project path="packages/apps/Superuser" name="android_packages_apps_Superuser" remote="github" revision="ics"/>
   <project path="vendor/lge" name="android_vendor_lge" remote="github" revision="ics"/>
@@ -277,5 +280,11 @@
   <project path="vendor/hp" name="android_vendor_hp" remote="github" revision="ics"/>
   <project path="vendor/ev" name="android_vendor_ev" remote="github" revision="ics"/>
   <project path="device/htc/ruby" name="android_device_htc_ruby" remote="github" revision="ics"/>
+
+  <project path="vendor/akm" name="proprietary_vendor_akm" remote="crossbones" revision="ics"/>
+  <project path="vendor/broadcom" name="proprietary_vendor_broadcom" remote="crossbones" revision="ics"/>
+  <project path="vendor/imgtec" name="proprietary_vendor_imgtec" remote="crossbones" revision="ics"/>
+  <project path="vendor/nxp" name="proprietary_vendor_nxp" remote="crossbones" revision="ics"/>
+  <project path="vendor/samsung" name="proprietary_vendor_samsung" remote="crossbones" revision="ics"/>
 
 </manifest>
