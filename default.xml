@@ -276,5 +276,6 @@
   <project path="vendor/htc" name="android_vendor_htc" remote="github" revision="ics"/>
   <project path="vendor/hp" name="android_vendor_hp" remote="github" revision="ics"/>
   <project path="vendor/ev" name="android_vendor_ev" remote="github" revision="ics"/>
+  <project path="device/htc/ruby" name="android_device_htc_ruby" remote="github" revision="ics"/>
 
 </manifest>
