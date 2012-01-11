@@ -15,9 +15,6 @@
   <remote  name="crossbones"
            fetch="git://github.com/Crossbones/" />
 
-  <remote  name="drew"
-           fetch="git://github.com/preludedrew" />
-
   <default revision="refs/tags/android-4.0.3_r1"
            remote="aosp"
            sync-j="4" />
@@ -160,7 +157,7 @@
   <project path="external/v8" name="platform/external/v8" />
   <project path="external/valgrind" name="platform/external/valgrind" />
   <project path="external/vim" name="android_external_vim" remote="github" revision="ics" />
-  <project path="external/webkit" name="android_external_webkit" remote="drew" revision="ics"/>
+  <project path="external/webkit" name="android_external_webkit" remote="github" revision="ics"/>
   <project path="external/webp" name="platform/external/webp" />
   <project path="external/webrtc" name="android_external_webrtc" remote="github" revision="ics"/>
   <project path="external/wpa_supplicant" name="platform/external/wpa_supplicant" />
@@ -184,10 +181,10 @@
   <project path="hardware/broadcom/wlan" name="platform/hardware/broadcom/wlan" />
   <project path="hardware/gpsshim" name="android_hardware_gpsshim" remote="github" revision="ics"/>
   <project path="hardware/invensense" name="platform/hardware/invensense" />
-  <project path="hardware/libhardware" name="android_hardware_libhardware" remote="drew" revision="ics"/>
+  <project path="hardware/libhardware" name="android_hardware_libhardware" remote="github" revision="ics"/>
   <project path="hardware/libhardware_legacy" name="android_hardware_libhardware_legacy" remote="github" revision="ics"/>
   <project path="hardware/msm7k" name="android_hardware_msm7k" remote="github" revision="ics"/>
-  <project path="hardware/qcom/display" name="android_hardware_qcom_display" remote="drew" revision="ics" />
+  <project path="hardware/qcom/display" name="android_hardware_qcom_display" remote="github" revision="ics" />
   <project path="hardware/qcom/gps" name="android_hardware_qcom_gps" remote="github" revision="ics" />
   <project path="hardware/qcom/media" name="android_hardware_qcom_media" remote="github" revision="ics" />
   <project path="hardware/ril" name="android_hardware_ril" remote="github" revision="ics" />
