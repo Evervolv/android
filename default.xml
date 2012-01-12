@@ -12,9 +12,6 @@
            fetch="git://github.com/CyanogenMod/" 
            review="review.cyanogenmod.com" />
 
-  <remote  name="crossbones"
-           fetch="git://github.com/Crossbones/" />
-
   <default revision="refs/tags/android-4.0.3_r1"
            remote="aosp"
            sync-j="4" />
@@ -275,16 +272,11 @@
   <project path="device/samsung/crespo4g" name="android_device_samsung_crespo4g" remote="github" revision="ics" />
   <project path="packages/apps/AndroidTerm" name="android_packages_apps_AndroidTerm" remote="github" revision="ics"/>
   <project path="packages/apps/Superuser" name="android_packages_apps_Superuser" remote="github" revision="ics"/>
-  <project path="vendor/lge" name="android_vendor_lge" remote="github" revision="ics"/>
-  <project path="vendor/htc" name="android_vendor_htc" remote="github" revision="ics"/>
   <project path="vendor/hp" name="android_vendor_hp" remote="github" revision="ics"/>
+  <project path="vendor/htc" name="android_vendor_htc" remote="github" revision="ics"/>
+  <project path="vendor/lge" name="android_vendor_lge" remote="github" revision="ics"/>
+  <project path="vendor/samsung" name="android_vendor_samsung" remote="github" revision="ics"/>
   <project path="vendor/ev" name="android_vendor_ev" remote="github" revision="ics"/>
   <project path="device/htc/ruby" name="android_device_htc_ruby" remote="github" revision="ics"/>
-
-  <project path="vendor/akm" name="proprietary_vendor_akm" remote="crossbones" revision="ics"/>
-  <project path="vendor/broadcom" name="proprietary_vendor_broadcom" remote="crossbones" revision="ics"/>
-  <project path="vendor/imgtec" name="proprietary_vendor_imgtec" remote="crossbones" revision="ics"/>
-  <project path="vendor/nxp" name="proprietary_vendor_nxp" remote="crossbones" revision="ics"/>
-  <project path="vendor/samsung" name="proprietary_vendor_samsung" remote="crossbones" revision="ics"/>
 
 </manifest>
