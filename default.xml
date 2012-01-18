@@ -254,6 +254,7 @@
   <project path="system/netd" name="platform/system/netd" />
   <project path="system/vold" name="android_system_vold" remote="github" revision="ics"/>
   <project path="system/wlan/ti" name="android_system_wlan_ti" remote="github" revision="ics"/>
+  <project path="system/wlan/atheros" name="android_system_wlan_atheros" remote="github" revision="ics"/>
   <project path="android" name="android" remote="github" revision="ics"/>
   <project path="device/lge/thundercls670" name="android_device_lge_thundercls670" remote="github" revision="ics"/>
   <project path="device/htc/common" name="android_device_htc_common" remote="github" revision="ics"/>
