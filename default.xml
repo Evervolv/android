@@ -201,7 +201,7 @@
   <project path="packages/apps/CertInstaller" name="platform/packages/apps/CertInstaller" />
   <project path="packages/apps/Contacts" name="platform/packages/apps/Contacts" />
   <project path="packages/apps/DeskClock" name="platform/packages/apps/DeskClock" />
-  <project path="packages/apps/Email" name="platform/packages/apps/Email" />
+  <project path="packages/apps/Email" name="android_packages_apps_Email" remote="github" revision="ics" />
   <project path="packages/apps/EVToolbox" name="android_packages_apps_EVToolbox" remote="github" revision="ics" />
   <project path="packages/apps/EVWidgets" name="android_packages_apps_EVWidgets" remote="github" revision="ics" />
   <project path="packages/apps/Exchange" name="platform/packages/apps/Exchange" />
