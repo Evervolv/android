@@ -270,6 +270,7 @@
   <project path="device/htc/passion" name="android_device_htc_passion" remote="github" revision="ics"/>
   <project path="device/htc/mecha" name="android_device_htc_mecha" remote="github" revision="ics"/>
   <project path="device/htc/desirec" name="android_device_htc_desirec" remote="github" revision="ics"/>
+  <project path="device/htc/heroc" name="android_device_htc_heroc" remote="github" revision="ics"/>
   <project path="device/htc/vivow" name="android_device_htc_vivow" remote="github" revision="ics"/>
   <project path="device/hp/tenderloin" name="android_device_hp_tenderloin" remote="github" revision="ics"/>
   <project path="device/samsung/crespo" name="android_device_samsung_crespo" remote="github" revision="ics" />
