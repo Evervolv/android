@@ -187,6 +187,7 @@
   <project path="hardware/qcom/gps" name="android_hardware_qcom_gps" remote="github" revision="ics" />
   <project path="hardware/qcom/media" name="android_hardware_qcom_media" remote="github" revision="ics" />
   <project path="hardware/ril" name="android_hardware_ril" remote="github" revision="ics" />
+  <project path="hardware/samsung" name="android_hardware_samsung" remote="github" revision="ics"/>
   <project path="hardware/ti/omap3" name="platform/hardware/ti/omap3" />
   <project path="hardware/ti/omap4xxx" name="platform/hardware/ti/omap4xxx" />
   <project path="libcore" name="android_libcore" remote="github" revision="ics"/>
