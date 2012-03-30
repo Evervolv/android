@@ -35,7 +35,10 @@
   <project path="device/moto/stingray" name="android_device_moto_stingray" remote="github" revision="ics"/>
   <project path="device/moto/wingray" name="android_device_moto_wingray" remote="github" revision="ics"/>
   <project path="device/sample" name="device/sample" />
+  <project path="device/samsung/crespo" name="android_device_samsung_crespo" remote="github" revision="ics" />
+  <project path="device/samsung/crespo4g" name="android_device_samsung_crespo4g" remote="github" revision="ics" />
   <project path="device/samsung/maguro" name="android_device_samsung_maguro" remote="github" revision="ics"/>
+  <project path="device/samsung/torospr" name="device/samsung/torospr" remote="github" revision="ics"/>
   <project path="device/samsung/toro" name="android_device_samsung_toro" remote="github" revision="ics"/>
   <project path="device/samsung/tuna" name="android_device_samsung_tuna" remote="github" revision="ics"/>
   <project path="device/ti/panda" name="android_device_ti_panda" remote="github" revision="ics"/>
@@ -274,8 +277,6 @@
   <project path="device/htc/heroc" name="android_device_htc_heroc" remote="github" revision="ics"/>
   <project path="device/htc/vivow" name="android_device_htc_vivow" remote="github" revision="ics"/>
   <project path="device/hp/tenderloin" name="android_device_hp_tenderloin" remote="github" revision="ics"/>
-  <project path="device/samsung/crespo" name="android_device_samsung_crespo" remote="github" revision="ics" />
-  <project path="device/samsung/crespo4g" name="android_device_samsung_crespo4g" remote="github" revision="ics" />
   <project path="device/samsung/epic4gtouch" name="android_device_samsung_epic4gtouch" remote="github" revision="ics" />
   <project path="device/samsung/c1-common" name="android_device_samsung_c1-common" remote="github" revision="ics" />
   <project path="packages/apps/AndroidTerm" name="android_packages_apps_AndroidTerm" remote="github" revision="ics"/>
