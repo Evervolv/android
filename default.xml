@@ -35,7 +35,6 @@
   <project path="device/moto/stingray" name="android_device_moto_stingray" remote="github" revision="ics"/>
   <project path="device/moto/wingray" name="android_device_moto_wingray" remote="github" revision="ics"/>
   <project path="device/sample" name="device/sample" />
-  <project path="device/samsung/skyrocket" name="android_device_samsung_skyrocket" remote="github" revision="ics" />
   <project path="device/samsung/crespo" name="android_device_samsung_crespo" remote="github" revision="ics" />
   <project path="device/samsung/crespo4g" name="android_device_samsung_crespo4g" remote="github" revision="ics" />
   <project path="device/samsung/maguro" name="android_device_samsung_maguro" remote="github" revision="ics"/>
@@ -264,31 +263,32 @@
   <project path="system/wlan/ti" name="android_system_wlan_ti" remote="github" revision="ics"/>
   <project path="system/wlan/atheros" name="android_system_wlan_atheros" remote="github" revision="ics"/>
   <project path="android" name="android" remote="github" revision="ics"/>
-  <project path="device/lge/thundercls670" name="android_device_lge_thundercls670" remote="github" revision="ics"/>
-  <project path="device/htc/common" name="android_device_htc_common" remote="github" revision="ics"/>
+  <project path="device/hp/tenderloin" name="android_device_hp_tenderloin" remote="github" revision="ics"/>
   <project path="device/htc/bravo" name="android_device_htc_bravo" remote="github" revision="ics" />
-  <project path="device/htc/inc" name="android_device_htc_inc" remote="github" revision="ics"/>
-  <project path="device/htc/supersonic" name="android_device_htc_supersonic" remote="github" revision="ics"/>
-  <project path="device/htc/speedy" name="android_device_htc_speedy" remote="github" revision="ics"/>
-  <project path="device/htc/shooter" name="android_device_htc_shooter" remote="github" revision="ics"/>
-  <project path="device/htc/pyramid" name="android_device_htc_pyramid" remote="github" revision="ics"/>
-  <project path="device/htc/passion" name="android_device_htc_passion" remote="github" revision="ics"/>
-  <project path="device/htc/mecha" name="android_device_htc_mecha" remote="github" revision="ics"/>
+  <project path="device/htc/common" name="android_device_htc_common" remote="github" revision="ics"/>
   <project path="device/htc/desirec" name="android_device_htc_desirec" remote="github" revision="ics"/>
   <project path="device/htc/heroc" name="android_device_htc_heroc" remote="github" revision="ics"/>
+  <project path="device/htc/inc" name="android_device_htc_inc" remote="github" revision="ics"/>
+  <project path="device/htc/mecha" name="android_device_htc_mecha" remote="github" revision="ics"/>
+  <project path="device/htc/passion" name="android_device_htc_passion" remote="github" revision="ics"/>
+  <project path="device/htc/pyramid" name="android_device_htc_pyramid" remote="github" revision="ics"/>
+  <project path="device/htc/ruby" name="android_device_htc_ruby" remote="github" revision="ics"/>
+  <project path="device/htc/shooter" name="android_device_htc_shooter" remote="github" revision="ics"/>
+  <project path="device/htc/speedy" name="android_device_htc_speedy" remote="github" revision="ics"/>
+  <project path="device/htc/supersonic" name="android_device_htc_supersonic" remote="github" revision="ics"/>
   <project path="device/htc/vivow" name="android_device_htc_vivow" remote="github" revision="ics"/>
-  <project path="device/hp/tenderloin" name="android_device_hp_tenderloin" remote="github" revision="ics"/>
-  <project path="device/samsung/epic4gtouch" name="android_device_samsung_epic4gtouch" remote="github" revision="ics" />
+  <project path="device/lge/thundercls670" name="android_device_lge_thundercls670" remote="github" revision="ics"/>
   <project path="device/samsung/c1-common" name="android_device_samsung_c1-common" remote="github" revision="ics" />
+  <project path="device/samsung/epic4gtouch" name="android_device_samsung_epic4gtouch" remote="github" revision="ics" />
+  <project path="device/samsung/skyrocket" name="android_device_samsung_skyrocket" remote="github" revision="ics" />
   <project path="packages/apps/AndroidTerm" name="android_packages_apps_AndroidTerm" remote="github" revision="ics"/>
   <project path="packages/apps/Superuser" name="android_packages_apps_Superuser" remote="github" revision="ics"/>
+  <project path="vendor/ev" name="android_vendor_ev" remote="github" revision="ics"/>
   <project path="vendor/hp" name="android_vendor_hp" remote="github" revision="ics"/>
   <project path="vendor/htc" name="android_vendor_htc" remote="github" revision="ics"/>
   <project path="vendor/lge" name="android_vendor_lge" remote="github" revision="ics"/>
-  <project path="vendor/samsung" name="android_vendor_samsung" remote="github" revision="ics"/>
-  <project path="vendor/ev" name="android_vendor_ev" remote="github" revision="ics"/>
-  <project path="device/htc/ruby" name="android_device_htc_ruby" remote="github" revision="ics"/>
   <project path="vendor/qcom/opensource/omx/mm-core" name="android_vendor_qcom_opensource_omx_mm-core" remote="github" revision="ics" />
   <project path="vendor/qcom/opensource/omx/mm-video" name="android_vendor_qcom_opensource_omx_mm-video" remote="github" revision="ics" />
+  <project path="vendor/samsung" name="android_vendor_samsung" remote="github" revision="ics"/>
 
 </manifest>
