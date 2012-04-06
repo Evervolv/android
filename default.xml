@@ -270,6 +270,7 @@
   <project path="device/htc/desirec" name="android_device_htc_desirec" remote="github" revision="ics"/>
   <project path="device/htc/heroc" name="android_device_htc_heroc" remote="github" revision="ics"/>
   <project path="device/htc/inc" name="android_device_htc_inc" remote="github" revision="ics"/>
+  <project path="device/htc/kingdom" name="android_device_htc_kingdom" remote="github" revision="ics"/>
   <project path="device/htc/mecha" name="android_device_htc_mecha" remote="github" revision="ics"/>
   <project path="device/htc/passion" name="android_device_htc_passion" remote="github" revision="ics"/>
   <project path="device/htc/pyramid" name="android_device_htc_pyramid" remote="github" revision="ics"/>
