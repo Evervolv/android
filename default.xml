@@ -295,4 +295,10 @@
   <project path="vendor/qcom/opensource/omx/mm-video" name="android_vendor_qcom_opensource_omx_mm-video" remote="github" revision="ics" />
   <project path="vendor/samsung" name="android_vendor_samsung" remote="github" revision="ics"/>
 
+  <project path="vendor/tmobile/products/themes" name="themes-platform-vendor-tmobile-products-themes" remote="github" revision="ics"/>
+  <project path="vendor/tmobile/apps/ThemeChooser" name="themes-platform-vendor-tmobile-apps-ThemeChooser" remote="github" revision="ics" />
+  <project path="vendor/tmobile/libs/com.tmobile.themes" name="themes-platform-vendor-tmobile-libs-com.tmobile.themes" remote="github" revision="ics">
+  <project path="vendor/tmobile/providers/ThemeManager" name="themes-platform-vendor-tmobile-providers-ThemeManager" remote="github" revision="ics"/>
+  <project path="vendor/tmobile/themes/Androidian-6-100" name="theme-Androidian-6-100" remote="github" revision="ics"/>
+
 </manifest>
