@@ -268,6 +268,7 @@
   <project path="system/wlan/atheros" name="android_system_wlan_atheros" remote="github" revision="ics"/>
   <project path="android" name="android" remote="github" revision="ics"/>
   <project path="device/hp/tenderloin" name="android_device_hp_tenderloin" remote="github" revision="ics"/>
+  <project path="device/htc/msm7x30-common" name="android_device_htc_msm7x30-common" remote="github" revision="ics"/>
   <project path="device/htc/bravo" name="android_device_htc_bravo" remote="github" revision="ics" />
   <project path="device/htc/common" name="android_device_htc_common" remote="github" revision="ics"/>
   <project path="device/htc/desirec" name="android_device_htc_desirec" remote="github" revision="ics"/>
