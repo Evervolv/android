@@ -197,6 +197,7 @@
   <project path="hardware/samsung" name="android_hardware_samsung" remote="github" revision="ics"/>
   <project path="hardware/ti/omap3" name="platform/hardware/ti/omap3" />
   <project path="hardware/ti/omap4xxx" name="platform/hardware/ti/omap4xxx" />
+  <project path="hardware/ti/wlan" name="android_hardware_ti_wlan" remote="github" revision="ics"/>
   <project path="libcore" name="android_libcore" remote="github" revision="ics"/>
   <project path="ndk" name="platform/ndk" />
   <project path="packages/apps/BasicSmsReceiver" name="platform/packages/apps/BasicSmsReceiver" />

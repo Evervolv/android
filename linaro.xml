@@ -113,6 +113,7 @@
   <project path="hardware/qcom/camera" name="android_hardware_qcom_camera" remote="github" revision="ics"/>
   <project path="hardware/qcom/display" name="android_hardware_qcom_display" remote="github" revision="ics"/>
   <project path="hardware/samsung" name="android_hardware_samsung" remote="github" revision="ics"/>
+  <project path="hardware/ti/wlan" name="android_hardware_ti_wlan" remote="github" revision="ics"/>
   <project path="packages/apps/AndroidTerm" name="android_packages_apps_AndroidTerm" remote="github" revision="ics"/>
   <project path="packages/apps/EVTips" name="android_packages_apps_EVTips" remote="github" revision="ics"/>
   <project path="packages/apps/EVToolbox" name="android_packages_apps_EVToolbox" remote="github" revision="ics"/>
@@ -171,6 +172,7 @@
 
 <!--LINARO EXTRA-->
   <project path="packages/apps/0xbench" name="platform/packages/apps/0xbench" revision="linaro-master"/>
+  <project path="vendor/linaro/benchmarks" name="linaro/benchmarks" revision="master"/>
 
 <!--AOSP UPSTREAM-->
   <project path="external/libyuv" name="platform/external/libyuv" remote="aosp-upstream"/>
