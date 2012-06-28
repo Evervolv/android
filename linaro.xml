@@ -2,16 +2,14 @@
 <manifest>
 
   <remote  name="aosp"
-           fetch="git://android.git.linaro.org/"
-           review="review.android.git.linaro.org"/>
-  <remote  name="aosp-upstream"
            fetch="https://android.googlesource.com/"
            review="https://android-review.googlesource.com/"/>
+  <remote  name="linaro"
+           fetch="git://android.git.linaro.org/"
+           review="review.android.git.linaro.org"/>
   <remote  name="github"
            fetch="git://github.com/Evervolv/"
            review="review.evervolv.com"/>
-  <remote  name="linaro-other"
-           fetch="git://git.linaro.org/"/>
 
   <default revision="refs/tags/android-4.0.4_r2.1"
            remote="aosp"
@@ -119,6 +117,7 @@
   <project path="packages/apps/EVToolbox" name="android_packages_apps_EVToolbox" remote="github" revision="ics"/>
   <project path="packages/apps/EVWidgets" name="android_packages_apps_EVWidgets" remote="github" revision="ics"/>
   <project path="packages/apps/Superuser" name="android_packages_apps_Superuser" remote="github" revision="ics"/>
+  <project path="prebuilts/gcc/linux-x86/arm/linaro-4.7" name="android_prebuilts_gcc_linux-x86_arm_linaro-4.7" remote="github" revision="ics"/>
   <project path="system/wlan/ti" name="android_system_wlan_ti" remote="github" revision="ics"/>
   <project path="system/wlan/atheros" name="android_system_wlan_atheros" remote="github" revision="ics"/>
   <project path="vendor/ev" name="android_vendor_ev" remote="github" revision="ics"/>
@@ -136,49 +135,20 @@
   <project path="vendor/tmobile/providers/ThemeManager" name="themes-platform-vendor-tmobile-providers-ThemeManager" remote="github" revision="ics"/>
   <project path="vendor/tmobile/themes/Androidian-6-100" name="theme-Androidian-6-100" remote="github" revision="ics"/>
 
-<!--EVERVOLV LINARO TOOLCHAIN-->
-  <project path="prebuilts/gcc/linux-x86/arm/linaro-4.7" name="android_prebuilts_gcc_linux-x86_arm_linaro-4.7" remote="github" revision="ics"/>
-
 <!--LINARO-->
-  <project path="cts" name="platform/cts" revision="linaro_android_4.0.4"/>
-  <project path="external/bluetooth/glib" name="platform/external/bluetooth/glib" revision="linaro_android_4.0.4"/>
-  <project path="external/chromium" name="platform/external/chromium" revision="linaro_android_4.0.4"/>
-  <project path="external/clang" name="platform/external/clang" revision="linaro_android_4.0.4"/>
-  <project path="external/dnsmasq" name="platform/external/dnsmasq" revision="linaro_android_4.0.4"/>
-  <project path="external/elfutils" name="platform/external/elfutils" revision="linaro_android_4.0.4" />
-  <project path="external/embunit" name="platform/external/embunit" revision="linaro_android_4.0.4"/>
-  <project path="external/gtest" name="platform/external/gtest" revision="linaro_android_4.0.4"/>
-  <project path="external/icu4c" name="platform/external/icu4c" revision="linaro_android_4.0.4"/>
-  <project path="external/libvpx" name="platform/external/libvpx" revision="linaro_android_4.0.4"/>
-  <project path="external/llvm" name="platform/external/llvm" revision="linaro_android_4.0.4"/>
-  <project path="external/openssl" name="platform/external/openssl" revision="linaro_android_4.0.4"/>
-  <project path="external/oprofile" name="platform/external/oprofile" revision="linaro_android_4.0.4"/>
-  <project path="external/ping" name="platform/external/ping" revision="linaro_android_4.0.4"/>
-  <project path="external/ping6" name="platform/external/ping6" revision="linaro_android_4.0.4"/>
-  <project path="external/sonivox" name="platform/external/sonivox" revision="linaro_android_4.0.4"/>
-  <project path="external/srec" name="platform/external/srec" revision="linaro_android_4.0.4"/>
-  <project path="external/stlport" name="platform/external/stlport" revision="linaro_android_4.0.4"/>
-  <project path="external/strace" name="platform/external/strace" revision="linaro_android_4.0.4"/>
-  <project path="external/tcpdump" name="platform/external/tcpdump" revision="linaro_android_4.0.4"/>
-  <project path="external/tremolo" name="platform/external/tremolo" revision="linaro_android_4.0.4"/>
-  <project path="external/v8" name="platform/external/v8" revision="linaro_android_4.0.4"/>
-  <project path="frameworks/compile/libbcc" name="platform/frameworks/compile/libbcc" revision="linaro_android_4.0.4"/>
-  <project path="frameworks/compile/slang" name="platform/frameworks/compile/slang" revision="linaro_android_4.0.4"/>
-  <project path="frameworks/ex" name="platform/frameworks/ex" revision="linaro_android_4.0.4"/>
-  <project path="packages/inputmethods/OpenWnn" name="platform/packages/inputmethods/OpenWnn" revision="linaro_android_4.0.4"/>
-
-<!--LINARO OTHER-->
-<!--  <project path="external/jpeg" name="people/tomgall/libjpeg-turbo/libjpeg-turbo" revision="android" remote="linaro-other"/>-->
-<!--  <project path="external/speex" name="platform/external/speex" revision="linaro_mmwg"/>-->
+  <project path="cts" name="platform/cts" remote="linaro" revision="linaro_android_4.0.4"/>
+  <project path="external/gtest" name="platform/external/gtest" remote="linaro" revision="linaro_android_4.0.4"/>
+  <project path="external/icu4c" name="platform/external/icu4c" remote="linaro" revision="linaro_android_4.0.4"/>
+  <project path="external/llvm" name="platform/external/llvm" remote="linaro" revision="linaro_android_4.0.4"/>
+  <project path="external/srec" name="platform/external/srec" remote="linaro" revision="linaro_android_4.0.4"/>
+  <project path="external/stlport" name="platform/external/stlport" remote="linaro" revision="linaro_android_4.0.4"/>
+  <project path="external/tremolo" name="platform/external/tremolo" remote="linaro" revision="linaro_android_4.0.4"/>
+  <project path="frameworks/compile/libbcc" name="platform/frameworks/compile/libbcc" remote="linaro" revision="linaro_android_4.0.4"/>
+  <project path="frameworks/compile/slang" name="platform/frameworks/compile/slang" remote="linaro" revision="linaro_android_4.0.4"/>
 
 <!--LINARO EXTRA-->
-  <project path="packages/apps/0xbench" name="platform/packages/apps/0xbench" revision="linaro-master"/>
-  <project path="vendor/linaro/benchmarks" name="linaro/benchmarks" revision="master"/>
-
-<!--AOSP UPSTREAM-->
-  <project path="external/libyuv" name="platform/external/libyuv" remote="aosp-upstream"/>
-  <project path="external/jpeg" name="platform/external/jpeg" remote="aosp-upstream" />
-  <project path="external/speex" name="platform/external/speex" remote="aosp-upstream"/>
+  <project path="packages/apps/0xbench" name="platform/packages/apps/0xbench" remote="linaro" revision="linaro-master"/>
+<!--  <project path="vendor/linaro/benchmarks" name="linaro/benchmarks" remote="linaro" revision="master"/>-->
 
 <!--AOSP-->
   <project path="abi/cpp" name="platform/abi/cpp"/>
@@ -199,15 +169,21 @@
   <project path="external/astl" name="platform/external/astl"/>
   <project path="external/bison" name="platform/external/bison"/>
   <project path="external/blktrace" name="platform/external/blktrace"/>
+  <project path="external/bluetooth/glib" name="platform/external/bluetooth/glib"/>
   <project path="external/bluetooth/hcidump" name="platform/external/bluetooth/hcidump"/>
   <project path="external/bouncycastle" name="platform/external/bouncycastle"/>
   <project path="external/bsdiff" name="platform/external/bsdiff"/>
   <project path="external/bzip2" name="platform/external/bzip2"/>
+  <project path="external/chromium" name="platform/external/chromium"/>
+  <project path="external/clang" name="platform/external/clang"/>
   <project path="external/collada" name="platform/external/collada"/>
   <project path="external/dbus" name="platform/external/dbus"/>
   <project path="external/dhcpcd" name="platform/external/dhcpcd"/>
+  <project path="external/dnsmasq" name="platform/external/dnsmasq"/>
   <project path="external/doclava" name="platform/external/doclava"/>
   <project path="external/easymock" name="platform/external/easymock"/>
+  <project path="external/elfutils" name="platform/external/elfutils"/>
+  <project path="external/embunit" name="platform/external/embunit"/>
   <project path="external/emma" name="platform/external/emma"/>
   <project path="external/esd" name="platform/external/esd"/>
   <project path="external/expat" name="platform/external/expat"/>
@@ -228,6 +204,7 @@
   <project path="external/javassist" name="platform/external/javassist"/>
   <project path="external/jdiff" name="platform/external/jdiff"/>
   <project path="external/jhead" name="platform/external/jhead"/>
+  <project path="external/jpeg" name="platform/external/jpeg"/>
   <project path="external/jsilver" name="platform/external/jsilver"/>
   <project path="external/jsr305" name="platform/external/jsr305"/>
   <project path="external/junit" name="platform/external/junit"/>
@@ -240,8 +217,10 @@
   <project path="external/libpcap" name="platform/external/libpcap"/>
   <project path="external/libphonenumber" name="platform/external/libphonenumber"/>
   <project path="external/libpng" name="platform/external/libpng"/>
+  <project path="external/libvpx" name="platform/external/libvpx"/>
   <project path="external/libxml2" name="platform/external/libxml2"/>
   <project path="external/libxslt" name="platform/external/libxslt"/>
+  <project path="external/libyuv" name="platform/external/libyuv"/>
   <project path="external/lohit-fonts" name="platform/external/lohit-fonts"/>
   <project path="external/markdown" name="platform/external/markdown"/>
   <project path="external/mesa3d" name="platform/external/mesa3d"/>
@@ -254,7 +233,11 @@
   <project path="external/nist-sip" name="platform/external/nist-sip"/>
   <project path="external/oauth" name="platform/external/oauth"/>
   <project path="external/opencv" name="platform/external/opencv"/>
+  <project path="external/openssl" name="platform/external/openssl"/>
+  <project path="external/oprofile" name="platform/external/oprofile"/>
   <project path="external/pcre" name="platform/external/pcre"/>
+  <project path="external/ping" name="platform/external/ping"/>
+  <project path="external/ping6" name="platform/external/ping6"/>
   <project path="external/ppp" name="platform/external/ppp"/>
   <project path="external/proguard" name="platform/external/proguard"/>
   <project path="external/protobuf" name="platform/external/protobuf"/>
@@ -263,17 +246,23 @@
 <!--  <project path="external/quake" name="platform/external/quake"/>-->
   <project path="external/replicaisland" name="platform/external/replicaisland"/>
   <project path="external/safe-iop" name="platform/external/safe-iop"/>
+  <project path="external/sonivox" name="platform/external/sonivox"/>
+  <project path="external/speex" name="platform/external/speex"/>
   <project path="external/sqlite" name="platform/external/sqlite"/>
   <project path="external/srtp" name="platform/external/srtp"/>
+  <project path="external/strace" name="platform/external/strace"/>
   <project path="external/svox" name="platform/external/svox"/>
   <project path="external/tagsoup" name="platform/external/tagsoup"/>
+  <project path="external/tcpdump" name="platform/external/tcpdump"/>
   <project path="external/tinyalsa" name="platform/external/tinyalsa"/>
   <project path="external/tinyxml" name="platform/external/tinyxml"/>
+  <project path="external/v8" name="platform/external/v8"/>
   <project path="external/valgrind" name="platform/external/valgrind"/>
   <project path="external/webp" name="platform/external/webp"/>
   <project path="external/wpa_supplicant" name="platform/external/wpa_supplicant"/>
   <project path="external/xmlwriter" name="platform/external/xmlwriter"/>
   <project path="frameworks/compile/linkloader" name="platform/frameworks/compile/linkloader"/>
+  <project path="frameworks/ex" name="platform/frameworks/ex"/>
   <project path="frameworks/media/libvideoeditor" name="platform/frameworks/media/libvideoeditor"/>
   <project path="frameworks/opt/calendar" name="platform/frameworks/opt/calendar"/>
   <project path="frameworks/opt/emoji" name="platform/frameworks/opt/emoji"/>
@@ -312,6 +301,7 @@
   <project path="packages/apps/VideoEditor" name="platform/packages/apps/VideoEditor"/>
   <project path="packages/apps/VoiceDialer" name="platform/packages/apps/VoiceDialer"/>
   <project path="packages/experimental" name="platform/packages/experimental"/>
+  <project path="packages/inputmethods/OpenWnn" name="platform/packages/inputmethods/OpenWnn"/>
   <project path="packages/inputmethods/PinyinIME" name="platform/packages/inputmethods/PinyinIME"/>
   <project path="packages/providers/ApplicationsProvider" name="platform/packages/providers/ApplicationsProvider"/>
   <project path="packages/providers/CalendarProvider" name="platform/packages/providers/CalendarProvider"/>
