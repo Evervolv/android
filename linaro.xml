@@ -99,7 +99,7 @@
   <project path="device/samsung/skyrocket" name="android_device_samsung_skyrocket" remote="github" revision="ics"/>
   <project path="external/bash" name="android_external_bash" remote="github" revision="ics"/>
   <project path="external/busybox" name="android_external_busybox" remote="github" revision="ics"/>
-  <project path="external/compat-wireless-3.3-rc1-2" name="android_external_compat-wireless-3.3-rc1-2" remote="github" revision="ics"/>
+  <project path="external/compat-wireless-3.5-rc3-1-sn" name="android_external_compat-wireless-3.5-rc3-1-sn" remote="github" revision="ics" />
   <project path="external/htop" name="android_external_htop" remote="github" revision="ics"/>
   <project path="external/libncurses" name="android_external_libncurses" remote="github" revision="ics"/>
   <project path="external/nano" name="android_external_nano" remote="github" revision="ics"/>
