@@ -271,7 +271,6 @@
   <project path="frameworks/wilhelm" name="platform/frameworks/wilhelm" />
   <project path="gdk" name="platform/gdk" />
   <project path="hardware/invensense" name="platform/hardware/invensense" />
-  <project path="hardware/qcom/media" name="platform/hardware/qcom/media" />
   <project path="hardware/ti/omap3" name="platform/hardware/ti/omap3" />
   <project path="hardware/ti/omap4xxx" name="platform/hardware/ti/omap4xxx" />
   <project path="libnativehelper" name="platform/libnativehelper" />
