@@ -72,6 +72,7 @@
   <!--Evervolv Extra-->
   <project path="android" name="android" remote="github" revision="jellybean" />
   <project path="device/htc/inc" name="android_device_htc_inc" remote="github" revision="jellybean" />
+  <project path="device/htc/jewel" name="android_device_htc_jewel" remote="github" revision="jellybean" />
   <project path="device/htc/passion" name="android_device_htc_passion" remote="github" revision="jellybean" />
   <project path="device/htc/qsd8k-common" name="android_device_htc_qsd8k-common" remote="github" revision="jellybean" />
   <project path="device/htc/supersonic" name="android_device_htc_supersonic" remote="github" revision="jellybean" />
