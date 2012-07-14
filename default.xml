@@ -78,6 +78,7 @@
   <project path="device/htc/passion" name="android_device_htc_passion" remote="github" revision="jellybean" />
   <project path="device/htc/qsd8k-common" name="android_device_htc_qsd8k-common" remote="github" revision="jellybean" />
   <project path="device/htc/ruby" name="android_device_htc_ruby" remote="github" revision="jellybean"/>
+  <project path="device/htc/shooter" name="android_device_htc_shooter" remote="github" revision="jellybean"/>
   <project path="device/htc/supersonic" name="android_device_htc_supersonic" remote="github" revision="jellybean" />
   <project path="external/bash" name="android_external_bash" remote="github" revision="jellybean" />
   <project path="external/busybox" name="android_external_busybox" remote="github" revision="jellybean" />
