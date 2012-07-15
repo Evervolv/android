@@ -89,6 +89,7 @@
   <project path="external/nano" name="android_external_nano" remote="github" revision="jellybean" />
   <project path="external/rsync" name="android_external_rsync" remote="github" revision="jellybean" />
   <project path="external/vim" name="android_external_vim" remote="github" revision="jellybean" />
+  <project path="hardware/atheros" name="android_hardware_atheros" remote="github" revision="jellybean" />
   <project path="hardware/qcom/camera" name="android_hardware_qcom_camera" remote="github" revision="jellybean" />
   <project path="hardware/qcom/display" name="android_hardware_qcom_display" remote="github" revision="jellybean" />
   <project path="vendor/ev" name="android_vendor_ev" remote="github" revision="jellybean" />
