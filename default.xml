@@ -25,6 +25,7 @@
   <project path="device/samsung/tuna" name="android_device_samsung_tuna" remote="github" revision="jellybean"/>
   <project path="device/ti/panda" name="android_device_ti_panda" remote="github" revision="jellybean"/>
   <project path="external/bluetooth/bluez" name="android_external_bluetooth_bluez" remote="github" revision="jellybean"/>
+  <project path="external/compat-wireless-3.5-rc3-1-sn" name="android_external_compat-wireless-3.5-rc3-1-sn" remote="github" revision="jellybean" />
   <project path="external/dropbear" name="android_external_dropbear" remote="github" revision="jellybean"/>
   <project path="external/e2fsprogs" name="android_external_e2fsprogs" remote="github" revision="jellybean"/>
   <project path="external/freetype" name="android_external_freetype" remote="github" revision="jellybean"/>
@@ -72,6 +73,7 @@
 
   <!--Evervolv Extra-->
   <project path="android" name="android" remote="github" revision="jellybean" />
+  <project path="device/hp/tenderloin" name="android_device_hp_tenderloin" remote="github" revision="jellybean" />
   <project path="device/htc/inc" name="android_device_htc_inc" remote="github" revision="jellybean" />
   <project path="device/htc/jewel" name="android_device_htc_jewel" remote="github" revision="jellybean" />
   <project path="device/htc/msm8660-common" name="android_device_htc_msm8660-common" remote="github" revision="jellybean"/>
