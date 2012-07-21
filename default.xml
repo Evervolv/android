@@ -52,6 +52,7 @@
   <project path="libcore" name="android_libcore" remote="github" revision="jellybean"/>
   <project path="packages/apps/Browser" name="android_packages_apps_Browser" remote="github" revision="jellybean" />
   <project path="packages/apps/Camera" name="android_packages_apps_Camera" remote="github" revision="jellybean" />
+  <project path="packages/apps/CMWimaxSettings" name="android_packages_apps_CMWimaxSettings" remote="github" revision="jellybean" />
   <project path="packages/apps/DeskClock" name="android_packages_apps_DeskClock" remote="github" revision="jellybean" />
   <project path="packages/apps/Email" name="android_packages_apps_Email" remote="github" revision="jellybean" />
   <project path="packages/apps/Launcher2" name="android_packages_apps_Launcher2" remote="github" revision="jellybean" />
