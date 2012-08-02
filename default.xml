@@ -30,6 +30,7 @@
   <project path="external/freetype" name="android_external_freetype" remote="github" revision="jellybean"/>
   <project path="external/fsck_msdos" name="android_external_fsck_msdos" remote="github" revision="jellybean"/>
   <project path="external/guava" name="android_external_guava" remote="github" revision="jellybean"/>
+  <project path="external/openssl" name="android_external_openssl" remote="github" revision="jellybean"/>
   <project path="external/skia" name="android_external_skia" remote="github" revision="jellybean"/>
   <project path="external/webkit" name="android_external_webkit" remote="github" revision="jellybean"/>
   <project path="external/webrtc" name="android_external_webrtc" remote="github" revision="jellybean"/>
@@ -230,7 +231,6 @@
   <project path="external/opencv" name="platform/external/opencv" />
   <project path="external/openfst" name="platform/external/openfst" />
   <project path="external/openssh" name="platform/external/openssh" />
-  <project path="external/openssl" name="platform/external/openssl" />
   <project path="external/oprofile" name="platform/external/oprofile" />
   <project path="external/ping" name="platform/external/ping" />
   <project path="external/ping6" name="platform/external/ping6" />
