@@ -61,6 +61,7 @@
   <project path="packages/apps/Mms" name="android_packages_apps_Mms" remote="github" revision="jellybean" />
   <project path="packages/apps/Phone" name="android_packages_apps_Phone" remote="github" revision="jellybean" />
   <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="github" revision="jellybean" />
+  <project path="packages/apps/Stk" name="android_packages_apps_Stk" remote="github" revision="jellybean" />
   <project path="packages/inputmethods/LatinIME" name="android_packages_inputmethods_LatinIME" remote="github" revision="jellybean" />
   <project path="packages/providers/ContactsProvider" name="android_packages_providers_ContactsProvider" remote="github" revision="jellybean" />
   <project path="packages/providers/MediaProvider" name="android_packages_providers_MediaProvider" remote="github" revision="jellybean" />
@@ -309,7 +310,6 @@
   <project path="packages/apps/SoundRecorder" name="platform/packages/apps/SoundRecorder" />
   <project path="packages/apps/SpareParts" name="platform/packages/apps/SpareParts" />
   <project path="packages/apps/SpeechRecorder" name="platform/packages/apps/SpeechRecorder" />
-  <project path="packages/apps/Stk" name="platform/packages/apps/Stk" />
   <project path="packages/apps/Tag" name="platform/packages/apps/Tag" />
   <project path="packages/apps/VideoEditor" name="platform/packages/apps/VideoEditor" />
   <project path="packages/apps/VoiceDialer" name="platform/packages/apps/VoiceDialer" />
