@@ -23,6 +23,7 @@
   <project path="device/samsung/toro" name="android_device_samsung_toro" remote="github" revision="jellybean"/>
   <project path="device/samsung/tuna" name="android_device_samsung_tuna" remote="github" revision="jellybean"/>
   <project path="device/ti/panda" name="android_device_ti_panda" remote="github" revision="jellybean"/>
+  <project path="external/aac" name="android_external_aac" remote="github" revision="jellybean"/>
   <project path="external/bluetooth/bluez" name="android_external_bluetooth_bluez" remote="github" revision="jellybean"/>
   <project path="external/compat-wireless-3.5-rc3-1-sn" name="android_external_compat-wireless-3.5-rc3-1-sn" remote="github" revision="jellybean" />
   <project path="external/dropbear" name="android_external_dropbear" remote="github" revision="jellybean"/>
@@ -32,6 +33,7 @@
   <project path="external/guava" name="android_external_guava" remote="github" revision="jellybean"/>
   <project path="external/openssl" name="android_external_openssl" remote="github" revision="jellybean"/>
   <project path="external/skia" name="android_external_skia" remote="github" revision="jellybean"/>
+  <project path="external/srec" name="android_external_srec" remote="github" revision="jellybean"/>
   <project path="external/webkit" name="android_external_webkit" remote="github" revision="jellybean"/>
   <project path="external/webrtc" name="android_external_webrtc" remote="github" revision="jellybean"/>
   <project path="external/wpa_supplicant_6" name="android_external_wpa_supplicant_6" remote="github" revision="jellybean"/>
@@ -78,6 +80,7 @@
   <project path="android" name="android" remote="github" revision="jellybean" />
   <project path="device/hp/tenderloin" name="android_device_hp_tenderloin" remote="github" revision="jellybean" />
   <project path="device/htc/bravo" name="android_device_htc_bravo" remote="github" revision="jellybean" />
+  <project path="device/htc/desirec" name="android_device_htc_desirec" remote="github" revision="jellybean" />
   <project path="device/htc/inc" name="android_device_htc_inc" remote="github" revision="jellybean" />
   <project path="device/htc/jewel" name="android_device_htc_jewel" remote="github" revision="jellybean" />
   <project path="device/htc/msm7x30-common" name="android_device_htc_msm7x30-common" remote="github" revision="jellybean"/>
@@ -98,6 +101,7 @@
   <project path="external/rsync" name="android_external_rsync" remote="github" revision="jellybean" />
   <project path="external/su" name="android_external_su" remote="github" revision="jellybean" />
   <project path="external/vim" name="android_external_vim" remote="github" revision="jellybean" />
+  <project path="external/wpa_supplicant" name="android_external_wpa_supplicant" remote="github" revision="jellybean"/>
   <project path="hardware/atheros" name="android_hardware_atheros" remote="github" revision="jellybean" />
   <project path="hardware/qcom/camera" name="android_hardware_qcom_camera" remote="github" revision="jellybean" />
   <project path="hardware/qcom/display" name="android_hardware_qcom_display" remote="github" revision="jellybean" />
@@ -107,6 +111,7 @@
   <project path="packages/apps/EVToolbox" name="android_packages_apps_EVToolbox" remote="github" revision="jellybean"/>
   <project path="packages/apps/EVWidgets" name="android_packages_apps_EVWidgets" remote="github" revision="jellybean"/>
   <project path="packages/apps/Superuser" name="android_packages_apps_Superuser" remote="github" revision="jellybean"/>
+  <project path="system/wlan/ti" name="android_system_wlan_ti" remote="github" revision="jellybean"/>
   <project path="vendor/asus" name="android_vendor_asus" remote="github" revision="jellybean"/>
   <project path="vendor/ev" name="android_vendor_ev" remote="github" revision="jellybean" />
   <project path="vendor/hp" name="android_vendor_hp" remote="github" revision="jellybean" />
@@ -136,7 +141,6 @@
   <project path="device/samsung/maguro" name="device/samsung/maguro" />
   <project path="device/samsung/torospr" name="device/samsung/torospr" />
   <project path="docs/source.android.com" name="platform/docs/source.android.com" />
-  <project path="external/aac" name="platform/external/aac" />
   <project path="external/android-mock" name="platform/external/android-mock" />
   <project path="external/antlr" name="platform/external/antlr" />
   <project path="external/apache-harmony" name="platform/external/apache-harmony" />
@@ -250,7 +254,6 @@
   <project path="external/sonivox" name="platform/external/sonivox" />
   <project path="external/speex" name="platform/external/speex" />
   <project path="external/sqlite" name="platform/external/sqlite" />
-  <project path="external/srec" name="platform/external/srec" />
   <project path="external/srtp" name="platform/external/srtp" />
   <project path="external/stlport" name="platform/external/stlport" />
   <project path="external/strace" name="platform/external/strace" />
