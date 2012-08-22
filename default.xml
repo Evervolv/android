@@ -76,6 +76,7 @@
   <project path="packages/inputmethods/LatinIME" name="android_packages_inputmethods_LatinIME" remote="github" revision="jellybean" />
   <project path="packages/providers/ContactsProvider" name="android_packages_providers_ContactsProvider" remote="github" revision="jellybean" />
   <project path="packages/providers/MediaProvider" name="android_packages_providers_MediaProvider" remote="github" revision="jellybean" />
+  <project path="prebuilts/misc" name="android_prebuilts_misc" remote="github" revision="jellybean" />
   <project path="system/bluetooth" name="android_system_bluetooth" remote="github" revision="jellybean" />
   <project path="system/core" name="android_system_core" remote="github" revision="jellybean" />
   <project path="system/extras" name="android_system_extras" remote="github" revision="jellybean" />
@@ -349,7 +350,6 @@
 <!--  <project path="prebuilts/gcc/linux-x86/mips/mipsel-linux-android-4.6" name="platform/prebuilts/gcc/linux-x86/mips/mipsel-linux-android-4.6" />-->
   <project path="prebuilts/gcc/linux-x86/x86/i686-android-linux-4.4.3" name="platform/prebuilts/gcc/linux-x86/x86/i686-android-linux-4.4.3" />
   <project path="prebuilts/gcc/linux-x86/x86/i686-linux-android-4.6" name="platform/prebuilts/gcc/linux-x86/x86/i686-linux-android-4.6" />
-  <project path="prebuilts/misc" name="platform/prebuilts/misc" />
   <project path="prebuilts/ndk" name="platform/prebuilts/ndk" />
   <project path="prebuilts/qemu-kernel" name="platform/prebuilts/qemu-kernel" />
   <project path="prebuilts/sdk" name="platform/prebuilts/sdk" />
