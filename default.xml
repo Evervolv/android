@@ -20,6 +20,8 @@
   <project path="bionic" name="android_bionic" remote="github" revision="jellybean"/>
   <project path="dalvik" name="android_dalvik" remote="github" revision="jellybean"/>
   <project path="device/asus/grouper" name="android_device_asus_grouper" remote="github" revision="jellybean"/>
+  <project path="device/generic/goldfish" name="android_device_generic_goldfish" remote="github" revision="jellybean"/>
+  <project path="device/samsung/crespo" name="android_device_samsung_crespo" remote="github" revision="jellybean"/>
   <project path="device/samsung/toro" name="android_device_samsung_toro" remote="github" revision="jellybean"/>
   <project path="device/samsung/tuna" name="android_device_samsung_tuna" remote="github" revision="jellybean"/>
   <project path="device/ti/panda" name="android_device_ti_panda" remote="github" revision="jellybean"/>
@@ -142,14 +144,12 @@
   <project path="device/common" name="device/common" />
 <!--  <project path="device/generic/armv7-a-neon" name="device/generic/armv7-a-neon" />-->
 <!--  <project path="device/generic/armv7-a" name="device/generic/armv7-a" />-->
-  <project path="device/generic/goldfish" name="device/generic/goldfish" />
   <project path="device/google/accessory/arduino" name="device/google/accessory/arduino" />
   <project path="device/google/accessory/demokit" name="device/google/accessory/demokit" />
 <!--  <project path="device/moto/common" name="device/moto/common" />-->
 <!--  <project path="device/moto/stingray" name="device/moto/stingray" />-->
 <!--  <project path="device/moto/wingray" name="device/moto/wingray" />-->
   <project path="device/sample" name="device/sample" />
-  <project path="device/samsung/crespo" name="device/samsung/crespo" />
   <project path="device/samsung/crespo4g" name="device/samsung/crespo4g" />
   <project path="device/samsung/maguro" name="device/samsung/maguro" />
   <project path="device/samsung/torospr" name="device/samsung/torospr" />
