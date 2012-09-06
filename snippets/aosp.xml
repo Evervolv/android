@@ -28,6 +28,9 @@
     <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
   </project>
 
+  <project path="device/generic/goldfish" name="android_device_generic_goldfish" groups="pdk" remote="evervolv" />
+  <project path="device/generic/goldfish-opengl" name="android_device_generic_goldfish-opengl" groups="pdk" remote="evervolv" />
+
   <project path="external/libcxx" name="android_external_libcxx" groups="pdk" remote="evervolv" />
   <project path="external/tinycompress" name="android_external_tinycompress" groups="pdk" remote="evervolv" />
   <project path="external/toybox" name="android_external_toybox" groups="pdk" remote="evervolv" />
