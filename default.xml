@@ -27,6 +27,7 @@
   <project path="device/ti/panda" name="android_device_ti_panda" remote="github" revision="jellybean"/>
   <project path="external/aac" name="android_external_aac" remote="github" revision="jellybean"/>
   <project path="external/bluetooth/bluez" name="android_external_bluetooth_bluez" remote="github" revision="jellybean"/>
+  <project path="external/chromium" name="android_external_chromium" remote="github" revision="jellybean"/>
   <project path="external/compat-wireless-3.5-rc3-1-sn" name="android_external_compat-wireless-3.5-rc3-1-sn" remote="github" revision="jellybean" />
   <project path="external/dropbear" name="android_external_dropbear" remote="github" revision="jellybean"/>
   <project path="external/e2fsprogs" name="android_external_e2fsprogs" remote="github" revision="jellybean"/>
@@ -168,7 +169,6 @@
   <project path="external/bsdiff" name="platform/external/bsdiff" />
   <project path="external/bzip2" name="platform/external/bzip2" />
   <project path="external/checkpolicy" name="platform/external/checkpolicy" />
-  <project path="external/chromium" name="platform/external/chromium" />
   <project path="external/chromium-trace" name="platform/external/chromium-trace" />
   <project path="external/cibu-fonts" name="platform/external/cibu-fonts" />
   <project path="external/clang" name="platform/external/clang" />
