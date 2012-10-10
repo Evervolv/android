@@ -7,7 +7,7 @@
   <remote  name="github"
            fetch="git://github.com/Evervolv/"
            review="review.evervolv.com"/>
-  <default revision="refs/tags/android-4.1.1_r6"
+  <default revision="refs/tags/android-4.1.2_r1"
            remote="aosp"
            sync-j="4" />
 
@@ -160,7 +160,7 @@
   <project path="device/sample" name="device/sample" />
   <project path="device/samsung/crespo4g" name="device/samsung/crespo4g" />
   <project path="device/samsung/maguro" name="device/samsung/maguro" />
-  <project path="device/samsung/torospr" name="device/samsung/torospr" />
+<!--  <project path="device/samsung/torospr" name="device/samsung/torospr" />-->
   <project path="docs/source.android.com" name="platform/docs/source.android.com" />
   <project path="external/android-mock" name="platform/external/android-mock" />
   <project path="external/antlr" name="platform/external/antlr" />
