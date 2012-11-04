@@ -110,6 +110,7 @@
   <project path="device/htc/shootervm" name="android_device_htc_shootervm" remote="github" revision="jellybean"/>
   <project path="device/htc/speedy" name="android_device_htc_speedy" remote="github" revision="jellybean"/>
   <project path="device/htc/supersonic" name="android_device_htc_supersonic" remote="github" revision="jellybean" />
+  <project path="device/htc/vivow" name="android_device_htc_vivow" remote="github" revision="jellybean"/>
   <project path="external/bash" name="android_external_bash" remote="github" revision="jellybean" />
   <project path="external/busybox" name="android_external_busybox" remote="github" revision="jellybean" />
   <project path="external/htop" name="android_external_htop" remote="github" revision="jellybean" />
