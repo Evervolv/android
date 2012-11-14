@@ -31,12 +31,7 @@
   <project path="external/elfutils" name="android_external_elfutils" remote="github" revision="jellybean"/>
   <project path="external/freetype" name="android_external_freetype" remote="github" revision="jellybean"/>
   <project path="external/fsck_msdos" name="android_external_fsck_msdos" remote="github" revision="jellybean"/>
-  <project path="external/guava" name="android_external_guava" remote="github" revision="jellybean"/>
-  <project path="external/icu4c" name="android_external_icu4c" remote="github" revision="jellybean"/>
   <project path="external/openssh" name="android_external_openssh" remote="github" revision="jellybean"/>
-  <project path="external/openssl" name="android_external_openssl" remote="github" revision="jellybean"/>
-  <project path="external/oprofile" name="android_external_oprofile" remote="github" revision="jellybean"/>
-  <project path="external/skia" name="android_external_skia" remote="github" revision="jellybean"/>
   <project path="external/srec" name="android_external_srec" remote="github" revision="jellybean"/>
   <project path="external/stlport" name="android_external_stlport" remote="github" revision="jellybean"/>
   <project path="external/v8" name="android_external_v8" remote="github" revision="jellybean"/>
@@ -208,9 +203,11 @@
   <project path="external/google-diff-match-patch" name="platform/external/google-diff-match-patch" />
   <project path="external/grub" name="platform/external/grub" />
   <project path="external/gtest" name="platform/external/gtest" />
+  <project path="external/guava" name="platform/external/guava" />
   <project path="external/hamcrest" name="platform/external/hamcrest" />
   <project path="external/harfbuzz" name="platform/external/harfbuzz" />
   <project path="external/hyphenation" name="platform/external/hyphenation" />
+  <project path="external/icu4c" name="platform/external/icu4c" />
   <project path="external/iproute2" name="platform/external/iproute2" />
   <project path="external/ipsec-tools" name="platform/external/ipsec-tools" />
   <project path="external/iptables" name="platform/external/iptables" />
@@ -268,6 +265,8 @@
   <project path="external/okhttp" name="platform/external/okhttp" />
   <project path="external/opencv" name="platform/external/opencv" />
   <project path="external/openfst" name="platform/external/openfst" />
+  <project path="external/openssl" name="platform/external/openssl" />
+  <project path="external/oprofile" name="platform/external/oprofile" />
   <project path="external/ping" name="platform/external/ping" />
   <project path="external/ping6" name="platform/external/ping6" />
   <project path="external/ppp" name="platform/external/ppp" />
@@ -280,6 +279,7 @@
   <project path="external/replicaisland" name="platform/external/replicaisland" />
   <project path="external/safe-iop" name="platform/external/safe-iop" />
   <project path="external/sepolicy" name="platform/external/sepolicy" />
+  <project path="external/skia" name="platform/external/skia" />
   <project path="external/smali" name="platform/external/smali" />
   <project path="external/sonivox" name="platform/external/sonivox" />
   <project path="external/speex" name="platform/external/speex" />
