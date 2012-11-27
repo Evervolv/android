@@ -23,6 +23,7 @@
   <project path="device/generic/goldfish" name="android_device_generic_goldfish" remote="github" revision="jellybean"/>
   <project path="device/lge/mako" name="android_device_lge_mako" remote="github" revision="jellybean"/>
   <project path="device/lge/mako-kernel" name="android_device_lge_mako-kernel" remote="github" revision="jellybean"/>
+  <project path="device/samsung/manta" name="android_device_samsung_manta" remote="github" revision="jellybean"/>
   <project path="device/samsung/toro" name="android_device_samsung_toro" remote="github" revision="jellybean"/>
   <project path="device/samsung/tuna" name="android_device_samsung_tuna" remote="github" revision="jellybean"/>
   <project path="external/aac" name="android_external_aac" remote="github" revision="jellybean"/>
@@ -153,7 +154,6 @@
   <project path="device/google/accessory/demokit" name="device/google/accessory/demokit" groups="device" />
   <project path="device/sample" name="device/sample" />
 <!--  <project path="device/samsung/maguro" name="device/samsung/maguro" groups="device" />-->
-<!--  <project path="device/samsung/manta" name="device/samsung/manta" groups="device" />-->
 <!--  <project path="device/samsung/toroplus" name="device/samsung/toroplus" groups="device" />-->
 <!--  <project path="device/ti/panda" name="device/ti/panda" groups="device" />-->
   <project path="docs/source.android.com" name="platform/docs/source.android.com" />
