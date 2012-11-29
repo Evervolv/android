@@ -7,7 +7,7 @@
   <remote  name="github"
            fetch="git://github.com/Evervolv/"
            review="review.evervolv.com"/>
-  <default revision="refs/tags/android-4.2_r1"
+  <default revision="refs/tags/android-4.2.1_r1"
            remote="aosp"
            sync-j="4" />
 
