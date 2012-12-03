@@ -58,6 +58,7 @@
   <project path="hardware/qcom/sensors" name="android_hardware_qcom_sensors" remote="github" revision="jellybean"/>
   <project path="hardware/qcom/wlan" name="android_hardware_qcom_wlan" remote="github" revision="jellybean"/>
   <project path="hardware/ril" name="android_hardware_ril" remote="github" revision="jellybean"/>
+  <project path="hardware/ti/wlan" name="android_hardware_ti_wlan" remote="github" revision="jellybean"/>
   <project path="libcore" name="android_libcore" remote="github" revision="jellybean"/>
   <project path="packages/apps/Browser" name="android_packages_apps_Browser" remote="github" revision="jellybean" />
   <project path="packages/apps/Camera" name="android_packages_apps_Camera" remote="github" revision="jellybean" />
@@ -330,7 +331,6 @@
   <project path="hardware/samsung_slsi/exynos5" name="platform/hardware/samsung_slsi/exynos5" />
   <project path="hardware/ti/omap3" name="platform/hardware/ti/omap3" />
   <project path="hardware/ti/omap4xxx" name="platform/hardware/ti/omap4xxx" />
-  <project path="hardware/ti/wlan" name="platform/hardware/ti/wlan" />
   <project path="hardware/ti/wpan" name="platform/hardware/ti/wpan" />
   <project path="libnativehelper" name="platform/libnativehelper" />
   <project path="ndk" name="platform/ndk" />
