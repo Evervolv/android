@@ -94,6 +94,7 @@
   <project path="device/hp/tenderloin" name="android_device_hp_tenderloin" remote="github" revision="jellybean-4.1.2" />
   <project path="device/htc/bravo" name="android_device_htc_bravo" remote="github" revision="jellybean-4.1.2" />
   <project path="device/htc/desirec" name="android_device_htc_desirec" remote="github" revision="jellybean-4.1.2" />
+  <project path="device/htc/evita" name="android_device_htc_evita" remote="github" revision="jellybean-4.1.2" />
   <project path="device/htc/express" name="android_device_htc_express" remote="github" revision="jellybean-4.1.2" />
   <project path="device/htc/inc" name="android_device_htc_inc" remote="github" revision="jellybean-4.1.2" />
   <project path="device/htc/jewel" name="android_device_htc_jewel" remote="github" revision="jellybean-4.1.2" />
