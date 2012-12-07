@@ -106,6 +106,7 @@
   <project path="device/htc/speedy" name="android_device_htc_speedy" remote="github" revision="jellybean"/>
   <project path="device/htc/supersonic" name="android_device_htc_supersonic" remote="github" revision="jellybean" />
   <project path="device/htc/vivow" name="android_device_htc_vivow" remote="github" revision="jellybean"/>
+  <project path="device/lge/geehrc" name="android_device_lge_geehrc" remote="github" revision="jellybean"/>
   <project path="external/bash" name="android_external_bash" remote="github" revision="jellybean" />
   <project path="external/busybox" name="android_external_busybox" remote="github" revision="jellybean" />
   <project path="external/compat-wireless-3.5-rc3-1-sn" name="android_external_compat-wireless-3.5-rc3-1-sn" remote="github" revision="jellybean" />
@@ -130,6 +131,7 @@
   <project path="vendor/ev" name="android_vendor_ev" remote="github" revision="jellybean" />
   <project path="vendor/hp" name="android_vendor_hp" remote="github" revision="jellybean" />
   <project path="vendor/htc" name="android_vendor_htc" remote="github" revision="jellybean" />
+  <project path="vendor/lge" name="android_vendor_lge" remote="github" revision="jellybean" />
   <project path="vendor/samsung" name="android_vendor_samsung" remote="github" revision="jellybean"/>
 
 <!-- Tmobile Themes -->
@@ -146,7 +148,7 @@
   <project path="bootable/recovery" name="platform/bootable/recovery" />
   <project path="cts" name="platform/cts" />
   <project path="development" name="platform/development"/>
-  <project path="device/asus/tilapia" name="device/asus/tilapia" groups="device" />
+<!--  <project path="device/asus/tilapia" name="device/asus/tilapia" groups="device" />-->
   <project path="device/common" name="device/common" />
   <project path="device/generic/armv7-a-neon" name="device/generic/armv7-a-neon" />
   <project path="device/generic/armv7-a" name="device/generic/armv7-a" />
