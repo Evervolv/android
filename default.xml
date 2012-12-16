@@ -48,11 +48,9 @@
   <project path="hardware/libhardware_legacy" name="android_hardware_libhardware_legacy" remote="github" revision="jellybean"/>
   <project path="hardware/msm7k" name="android_hardware_msm7k" remote="github" revision="jellybean"/>
   <project path="hardware/qcom/audio" name="android_hardware_qcom_audio" remote="github" revision="jellybean"/>
-  <project path="hardware/qcom/audio-legacy" name="android_hardware_qcom_audio-legacy" remote="github" revision="jellybean"/>
   <project path="hardware/qcom/bt" name="android_hardware_qcom_bt" remote="github" revision="jellybean"/>
   <project path="hardware/qcom/camera" name="android_hardware_qcom_camera" remote="github" revision="jellybean" />
   <project path="hardware/qcom/display" name="android_hardware_qcom_display" remote="github" revision="jellybean" />
-  <project path="hardware/qcom/display-legacy" name="android_hardware_qcom_display-legacy" remote="github" revision="jellybean" />
   <project path="hardware/qcom/gps" name="android_hardware_qcom_gps" remote="github" revision="jellybean"/>
   <project path="hardware/qcom/keymaster" name="android_hardware_qcom_keymaster" remote="github" revision="jellybean"/>
   <project path="hardware/qcom/media" name="android_hardware_qcom_media" remote="github" revision="jellybean"/>
@@ -123,6 +121,9 @@
   <project path="external/wpa_supplicant" name="android_external_wpa_supplicant" remote="github" revision="jellybean"/>
   <project path="hardware/atheros" name="android_hardware_atheros" remote="github" revision="jellybean" />
   <project path="hardware/gpsshim" name="android_hardware_gpsshim" remote="github" revision="jellybean" />
+  <project path="hardware/qcom/audio-legacy" name="android_hardware_qcom_audio-legacy" remote="github" revision="jellybean"/>
+  <project path="hardware/qcom/display-legacy" name="android_hardware_qcom_display-legacy" remote="github" revision="jellybean"/>
+  <project path="hardware/qcom/gps-legacy" name="android_hardware_qcom_gps-legacy" remote="github" revision="jellybean"/>
   <project path="packages/apps/AndroidTerm" name="android_packages_apps_AndroidTerm" remote="github" revision="jellybean"/>
   <project path="packages/apps/CMWimaxSettings" name="android_packages_apps_CMWimaxSettings" remote="github" revision="jellybean" />
   <project path="packages/apps/EVTips" name="android_packages_apps_EVTips" remote="github" revision="jellybean"/>
