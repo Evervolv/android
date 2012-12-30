@@ -104,6 +104,7 @@
   <project path="device/htc/qsd8k-common" name="android_device_htc_qsd8k-common" remote="github" revision="jellybean" />
   <project path="device/htc/ruby" name="android_device_htc_ruby" remote="github" revision="jellybean"/>
   <project path="device/htc/shooter" name="android_device_htc_shooter" remote="github" revision="jellybean"/>
+  <project path="device/htc/shooteru" name="android_device_htc_shooteru" remote="github" revision="jellybean"/>
   <project path="device/htc/shootervm" name="android_device_htc_shootervm" remote="github" revision="jellybean"/>
   <project path="device/htc/speedy" name="android_device_htc_speedy" remote="github" revision="jellybean"/>
   <project path="device/htc/supersonic" name="android_device_htc_supersonic" remote="github" revision="jellybean" />
