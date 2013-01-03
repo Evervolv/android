@@ -95,6 +95,7 @@
   <project path="device/htc/inc" name="android_device_htc_inc" remote="github" revision="jellybean" />
   <project path="device/htc/jewel" name="android_device_htc_jewel" remote="github" revision="jellybean" />
   <project path="device/htc/kingdom" name="android_device_htc_kingdom" remote="github" revision="jellybean" />
+  <project path="device/htc/lexikon" name="android_device_htc_lexikon" remote="github" revision="jellybean" />
   <project path="device/htc/msm7x30-common" name="android_device_htc_msm7x30-common" remote="github" revision="jellybean"/>
   <project path="device/htc/msm8660-common" name="android_device_htc_msm8660-common" remote="github" revision="jellybean"/>
   <project path="device/htc/msm8960-common" name="android_device_htc_msm8960-common" remote="github" revision="jellybean"/>
