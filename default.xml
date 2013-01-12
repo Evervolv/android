@@ -128,6 +128,7 @@
   <project path="hardware/qcom/display-caf" name="android_hardware_qcom_display-caf" remote="github" revision="jellybean"/>
   <project path="hardware/qcom/display-legacy" name="android_hardware_qcom_display-legacy" remote="github" revision="jellybean"/>
   <project path="hardware/qcom/gps-legacy" name="android_hardware_qcom_gps-legacy" remote="github" revision="jellybean"/>
+  <project path="hardware/qcom/media-legacy" name="android_hardware_qcom_media-legacy" remote="github" revision="jellybean"/>
   <project path="packages/apps/AndroidTerm" name="android_packages_apps_AndroidTerm" remote="github" revision="jellybean"/>
   <project path="packages/apps/CMWimaxSettings" name="android_packages_apps_CMWimaxSettings" remote="github" revision="jellybean" />
   <project path="packages/apps/EVTips" name="android_packages_apps_EVTips" remote="github" revision="jellybean"/>
