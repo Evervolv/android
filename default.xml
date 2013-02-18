@@ -18,6 +18,7 @@
   </project>
   <project path="bionic" name="android_bionic" remote="github" revision="jellybean"/>
   <project path="dalvik" name="android_dalvik" remote="github" revision="jellybean"/>
+  <project path="development" name="android_development" remote="github" revision="jellybean" />
   <project path="device/asus/grouper" name="android_device_asus_grouper" remote="github" revision="jellybean"/>
   <project path="device/common" name="android_device_common" remote="github" revision="jellybean"/>
   <project path="device/generic/goldfish" name="android_device_generic_goldfish" remote="github" revision="jellybean"/>
@@ -27,9 +28,11 @@
   <project path="device/samsung/toro" name="android_device_samsung_toro" remote="github" revision="jellybean"/>
   <project path="device/samsung/tuna" name="android_device_samsung_tuna" remote="github" revision="jellybean"/>
   <project path="external/aac" name="android_external_aac" remote="github" revision="jellybean"/>
+  <project path="external/android-mock" name="android_external_android-mock" remote="github" revision="jellybean" />
   <project path="external/chromium" name="android_external_chromium" remote="github" revision="jellybean"/>
   <project path="external/elfutils" name="android_external_elfutils" remote="github" revision="jellybean"/>
   <project path="external/fsck_msdos" name="android_external_fsck_msdos" remote="github" revision="jellybean"/>
+  <project path="external/javasqlite" name="android_external_javasqlite" remote="github" revision="jellybean"/>
   <project path="external/openssh" name="android_external_openssh" remote="github" revision="jellybean"/>
   <project path="external/srec" name="android_external_srec" remote="github" revision="jellybean"/>
   <project path="external/stlport" name="android_external_stlport" remote="github" revision="jellybean"/>
@@ -78,6 +81,7 @@
   <project path="packages/providers/ContactsProvider" name="android_packages_providers_ContactsProvider" remote="github" revision="jellybean" />
   <project path="packages/providers/MediaProvider" name="android_packages_providers_MediaProvider" remote="github" revision="jellybean" />
   <project path="prebuilts/misc" name="android_prebuilts_misc" remote="github" revision="jellybean" />
+  <project path="sdk" name="android_sdk" remote="github" revision="jellybean"/>
   <project path="system/bluetooth" name="android_system_bluetooth" remote="github" revision="jellybean" />
   <project path="system/core" name="android_system_core" remote="github" revision="jellybean" />
   <project path="system/extras" name="android_system_extras" remote="github" revision="jellybean" />
@@ -157,7 +161,6 @@
   <project path="bootable/diskinstaller" name="platform/bootable/diskinstaller" />
   <project path="bootable/recovery" name="platform/bootable/recovery" />
   <project path="cts" name="platform/cts" />
-  <project path="development" name="platform/development"/>
 <!--  <project path="device/asus/tilapia" name="device/asus/tilapia" groups="device" />-->
   <project path="device/generic/armv7-a-neon" name="device/generic/armv7-a-neon" />
   <project path="device/generic/armv7-a" name="device/generic/armv7-a" />
@@ -172,7 +175,6 @@
 <!--  <project path="device/ti/panda" name="device/ti/panda" groups="device" />-->
   <project path="docs/source.android.com" name="platform/docs/source.android.com" />
   <project path="external/android-clat" name="platform/external/android-clat" />
-  <project path="external/android-mock" name="platform/external/android-mock" />
   <project path="external/ant-glob" name="platform/external/ant-glob" />
   <project path="external/antlr" name="platform/external/antlr" />
   <project path="external/apache-harmony" name="platform/external/apache-harmony" />
@@ -228,7 +230,6 @@
   <project path="external/ipsec-tools" name="platform/external/ipsec-tools" />
   <project path="external/iptables" name="platform/external/iptables" />
   <project path="external/jack" name="platform/external/jack" />
-  <project path="external/javasqlite" name="platform/external/javasqlite" />
   <project path="external/javassist" name="platform/external/javassist" />
   <project path="external/jdiff" name="platform/external/jdiff" />
   <project path="external/jhead" name="platform/external/jhead" />
@@ -411,7 +412,6 @@
   <project path="prebuilts/qemu-kernel" name="platform/prebuilts/qemu-kernel" />
   <project path="prebuilts/sdk" name="platform/prebuilts/sdk" />
   <project path="prebuilts/tools" name="platform/prebuilts/tools" />
-  <project path="sdk" name="platform/sdk" />
   <project path="system/media" name="platform/system/media" />
   <project path="system/netd" name="platform/system/netd" />
   <project path="tools/build" name="platform/tools/build" groups="toolsbuild" />
