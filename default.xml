@@ -116,6 +116,8 @@
 
   <!--Ubuntu Extra Projects-->
   <project path="ubuntu/assets" name="android_ubuntu_assets" remote="github" revision="refs/heads/jellybean-ubuntuphone"/>
+  <project path="ubuntu/hybris" name="android_ubuntu_hybris" remote="github" revision="refs/heads/jellybean-ubuntuphone"/>
+  <project path="ubuntu/platform-api" name="android_ubuntu_platform-api" remote="github" revision="refs/heads/jellybean-ubuntuphone"/>
   <project path="ubuntu/uchroot" name="android_ubuntu_uchroot" remote="github" revision="refs/heads/jellybean-ubuntuphone"/>
 
   <!--Aosp-->
