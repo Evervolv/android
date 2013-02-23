@@ -114,6 +114,10 @@
   <project path="vendor/lge" name="android_vendor_lge" remote="github" revision="jellybean" />
   <project path="vendor/samsung" name="android_vendor_samsung" remote="github" revision="jellybean"/>
 
+  <!--Ubuntu Extra Projects-->
+  <project path="ubuntu/assets" name="android_ubuntu_assets" remote="github" revision="refs/heads/jellybean-ubuntuphone"/>
+  <project path="ubuntu/uchroot" name="android_ubuntu_uchroot" remote="github" revision="refs/heads/jellybean-ubuntuphone"/>
+
   <!--Aosp-->
   <project path="abi/cpp" name="platform/abi/cpp" />
   <project path="bootable/bootloader/legacy" name="platform/bootable/bootloader/legacy" />
