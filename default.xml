@@ -94,9 +94,6 @@
   <project path="android" name="android" remote="github" revision="jellybean" />
   <project path="device/hp/tenderloin" name="android_device_hp_tenderloin" remote="github" revision="jellybean" />
   <project path="device/htc/bravo" name="android_device_htc_bravo" remote="github" revision="jellybean" />
-  <project path="device/htc/desirec" name="android_device_htc_desirec" remote="github" revision="jellybean" />
-  <project path="device/htc/evita" name="android_device_htc_evita" remote="github" revision="jellybean" />
-  <project path="device/htc/express" name="android_device_htc_express" remote="github" revision="jellybean" />
   <project path="device/htc/glacier" name="android_device_htc_glacier" remote="github" revision="jellybean" />
   <project path="device/htc/inc" name="android_device_htc_inc" remote="github" revision="jellybean" />
   <project path="device/htc/jewel" name="android_device_htc_jewel" remote="github" revision="jellybean" />
@@ -106,7 +103,6 @@
   <project path="device/htc/msm8660-common" name="android_device_htc_msm8660-common" remote="github" revision="jellybean"/>
   <project path="device/htc/msm8960-common" name="android_device_htc_msm8960-common" remote="github" revision="jellybean"/>
   <project path="device/htc/passion" name="android_device_htc_passion" remote="github" revision="jellybean" />
-  <project path="device/htc/primoc" name="android_device_htc_primoc" remote="github" revision="jellybean" />
   <project path="device/htc/pyramid" name="android_device_htc_pyramid" remote="github" revision="jellybean" />
   <project path="device/htc/qsd8k-common" name="android_device_htc_qsd8k-common" remote="github" revision="jellybean" />
   <project path="device/htc/ruby" name="android_device_htc_ruby" remote="github" revision="jellybean"/>
