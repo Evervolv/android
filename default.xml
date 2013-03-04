@@ -112,12 +112,7 @@
   <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.4.3" name="android_prebuilts_gcc_linux-x86_arm_arm-eabi-4.4.3" remote="github" revision="jellybean"/>
   <project path="prebuilts/gcc/linux-x86/arm/arm-linux-linaro-4.7" name="android_prebuilts_gcc_linux-x86_arm_arm-linux-linaro-4.7" remote="github" revision="jellybean"/>
   <project path="system/wlan/ti" name="android_system_wlan_ti" remote="github" revision="jellybean"/>
-  <project path="vendor/asus" name="android_vendor_asus" remote="github" revision="jellybean"/>
   <project path="vendor/ev" name="android_vendor_ev" remote="github" revision="jellybean" />
-  <project path="vendor/hp" name="android_vendor_hp" remote="github" revision="jellybean" />
-  <project path="vendor/htc" name="android_vendor_htc" remote="github" revision="jellybean" />
-  <project path="vendor/lge" name="android_vendor_lge" remote="github" revision="jellybean" />
-  <project path="vendor/samsung" name="android_vendor_samsung" remote="github" revision="jellybean"/>
 
 <!-- Tmobile Themes -->
   <project path="vendor/tmobile/products/themes" name="themes-platform-vendor-tmobile-products-themes" remote="github" revision="jellybean"/>
