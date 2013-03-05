@@ -291,6 +291,7 @@
   <project path="device/htc/supersonic" name="android_device_htc_supersonic" remote="github" revision="ics"/>
   <project path="device/htc/vivow" name="android_device_htc_vivow" remote="github" revision="ics"/>
   <project path="device/lge/thundercls670" name="android_device_lge_thundercls670" remote="github" revision="ics"/>
+  <project path="device/lge/p350" name="android_device_lge_p350" remote="github" revision="ics"/>
   <project path="device/samsung/c1-common" name="android_device_samsung_c1-common" remote="github" revision="ics" />
   <project path="device/samsung/epic4gtouch" name="android_device_samsung_epic4gtouch" remote="github" revision="ics" />
   <project path="device/samsung/skyrocket" name="android_device_samsung_skyrocket" remote="github" revision="ics" />
