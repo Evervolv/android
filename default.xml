@@ -17,6 +17,7 @@
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project path="bionic" name="android_bionic" remote="github" revision="jellybean"/>
+  <project path="bootable/recovery" name="android_bootable_recovery" remote="github" revision="jellybean" />
   <project path="dalvik" name="android_dalvik" remote="github" revision="jellybean"/>
   <project path="development" name="android_development" remote="github" revision="jellybean" />
   <project path="device/common" name="android_device_common" remote="github" revision="jellybean"/>
@@ -35,6 +36,7 @@
   <project path="external/wpa_supplicant_6" name="android_external_wpa_supplicant_6" remote="github" revision="jellybean"/>
   <project path="external/wpa_supplicant_8" name="android_external_wpa_supplicant_8" remote="github" revision="jellybean"/>
   <project path="external/yaffs2" name="android_external_yaffs2" remote="github" revision="jellybean"/>
+  <project path="external/zlib" name="android_external_zlib" remote="github" revision="jellybean" />
   <project path="frameworks/av" name="android_frameworks_av" remote="github" revision="jellybean"/>
   <project path="frameworks/base" name="android_frameworks_base" remote="github" revision="jellybean"/>
   <project path="frameworks/native" name="android_frameworks_native" remote="github" revision="jellybean"/>
@@ -125,7 +127,6 @@
   <project path="abi/cpp" name="platform/abi/cpp" />
   <project path="bootable/bootloader/legacy" name="platform/bootable/bootloader/legacy" />
   <project path="bootable/diskinstaller" name="platform/bootable/diskinstaller" />
-  <project path="bootable/recovery" name="platform/bootable/recovery" />
   <project path="cts" name="platform/cts" />
 <!--  <project path="device/asus/tilapia" name="device/asus/tilapia" groups="device" />-->
   <project path="device/generic/armv7-a-neon" name="device/generic/armv7-a-neon" />
@@ -282,7 +283,6 @@
   <project path="external/webrtc" name="platform/external/webrtc" />
   <project path="external/xmlwriter" name="platform/external/xmlwriter" />
   <project path="external/xmp_toolkit" name="platform/external/xmp_toolkit" />
-  <project path="external/zlib" name="platform/external/zlib" />
   <project path="external/zxing" name="platform/external/zxing" />
   <project path="frameworks/compile/libbcc" name="platform/frameworks/compile/libbcc" />
   <project path="frameworks/compile/linkloader" name="platform/frameworks/compile/linkloader" />
