@@ -72,6 +72,7 @@
   <project path="device/htc/desirec" name="android_device_htc_desirec" remote="github" revision="refs/heads/jellybean-ubuntuphone" />
   <project path="device/htc/evita" name="android_device_htc_evita" remote="github" revision="refs/heads/jellybean-ubuntuphone" />
   <project path="device/htc/express" name="android_device_htc_express" remote="github" revision="refs/heads/jellybean-ubuntuphone" />
+  <project path="device/htc/glacier" name="android_device_htc_glacier" remote="github" revision="refs/heads/jellybean-ubuntuphone" />
   <project path="device/htc/inc" name="android_device_htc_inc" remote="github" revision="refs/heads/jellybean-ubuntuphone" />
   <project path="device/htc/jewel" name="android_device_htc_jewel" remote="github" revision="refs/heads/jellybean-ubuntuphone" />
   <project path="device/htc/kingdom" name="android_device_htc_kingdom" remote="github" revision="refs/heads/jellybean-ubuntuphone" />
