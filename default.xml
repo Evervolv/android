@@ -27,6 +27,7 @@
   <project path="device/samsung/toro" name="android_device_samsung_toro" remote="github" revision="refs/heads/jellybean-ubuntuphone"/>
   <project path="device/samsung/tuna" name="android_device_samsung_tuna" remote="github" revision="refs/heads/jellybean-ubuntuphone"/>
   <project path="external/aac" name="android_external_aac" remote="github" revision="refs/heads/jellybean-ubuntuphone"/>
+  <project path="external/chromium" name="android_external_chromium" remote="github" revision="refs/heads/jellybean-ubuntuphone"/>
   <project path="external/bouncycastle" name="android_external_bouncycastle" remote="github" revision="refs/heads/jellybean-ubuntuphone"/>
   <project path="external/jhead" name="android_external_jhead" remote="github" revision="refs/heads/jellybean-ubuntuphone"/>
   <project path="external/libpng" name="android_external_libpng" remote="github" revision="refs/heads/jellybean-ubuntuphone"/>
