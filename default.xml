@@ -170,9 +170,9 @@
   <project path="external/webrtc" name="platform/external/webrtc" />
   <project path="external/zlib" name="platform/external/zlib" />
   <project path="frameworks/opt/emoji" name="platform/frameworks/opt/emoji" />
-  <project path="hardware/invensense" name="platform/hardware/invensense" revision="refs/tags/android-4.2.1_r1.2" />
-  <project path="hardware/samsung_slsi/exynos5" name="platform/hardware/samsung_slsi/exynos5" revision="refs/tags/android-4.2.1_r1.2" />
-  <project path="hardware/ti/omap3" name="platform/hardware/ti/omap3" revision="refs/tags/android-4.2.1_r1.2" />
+  <project path="hardware/invensense" name="platform/hardware/invensense" />
+  <project path="hardware/samsung_slsi/exynos5" name="platform/hardware/samsung_slsi/exynos5" />
+  <project path="hardware/ti/omap3" name="platform/hardware/ti/omap3" />
   <project path="libnativehelper" name="platform/libnativehelper" />
   <project path="packages/wallpapers/LivePicker" name="platform/packages/wallpapers/LivePicker" />
 <!--  <project path="prebuilts/clang/darwin-x86/3.1" name="platform/prebuilts/clang/darwin-x86/3.1" groups="darwin" />-->
