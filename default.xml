@@ -26,6 +26,7 @@
   <project path="packages/apps/EVTips" name="android_packages_apps_EVTips" groups="ev-extra" />
   <project path="packages/apps/EVToolbox" name="android_packages_apps_EVToolbox" groups="ev-extra" />
   <project path="packages/apps/EVWidgets" name="android_packages_apps_EVWidgets" groups="ev-extra" />
+  <project path="packages/apps/EVUpdater" name="android_packages_apps_EVUpdater" groups="ev-extra" />
   <project path="packages/apps/Superuser" name="android_packages_apps_Superuser" groups="ev-extra" />
   <project path="vendor/ev" name="android_vendor_ev" groups="ev-extra" />
 
