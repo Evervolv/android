@@ -48,6 +48,7 @@
   <project path="device/generic/goldfish" name="android_device_generic_goldfish" groups="ev-aosp" />
   <project path="external/aac" name="android_external_aac" groups="ev-aosp" />
   <project path="external/android-mock" name="android_external_android-mock" groups="ev-aosp" />
+  <project path="external/bluetooth/bluedroid" name="android_external_bluetooth_bluedroid" groups="ev-aosp" />
   <project path="external/chromium" name="android_external_chromium" groups="ev-aosp" />
   <project path="external/elfutils" name="android_external_elfutils" groups="ev-aosp" />
   <project path="external/fsck_msdos" name="android_external_fsck_msdos" groups="ev-aosp" />
@@ -65,6 +66,7 @@
   <project path="frameworks/base" name="android_frameworks_base" groups="ev-aosp" />
   <project path="frameworks/native" name="android_frameworks_native" groups="ev-aosp" />
   <project path="frameworks/opt/telephony" name="android_frameworks_opt_telephony" groups="ev-aosp" />
+  <project path="frameworks/opt/vcard" name="android_frameworks_opt_vcard" groups="ev-aosp" />
   <project path="hardware/broadcom/wlan" name="android_hardware_broadcom_wlan" groups="ev-aosp" />
   <project path="hardware/libhardware" name="android_hardware_libhardware" groups="ev-aosp" />
   <project path="hardware/libhardware_legacy" name="android_hardware_libhardware_legacy" groups="ev-aosp" />
@@ -128,7 +130,6 @@
   <project path="external/arduino" name="platform/external/arduino" remote="aosp" revision="refs/tags/android-4.3_r2.1" />
   <project path="external/bison" name="platform/external/bison" remote="aosp" revision="refs/tags/android-4.3_r2.1" groups="pdk" />
   <project path="external/blktrace" name="platform/external/blktrace" remote="aosp" revision="refs/tags/android-4.3_r2.1" />
-  <project path="external/bluetooth/bluedroid" name="platform/external/bluetooth/bluedroid" remote="aosp" revision="refs/tags/android-4.3_r2.1" groups="pdk" />
   <project path="external/bouncycastle" name="platform/external/bouncycastle" remote="aosp" revision="refs/tags/android-4.3_r2.1" />
   <project path="external/bsdiff" name="platform/external/bsdiff" remote="aosp" revision="refs/tags/android-4.3_r2.1" groups="pdk" />
   <project path="external/bzip2" name="platform/external/bzip2" remote="aosp" revision="refs/tags/android-4.3_r2.1" groups="pdk" />
@@ -283,7 +284,6 @@
   <project path="frameworks/opt/net/voip" name="platform/frameworks/opt/net/voip" remote="aosp" revision="refs/tags/android-4.3_r2.1" />
   <project path="frameworks/opt/photoviewer" name="platform/frameworks/opt/photoviewer" remote="aosp" revision="refs/tags/android-4.3_r2.1" />
   <project path="frameworks/opt/timezonepicker" name="platform/frameworks/opt/timezonepicker" remote="aosp" revision="refs/tags/android-4.3_r2.1" />
-  <project path="frameworks/opt/vcard" name="platform/frameworks/opt/vcard" remote="aosp" revision="refs/tags/android-4.3_r2.1" />
   <project path="frameworks/rs" name="platform/frameworks/rs" remote="aosp" revision="refs/tags/android-4.3_r2.1" groups="pdk" />
   <project path="frameworks/support" name="platform/frameworks/support" remote="aosp" revision="refs/tags/android-4.3_r2.1" />
   <project path="frameworks/testing" name="platform/frameworks/testing" remote="aosp" revision="refs/tags/android-4.3_r2.1" />
