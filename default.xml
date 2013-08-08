@@ -68,6 +68,7 @@
   <project path="frameworks/native" name="android_frameworks_native" groups="ev-aosp" />
   <project path="frameworks/opt/telephony" name="android_frameworks_opt_telephony" groups="ev-aosp" />
   <project path="frameworks/opt/vcard" name="android_frameworks_opt_vcard" groups="ev-aosp" />
+  <project path="hardware/broadcom/libbt" name="android_hardware_broadcom_libbt" groups="ev-aosp" />
   <project path="hardware/broadcom/wlan" name="android_hardware_broadcom_wlan" groups="ev-aosp" />
   <project path="hardware/libhardware" name="android_hardware_libhardware" groups="ev-aosp" />
   <project path="hardware/libhardware_legacy" name="android_hardware_libhardware_legacy" groups="ev-aosp" />
@@ -292,7 +293,6 @@
   <project path="frameworks/webview" name="platform/frameworks/webview" remote="aosp" revision="refs/tags/android-4.3_r2.1" />
   <project path="frameworks/wilhelm" name="platform/frameworks/wilhelm" remote="aosp" revision="refs/tags/android-4.3_r2.1" />
   <project path="hardware/akm" name="platform/hardware/akm" remote="aosp" revision="refs/tags/android-4.3_r2.1" />
-  <project path="hardware/broadcom/libbt" name="platform/hardware/broadcom/libbt" remote="aosp" revision="refs/tags/android-4.3_r2.1" groups="pdk" />
   <project path="hardware/invensense" name="platform/hardware/invensense" remote="aosp" revision="refs/tags/android-4.3_r2.1" groups="invensense" />
   <project path="hardware/samsung_slsi/exynos5" name="platform/hardware/samsung_slsi/exynos5" remote="aosp" revision="refs/tags/android-4.3_r2.1" groups="exynos5" />
   <project path="hardware/ti/omap3" name="platform/hardware/ti/omap3" remote="aosp" revision="refs/tags/android-4.3_r2.1" />
