@@ -86,13 +86,11 @@
   <project path="libcore" name="android_libcore" groups="ev-aosp" />
   <project path="packages/apps/Bluetooth" name="android_packages_apps_Bluetooth" groups="ev-aosp" />
   <project path="packages/apps/Browser" name="android_packages_apps_Browser" groups="ev-aosp" />
-  <project path="packages/apps/Camera" name="android_packages_apps_Camera" groups="ev-aosp" />
   <project path="packages/apps/Contacts" name="android_packages_apps_Contacts" groups="ev-aosp" />
   <project path="packages/apps/DeskClock" name="android_packages_apps_DeskClock" groups="ev-aosp" />
   <project path="packages/apps/Email" name="android_packages_apps_Email" groups="ev-aosp" />
   <project path="packages/apps/Gallery2" name="android_packages_apps_Gallery2" groups="ev-aosp" />
   <project path="packages/apps/Launcher2" name="android_packages_apps_Launcher2" groups="ev-aosp" />
-  <project path="packages/apps/LegacyCamera" name="android_packages_apps_LegacyCamera" groups="ev-aosp" />
   <project path="packages/apps/Mms" name="android_packages_apps_Mms" groups="ev-aosp" />
   <project path="packages/apps/Phone" name="android_packages_apps_Phone" groups="ev-aosp" />
   <project path="packages/apps/Provision" name="android_packages_apps_Provision" groups="ev-aosp" />
@@ -307,7 +305,6 @@
   <project path="packages/apps/ContactsCommon" name="platform/packages/apps/ContactsCommon" remote="aosp" revision="refs/tags/android-4.3_r2.2" />
   <project path="packages/apps/Dialer" name="platform/packages/apps/Dialer" remote="aosp" revision="refs/tags/android-4.3_r2.2" />
   <project path="packages/apps/Exchange" name="platform/packages/apps/Exchange" remote="aosp" revision="refs/tags/android-4.3_r2.2" />
-  <project path="packages/apps/Gallery" name="platform/packages/apps/Gallery" remote="aosp" revision="refs/tags/android-4.3_r2.2" />
   <project path="packages/apps/HTMLViewer" name="platform/packages/apps/HTMLViewer" remote="aosp" revision="refs/tags/android-4.3_r2.2" />
   <project path="packages/apps/KeyChain" name="platform/packages/apps/KeyChain" remote="aosp" revision="refs/tags/android-4.3_r2.2" />
   <project path="packages/apps/Music" name="platform/packages/apps/Music" remote="aosp" revision="refs/tags/android-4.3_r2.2" />
