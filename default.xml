@@ -110,266 +110,266 @@
   <project path="system/vold" name="android_system_vold" groups="ev-aosp" />
 
   <!--AOSP Hosted Projects-->
-  <project path="abi/cpp" name="platform/abi/cpp" remote="aosp" revision="refs/tags/android-4.3_r2.2" groups="pdk" />
-  <project path="bootable/bootloader/legacy" name="platform/bootable/bootloader/legacy" remote="aosp" revision="refs/tags/android-4.3_r2.2" />
-  <project path="bootable/diskinstaller" name="platform/bootable/diskinstaller" remote="aosp" revision="refs/tags/android-4.3_r2.2" />
-  <project path="cts" name="platform/cts" remote="aosp" revision="refs/tags/android-4.3_r2.2" groups="cts" />
-  <project path="developers/build" name="platform/developers/build" remote="aosp" revision="refs/tags/android-4.3_r2.2" />
-  <project path="developers/demos" name="platform/developers/demos" remote="aosp" revision="refs/tags/android-4.3_r2.2" />
-  <project path="developers/docs" name="platform/developers/docs" remote="aosp" revision="refs/tags/android-4.3_r2.2" />
-  <project path="developers/samples/android" name="platform/developers/samples/android" remote="aosp" revision="refs/tags/android-4.3_r2.2" />
-  <project path="docs/source.android.com" name="platform/docs/source.android.com" remote="aosp" revision="refs/tags/android-4.3_r2.2" />
-  <project path="external/android-clat" name="platform/external/android-clat" remote="aosp" revision="refs/tags/android-4.3_r2.2" />
-  <project path="external/ant-glob" name="platform/external/ant-glob" remote="aosp" revision="refs/tags/android-4.3_r2.2" />
-  <project path="external/antlr" name="platform/external/antlr" remote="aosp" revision="refs/tags/android-4.3_r2.2" />
-  <project path="external/apache-harmony" name="platform/external/apache-harmony" remote="aosp" revision="refs/tags/android-4.3_r2.2" />
-  <project path="external/apache-http" name="platform/external/apache-http" remote="aosp" revision="refs/tags/android-4.3_r2.2" />
-  <project path="external/apache-qp" name="platform/external/apache-qp" remote="aosp" revision="refs/tags/android-4.3_r2.2" />
-  <project path="external/apache-xml" name="platform/external/apache-xml" remote="aosp" revision="refs/tags/android-4.3_r2.2" />
-  <project path="external/arduino" name="platform/external/arduino" remote="aosp" revision="refs/tags/android-4.3_r2.2" />
-  <project path="external/bison" name="platform/external/bison" remote="aosp" revision="refs/tags/android-4.3_r2.2" groups="pdk" />
-  <project path="external/blktrace" name="platform/external/blktrace" remote="aosp" revision="refs/tags/android-4.3_r2.2" />
-  <project path="external/bouncycastle" name="platform/external/bouncycastle" remote="aosp" revision="refs/tags/android-4.3_r2.2" />
-  <project path="external/bsdiff" name="platform/external/bsdiff" remote="aosp" revision="refs/tags/android-4.3_r2.2" groups="pdk" />
-  <project path="external/bzip2" name="platform/external/bzip2" remote="aosp" revision="refs/tags/android-4.3_r2.2" groups="pdk" />
-  <project path="external/ceres-solver" name="platform/external/ceres-solver" remote="aosp" revision="refs/tags/android-4.3_r2.2" />
-  <project path="external/checkpolicy" name="platform/external/checkpolicy" remote="aosp" revision="refs/tags/android-4.3_r2.2" groups="pdk" />
-  <project path="external/chromium-trace" name="platform/external/chromium-trace" remote="aosp" revision="refs/tags/android-4.3_r2.2" groups="pdk" />
-  <project path="external/clang" name="platform/external/clang" remote="aosp" revision="refs/tags/android-4.3_r2.2" groups="pdk" />
-  <project path="external/compiler-rt" name="platform/external/compiler-rt" remote="aosp" revision="refs/tags/android-4.3_r2.2" groups="pdk" />
-  <project path="external/dexmaker" name="platform/external/dexmaker" remote="aosp" revision="refs/tags/android-4.3_r2.2" />
-  <project path="external/dhcpcd" name="platform/external/dhcpcd" remote="aosp" revision="refs/tags/android-4.3_r2.2" />
-  <project path="external/dnsmasq" name="platform/external/dnsmasq" remote="aosp" revision="refs/tags/android-4.3_r2.2" groups="pdk" />
-  <project path="external/doclava" name="platform/external/doclava" remote="aosp" revision="refs/tags/android-4.3_r2.2" />
-  <project path="external/dropbear" name="platform/external/dropbear" remote="aosp" revision="refs/tags/android-4.3_r2.2" />
-  <project path="external/e2fsprogs" name="platform/external/e2fsprogs" remote="aosp" revision="refs/tags/android-4.3_r2.2" groups="pdk" />
-  <project path="external/easymock" name="platform/external/easymock" remote="aosp" revision="refs/tags/android-4.3_r2.2" />
-  <project path="external/eclipse-basebuilder" name="platform/external/eclipse-basebuilder" remote="aosp" revision="refs/tags/android-4.3_r2.2" />
-  <project path="external/eclipse-windowbuilder" name="platform/external/eclipse-windowbuilder" remote="aosp" revision="refs/tags/android-4.3_r2.2" />
-  <project path="external/eigen" name="platform/external/eigen" remote="aosp" revision="refs/tags/android-4.3_r2.2" />
-  <project path="external/embunit" name="platform/external/embunit" remote="aosp" revision="refs/tags/android-4.3_r2.2" />
-  <project path="external/emma" name="platform/external/emma" remote="aosp" revision="refs/tags/android-4.3_r2.2" />
-  <project path="external/esd" name="platform/external/esd" remote="aosp" revision="refs/tags/android-4.3_r2.2" />
-  <project path="external/expat" name="platform/external/expat" remote="aosp" revision="refs/tags/android-4.3_r2.2" groups="pdk" />
-  <project path="external/eyes-free" name="platform/external/eyes-free" remote="aosp" revision="refs/tags/android-4.3_r2.2" />
-  <project path="external/fdlibm" name="platform/external/fdlibm" remote="aosp" revision="refs/tags/android-4.3_r2.2" />
-  <project path="external/flac" name="platform/external/flac" remote="aosp" revision="refs/tags/android-4.3_r2.2" groups="pdk" />
-  <project path="external/freetype" name="platform/external/freetype" remote="aosp" revision="refs/tags/android-4.3_r2.2" groups="pdk" />
-  <project path="external/ganymed-ssh2" name="platform/external/ganymed-ssh2" remote="aosp" revision="refs/tags/android-4.3_r2.2" />
-  <project path="external/gcc-demangle" name="platform/external/gcc-demangle" remote="aosp" revision="refs/tags/android-4.3_r2.2" groups="pdk" />
-  <project path="external/genext2fs" name="platform/external/genext2fs" remote="aosp" revision="refs/tags/android-4.3_r2.2" />
-  <project path="external/giflib" name="platform/external/giflib" remote="aosp" revision="refs/tags/android-4.3_r2.2" />
-  <project path="external/google-diff-match-patch" name="platform/external/google-diff-match-patch" remote="aosp" revision="refs/tags/android-4.3_r2.2" />
-  <project path="external/grub" name="platform/external/grub" remote="aosp" revision="refs/tags/android-4.3_r2.2" />
-  <project path="external/gtest" name="platform/external/gtest" remote="aosp" revision="refs/tags/android-4.3_r2.2" groups="pdk" />
-  <project path="external/guava" name="platform/external/guava" remote="aosp" revision="refs/tags/android-4.3_r2.2" />
-  <project path="external/hamcrest" name="platform/external/hamcrest" remote="aosp" revision="refs/tags/android-4.3_r2.2" />
-  <project path="external/harfbuzz" name="platform/external/harfbuzz" remote="aosp" revision="refs/tags/android-4.3_r2.2" />
-  <project path="external/harfbuzz_ng" name="platform/external/harfbuzz_ng" remote="aosp" revision="refs/tags/android-4.3_r2.2" />
-  <project path="external/hyphenation" name="platform/external/hyphenation" remote="aosp" revision="refs/tags/android-4.3_r2.2" />
-  <project path="external/icu4c" name="platform/external/icu4c" remote="aosp" revision="refs/tags/android-4.3_r2.2" groups="pdk" />
-  <project path="external/iproute2" name="platform/external/iproute2" remote="aosp" revision="refs/tags/android-4.3_r2.2" groups="pdk" />
-  <project path="external/ipsec-tools" name="platform/external/ipsec-tools" remote="aosp" revision="refs/tags/android-4.3_r2.2" />
-  <project path="external/iptables" name="platform/external/iptables" remote="aosp" revision="refs/tags/android-4.3_r2.2" />
-  <project path="external/jack" name="platform/external/jack" remote="aosp" revision="refs/tags/android-4.3_r2.2" />
-  <project path="external/javassist" name="platform/external/javassist" remote="aosp" revision="refs/tags/android-4.3_r2.2" />
-  <project path="external/jdiff" name="platform/external/jdiff" remote="aosp" revision="refs/tags/android-4.3_r2.2" />
-  <project path="external/jhead" name="platform/external/jhead" remote="aosp" revision="refs/tags/android-4.3_r2.2" groups="pdk" />
-  <project path="external/jmdns" name="platform/external/jmdns" remote="aosp" revision="refs/tags/android-4.3_r2.2" />
-  <project path="external/jmonkeyengine" name="platform/external/jmonkeyengine" remote="aosp" revision="refs/tags/android-4.3_r2.2" />
-  <project path="external/jpeg" name="platform/external/jpeg" groups="pdk" remote="aosp" revision="refs/tags/android-4.3_r2.2" />
-  <project path="external/jsilver" name="platform/external/jsilver" remote="aosp" revision="refs/tags/android-4.3_r2.2" />
-  <project path="external/jsr305" name="platform/external/jsr305" remote="aosp" revision="refs/tags/android-4.3_r2.2" />
-  <project path="external/junit" name="platform/external/junit" remote="aosp" revision="refs/tags/android-4.3_r2.2" />
-  <project path="external/kernel-headers" name="platform/external/kernel-headers" remote="aosp" revision="refs/tags/android-4.3_r2.2" />
-  <project path="external/libcap-ng" name="platform/external/libcap-ng" remote="aosp" revision="refs/tags/android-4.3_r2.2" />
-  <project path="external/libffi" name="platform/external/libffi" remote="aosp" revision="refs/tags/android-4.3_r2.2" />
-  <project path="external/libgsm" name="platform/external/libgsm" remote="aosp" revision="refs/tags/android-4.3_r2.2" groups="pdk" />
-  <project path="external/liblzf" name="platform/external/liblzf" remote="aosp" revision="refs/tags/android-4.3_r2.2" groups="pdk" />
-  <project path="external/libmtp" name="platform/external/libmtp" remote="aosp" revision="refs/tags/android-4.3_r2.2" />
-  <project path="external/libnfc-nci" name="platform/external/libnfc-nci" remote="aosp" revision="refs/tags/android-4.3_r2.2" groups="pdk" />
-  <project path="external/libnfc-nxp" name="platform/external/libnfc-nxp" remote="aosp" revision="refs/tags/android-4.3_r2.2" groups="nxp_nfc" />
-  <project path="external/libnl-headers" name="platform/external/libnl-headers" remote="aosp" revision="refs/tags/android-4.3_r2.2" groups="pdk" />
-  <project path="external/libogg" name="platform/external/libogg" remote="aosp" revision="refs/tags/android-4.3_r2.2" />
-  <project path="external/libpcap" name="platform/external/libpcap" remote="aosp" revision="refs/tags/android-4.3_r2.2" />
-  <project path="external/libphonenumber" name="platform/external/libphonenumber" remote="aosp" revision="refs/tags/android-4.3_r2.2" />
-  <project path="external/libpng" name="platform/external/libpng" remote="aosp" revision="refs/tags/android-4.3_r2.2" groups="pdk" />
-  <project path="external/libppp" name="platform/external/libppp" remote="aosp" revision="refs/tags/android-4.3_r2.2" />
-  <project path="external/libselinux" name="platform/external/libselinux" remote="aosp" revision="refs/tags/android-4.3_r2.2" groups="pdk" />
-  <project path="external/libsepol" name="platform/external/libsepol" remote="aosp" revision="refs/tags/android-4.3_r2.2" groups="pdk" />
-  <project path="external/libusb" name="platform/external/libusb" remote="aosp" revision="refs/tags/android-4.3_r2.2" />
-  <project path="external/libusb_aah" name="platform/external/libusb_aah" remote="aosp" revision="refs/tags/android-4.3_r2.2" groups="libusb_aah" />
-  <project path="external/libusb-compat" name="platform/external/libusb-compat" remote="aosp" revision="refs/tags/android-4.3_r2.2" />
-  <project path="external/libvorbis" name="platform/external/libvorbis" remote="aosp" revision="refs/tags/android-4.3_r2.2" />
-  <project path="external/libvpx" name="platform/external/libvpx" remote="aosp" revision="refs/tags/android-4.3_r2.2" groups="pdk" />
-  <project path="external/libxml2" name="platform/external/libxml2" remote="aosp" revision="refs/tags/android-4.3_r2.2" />
-  <project path="external/libxslt" name="platform/external/libxslt" remote="aosp" revision="refs/tags/android-4.3_r2.2" />
-  <project path="external/libyuv" name="platform/external/libyuv" remote="aosp" revision="refs/tags/android-4.3_r2.2" groups="libyuv" />
-  <project path="external/linux-tools-perf" name="platform/external/linux-tools-perf" remote="aosp" revision="refs/tags/android-4.3_r2.2" />
-  <project path="external/littlemock" name="platform/external/littlemock" remote="aosp" revision="refs/tags/android-4.3_r2.2" />
-  <project path="external/llvm" name="platform/external/llvm" remote="aosp" revision="refs/tags/android-4.3_r2.2" groups="pdk" />
-  <project path="external/marisa-trie" name="platform/external/marisa-trie" remote="aosp" revision="refs/tags/android-4.3_r2.2" />
-  <project path="external/markdown" name="platform/external/markdown" remote="aosp" revision="refs/tags/android-4.3_r2.2" />
-  <project path="external/mdnsresponder" name="platform/external/mdnsresponder" remote="aosp" revision="refs/tags/android-4.3_r2.2" groups="pdk" />
-  <project path="external/mksh" name="platform/external/mksh" remote="aosp" revision="refs/tags/android-4.3_r2.2" groups="pdk" />
-  <project path="external/mockito" name="platform/external/mockito" remote="aosp" revision="refs/tags/android-4.3_r2.2" />
-  <project path="external/mockwebserver" name="platform/external/mockwebserver" remote="aosp" revision="refs/tags/android-4.3_r2.2" />
-  <project path="external/mp4parser" name="platform/external/mp4parser" remote="aosp" revision="refs/tags/android-4.3_r2.2" />
-  <project path="external/mtpd" name="platform/external/mtpd" remote="aosp" revision="refs/tags/android-4.3_r2.2" />
-  <project path="external/naver-fonts" name="platform/external/naver-fonts" remote="aosp" revision="refs/tags/android-4.3_r2.2" />
-  <project path="external/netcat" name="platform/external/netcat" remote="aosp" revision="refs/tags/android-4.3_r2.2" />
-  <project path="external/netperf" name="platform/external/netperf" remote="aosp" revision="refs/tags/android-4.3_r2.2" />
-  <project path="external/neven" name="platform/external/neven" remote="aosp" revision="refs/tags/android-4.3_r2.2" />
-  <project path="external/nist-pkits" name="platform/external/nist-pkits" remote="aosp" revision="refs/tags/android-4.3_r2.2" />
-  <project path="external/nist-sip" name="platform/external/nist-sip" remote="aosp" revision="refs/tags/android-4.3_r2.2" />
-  <project path="external/noto-fonts" name="platform/external/noto-fonts" remote="aosp" revision="refs/tags/android-4.3_r2.2" />
-  <project path="external/oauth" name="platform/external/oauth" remote="aosp" revision="refs/tags/android-4.3_r2.2" />
-  <project path="external/objenesis" name="platform/external/objenesis" remote="aosp" revision="refs/tags/android-4.3_r2.2" />
-  <project path="external/okhttp" name="platform/external/okhttp" remote="aosp" revision="refs/tags/android-4.3_r2.2" />
-  <project path="external/open-vcdiff" name="platform/external/open-vcdiff" remote="aosp" revision="refs/tags/android-4.3_r2.2" />
-  <project path="external/opencv" name="platform/external/opencv" remote="aosp" revision="refs/tags/android-4.3_r2.2" />
-  <project path="external/openfst" name="platform/external/openfst" remote="aosp" revision="refs/tags/android-4.3_r2.2" />
-  <project path="external/openssl" name="platform/external/openssl" remote="aosp" revision="refs/tags/android-4.3_r2.2" groups="pdk" />
-  <project path="external/oprofile" name="platform/external/oprofile" remote="aosp" revision="refs/tags/android-4.3_r2.2" />
-  <project path="external/ping" name="platform/external/ping" remote="aosp" revision="refs/tags/android-4.3_r2.2" />
-  <project path="external/ping6" name="platform/external/ping6" remote="aosp" revision="refs/tags/android-4.3_r2.2" />
-  <project path="external/ppp" name="platform/external/ppp" remote="aosp" revision="refs/tags/android-4.3_r2.2" />
-  <project path="external/proguard" name="platform/external/proguard" remote="aosp" revision="refs/tags/android-4.3_r2.2" groups="pdk-java" />
-  <project path="external/protobuf" name="platform/external/protobuf" remote="aosp" revision="refs/tags/android-4.3_r2.2" groups="pdk" />
-  <project path="external/qemu" name="platform/external/qemu" remote="aosp" revision="refs/tags/android-4.3_r2.2" />
-  <project path="external/qemu-pc-bios" name="platform/external/qemu-pc-bios" remote="aosp" revision="refs/tags/android-4.3_r2.2" />
-  <project path="external/quake" name="platform/external/quake" remote="aosp" revision="refs/tags/android-4.3_r2.2" />
-  <project path="external/regex-re2" name="platform/external/regex-re2" remote="aosp" revision="refs/tags/android-4.3_r2.2" />
-  <project path="external/replicaisland" name="platform/external/replicaisland" remote="aosp" revision="refs/tags/android-4.3_r2.2" />
-  <project path="external/robolectric" name="platform/external/robolectric" remote="aosp" revision="refs/tags/android-4.3_r2.2" />
-  <project path="external/safe-iop" name="platform/external/safe-iop" remote="aosp" revision="refs/tags/android-4.3_r2.2" groups="pdk" />
-  <project path="external/sepolicy" name="platform/external/sepolicy" remote="aosp" revision="refs/tags/android-4.3_r2.2" groups="pdk" />
-  <project path="external/skia" name="platform/external/skia" remote="aosp" revision="refs/tags/android-4.3_r2.2" />
-  <project path="external/smack" name="platform/external/smack" remote="aosp" revision="refs/tags/android-4.3_r2.2" />
-  <project path="external/smali" name="platform/external/smali" remote="aosp" revision="refs/tags/android-4.3_r2.2" />
-  <project path="external/sonivox" name="platform/external/sonivox" remote="aosp" revision="refs/tags/android-4.3_r2.2" groups="pdk" />
-  <project path="external/speex" name="platform/external/speex" remote="aosp" revision="refs/tags/android-4.3_r2.2" groups="pdk" />
-  <project path="external/sqlite" name="platform/external/sqlite" remote="aosp" revision="refs/tags/android-4.3_r2.2" groups="pdk" />
-  <project path="external/srtp" name="platform/external/srtp" remote="aosp" revision="refs/tags/android-4.3_r2.2" />
-  <project path="external/strace" name="platform/external/strace" remote="aosp" revision="refs/tags/android-4.3_r2.2" />
-  <project path="external/stressapptest" name="platform/external/stressapptest" remote="aosp" revision="refs/tags/android-4.3_r2.2" />
-  <project path="external/svox" name="platform/external/svox" remote="aosp" revision="refs/tags/android-4.3_r2.2" />
-  <project path="external/tagsoup" name="platform/external/tagsoup" remote="aosp" revision="refs/tags/android-4.3_r2.2" />
-  <project path="external/tcpdump" name="platform/external/tcpdump" remote="aosp" revision="refs/tags/android-4.3_r2.2" />
-  <project path="external/timezonepicker-support" name="platform/external/timezonepicker-support" remote="aosp" revision="refs/tags/android-4.3_r2.2" />
-  <project path="external/tinyxml" name="platform/external/tinyxml" remote="aosp" revision="refs/tags/android-4.3_r2.2" groups="pdk" />
-  <project path="external/tinyxml2" name="platform/external/tinyxml2" remote="aosp" revision="refs/tags/android-4.3_r2.2" groups="pdk" />
-  <project path="external/tremolo" name="platform/external/tremolo" remote="aosp" revision="refs/tags/android-4.3_r2.2" groups="pdk" />
-  <project path="external/valgrind" name="platform/external/valgrind" remote="aosp" revision="refs/tags/android-4.3_r2.2" groups="pdk" />
-  <project path="external/webp" name="platform/external/webp" remote="aosp" revision="refs/tags/android-4.3_r2.2" />
-  <project path="external/webrtc" name="platform/external/webrtc" remote="aosp" revision="refs/tags/android-4.3_r2.2" groups="pdk" />
-  <project path="external/xmlwriter" name="platform/external/xmlwriter" remote="aosp" revision="refs/tags/android-4.3_r2.2" />
-  <project path="external/xmp_toolkit" name="platform/external/xmp_toolkit" remote="aosp" revision="refs/tags/android-4.3_r2.2" />
-  <project path="external/zxing" name="platform/external/zxing" remote="aosp" revision="refs/tags/android-4.3_r2.2" />
-  <project path="frameworks/compile/libbcc" name="platform/frameworks/compile/libbcc" remote="aosp" revision="refs/tags/android-4.3_r2.2" groups="pdk" />
-  <project path="frameworks/compile/mclinker" name="platform/frameworks/compile/mclinker" remote="aosp" revision="refs/tags/android-4.3_r2.2" groups="pdk" />
-  <project path="frameworks/compile/slang" name="platform/frameworks/compile/slang" remote="aosp" revision="refs/tags/android-4.3_r2.2" groups="pdk" />
-  <project path="frameworks/ex" name="platform/frameworks/ex" remote="aosp" revision="refs/tags/android-4.3_r2.2" />
-  <project path="frameworks/mff" name="platform/frameworks/mff" remote="aosp" revision="refs/tags/android-4.3_r2.2" />
-  <project path="frameworks/ml" name="platform/frameworks/ml" remote="aosp" revision="refs/tags/android-4.3_r2.2" />
-  <project path="frameworks/opt/calendar" name="platform/frameworks/opt/calendar" remote="aosp" revision="refs/tags/android-4.3_r2.2" />
-  <project path="frameworks/opt/carddav" name="platform/frameworks/opt/carddav" remote="aosp" revision="refs/tags/android-4.3_r2.2" />
-  <project path="frameworks/opt/colorpicker" name="platform/frameworks/opt/colorpicker" remote="aosp" revision="refs/tags/android-4.3_r2.2" />
-  <project path="frameworks/opt/datetimepicker" name="platform/frameworks/opt/datetimepicker" remote="aosp" revision="refs/tags/android-4.3_r2.2" />
-  <project path="frameworks/opt/emoji" name="platform/frameworks/opt/emoji" remote="aosp" revision="refs/tags/android-4.3_r2.2" />
-  <project path="frameworks/opt/inputmethodcommon" name="platform/frameworks/opt/inputmethodcommon" remote="aosp" revision="refs/tags/android-4.3_r2.2" />
-  <project path="frameworks/opt/mailcommon" name="platform/frameworks/opt/mailcommon" remote="aosp" revision="refs/tags/android-4.3_r2.2" />
-  <project path="frameworks/opt/mms" name="platform/frameworks/opt/mms" remote="aosp" revision="refs/tags/android-4.3_r2.2" />
-  <project path="frameworks/opt/net/voip" name="platform/frameworks/opt/net/voip" remote="aosp" revision="refs/tags/android-4.3_r2.2" />
-  <project path="frameworks/opt/photoviewer" name="platform/frameworks/opt/photoviewer" remote="aosp" revision="refs/tags/android-4.3_r2.2" />
-  <project path="frameworks/opt/timezonepicker" name="platform/frameworks/opt/timezonepicker" remote="aosp" revision="refs/tags/android-4.3_r2.2" />
-  <project path="frameworks/rs" name="platform/frameworks/rs" remote="aosp" revision="refs/tags/android-4.3_r2.2" groups="pdk" />
-  <project path="frameworks/support" name="platform/frameworks/support" remote="aosp" revision="refs/tags/android-4.3_r2.2" />
-  <project path="frameworks/testing" name="platform/frameworks/testing" remote="aosp" revision="refs/tags/android-4.3_r2.2" />
-  <project path="frameworks/volley" name="platform/frameworks/volley" remote="aosp" revision="refs/tags/android-4.3_r2.2" />
-  <project path="frameworks/webview" name="platform/frameworks/webview" remote="aosp" revision="refs/tags/android-4.3_r2.2" />
-  <project path="frameworks/wilhelm" name="platform/frameworks/wilhelm" remote="aosp" revision="refs/tags/android-4.3_r2.2" />
-  <project path="hardware/akm" name="platform/hardware/akm" remote="aosp" revision="refs/tags/android-4.3_r2.2" />
-  <project path="hardware/invensense" name="platform/hardware/invensense" remote="aosp" revision="refs/tags/android-4.3_r2.2" groups="invensense" />
-  <project path="hardware/samsung_slsi/exynos5" name="platform/hardware/samsung_slsi/exynos5" remote="aosp" revision="refs/tags/android-4.3_r2.2" groups="exynos5" />
-  <project path="hardware/ti/omap3" name="platform/hardware/ti/omap3" remote="aosp" revision="refs/tags/android-4.3_r2.2" />
-  <project path="hardware/ti/omap4xxx" name="platform/hardware/ti/omap4xxx" remote="aosp" revision="refs/tags/android-4.3_r2.2" groups="omap4" />
-  <project path="hardware/ti/wpan" name="platform/hardware/ti/wpan" remote="aosp" revision="refs/tags/android-4.3_r2.2" />
-  <project path="libnativehelper" name="platform/libnativehelper" remote="aosp" revision="refs/tags/android-4.3_r2.2" groups="pdk-java" />
-  <project path="ndk" name="platform/ndk" remote="aosp" revision="refs/tags/android-4.3_r2.2" />
-  <project path="packages/apps/BasicSmsReceiver" name="platform/packages/apps/BasicSmsReceiver" remote="aosp" revision="refs/tags/android-4.3_r2.2" />
-  <project path="packages/apps/Calculator" name="platform/packages/apps/Calculator" remote="aosp" revision="refs/tags/android-4.3_r2.2" />
-  <project path="packages/apps/Calendar" name="platform/packages/apps/Calendar" remote="aosp" revision="refs/tags/android-4.3_r2.2" />
-  <project path="packages/apps/CellBroadcastReceiver" name="platform/packages/apps/CellBroadcastReceiver" remote="aosp" revision="refs/tags/android-4.3_r2.2" />
-  <project path="packages/apps/CertInstaller" name="platform/packages/apps/CertInstaller" remote="aosp" revision="refs/tags/android-4.3_r2.2" />
-  <project path="packages/apps/ContactsCommon" name="platform/packages/apps/ContactsCommon" remote="aosp" revision="refs/tags/android-4.3_r2.2" />
-  <project path="packages/apps/Dialer" name="platform/packages/apps/Dialer" remote="aosp" revision="refs/tags/android-4.3_r2.2" />
-  <project path="packages/apps/Exchange" name="platform/packages/apps/Exchange" remote="aosp" revision="refs/tags/android-4.3_r2.2" />
-  <project path="packages/apps/HTMLViewer" name="platform/packages/apps/HTMLViewer" remote="aosp" revision="refs/tags/android-4.3_r2.2" />
-  <project path="packages/apps/KeyChain" name="platform/packages/apps/KeyChain" remote="aosp" revision="refs/tags/android-4.3_r2.2" />
-  <project path="packages/apps/Music" name="platform/packages/apps/Music" remote="aosp" revision="refs/tags/android-4.3_r2.2" />
-  <project path="packages/apps/MusicFX" name="platform/packages/apps/MusicFX" remote="aosp" revision="refs/tags/android-4.3_r2.2" />
-  <project path="packages/apps/Nfc" name="platform/packages/apps/Nfc" remote="aosp" revision="refs/tags/android-4.3_r2.2" />
-  <project path="packages/apps/OneTimeInitializer" name="platform/packages/apps/OneTimeInitializer" remote="aosp" revision="refs/tags/android-4.3_r2.2" />
-  <project path="packages/apps/PackageInstaller" name="platform/packages/apps/PackageInstaller" remote="aosp" revision="refs/tags/android-4.3_r2.2" />
-  <project path="packages/apps/PhoneCommon" name="platform/packages/apps/PhoneCommon" remote="aosp" revision="refs/tags/android-4.3_r2.2" />
-  <project path="packages/apps/Protips" name="platform/packages/apps/Protips" remote="aosp" revision="refs/tags/android-4.3_r2.2" />
-  <project path="packages/apps/QuickSearchBox" name="platform/packages/apps/QuickSearchBox" remote="aosp" revision="refs/tags/android-4.3_r2.2" />
-  <project path="packages/apps/SmartCardService" name="platform/packages/apps/SmartCardService" remote="aosp" revision="refs/tags/android-4.3_r2.2" />
-  <project path="packages/apps/SoundRecorder" name="platform/packages/apps/SoundRecorder" remote="aosp" revision="refs/tags/android-4.3_r2.2" />
-  <project path="packages/apps/SpareParts" name="platform/packages/apps/SpareParts" remote="aosp" revision="refs/tags/android-4.3_r2.2" />
-  <project path="packages/apps/SpeechRecorder" name="platform/packages/apps/SpeechRecorder" remote="aosp" revision="refs/tags/android-4.3_r2.2" />
-  <project path="packages/apps/Tag" name="platform/packages/apps/Tag" remote="aosp" revision="refs/tags/android-4.3_r2.2" />
-  <project path="packages/apps/VideoEditor" name="platform/packages/apps/VideoEditor" remote="aosp" revision="refs/tags/android-4.3_r2.2" />
-  <project path="packages/experimental" name="platform/packages/experimental" remote="aosp" revision="refs/tags/android-4.3_r2.2" />
-  <project path="packages/providers/ApplicationsProvider" name="platform/packages/providers/ApplicationsProvider" remote="aosp" revision="refs/tags/android-4.3_r2.2" />
-  <project path="packages/providers/CalendarProvider" name="platform/packages/providers/CalendarProvider" remote="aosp" revision="refs/tags/android-4.3_r2.2" />
-  <project path="packages/providers/DownloadProvider" name="platform/packages/providers/DownloadProvider" remote="aosp" revision="refs/tags/android-4.3_r2.2" />
-  <project path="packages/providers/DrmProvider" name="platform/packages/providers/DrmProvider" remote="aosp" revision="refs/tags/android-4.3_r2.2" />
-  <project path="packages/providers/PartnerBookmarksProvider" name="platform/packages/providers/PartnerBookmarksProvider" remote="aosp" revision="refs/tags/android-4.3_r2.2" />
-  <project path="packages/providers/UserDictionaryProvider" name="platform/packages/providers/UserDictionaryProvider" remote="aosp" revision="refs/tags/android-4.3_r2.2" />
-  <project path="packages/screensavers/Basic" name="platform/packages/screensavers/Basic" remote="aosp" revision="refs/tags/android-4.3_r2.2" />
-  <project path="packages/screensavers/PhotoTable" name="platform/packages/screensavers/PhotoTable" remote="aosp" revision="refs/tags/android-4.3_r2.2" />
-  <project path="packages/screensavers/WebView" name="platform/packages/screensavers/WebView" remote="aosp" revision="refs/tags/android-4.3_r2.2" />
-  <project path="packages/wallpapers/Basic" name="platform/packages/wallpapers/Basic" remote="aosp" revision="refs/tags/android-4.3_r2.2" />
-  <project path="packages/wallpapers/Galaxy4" name="platform/packages/wallpapers/Galaxy4" remote="aosp" revision="refs/tags/android-4.3_r2.2" />
-  <project path="packages/wallpapers/HoloSpiral" name="platform/packages/wallpapers/HoloSpiral" remote="aosp" revision="refs/tags/android-4.3_r2.2" />
-  <project path="packages/wallpapers/LivePicker" name="platform/packages/wallpapers/LivePicker" remote="aosp" revision="refs/tags/android-4.3_r2.2" />
-  <project path="packages/wallpapers/MagicSmoke" name="platform/packages/wallpapers/MagicSmoke" remote="aosp" revision="refs/tags/android-4.3_r2.2" />
-  <project path="packages/wallpapers/MusicVisualization" name="platform/packages/wallpapers/MusicVisualization" remote="aosp" revision="refs/tags/android-4.3_r2.2" />
-  <project path="packages/wallpapers/NoiseField" name="platform/packages/wallpapers/NoiseField" remote="aosp" revision="refs/tags/android-4.3_r2.2" />
-  <project path="packages/wallpapers/PhaseBeam" name="platform/packages/wallpapers/PhaseBeam" remote="aosp" revision="refs/tags/android-4.3_r2.2" />
-  <project path="pdk" name="platform/pdk" remote="aosp" revision="refs/tags/android-4.3_r2.2" groups="pdk" />
-  <project path="prebuilts/clang/linux-x86/3.1" name="platform/prebuilts/clang/linux-x86/3.1" remote="aosp" revision="refs/tags/android-4.3_r2.2" groups="pdk,linux" />
-  <project path="prebuilts/clang/linux-x86/3.2" name="platform/prebuilts/clang/linux-x86/3.2" remote="aosp" revision="refs/tags/android-4.3_r2.2" groups="pdk,linux" />
-  <project path="prebuilts/devtools" name="platform/prebuilts/devtools" remote="aosp" revision="refs/tags/android-4.3_r2.2" />
-  <project path="prebuilts/eclipse" name="platform/prebuilts/eclipse" remote="aosp" revision="refs/tags/android-4.3_r2.2" groups="pdk" />
-  <project path="prebuilts/eclipse-build-deps" name="platform/prebuilts/eclipse-build-deps" remote="aosp" revision="refs/tags/android-4.3_r2.2" groups="notdefault,eclipse" />
-  <project path="prebuilts/eclipse-build-deps-sources" name="platform/prebuilts/eclipse-build-deps-sources" remote="aosp" revision="refs/tags/android-4.3_r2.2" groups="notdefault,eclipse" />
-  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.6" name="platform/prebuilts/gcc/linux-x86/arm/arm-eabi-4.6" remote="aosp" revision="refs/tags/android-4.3_r2.2" groups="pdk,linux,arm" />
-  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.7" name="platform/prebuilts/gcc/linux-x86/arm/arm-eabi-4.7" remote="aosp" revision="refs/tags/android-4.3_r2.2" groups="pdk,linux,arm" />
-  <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.6" name="platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.6" remote="aosp" revision="refs/tags/android-4.3_r2.2" groups="pdk,linux,arm" />
-  <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.7" name="platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.7" remote="aosp" revision="refs/tags/android-4.3_r2.2" groups="pdk,linux,arm" />
-  <project path="prebuilts/gcc/linux-x86/host/i686-linux-glibc2.7-4.4.3" name="platform/prebuilts/gcc/linux-x86/host/i686-linux-glibc2.7-4.4.3" remote="aosp" revision="refs/tags/android-4.3_r2.2" groups="pdk,linux" />
-  <project path="prebuilts/gcc/linux-x86/host/i686-linux-glibc2.7-4.6" name="platform/prebuilts/gcc/linux-x86/host/i686-linux-glibc2.7-4.6" remote="aosp" revision="refs/tags/android-4.3_r2.2" groups="pdk,linux" />
-  <project path="prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.7-4.6" name="platform/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.7-4.6" remote="aosp" revision="refs/tags/android-4.3_r2.2" groups="pdk,linux" />
-  <project path="prebuilts/gcc/linux-x86/x86/i686-linux-android-4.6" name="platform/prebuilts/gcc/linux-x86/x86/i686-linux-android-4.6" remote="aosp" revision="refs/tags/android-4.3_r2.2" groups="pdk,linux,x86" />
-  <project path="prebuilts/gcc/linux-x86/x86/i686-linux-android-4.7" name="platform/prebuilts/gcc/linux-x86/x86/i686-linux-android-4.7" remote="aosp" revision="refs/tags/android-4.3_r2.2" groups="pdk,linux,x86" />
-  <project path="prebuilts/ndk" name="platform/prebuilts/ndk" remote="aosp" revision="refs/tags/android-4.3_r2.2" groups="pdk" />
-  <project path="prebuilts/qemu-kernel" name="platform/prebuilts/qemu-kernel" remote="aosp" revision="refs/tags/android-4.3_r2.2" groups="pdk" />
-  <project path="prebuilts/sdk" name="platform/prebuilts/sdk" remote="aosp" revision="refs/tags/android-4.3_r2.2" groups="pdk" />
-  <project path="prebuilts/tools" name="platform/prebuilts/tools" remote="aosp" revision="refs/tags/android-4.3_r2.2" groups="pdk,tools" />
-  <project path="system/media" name="platform/system/media" remote="aosp" revision="refs/tags/android-4.3_r2.2" groups="pdk" />
-  <project path="system/netd" name="platform/system/netd" remote="aosp" revision="refs/tags/android-4.3_r2.2" groups="pdk" />
-  <project path="tools/adt/eclipse" name="platform/tools/adt/eclipse" remote="aosp" revision="refs/tags/android-4.3_r2.2" groups="notdefault,tools" />
-  <project path="tools/adt/idea" name="platform/tools/adt/idea" remote="aosp" revision="refs/tags/android-4.3_r2.2" groups="notdefault,tools" />
-  <project path="tools/base" name="platform/tools/base" remote="aosp" revision="refs/tags/android-4.3_r2.2" groups="notdefault,tools" />
-  <project path="tools/build" name="platform/tools/build" remote="aosp" revision="refs/tags/android-4.3_r2.2" groups="notdefault,tools" />
-  <project path="tools/emulator" name="platform/tools/emulator" remote="aosp" revision="refs/tags/android-4.3_r2.2" groups="notdefault,tools" />
-  <project path="tools/external/fat32lib" name="platform/tools/external/fat32lib" remote="aosp" revision="refs/tags/android-4.3_r2.2" groups="tools" />
-  <project path="tools/external/gradle" name="platform/tools/external/gradle" remote="aosp" revision="refs/tags/android-4.3_r2.2" groups="notdefault,tools" />
-  <project path="tools/idea" name="platform/tools/idea" remote="aosp" revision="refs/tags/android-4.3_r2.2" groups="notdefault,tools" />
-  <project path="tools/motodev" name="platform/tools/motodev" remote="aosp" revision="refs/tags/android-4.3_r2.2" groups="notdefault,motodev" />
-  <project path="tools/swt" name="platform/tools/swt" remote="aosp" revision="refs/tags/android-4.3_r2.2" groups="notdefault,tools" />
+  <project path="abi/cpp" name="platform/abi/cpp" remote="aosp" revision="refs/tags/android-4.3_r3" groups="pdk" />
+  <project path="bootable/bootloader/legacy" name="platform/bootable/bootloader/legacy" remote="aosp" revision="refs/tags/android-4.3_r3" />
+  <project path="bootable/diskinstaller" name="platform/bootable/diskinstaller" remote="aosp" revision="refs/tags/android-4.3_r3" />
+  <project path="cts" name="platform/cts" remote="aosp" revision="refs/tags/android-4.3_r3" groups="cts" />
+  <project path="developers/build" name="platform/developers/build" remote="aosp" revision="refs/tags/android-4.3_r3" />
+  <project path="developers/demos" name="platform/developers/demos" remote="aosp" revision="refs/tags/android-4.3_r3" />
+  <project path="developers/docs" name="platform/developers/docs" remote="aosp" revision="refs/tags/android-4.3_r3" />
+  <project path="developers/samples/android" name="platform/developers/samples/android" remote="aosp" revision="refs/tags/android-4.3_r3" />
+  <project path="docs/source.android.com" name="platform/docs/source.android.com" remote="aosp" revision="refs/tags/android-4.3_r3" />
+  <project path="external/android-clat" name="platform/external/android-clat" remote="aosp" revision="refs/tags/android-4.3_r3" />
+  <project path="external/ant-glob" name="platform/external/ant-glob" remote="aosp" revision="refs/tags/android-4.3_r3" />
+  <project path="external/antlr" name="platform/external/antlr" remote="aosp" revision="refs/tags/android-4.3_r3" />
+  <project path="external/apache-harmony" name="platform/external/apache-harmony" remote="aosp" revision="refs/tags/android-4.3_r3" />
+  <project path="external/apache-http" name="platform/external/apache-http" remote="aosp" revision="refs/tags/android-4.3_r3" />
+  <project path="external/apache-qp" name="platform/external/apache-qp" remote="aosp" revision="refs/tags/android-4.3_r3" />
+  <project path="external/apache-xml" name="platform/external/apache-xml" remote="aosp" revision="refs/tags/android-4.3_r3" />
+  <project path="external/arduino" name="platform/external/arduino" remote="aosp" revision="refs/tags/android-4.3_r3" />
+  <project path="external/bison" name="platform/external/bison" remote="aosp" revision="refs/tags/android-4.3_r3" groups="pdk" />
+  <project path="external/blktrace" name="platform/external/blktrace" remote="aosp" revision="refs/tags/android-4.3_r3" />
+  <project path="external/bouncycastle" name="platform/external/bouncycastle" remote="aosp" revision="refs/tags/android-4.3_r3" />
+  <project path="external/bsdiff" name="platform/external/bsdiff" remote="aosp" revision="refs/tags/android-4.3_r3" groups="pdk" />
+  <project path="external/bzip2" name="platform/external/bzip2" remote="aosp" revision="refs/tags/android-4.3_r3" groups="pdk" />
+  <project path="external/ceres-solver" name="platform/external/ceres-solver" remote="aosp" revision="refs/tags/android-4.3_r3" />
+  <project path="external/checkpolicy" name="platform/external/checkpolicy" remote="aosp" revision="refs/tags/android-4.3_r3" groups="pdk" />
+  <project path="external/chromium-trace" name="platform/external/chromium-trace" remote="aosp" revision="refs/tags/android-4.3_r3" groups="pdk" />
+  <project path="external/clang" name="platform/external/clang" remote="aosp" revision="refs/tags/android-4.3_r3" groups="pdk" />
+  <project path="external/compiler-rt" name="platform/external/compiler-rt" remote="aosp" revision="refs/tags/android-4.3_r3" groups="pdk" />
+  <project path="external/dexmaker" name="platform/external/dexmaker" remote="aosp" revision="refs/tags/android-4.3_r3" />
+  <project path="external/dhcpcd" name="platform/external/dhcpcd" remote="aosp" revision="refs/tags/android-4.3_r3" />
+  <project path="external/dnsmasq" name="platform/external/dnsmasq" remote="aosp" revision="refs/tags/android-4.3_r3" groups="pdk" />
+  <project path="external/doclava" name="platform/external/doclava" remote="aosp" revision="refs/tags/android-4.3_r3" />
+  <project path="external/dropbear" name="platform/external/dropbear" remote="aosp" revision="refs/tags/android-4.3_r3" />
+  <project path="external/e2fsprogs" name="platform/external/e2fsprogs" remote="aosp" revision="refs/tags/android-4.3_r3" groups="pdk" />
+  <project path="external/easymock" name="platform/external/easymock" remote="aosp" revision="refs/tags/android-4.3_r3" />
+  <project path="external/eclipse-basebuilder" name="platform/external/eclipse-basebuilder" remote="aosp" revision="refs/tags/android-4.3_r3" />
+  <project path="external/eclipse-windowbuilder" name="platform/external/eclipse-windowbuilder" remote="aosp" revision="refs/tags/android-4.3_r3" />
+  <project path="external/eigen" name="platform/external/eigen" remote="aosp" revision="refs/tags/android-4.3_r3" />
+  <project path="external/embunit" name="platform/external/embunit" remote="aosp" revision="refs/tags/android-4.3_r3" />
+  <project path="external/emma" name="platform/external/emma" remote="aosp" revision="refs/tags/android-4.3_r3" />
+  <project path="external/esd" name="platform/external/esd" remote="aosp" revision="refs/tags/android-4.3_r3" />
+  <project path="external/expat" name="platform/external/expat" remote="aosp" revision="refs/tags/android-4.3_r3" groups="pdk" />
+  <project path="external/eyes-free" name="platform/external/eyes-free" remote="aosp" revision="refs/tags/android-4.3_r3" />
+  <project path="external/fdlibm" name="platform/external/fdlibm" remote="aosp" revision="refs/tags/android-4.3_r3" />
+  <project path="external/flac" name="platform/external/flac" remote="aosp" revision="refs/tags/android-4.3_r3" groups="pdk" />
+  <project path="external/freetype" name="platform/external/freetype" remote="aosp" revision="refs/tags/android-4.3_r3" groups="pdk" />
+  <project path="external/ganymed-ssh2" name="platform/external/ganymed-ssh2" remote="aosp" revision="refs/tags/android-4.3_r3" />
+  <project path="external/gcc-demangle" name="platform/external/gcc-demangle" remote="aosp" revision="refs/tags/android-4.3_r3" groups="pdk" />
+  <project path="external/genext2fs" name="platform/external/genext2fs" remote="aosp" revision="refs/tags/android-4.3_r3" />
+  <project path="external/giflib" name="platform/external/giflib" remote="aosp" revision="refs/tags/android-4.3_r3" />
+  <project path="external/google-diff-match-patch" name="platform/external/google-diff-match-patch" remote="aosp" revision="refs/tags/android-4.3_r3" />
+  <project path="external/grub" name="platform/external/grub" remote="aosp" revision="refs/tags/android-4.3_r3" />
+  <project path="external/gtest" name="platform/external/gtest" remote="aosp" revision="refs/tags/android-4.3_r3" groups="pdk" />
+  <project path="external/guava" name="platform/external/guava" remote="aosp" revision="refs/tags/android-4.3_r3" />
+  <project path="external/hamcrest" name="platform/external/hamcrest" remote="aosp" revision="refs/tags/android-4.3_r3" />
+  <project path="external/harfbuzz" name="platform/external/harfbuzz" remote="aosp" revision="refs/tags/android-4.3_r3" />
+  <project path="external/harfbuzz_ng" name="platform/external/harfbuzz_ng" remote="aosp" revision="refs/tags/android-4.3_r3" />
+  <project path="external/hyphenation" name="platform/external/hyphenation" remote="aosp" revision="refs/tags/android-4.3_r3" />
+  <project path="external/icu4c" name="platform/external/icu4c" remote="aosp" revision="refs/tags/android-4.3_r3" groups="pdk" />
+  <project path="external/iproute2" name="platform/external/iproute2" remote="aosp" revision="refs/tags/android-4.3_r3" groups="pdk" />
+  <project path="external/ipsec-tools" name="platform/external/ipsec-tools" remote="aosp" revision="refs/tags/android-4.3_r3" />
+  <project path="external/iptables" name="platform/external/iptables" remote="aosp" revision="refs/tags/android-4.3_r3" />
+  <project path="external/jack" name="platform/external/jack" remote="aosp" revision="refs/tags/android-4.3_r3" />
+  <project path="external/javassist" name="platform/external/javassist" remote="aosp" revision="refs/tags/android-4.3_r3" />
+  <project path="external/jdiff" name="platform/external/jdiff" remote="aosp" revision="refs/tags/android-4.3_r3" />
+  <project path="external/jhead" name="platform/external/jhead" remote="aosp" revision="refs/tags/android-4.3_r3" groups="pdk" />
+  <project path="external/jmdns" name="platform/external/jmdns" remote="aosp" revision="refs/tags/android-4.3_r3" />
+  <project path="external/jmonkeyengine" name="platform/external/jmonkeyengine" remote="aosp" revision="refs/tags/android-4.3_r3" />
+  <project path="external/jpeg" name="platform/external/jpeg" groups="pdk" remote="aosp" revision="refs/tags/android-4.3_r3" />
+  <project path="external/jsilver" name="platform/external/jsilver" remote="aosp" revision="refs/tags/android-4.3_r3" />
+  <project path="external/jsr305" name="platform/external/jsr305" remote="aosp" revision="refs/tags/android-4.3_r3" />
+  <project path="external/junit" name="platform/external/junit" remote="aosp" revision="refs/tags/android-4.3_r3" />
+  <project path="external/kernel-headers" name="platform/external/kernel-headers" remote="aosp" revision="refs/tags/android-4.3_r3" />
+  <project path="external/libcap-ng" name="platform/external/libcap-ng" remote="aosp" revision="refs/tags/android-4.3_r3" />
+  <project path="external/libffi" name="platform/external/libffi" remote="aosp" revision="refs/tags/android-4.3_r3" />
+  <project path="external/libgsm" name="platform/external/libgsm" remote="aosp" revision="refs/tags/android-4.3_r3" groups="pdk" />
+  <project path="external/liblzf" name="platform/external/liblzf" remote="aosp" revision="refs/tags/android-4.3_r3" groups="pdk" />
+  <project path="external/libmtp" name="platform/external/libmtp" remote="aosp" revision="refs/tags/android-4.3_r3" />
+  <project path="external/libnfc-nci" name="platform/external/libnfc-nci" remote="aosp" revision="refs/tags/android-4.3_r3" groups="pdk" />
+  <project path="external/libnfc-nxp" name="platform/external/libnfc-nxp" remote="aosp" revision="refs/tags/android-4.3_r3" groups="nxp_nfc" />
+  <project path="external/libnl-headers" name="platform/external/libnl-headers" remote="aosp" revision="refs/tags/android-4.3_r3" groups="pdk" />
+  <project path="external/libogg" name="platform/external/libogg" remote="aosp" revision="refs/tags/android-4.3_r3" />
+  <project path="external/libpcap" name="platform/external/libpcap" remote="aosp" revision="refs/tags/android-4.3_r3" />
+  <project path="external/libphonenumber" name="platform/external/libphonenumber" remote="aosp" revision="refs/tags/android-4.3_r3" />
+  <project path="external/libpng" name="platform/external/libpng" remote="aosp" revision="refs/tags/android-4.3_r3" groups="pdk" />
+  <project path="external/libppp" name="platform/external/libppp" remote="aosp" revision="refs/tags/android-4.3_r3" />
+  <project path="external/libselinux" name="platform/external/libselinux" remote="aosp" revision="refs/tags/android-4.3_r3" groups="pdk" />
+  <project path="external/libsepol" name="platform/external/libsepol" remote="aosp" revision="refs/tags/android-4.3_r3" groups="pdk" />
+  <project path="external/libusb" name="platform/external/libusb" remote="aosp" revision="refs/tags/android-4.3_r3" />
+  <project path="external/libusb_aah" name="platform/external/libusb_aah" remote="aosp" revision="refs/tags/android-4.3_r3" groups="libusb_aah" />
+  <project path="external/libusb-compat" name="platform/external/libusb-compat" remote="aosp" revision="refs/tags/android-4.3_r3" />
+  <project path="external/libvorbis" name="platform/external/libvorbis" remote="aosp" revision="refs/tags/android-4.3_r3" />
+  <project path="external/libvpx" name="platform/external/libvpx" remote="aosp" revision="refs/tags/android-4.3_r3" groups="pdk" />
+  <project path="external/libxml2" name="platform/external/libxml2" remote="aosp" revision="refs/tags/android-4.3_r3" />
+  <project path="external/libxslt" name="platform/external/libxslt" remote="aosp" revision="refs/tags/android-4.3_r3" />
+  <project path="external/libyuv" name="platform/external/libyuv" remote="aosp" revision="refs/tags/android-4.3_r3" groups="libyuv" />
+  <project path="external/linux-tools-perf" name="platform/external/linux-tools-perf" remote="aosp" revision="refs/tags/android-4.3_r3" />
+  <project path="external/littlemock" name="platform/external/littlemock" remote="aosp" revision="refs/tags/android-4.3_r3" />
+  <project path="external/llvm" name="platform/external/llvm" remote="aosp" revision="refs/tags/android-4.3_r3" groups="pdk" />
+  <project path="external/marisa-trie" name="platform/external/marisa-trie" remote="aosp" revision="refs/tags/android-4.3_r3" />
+  <project path="external/markdown" name="platform/external/markdown" remote="aosp" revision="refs/tags/android-4.3_r3" />
+  <project path="external/mdnsresponder" name="platform/external/mdnsresponder" remote="aosp" revision="refs/tags/android-4.3_r3" groups="pdk" />
+  <project path="external/mksh" name="platform/external/mksh" remote="aosp" revision="refs/tags/android-4.3_r3" groups="pdk" />
+  <project path="external/mockito" name="platform/external/mockito" remote="aosp" revision="refs/tags/android-4.3_r3" />
+  <project path="external/mockwebserver" name="platform/external/mockwebserver" remote="aosp" revision="refs/tags/android-4.3_r3" />
+  <project path="external/mp4parser" name="platform/external/mp4parser" remote="aosp" revision="refs/tags/android-4.3_r3" />
+  <project path="external/mtpd" name="platform/external/mtpd" remote="aosp" revision="refs/tags/android-4.3_r3" />
+  <project path="external/naver-fonts" name="platform/external/naver-fonts" remote="aosp" revision="refs/tags/android-4.3_r3" />
+  <project path="external/netcat" name="platform/external/netcat" remote="aosp" revision="refs/tags/android-4.3_r3" />
+  <project path="external/netperf" name="platform/external/netperf" remote="aosp" revision="refs/tags/android-4.3_r3" />
+  <project path="external/neven" name="platform/external/neven" remote="aosp" revision="refs/tags/android-4.3_r3" />
+  <project path="external/nist-pkits" name="platform/external/nist-pkits" remote="aosp" revision="refs/tags/android-4.3_r3" />
+  <project path="external/nist-sip" name="platform/external/nist-sip" remote="aosp" revision="refs/tags/android-4.3_r3" />
+  <project path="external/noto-fonts" name="platform/external/noto-fonts" remote="aosp" revision="refs/tags/android-4.3_r3" />
+  <project path="external/oauth" name="platform/external/oauth" remote="aosp" revision="refs/tags/android-4.3_r3" />
+  <project path="external/objenesis" name="platform/external/objenesis" remote="aosp" revision="refs/tags/android-4.3_r3" />
+  <project path="external/okhttp" name="platform/external/okhttp" remote="aosp" revision="refs/tags/android-4.3_r3" />
+  <project path="external/open-vcdiff" name="platform/external/open-vcdiff" remote="aosp" revision="refs/tags/android-4.3_r3" />
+  <project path="external/opencv" name="platform/external/opencv" remote="aosp" revision="refs/tags/android-4.3_r3" />
+  <project path="external/openfst" name="platform/external/openfst" remote="aosp" revision="refs/tags/android-4.3_r3" />
+  <project path="external/openssl" name="platform/external/openssl" remote="aosp" revision="refs/tags/android-4.3_r3" groups="pdk" />
+  <project path="external/oprofile" name="platform/external/oprofile" remote="aosp" revision="refs/tags/android-4.3_r3" />
+  <project path="external/ping" name="platform/external/ping" remote="aosp" revision="refs/tags/android-4.3_r3" />
+  <project path="external/ping6" name="platform/external/ping6" remote="aosp" revision="refs/tags/android-4.3_r3" />
+  <project path="external/ppp" name="platform/external/ppp" remote="aosp" revision="refs/tags/android-4.3_r3" />
+  <project path="external/proguard" name="platform/external/proguard" remote="aosp" revision="refs/tags/android-4.3_r3" groups="pdk-java" />
+  <project path="external/protobuf" name="platform/external/protobuf" remote="aosp" revision="refs/tags/android-4.3_r3" groups="pdk" />
+  <project path="external/qemu" name="platform/external/qemu" remote="aosp" revision="refs/tags/android-4.3_r3" />
+  <project path="external/qemu-pc-bios" name="platform/external/qemu-pc-bios" remote="aosp" revision="refs/tags/android-4.3_r3" />
+  <project path="external/quake" name="platform/external/quake" remote="aosp" revision="refs/tags/android-4.3_r3" />
+  <project path="external/regex-re2" name="platform/external/regex-re2" remote="aosp" revision="refs/tags/android-4.3_r3" />
+  <project path="external/replicaisland" name="platform/external/replicaisland" remote="aosp" revision="refs/tags/android-4.3_r3" />
+  <project path="external/robolectric" name="platform/external/robolectric" remote="aosp" revision="refs/tags/android-4.3_r3" />
+  <project path="external/safe-iop" name="platform/external/safe-iop" remote="aosp" revision="refs/tags/android-4.3_r3" groups="pdk" />
+  <project path="external/sepolicy" name="platform/external/sepolicy" remote="aosp" revision="refs/tags/android-4.3_r3" groups="pdk" />
+  <project path="external/skia" name="platform/external/skia" remote="aosp" revision="refs/tags/android-4.3_r3" />
+  <project path="external/smack" name="platform/external/smack" remote="aosp" revision="refs/tags/android-4.3_r3" />
+  <project path="external/smali" name="platform/external/smali" remote="aosp" revision="refs/tags/android-4.3_r3" />
+  <project path="external/sonivox" name="platform/external/sonivox" remote="aosp" revision="refs/tags/android-4.3_r3" groups="pdk" />
+  <project path="external/speex" name="platform/external/speex" remote="aosp" revision="refs/tags/android-4.3_r3" groups="pdk" />
+  <project path="external/sqlite" name="platform/external/sqlite" remote="aosp" revision="refs/tags/android-4.3_r3" groups="pdk" />
+  <project path="external/srtp" name="platform/external/srtp" remote="aosp" revision="refs/tags/android-4.3_r3" />
+  <project path="external/strace" name="platform/external/strace" remote="aosp" revision="refs/tags/android-4.3_r3" />
+  <project path="external/stressapptest" name="platform/external/stressapptest" remote="aosp" revision="refs/tags/android-4.3_r3" />
+  <project path="external/svox" name="platform/external/svox" remote="aosp" revision="refs/tags/android-4.3_r3" />
+  <project path="external/tagsoup" name="platform/external/tagsoup" remote="aosp" revision="refs/tags/android-4.3_r3" />
+  <project path="external/tcpdump" name="platform/external/tcpdump" remote="aosp" revision="refs/tags/android-4.3_r3" />
+  <project path="external/timezonepicker-support" name="platform/external/timezonepicker-support" remote="aosp" revision="refs/tags/android-4.3_r3" />
+  <project path="external/tinyxml" name="platform/external/tinyxml" remote="aosp" revision="refs/tags/android-4.3_r3" groups="pdk" />
+  <project path="external/tinyxml2" name="platform/external/tinyxml2" remote="aosp" revision="refs/tags/android-4.3_r3" groups="pdk" />
+  <project path="external/tremolo" name="platform/external/tremolo" remote="aosp" revision="refs/tags/android-4.3_r3" groups="pdk" />
+  <project path="external/valgrind" name="platform/external/valgrind" remote="aosp" revision="refs/tags/android-4.3_r3" groups="pdk" />
+  <project path="external/webp" name="platform/external/webp" remote="aosp" revision="refs/tags/android-4.3_r3" />
+  <project path="external/webrtc" name="platform/external/webrtc" remote="aosp" revision="refs/tags/android-4.3_r3" groups="pdk" />
+  <project path="external/xmlwriter" name="platform/external/xmlwriter" remote="aosp" revision="refs/tags/android-4.3_r3" />
+  <project path="external/xmp_toolkit" name="platform/external/xmp_toolkit" remote="aosp" revision="refs/tags/android-4.3_r3" />
+  <project path="external/zxing" name="platform/external/zxing" remote="aosp" revision="refs/tags/android-4.3_r3" />
+  <project path="frameworks/compile/libbcc" name="platform/frameworks/compile/libbcc" remote="aosp" revision="refs/tags/android-4.3_r3" groups="pdk" />
+  <project path="frameworks/compile/mclinker" name="platform/frameworks/compile/mclinker" remote="aosp" revision="refs/tags/android-4.3_r3" groups="pdk" />
+  <project path="frameworks/compile/slang" name="platform/frameworks/compile/slang" remote="aosp" revision="refs/tags/android-4.3_r3" groups="pdk" />
+  <project path="frameworks/ex" name="platform/frameworks/ex" remote="aosp" revision="refs/tags/android-4.3_r3" />
+  <project path="frameworks/mff" name="platform/frameworks/mff" remote="aosp" revision="refs/tags/android-4.3_r3" />
+  <project path="frameworks/ml" name="platform/frameworks/ml" remote="aosp" revision="refs/tags/android-4.3_r3" />
+  <project path="frameworks/opt/calendar" name="platform/frameworks/opt/calendar" remote="aosp" revision="refs/tags/android-4.3_r3" />
+  <project path="frameworks/opt/carddav" name="platform/frameworks/opt/carddav" remote="aosp" revision="refs/tags/android-4.3_r3" />
+  <project path="frameworks/opt/colorpicker" name="platform/frameworks/opt/colorpicker" remote="aosp" revision="refs/tags/android-4.3_r3" />
+  <project path="frameworks/opt/datetimepicker" name="platform/frameworks/opt/datetimepicker" remote="aosp" revision="refs/tags/android-4.3_r3" />
+  <project path="frameworks/opt/emoji" name="platform/frameworks/opt/emoji" remote="aosp" revision="refs/tags/android-4.3_r3" />
+  <project path="frameworks/opt/inputmethodcommon" name="platform/frameworks/opt/inputmethodcommon" remote="aosp" revision="refs/tags/android-4.3_r3" />
+  <project path="frameworks/opt/mailcommon" name="platform/frameworks/opt/mailcommon" remote="aosp" revision="refs/tags/android-4.3_r3" />
+  <project path="frameworks/opt/mms" name="platform/frameworks/opt/mms" remote="aosp" revision="refs/tags/android-4.3_r3" />
+  <project path="frameworks/opt/net/voip" name="platform/frameworks/opt/net/voip" remote="aosp" revision="refs/tags/android-4.3_r3" />
+  <project path="frameworks/opt/photoviewer" name="platform/frameworks/opt/photoviewer" remote="aosp" revision="refs/tags/android-4.3_r3" />
+  <project path="frameworks/opt/timezonepicker" name="platform/frameworks/opt/timezonepicker" remote="aosp" revision="refs/tags/android-4.3_r3" />
+  <project path="frameworks/rs" name="platform/frameworks/rs" remote="aosp" revision="refs/tags/android-4.3_r3" groups="pdk" />
+  <project path="frameworks/support" name="platform/frameworks/support" remote="aosp" revision="refs/tags/android-4.3_r3" />
+  <project path="frameworks/testing" name="platform/frameworks/testing" remote="aosp" revision="refs/tags/android-4.3_r3" />
+  <project path="frameworks/volley" name="platform/frameworks/volley" remote="aosp" revision="refs/tags/android-4.3_r3" />
+  <project path="frameworks/webview" name="platform/frameworks/webview" remote="aosp" revision="refs/tags/android-4.3_r3" />
+  <project path="frameworks/wilhelm" name="platform/frameworks/wilhelm" remote="aosp" revision="refs/tags/android-4.3_r3" />
+  <project path="hardware/akm" name="platform/hardware/akm" remote="aosp" revision="refs/tags/android-4.3_r3" />
+  <project path="hardware/invensense" name="platform/hardware/invensense" remote="aosp" revision="refs/tags/android-4.3_r3" groups="invensense" />
+  <project path="hardware/samsung_slsi/exynos5" name="platform/hardware/samsung_slsi/exynos5" remote="aosp" revision="refs/tags/android-4.3_r3" groups="exynos5" />
+  <project path="hardware/ti/omap3" name="platform/hardware/ti/omap3" remote="aosp" revision="refs/tags/android-4.3_r3" />
+  <project path="hardware/ti/omap4xxx" name="platform/hardware/ti/omap4xxx" remote="aosp" revision="refs/tags/android-4.3_r3" groups="omap4" />
+  <project path="hardware/ti/wpan" name="platform/hardware/ti/wpan" remote="aosp" revision="refs/tags/android-4.3_r3" />
+  <project path="libnativehelper" name="platform/libnativehelper" remote="aosp" revision="refs/tags/android-4.3_r3" groups="pdk-java" />
+  <project path="ndk" name="platform/ndk" remote="aosp" revision="refs/tags/android-4.3_r3" />
+  <project path="packages/apps/BasicSmsReceiver" name="platform/packages/apps/BasicSmsReceiver" remote="aosp" revision="refs/tags/android-4.3_r3" />
+  <project path="packages/apps/Calculator" name="platform/packages/apps/Calculator" remote="aosp" revision="refs/tags/android-4.3_r3" />
+  <project path="packages/apps/Calendar" name="platform/packages/apps/Calendar" remote="aosp" revision="refs/tags/android-4.3_r3" />
+  <project path="packages/apps/CellBroadcastReceiver" name="platform/packages/apps/CellBroadcastReceiver" remote="aosp" revision="refs/tags/android-4.3_r3" />
+  <project path="packages/apps/CertInstaller" name="platform/packages/apps/CertInstaller" remote="aosp" revision="refs/tags/android-4.3_r3" />
+  <project path="packages/apps/ContactsCommon" name="platform/packages/apps/ContactsCommon" remote="aosp" revision="refs/tags/android-4.3_r3" />
+  <project path="packages/apps/Dialer" name="platform/packages/apps/Dialer" remote="aosp" revision="refs/tags/android-4.3_r3" />
+  <project path="packages/apps/Exchange" name="platform/packages/apps/Exchange" remote="aosp" revision="refs/tags/android-4.3_r3" />
+  <project path="packages/apps/HTMLViewer" name="platform/packages/apps/HTMLViewer" remote="aosp" revision="refs/tags/android-4.3_r3" />
+  <project path="packages/apps/KeyChain" name="platform/packages/apps/KeyChain" remote="aosp" revision="refs/tags/android-4.3_r3" />
+  <project path="packages/apps/Music" name="platform/packages/apps/Music" remote="aosp" revision="refs/tags/android-4.3_r3" />
+  <project path="packages/apps/MusicFX" name="platform/packages/apps/MusicFX" remote="aosp" revision="refs/tags/android-4.3_r3" />
+  <project path="packages/apps/Nfc" name="platform/packages/apps/Nfc" remote="aosp" revision="refs/tags/android-4.3_r3" />
+  <project path="packages/apps/OneTimeInitializer" name="platform/packages/apps/OneTimeInitializer" remote="aosp" revision="refs/tags/android-4.3_r3" />
+  <project path="packages/apps/PackageInstaller" name="platform/packages/apps/PackageInstaller" remote="aosp" revision="refs/tags/android-4.3_r3" />
+  <project path="packages/apps/PhoneCommon" name="platform/packages/apps/PhoneCommon" remote="aosp" revision="refs/tags/android-4.3_r3" />
+  <project path="packages/apps/Protips" name="platform/packages/apps/Protips" remote="aosp" revision="refs/tags/android-4.3_r3" />
+  <project path="packages/apps/QuickSearchBox" name="platform/packages/apps/QuickSearchBox" remote="aosp" revision="refs/tags/android-4.3_r3" />
+  <project path="packages/apps/SmartCardService" name="platform/packages/apps/SmartCardService" remote="aosp" revision="refs/tags/android-4.3_r3" />
+  <project path="packages/apps/SoundRecorder" name="platform/packages/apps/SoundRecorder" remote="aosp" revision="refs/tags/android-4.3_r3" />
+  <project path="packages/apps/SpareParts" name="platform/packages/apps/SpareParts" remote="aosp" revision="refs/tags/android-4.3_r3" />
+  <project path="packages/apps/SpeechRecorder" name="platform/packages/apps/SpeechRecorder" remote="aosp" revision="refs/tags/android-4.3_r3" />
+  <project path="packages/apps/Tag" name="platform/packages/apps/Tag" remote="aosp" revision="refs/tags/android-4.3_r3" />
+  <project path="packages/apps/VideoEditor" name="platform/packages/apps/VideoEditor" remote="aosp" revision="refs/tags/android-4.3_r3" />
+  <project path="packages/experimental" name="platform/packages/experimental" remote="aosp" revision="refs/tags/android-4.3_r3" />
+  <project path="packages/providers/ApplicationsProvider" name="platform/packages/providers/ApplicationsProvider" remote="aosp" revision="refs/tags/android-4.3_r3" />
+  <project path="packages/providers/CalendarProvider" name="platform/packages/providers/CalendarProvider" remote="aosp" revision="refs/tags/android-4.3_r3" />
+  <project path="packages/providers/DownloadProvider" name="platform/packages/providers/DownloadProvider" remote="aosp" revision="refs/tags/android-4.3_r3" />
+  <project path="packages/providers/DrmProvider" name="platform/packages/providers/DrmProvider" remote="aosp" revision="refs/tags/android-4.3_r3" />
+  <project path="packages/providers/PartnerBookmarksProvider" name="platform/packages/providers/PartnerBookmarksProvider" remote="aosp" revision="refs/tags/android-4.3_r3" />
+  <project path="packages/providers/UserDictionaryProvider" name="platform/packages/providers/UserDictionaryProvider" remote="aosp" revision="refs/tags/android-4.3_r3" />
+  <project path="packages/screensavers/Basic" name="platform/packages/screensavers/Basic" remote="aosp" revision="refs/tags/android-4.3_r3" />
+  <project path="packages/screensavers/PhotoTable" name="platform/packages/screensavers/PhotoTable" remote="aosp" revision="refs/tags/android-4.3_r3" />
+  <project path="packages/screensavers/WebView" name="platform/packages/screensavers/WebView" remote="aosp" revision="refs/tags/android-4.3_r3" />
+  <project path="packages/wallpapers/Basic" name="platform/packages/wallpapers/Basic" remote="aosp" revision="refs/tags/android-4.3_r3" />
+  <project path="packages/wallpapers/Galaxy4" name="platform/packages/wallpapers/Galaxy4" remote="aosp" revision="refs/tags/android-4.3_r3" />
+  <project path="packages/wallpapers/HoloSpiral" name="platform/packages/wallpapers/HoloSpiral" remote="aosp" revision="refs/tags/android-4.3_r3" />
+  <project path="packages/wallpapers/LivePicker" name="platform/packages/wallpapers/LivePicker" remote="aosp" revision="refs/tags/android-4.3_r3" />
+  <project path="packages/wallpapers/MagicSmoke" name="platform/packages/wallpapers/MagicSmoke" remote="aosp" revision="refs/tags/android-4.3_r3" />
+  <project path="packages/wallpapers/MusicVisualization" name="platform/packages/wallpapers/MusicVisualization" remote="aosp" revision="refs/tags/android-4.3_r3" />
+  <project path="packages/wallpapers/NoiseField" name="platform/packages/wallpapers/NoiseField" remote="aosp" revision="refs/tags/android-4.3_r3" />
+  <project path="packages/wallpapers/PhaseBeam" name="platform/packages/wallpapers/PhaseBeam" remote="aosp" revision="refs/tags/android-4.3_r3" />
+  <project path="pdk" name="platform/pdk" remote="aosp" revision="refs/tags/android-4.3_r3" groups="pdk" />
+  <project path="prebuilts/clang/linux-x86/3.1" name="platform/prebuilts/clang/linux-x86/3.1" remote="aosp" revision="refs/tags/android-4.3_r3" groups="pdk,linux" />
+  <project path="prebuilts/clang/linux-x86/3.2" name="platform/prebuilts/clang/linux-x86/3.2" remote="aosp" revision="refs/tags/android-4.3_r3" groups="pdk,linux" />
+  <project path="prebuilts/devtools" name="platform/prebuilts/devtools" remote="aosp" revision="refs/tags/android-4.3_r3" />
+  <project path="prebuilts/eclipse" name="platform/prebuilts/eclipse" remote="aosp" revision="refs/tags/android-4.3_r3" groups="pdk" />
+  <project path="prebuilts/eclipse-build-deps" name="platform/prebuilts/eclipse-build-deps" remote="aosp" revision="refs/tags/android-4.3_r3" groups="notdefault,eclipse" />
+  <project path="prebuilts/eclipse-build-deps-sources" name="platform/prebuilts/eclipse-build-deps-sources" remote="aosp" revision="refs/tags/android-4.3_r3" groups="notdefault,eclipse" />
+  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.6" name="platform/prebuilts/gcc/linux-x86/arm/arm-eabi-4.6" remote="aosp" revision="refs/tags/android-4.3_r3" groups="pdk,linux,arm" />
+  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.7" name="platform/prebuilts/gcc/linux-x86/arm/arm-eabi-4.7" remote="aosp" revision="refs/tags/android-4.3_r3" groups="pdk,linux,arm" />
+  <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.6" name="platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.6" remote="aosp" revision="refs/tags/android-4.3_r3" groups="pdk,linux,arm" />
+  <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.7" name="platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.7" remote="aosp" revision="refs/tags/android-4.3_r3" groups="pdk,linux,arm" />
+  <project path="prebuilts/gcc/linux-x86/host/i686-linux-glibc2.7-4.4.3" name="platform/prebuilts/gcc/linux-x86/host/i686-linux-glibc2.7-4.4.3" remote="aosp" revision="refs/tags/android-4.3_r3" groups="pdk,linux" />
+  <project path="prebuilts/gcc/linux-x86/host/i686-linux-glibc2.7-4.6" name="platform/prebuilts/gcc/linux-x86/host/i686-linux-glibc2.7-4.6" remote="aosp" revision="refs/tags/android-4.3_r3" groups="pdk,linux" />
+  <project path="prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.7-4.6" name="platform/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.7-4.6" remote="aosp" revision="refs/tags/android-4.3_r3" groups="pdk,linux" />
+  <project path="prebuilts/gcc/linux-x86/x86/i686-linux-android-4.6" name="platform/prebuilts/gcc/linux-x86/x86/i686-linux-android-4.6" remote="aosp" revision="refs/tags/android-4.3_r3" groups="pdk,linux,x86" />
+  <project path="prebuilts/gcc/linux-x86/x86/i686-linux-android-4.7" name="platform/prebuilts/gcc/linux-x86/x86/i686-linux-android-4.7" remote="aosp" revision="refs/tags/android-4.3_r3" groups="pdk,linux,x86" />
+  <project path="prebuilts/ndk" name="platform/prebuilts/ndk" remote="aosp" revision="refs/tags/android-4.3_r3" groups="pdk" />
+  <project path="prebuilts/qemu-kernel" name="platform/prebuilts/qemu-kernel" remote="aosp" revision="refs/tags/android-4.3_r3" groups="pdk" />
+  <project path="prebuilts/sdk" name="platform/prebuilts/sdk" remote="aosp" revision="refs/tags/android-4.3_r3" groups="pdk" />
+  <project path="prebuilts/tools" name="platform/prebuilts/tools" remote="aosp" revision="refs/tags/android-4.3_r3" groups="pdk,tools" />
+  <project path="system/media" name="platform/system/media" remote="aosp" revision="refs/tags/android-4.3_r3" groups="pdk" />
+  <project path="system/netd" name="platform/system/netd" remote="aosp" revision="refs/tags/android-4.3_r3" groups="pdk" />
+  <project path="tools/adt/eclipse" name="platform/tools/adt/eclipse" remote="aosp" revision="refs/tags/android-4.3_r3" groups="notdefault,tools" />
+  <project path="tools/adt/idea" name="platform/tools/adt/idea" remote="aosp" revision="refs/tags/android-4.3_r3" groups="notdefault,tools" />
+  <project path="tools/base" name="platform/tools/base" remote="aosp" revision="refs/tags/android-4.3_r3" groups="notdefault,tools" />
+  <project path="tools/build" name="platform/tools/build" remote="aosp" revision="refs/tags/android-4.3_r3" groups="notdefault,tools" />
+  <project path="tools/emulator" name="platform/tools/emulator" remote="aosp" revision="refs/tags/android-4.3_r3" groups="notdefault,tools" />
+  <project path="tools/external/fat32lib" name="platform/tools/external/fat32lib" remote="aosp" revision="refs/tags/android-4.3_r3" groups="tools" />
+  <project path="tools/external/gradle" name="platform/tools/external/gradle" remote="aosp" revision="refs/tags/android-4.3_r3" groups="notdefault,tools" />
+  <project path="tools/idea" name="platform/tools/idea" remote="aosp" revision="refs/tags/android-4.3_r3" groups="notdefault,tools" />
+  <project path="tools/motodev" name="platform/tools/motodev" remote="aosp" revision="refs/tags/android-4.3_r3" groups="notdefault,motodev" />
+  <project path="tools/swt" name="platform/tools/swt" remote="aosp" revision="refs/tags/android-4.3_r3" groups="notdefault,tools" />
 
 </manifest>
