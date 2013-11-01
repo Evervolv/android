@@ -43,20 +43,12 @@
   <project path="bootable/recovery" name="android_bootable_recovery" groups="ev-aosp" />
   <project path="dalvik" name="android_dalvik" groups="ev-aosp" />
   <project path="development" name="android_development" groups="ev-aosp" />
-  <project path="device/common" name="android_device_common" groups="ev-aosp" />
   <project path="device/generic/goldfish" name="android_device_generic_goldfish" groups="ev-aosp" />
-  <project path="external/aac" name="android_external_aac" groups="ev-aosp" />
   <project path="external/android-mock" name="android_external_android-mock" groups="ev-aosp" />
   <project path="external/bluetooth/bluedroid" name="android_external_bluetooth_bluedroid" groups="ev-aosp" />
-  <project path="external/chromium" name="android_external_chromium" groups="ev-aosp" />
-  <project path="external/elfutils" name="android_external_elfutils" groups="ev-aosp" />
-  <project path="external/fsck_msdos" name="android_external_fsck_msdos" groups="ev-aosp" />
   <project path="external/javasqlite" name="android_external_javasqlite" groups="ev-aosp" />
   <project path="external/openssh" name="android_external_openssh" groups="ev-aosp" />
-  <project path="external/srec" name="android_external_srec" groups="ev-aosp" />
-  <project path="external/stlport" name="android_external_stlport" groups="ev-aosp" />
   <project path="external/tinyalsa" name="android_external_tinyalsa" groups="ev-aosp" />
-  <project path="external/v8" name="android_external_v8" groups="ev-aosp" />
   <project path="external/wpa_supplicant_8" name="android_external_wpa_supplicant_8" groups="ev-aosp" />
   <project path="external/yaffs2" name="android_external_yaffs2" groups="ev-aosp" />
   <project path="external/zlib" name="android_external_zlib" groups="ev-aosp" />
@@ -84,26 +76,20 @@
   <project path="libcore" name="android_libcore" groups="ev-aosp" />
   <project path="packages/apps/Bluetooth" name="android_packages_apps_Bluetooth" groups="ev-aosp" />
   <project path="packages/apps/Browser" name="android_packages_apps_Browser" groups="ev-aosp" />
-  <project path="packages/apps/Contacts" name="android_packages_apps_Contacts" groups="ev-aosp" />
   <project path="packages/apps/DeskClock" name="android_packages_apps_DeskClock" groups="ev-aosp" />
   <project path="packages/apps/Email" name="android_packages_apps_Email" groups="ev-aosp" />
   <project path="packages/apps/Gallery2" name="android_packages_apps_Gallery2" groups="ev-aosp" />
   <project path="packages/apps/Launcher2" name="android_packages_apps_Launcher2" groups="ev-aosp" />
-  <project path="packages/apps/Mms" name="android_packages_apps_Mms" groups="ev-aosp" />
   <project path="packages/apps/Phone" name="android_packages_apps_Phone" groups="ev-aosp" />
-  <project path="packages/apps/Provision" name="android_packages_apps_Provision" groups="ev-aosp" />
   <project path="packages/apps/Settings" name="android_packages_apps_Settings" groups="ev-aosp" />
-  <project path="packages/apps/Stk" name="android_packages_apps_Stk" groups="ev-aosp" />
   <project path="packages/apps/VoiceDialer" name="android_packages_apps_VoiceDialer" groups="ev-aosp" />
   <project path="packages/inputmethods/LatinIME" name="android_packages_inputmethods_LatinIME" groups="ev-aosp" />
-  <project path="packages/providers/ContactsProvider" name="android_packages_providers_ContactsProvider" groups="ev-aosp" />
   <project path="packages/providers/MediaProvider" name="android_packages_providers_MediaProvider" groups="ev-aosp" />
   <project path="packages/providers/TelephonyProvider" name="android_packages_providers_TelephonyProvider" groups="ev-aosp" />
   <project path="prebuilts/misc" name="android_prebuilts_misc" groups="ev-aosp" />
   <project path="sdk" name="android_sdk" groups="ev-aosp" />
   <project path="system/core" name="android_system_core" groups="ev-aosp" />
   <project path="system/extras" name="android_system_extras" groups="ev-aosp" />
-  <project path="system/security" name="android_system_security" groups="ev-aosp" />
   <project path="system/vold" name="android_system_vold" groups="ev-aosp" />
 
   <!--AOSP Hosted Projects-->
@@ -116,6 +102,7 @@
   <project name="platform/developers/demos" path="developers/demos" remote="aosp" revision="refs/tags/android-4.4_r1" />
   <project name="platform/developers/docs" path="developers/docs" remote="aosp" revision="refs/tags/android-4.4_r1" />
   <project name="platform/developers/samples/android" path="developers/samples/android" remote="aosp" revision="refs/tags/android-4.4_r1" />
+  <project name="device/common" path="device/common" remote="aosp" revision="refs/tags/android-4.4_r1" />
   <project groups="pdk" name="device/generic/armv7-a-neon" path="device/generic/armv7-a-neon" remote="aosp" revision="refs/tags/android-4.4_r1" />
   <project groups="pdk" name="device/generic/common" path="device/generic/common" remote="aosp" revision="refs/tags/android-4.4_r1" />
   <project groups="pdk" name="device/generic/mips" path="device/generic/mips" remote="aosp" revision="refs/tags/android-4.4_r1" />
@@ -127,6 +114,7 @@
   <project groups="device" name="device/google/accessory/demokit" path="device/google/accessory/demokit" remote="aosp" revision="refs/tags/android-4.4_r1" />
   <project groups="pdk" name="device/sample" path="device/sample" remote="aosp" revision="refs/tags/android-4.4_r1" />
   <project name="platform/docs/source.android.com" path="docs/source.android.com" remote="aosp" revision="refs/tags/android-4.4_r1" />
+  <project groups="pdk" name="platform/external/aac" path="external/aac" remote="aosp" revision="refs/tags/android-4.4_r1" />
   <project name="platform/external/android-clat" path="external/android-clat" remote="aosp" revision="refs/tags/android-4.4_r1" />
   <project name="platform/external/ant-glob" path="external/ant-glob" remote="aosp" revision="refs/tags/android-4.4_r1" />
   <project name="platform/external/antlr" path="external/antlr" remote="aosp" revision="refs/tags/android-4.4_r1" />
@@ -142,6 +130,7 @@
   <project groups="pdk" name="platform/external/bzip2" path="external/bzip2" remote="aosp" revision="refs/tags/android-4.4_r1" />
   <project name="platform/external/ceres-solver" path="external/ceres-solver" remote="aosp" revision="refs/tags/android-4.4_r1" />
   <project groups="pdk" name="platform/external/checkpolicy" path="external/checkpolicy" remote="aosp" revision="refs/tags/android-4.4_r1" />
+  <project name="platform/external/chromium" path="external/chromium" remote="aosp" revision="refs/tags/android-4.4_r1" />
   <project name="platform/external/chromium-libpac" path="external/chromium-libpac" remote="aosp" revision="refs/tags/android-4.4_r1" />
   <project groups="pdk" name="platform/external/chromium-trace" path="external/chromium-trace" remote="aosp" revision="refs/tags/android-4.4_r1" />
   <project name="platform/external/chromium_org" path="external/chromium_org" remote="aosp" revision="refs/tags/android-4.4_r1" />
@@ -181,6 +170,7 @@
   <project name="platform/external/eclipse-basebuilder" path="external/eclipse-basebuilder" remote="aosp" revision="refs/tags/android-4.4_r1" />
   <project name="platform/external/eclipse-windowbuilder" path="external/eclipse-windowbuilder" remote="aosp" revision="refs/tags/android-4.4_r1" />
   <project name="platform/external/eigen" path="external/eigen" remote="aosp" revision="refs/tags/android-4.4_r1" />
+  <project name="platform/external/elfutils" path="external/elfutils" remote="aosp" revision="refs/tags/android-4.4_r1" />
   <project name="platform/external/embunit" path="external/embunit" remote="aosp" revision="refs/tags/android-4.4_r1" />
   <project name="platform/external/emma" path="external/emma" remote="aosp" revision="refs/tags/android-4.4_r1" />
   <project name="platform/external/esd" path="external/esd" remote="aosp" revision="refs/tags/android-4.4_r1" />
@@ -189,6 +179,7 @@
   <project name="platform/external/fdlibm" path="external/fdlibm" remote="aosp" revision="refs/tags/android-4.4_r1" />
   <project groups="pdk" name="platform/external/flac" path="external/flac" remote="aosp" revision="refs/tags/android-4.4_r1" />
   <project groups="pdk" name="platform/external/freetype" path="external/freetype" remote="aosp" revision="refs/tags/android-4.4_r1" />
+  <project name="platform/external/fsck_msdos" path="external/fsck_msdos" remote="aosp" revision="refs/tags/android-4.4_r1" />
   <project name="platform/external/ganymed-ssh2" path="external/ganymed-ssh2" remote="aosp" revision="refs/tags/android-4.4_r1" />
   <project groups="pdk" name="platform/external/gcc-demangle" path="external/gcc-demangle" remote="aosp" revision="refs/tags/android-4.4_r1" />
   <project name="platform/external/genext2fs" path="external/genext2fs" remote="aosp" revision="refs/tags/android-4.4_r1" />
@@ -287,7 +278,9 @@
   <project groups="pdk" name="platform/external/sonivox" path="external/sonivox" remote="aosp" revision="refs/tags/android-4.4_r1" />
   <project groups="pdk" name="platform/external/speex" path="external/speex" remote="aosp" revision="refs/tags/android-4.4_r1" />
   <project groups="pdk" name="platform/external/sqlite" path="external/sqlite" remote="aosp" revision="refs/tags/android-4.4_r1" />
+  <project name="platform/external/srec" path="external/srec" remote="aosp" revision="refs/tags/android-4.4_r1" />
   <project name="platform/external/srtp" path="external/srtp" remote="aosp" revision="refs/tags/android-4.4_r1" />
+  <project groups="pdk" name="platform/external/stlport" path="external/stlport" remote="aosp" revision="refs/tags/android-4.4_r1" />
   <project name="platform/external/strace" path="external/strace" remote="aosp" revision="refs/tags/android-4.4_r1" />
   <project name="platform/external/stressapptest" path="external/stressapptest" remote="aosp" revision="refs/tags/android-4.4_r1" />
   <project name="platform/external/svox" path="external/svox" remote="aosp" revision="refs/tags/android-4.4_r1" />
@@ -298,6 +291,7 @@
   <project groups="pdk" name="platform/external/tinyxml" path="external/tinyxml" remote="aosp" revision="refs/tags/android-4.4_r1" />
   <project groups="pdk" name="platform/external/tinyxml2" path="external/tinyxml2" remote="aosp" revision="refs/tags/android-4.4_r1" />
   <project groups="pdk" name="platform/external/tremolo" path="external/tremolo" remote="aosp" revision="refs/tags/android-4.4_r1" />
+  <project name="platform/external/v8" path="external/v8" remote="aosp" revision="refs/tags/android-4.4_r1" />
   <project groups="pdk" name="platform/external/valgrind" path="external/valgrind" remote="aosp" revision="refs/tags/android-4.4_r1" />
   <project name="platform/external/webp" path="external/webp" remote="aosp" revision="refs/tags/android-4.4_r1" />
   <project groups="pdk" name="platform/external/webrtc" path="external/webrtc" remote="aosp" revision="refs/tags/android-4.4_r1" />
@@ -343,6 +337,7 @@
   <project name="platform/packages/apps/Camera2" path="packages/apps/Camera2" remote="aosp" revision="refs/tags/android-4.4_r1" />
   <project name="platform/packages/apps/CellBroadcastReceiver" path="packages/apps/CellBroadcastReceiver" remote="aosp" revision="refs/tags/android-4.4_r1" />
   <project name="platform/packages/apps/CertInstaller" path="packages/apps/CertInstaller" remote="aosp" revision="refs/tags/android-4.4_r1" />
+  <project name="platform/packages/apps/Contacts" path="packages/apps/Contacts" remote="aosp" revision="refs/tags/android-4.4_r1" />
   <project name="platform/packages/apps/ContactsCommon" path="packages/apps/ContactsCommon" remote="aosp" revision="refs/tags/android-4.4_r1" />
   <project name="platform/packages/apps/Dialer" path="packages/apps/Dialer" remote="aosp" revision="refs/tags/android-4.4_r1" />
   <project name="platform/packages/apps/Exchange" path="packages/apps/Exchange" remote="aosp" revision="refs/tags/android-4.4_r1" />
@@ -350,6 +345,7 @@
   <project name="platform/packages/apps/InCallUI" path="packages/apps/InCallUI" remote="aosp" revision="refs/tags/android-4.4_r1" />
   <project name="platform/packages/apps/KeyChain" path="packages/apps/KeyChain" remote="aosp" revision="refs/tags/android-4.4_r1" />
   <project name="platform/packages/apps/Launcher3" path="packages/apps/Launcher3" remote="aosp" revision="refs/tags/android-4.4_r1" />
+  <project name="platform/packages/apps/Mms" path="packages/apps/Mms" remote="aosp" revision="refs/tags/android-4.4_r1" />
   <project name="platform/packages/apps/Music" path="packages/apps/Music" remote="aosp" revision="refs/tags/android-4.4_r1" />
   <project name="platform/packages/apps/MusicFX" path="packages/apps/MusicFX" remote="aosp" revision="refs/tags/android-4.4_r1" />
   <project name="platform/packages/apps/Nfc" path="packages/apps/Nfc" remote="aosp" revision="refs/tags/android-4.4_r1" />
@@ -357,17 +353,20 @@
   <project name="platform/packages/apps/PackageInstaller" path="packages/apps/PackageInstaller" remote="aosp" revision="refs/tags/android-4.4_r1" />
   <project name="platform/packages/apps/PhoneCommon" path="packages/apps/PhoneCommon" remote="aosp" revision="refs/tags/android-4.4_r1" />
   <project name="platform/packages/apps/Protips" path="packages/apps/Protips" remote="aosp" revision="refs/tags/android-4.4_r1" />
+  <project name="platform/packages/apps/Provision" path="packages/apps/Provision" remote="aosp" revision="refs/tags/android-4.4_r1" />
   <project name="platform/packages/apps/QuickSearchBox" path="packages/apps/QuickSearchBox" remote="aosp" revision="refs/tags/android-4.4_r1" />
   <project name="platform/packages/apps/SmartCardService" path="packages/apps/SmartCardService" remote="aosp" revision="refs/tags/android-4.4_r1" />
   <project name="platform/packages/apps/SoundRecorder" path="packages/apps/SoundRecorder" remote="aosp" revision="refs/tags/android-4.4_r1" />
   <project name="platform/packages/apps/SpareParts" path="packages/apps/SpareParts" remote="aosp" revision="refs/tags/android-4.4_r1" />
   <project name="platform/packages/apps/SpeechRecorder" path="packages/apps/SpeechRecorder" remote="aosp" revision="refs/tags/android-4.4_r1" />
+  <project name="platform/packages/apps/Stk" path="packages/apps/Stk" remote="aosp" revision="refs/tags/android-4.4_r1" />
   <project name="platform/packages/apps/Tag" path="packages/apps/Tag" remote="aosp" revision="refs/tags/android-4.4_r1" />
   <project name="platform/packages/apps/UnifiedEmail" path="packages/apps/UnifiedEmail" remote="aosp" revision="refs/tags/android-4.4_r1" />
   <project name="platform/packages/apps/VideoEditor" path="packages/apps/VideoEditor" remote="aosp" revision="refs/tags/android-4.4_r1" />
   <project name="platform/packages/experimental" path="packages/experimental" remote="aosp" revision="refs/tags/android-4.4_r1" />
   <project name="platform/packages/providers/ApplicationsProvider" path="packages/providers/ApplicationsProvider" remote="aosp" revision="refs/tags/android-4.4_r1" />
   <project name="platform/packages/providers/CalendarProvider" path="packages/providers/CalendarProvider" remote="aosp" revision="refs/tags/android-4.4_r1" />
+  <project name="platform/packages/providers/ContactsProvider" path="packages/providers/ContactsProvider" remote="aosp" revision="refs/tags/android-4.4_r1" />
   <project name="platform/packages/providers/DownloadProvider" path="packages/providers/DownloadProvider" remote="aosp" revision="refs/tags/android-4.4_r1" />
   <project name="platform/packages/providers/PartnerBookmarksProvider" path="packages/providers/PartnerBookmarksProvider" remote="aosp" revision="refs/tags/android-4.4_r1" />
   <project name="platform/packages/providers/UserDictionaryProvider" path="packages/providers/UserDictionaryProvider" remote="aosp" revision="refs/tags/android-4.4_r1" />
@@ -414,6 +413,7 @@
   <project groups="pdk,tools" name="platform/prebuilts/tools" path="prebuilts/tools" remote="aosp" revision="refs/tags/android-4.4_r1" />
   <project groups="pdk" name="platform/system/media" path="system/media" remote="aosp" revision="refs/tags/android-4.4_r1" />
   <project groups="pdk" name="platform/system/netd" path="system/netd" remote="aosp" revision="refs/tags/android-4.4_r1" />
+  <project groups="pdk" name="platform/system/security" path="system/security" remote="aosp" revision="refs/tags/android-4.4_r1" />
   <project groups="notdefault,tools" name="platform/tools/adt/eclipse" path="tools/adt/eclipse" remote="aosp" revision="refs/tags/android-4.4_r1" />
   <project groups="notdefault,tools" name="platform/tools/adt/idea" path="tools/adt/idea" remote="aosp" revision="refs/tags/android-4.4_r1" />
   <project groups="notdefault,tools" name="platform/tools/base" path="tools/base" remote="aosp" revision="refs/tags/android-4.4_r1" />
