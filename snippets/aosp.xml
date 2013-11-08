@@ -16,6 +16,7 @@
   <remote  name="gitlab"
            fetch="https://gitlab.com" />
 
+  <project path="art" name="android_art" groups="pdk" remote="evervolv" />
   <project path="bionic" name="android_bionic" groups="pdk" remote="evervolv" />
   <project path="bootable/recovery" name="android_bootable_recovery" groups="pdk" remote="evervolv" />
 
