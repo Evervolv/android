@@ -57,6 +57,7 @@
 
   <remove-project name="kernel/configs" />
 
+  <remove-project name="platform/art" />
   <remove-project name="platform/bionic" />
   <remove-project name="platform/bootable/recovery" />
 
