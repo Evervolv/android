@@ -5,7 +5,7 @@
            fetch="https://android.googlesource.com/" />
   <remote  name="github"
            fetch="git://github.com/Evervolv/"
-           review="http://review.evervolv.com"/>
+           review="review.evervolv.com"/>
   <default revision="kitkat"
            remote="github"
            sync-j="4" />
