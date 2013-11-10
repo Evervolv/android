@@ -86,6 +86,7 @@
   <project path="packages/inputmethods/LatinIME" name="android_packages_inputmethods_LatinIME" groups="ev-aosp" />
   <project path="packages/providers/MediaProvider" name="android_packages_providers_MediaProvider" groups="ev-aosp" />
   <project path="packages/providers/TelephonyProvider" name="android_packages_providers_TelephonyProvider" groups="ev-aosp" />
+  <project path="packages/services/Telephony" name="android_packages_services_Telephony" groups="ev-aosp" />
   <project path="prebuilts/misc" name="android_prebuilts_misc" groups="ev-aosp" />
   <project path="sdk" name="android_sdk" groups="ev-aosp" />
   <project path="system/core" name="android_system_core" groups="ev-aosp" />
@@ -373,7 +374,6 @@
   <project name="platform/packages/screensavers/Basic" path="packages/screensavers/Basic" remote="aosp" revision="refs/tags/android-4.4_r1" />
   <project name="platform/packages/screensavers/PhotoTable" path="packages/screensavers/PhotoTable" remote="aosp" revision="refs/tags/android-4.4_r1" />
   <project name="platform/packages/screensavers/WebView" path="packages/screensavers/WebView" remote="aosp" revision="refs/tags/android-4.4_r1" />
-  <project name="platform/packages/services/Telephony" path="packages/services/Telephony" remote="aosp" revision="refs/tags/android-4.4_r1" />
   <project name="platform/packages/wallpapers/Basic" path="packages/wallpapers/Basic" remote="aosp" revision="refs/tags/android-4.4_r1" />
   <project name="platform/packages/wallpapers/Galaxy4" path="packages/wallpapers/Galaxy4" remote="aosp" revision="refs/tags/android-4.4_r1" />
   <project name="platform/packages/wallpapers/HoloSpiral" path="packages/wallpapers/HoloSpiral" remote="aosp" revision="refs/tags/android-4.4_r1" />
