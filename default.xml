@@ -48,6 +48,7 @@
   <project path="device/generic/goldfish" name="android_device_generic_goldfish" groups="ev-aosp" />
   <project path="external/android-mock" name="android_external_android-mock" groups="ev-aosp" />
   <project path="external/bluetooth/bluedroid" name="android_external_bluetooth_bluedroid" groups="ev-aosp" />
+  <project path="external/chromium_org" name="android_external_chromium_org" groups="ev-aosp" />
   <project path="external/javasqlite" name="android_external_javasqlite" groups="ev-aosp" />
   <project path="external/openssh" name="android_external_openssh" groups="ev-aosp" />
   <project path="external/skia" name="android_external_skia" groups="ev-aosp" />
@@ -137,7 +138,6 @@
   <project name="platform/external/chromium" path="external/chromium" remote="aosp" revision="refs/tags/android-4.4_r1.2" />
   <project name="platform/external/chromium-libpac" path="external/chromium-libpac" remote="aosp" revision="refs/tags/android-4.4_r1.2" />
   <project groups="pdk" name="platform/external/chromium-trace" path="external/chromium-trace" remote="aosp" revision="refs/tags/android-4.4_r1.2" />
-  <project name="platform/external/chromium_org" path="external/chromium_org" remote="aosp" revision="refs/tags/android-4.4_r1.2" />
   <project name="platform/external/chromium_org/sdch/open-vcdiff" path="external/chromium_org/sdch/open-vcdiff" remote="aosp" revision="refs/tags/android-4.4_r1.2" />
   <project name="platform/external/chromium_org/testing/gtest" path="external/chromium_org/testing/gtest" remote="aosp" revision="refs/tags/android-4.4_r1.2" />
   <project name="platform/external/chromium_org/third_party/WebKit" path="external/chromium_org/third_party/WebKit" remote="aosp" revision="refs/tags/android-4.4_r1.2" />
