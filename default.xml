@@ -79,6 +79,7 @@
   <project path="libcore" name="android_libcore" groups="ev-aosp" />
   <project path="packages/apps/Bluetooth" name="android_packages_apps_Bluetooth" groups="ev-aosp" />
   <project path="packages/apps/Browser" name="android_packages_apps_Browser" groups="ev-aosp" />
+  <project path="packages/apps/Camera2" name="android_packages_apps_Camera2" groups="ev-aosp" />
   <project path="packages/apps/DeskClock" name="android_packages_apps_DeskClock" groups="ev-aosp" />
   <project path="packages/apps/Email" name="android_packages_apps_Email" groups="ev-aosp" />
   <project path="packages/apps/Gallery2" name="android_packages_apps_Gallery2" groups="ev-aosp" />
@@ -335,7 +336,6 @@
   <project name="platform/packages/apps/BasicSmsReceiver" path="packages/apps/BasicSmsReceiver" remote="aosp" revision="refs/tags/android-4.4.2_r1" />
   <project name="platform/packages/apps/Calculator" path="packages/apps/Calculator" remote="aosp" revision="refs/tags/android-4.4.2_r1" />
   <project name="platform/packages/apps/Calendar" path="packages/apps/Calendar" remote="aosp" revision="refs/tags/android-4.4.2_r1" />
-  <project name="platform/packages/apps/Camera2" path="packages/apps/Camera2" remote="aosp" revision="refs/tags/android-4.4.2_r1" />
   <project name="platform/packages/apps/CellBroadcastReceiver" path="packages/apps/CellBroadcastReceiver" remote="aosp" revision="refs/tags/android-4.4.2_r1" />
   <project name="platform/packages/apps/CertInstaller" path="packages/apps/CertInstaller" remote="aosp" revision="refs/tags/android-4.4.2_r1" />
   <project name="platform/packages/apps/Contacts" path="packages/apps/Contacts" remote="aosp" revision="refs/tags/android-4.4.2_r1" />
