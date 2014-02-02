@@ -65,6 +65,7 @@
 	<classpathentry kind="src" path="frameworks/base/obex"/>
 	<classpathentry kind="src" path="frameworks/base/opengl/java"/>
 	<classpathentry kind="src" path="frameworks/base/packages/FusedLocation/src"/>
+	<classpathentry kind="src" path="frameworks/base/packages/Keyguard/src"/>
 	<classpathentry kind="src" path="frameworks/base/packages/SettingsProvider/src"/>
 	<classpathentry kind="src" path="frameworks/base/packages/SystemUI/src"/>
 	<classpathentry kind="src" path="frameworks/base/policy/src"/>
