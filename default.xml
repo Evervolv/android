@@ -62,6 +62,7 @@
   <project path="frameworks/native" name="android_frameworks_native" groups="ev-aosp" />
   <project path="frameworks/opt/telephony" name="android_frameworks_opt_telephony" groups="ev-aosp" />
   <project path="frameworks/opt/vcard" name="android_frameworks_opt_vcard" groups="ev-aosp" />
+  <project path="frameworks/rs" name="android_frameworks_rs" groups="ev-aosp" />
   <project path="hardware/broadcom/libbt" name="android_hardware_broadcom_libbt" groups="ev-aosp" />
   <project path="hardware/broadcom/wlan" name="android_hardware_broadcom_wlan" groups="ev-aosp" />
   <project path="hardware/libhardware" name="android_hardware_libhardware" groups="ev-aosp" />
@@ -319,7 +320,6 @@
   <project name="platform/frameworks/opt/net/voip" path="frameworks/opt/net/voip" remote="aosp" revision="refs/tags/android-4.4.2_r1" />
   <project name="platform/frameworks/opt/photoviewer" path="frameworks/opt/photoviewer" remote="aosp" revision="refs/tags/android-4.4.2_r1" />
   <project name="platform/frameworks/opt/timezonepicker" path="frameworks/opt/timezonepicker" remote="aosp" revision="refs/tags/android-4.4.2_r1" />
-  <project groups="pdk" name="platform/frameworks/rs" path="frameworks/rs" remote="aosp" revision="refs/tags/android-4.4.2_r1" />
   <project name="platform/frameworks/support" path="frameworks/support" remote="aosp" revision="refs/tags/android-4.4.2_r1" />
   <project name="platform/frameworks/testing" path="frameworks/testing" remote="aosp" revision="refs/tags/android-4.4.2_r1" />
   <project name="platform/frameworks/uiautomator" path="frameworks/uiautomator" remote="aosp" revision="refs/tags/android-4.4.2_r1" />
