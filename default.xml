@@ -4,10 +4,12 @@
   <remote  name="aosp"
            fetch="https://android.googlesource.com/" />
   <remote  name="github"
+           fetch="git://github.com/"/>
+  <remote  name="evervolv"
            fetch="git://github.com/Evervolv/"
            review="review.evervolv.com"/>
   <default revision="kitkat"
-           remote="github"
+           remote="evervolv"
            sync-j="4" />
 
   <!--Evervolv Extra Common Projects-->
