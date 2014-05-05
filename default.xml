@@ -51,6 +51,7 @@
   <project path="external/android-mock" name="android_external_android-mock" groups="ev-aosp" />
   <project path="external/bluetooth/bluedroid" name="android_external_bluetooth_bluedroid" groups="ev-aosp" />
   <project path="external/chromium_org" name="android_external_chromium_org" groups="ev-aosp" />
+  <project path="external/clang" name="android_external_clang" groups="ev-aosp" />
   <project path="external/javasqlite" name="android_external_javasqlite" groups="ev-aosp" />
   <project path="external/openssh" name="android_external_openssh" groups="ev-aosp" />
   <project path="external/sepolicy" name="android_external_sepolicy" groups="ev-aosp" />
@@ -166,7 +167,6 @@
   <project name="platform/external/chromium_org/tools/grit" path="external/chromium_org/tools/grit" remote="aosp" revision="refs/tags/android-4.4.2_r2" />
   <project name="platform/external/chromium_org/tools/gyp" path="external/chromium_org/tools/gyp" remote="aosp" revision="refs/tags/android-4.4.2_r2" />
   <project name="platform/external/chromium_org/v8" path="external/chromium_org/v8" remote="aosp" revision="refs/tags/android-4.4.2_r2" />
-  <project groups="pdk" name="platform/external/clang" path="external/clang" remote="aosp" revision="refs/tags/android-4.4.2_r2" />
   <project groups="pdk" name="platform/external/compiler-rt" path="external/compiler-rt" remote="aosp" revision="refs/tags/android-4.4.2_r2" />
   <project name="platform/external/dexmaker" path="external/dexmaker" remote="aosp" revision="refs/tags/android-4.4.2_r2" />
   <project name="platform/external/dhcpcd" path="external/dhcpcd" remote="aosp" revision="refs/tags/android-4.4.2_r2" />
