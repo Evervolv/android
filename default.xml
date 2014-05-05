@@ -53,6 +53,7 @@
   <project path="external/bluetooth/bluedroid" name="android_external_bluetooth_bluedroid" groups="ev-aosp" />
   <project path="external/chromium_org" name="android_external_chromium_org" groups="ev-aosp" />
   <project path="external/clang" name="android_external_clang" groups="ev-aosp" />
+  <project path="external/icu4c" name="android_external_icu4c" groups="ev-aosp" />
   <project path="external/javasqlite" name="android_external_javasqlite" groups="ev-aosp" />
   <project path="external/openssh" name="android_external_openssh" groups="ev-aosp" />
   <project path="external/sepolicy" name="android_external_sepolicy" groups="ev-aosp" />
@@ -203,7 +204,6 @@
   <project name="platform/external/harfbuzz" path="external/harfbuzz" remote="aosp" revision="refs/tags/android-4.4.2_r2" />
   <project name="platform/external/harfbuzz_ng" path="external/harfbuzz_ng" remote="aosp" revision="refs/tags/android-4.4.2_r2" />
   <project name="platform/external/hyphenation" path="external/hyphenation" remote="aosp" revision="refs/tags/android-4.4.2_r2" />
-  <project groups="pdk" name="platform/external/icu4c" path="external/icu4c" remote="aosp" revision="refs/tags/android-4.4.2_r2" />
   <project groups="pdk" name="platform/external/iproute2" path="external/iproute2" remote="aosp" revision="refs/tags/android-4.4.2_r2" />
   <project name="platform/external/ipsec-tools" path="external/ipsec-tools" remote="aosp" revision="refs/tags/android-4.4.2_r2" />
   <project name="platform/external/iptables" path="external/iptables" remote="aosp" revision="refs/tags/android-4.4.2_r2" />
