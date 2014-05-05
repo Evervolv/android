@@ -21,6 +21,7 @@
   <project path="external/curl" name="android_external_curl" groups="ev-extra" />
   <project path="external/htop" name="android_external_htop" groups="ev-extra" />
   <project path="external/libncurses" name="android_external_libncurses" groups="ev-extra" />
+  <project path="external/libnfc-nci" name="android_external_libnfc-nci" groups="ev-extra" />
   <project path="external/nano" name="android_external_nano" groups="ev-extra" />
   <project path="external/rsync" name="android_external_rsync" groups="ev-extra" />
   <project path="external/su" name="android_external_su" groups="ev-extra" />
@@ -222,7 +223,6 @@
   <project groups="pdk" name="platform/external/libgsm" path="external/libgsm" remote="aosp" revision="refs/tags/android-4.4.2_r2" />
   <project groups="pdk" name="platform/external/liblzf" path="external/liblzf" remote="aosp" revision="refs/tags/android-4.4.2_r2" />
   <project name="platform/external/libmtp" path="external/libmtp" remote="aosp" revision="refs/tags/android-4.4.2_r2" />
-  <project groups="pdk" name="platform/external/libnfc-nci" path="external/libnfc-nci" remote="aosp" revision="refs/tags/android-4.4.2_r2" />
   <project groups="pdk" name="platform/external/libnfc-nxp" path="external/libnfc-nxp" remote="aosp" revision="refs/tags/android-4.4.2_r2" />
   <project groups="pdk" name="platform/external/libnl-headers" path="external/libnl-headers" remote="aosp" revision="refs/tags/android-4.4.2_r2" />
   <project name="platform/external/libogg" path="external/libogg" remote="aosp" revision="refs/tags/android-4.4.2_r2" />
