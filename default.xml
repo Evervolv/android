@@ -102,6 +102,7 @@
   <project path="sdk" name="android_sdk" groups="ev-aosp" />
   <project path="system/core" name="android_system_core" groups="ev-aosp" />
   <project path="system/extras" name="android_system_extras" groups="ev-aosp" />
+  <project path="system/netd" name="android_system_netd"  groups="ev-aosp"/>
   <project path="system/vold" name="android_system_vold" groups="ev-aosp" />
 
   <!--AOSP Hosted Projects-->
@@ -415,7 +416,6 @@
   <project groups="pdk" name="platform/prebuilts/sdk" path="prebuilts/sdk" remote="aosp" revision="refs/tags/android-4.4.2_r2" />
   <project groups="pdk,tools" name="platform/prebuilts/tools" path="prebuilts/tools" remote="aosp" revision="refs/tags/android-4.4.2_r2" />
   <project groups="pdk" name="platform/system/media" path="system/media" remote="aosp" revision="refs/tags/android-4.4.2_r2" />
-  <project groups="pdk" name="platform/system/netd" path="system/netd" remote="aosp" revision="refs/tags/android-4.4.2_r2" />
   <project groups="pdk" name="platform/system/security" path="system/security" remote="aosp" revision="refs/tags/android-4.4.2_r2" />
   <project groups="notdefault,tools" name="platform/tools/adt/eclipse" path="tools/adt/eclipse" remote="aosp" revision="refs/tags/android-4.4.2_r2" />
   <project groups="notdefault,tools" name="platform/tools/adt/idea" path="tools/adt/idea" remote="aosp" revision="refs/tags/android-4.4.2_r2" />
