@@ -33,6 +33,7 @@
   <project path="packages/apps/EVToolbox" name="android_packages_apps_EVToolbox" groups="ev-extra" />
   <project path="packages/apps/EVWidgets" name="android_packages_apps_EVWidgets" groups="ev-extra" />
   <project path="packages/apps/EVUpdater" name="android_packages_apps_EVUpdater" groups="ev-extra" />
+  <project path="packages/apps/EVWallpapers" name="android_packages_apps_EVWallpapers" groups="ev-extra" />
   <project path="packages/apps/Torch" name="android_packages_apps_Torch" groups="ev-extra" />
   <project path="vendor/ev" name="android_vendor_ev" groups="ev-extra" />
 
