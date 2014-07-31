@@ -9,6 +9,10 @@
   <project path="device/qcom/sepolicy_vndr" name="android_device_qcom_sepolicy_vndr" groups="pdk" remote="evervolv" />
   <project path="device/qcom/sepolicy_vndr-legacy-um" name="android_device_qcom_sepolicy_vndr" groups="pdk" remote="evervolv" revision="t-13.2-legacy-um" />
 
+  <project path="external/ant-wireless/ant_client" name="android_external_ant-wireless_ant_client" remote="evervolv" />
+  <project path="external/ant-wireless/ant_native" name="android_external_ant-wireless_ant_native" remote="evervolv" />
+  <project path="external/ant-wireless/ant_service" name="android_external_ant-wireless_ant_service" remote="evervolv" />
+  <project path="external/ant-wireless/hidl" name="android_external_ant-wireless_hidl" groups="qcom,qssi" remote="evervolv" />
   <project path="external/json-c" name="android_external_json-c" remote="evervolv" />
 
 </manifest>
