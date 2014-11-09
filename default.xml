@@ -42,7 +42,6 @@
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project path="bionic" name="android_bionic" groups="ev-aosp" />
-  <project path="bootable/recovery" name="android_bootable_recovery" groups="ev-aosp" />
   <project path="dalvik" name="android_dalvik" groups="ev-aosp" />
   <project path="development" name="android_development" groups="ev-aosp" />
   <project path="device/generic/goldfish" name="android_device_generic_goldfish" groups="ev-aosp" />
@@ -102,6 +101,7 @@
   <project groups="pdk" name="platform/abi/cpp" path="abi/cpp" remote="aosp" revision="refs/tags/android-5.0.0_r2" />
   <project name="platform/art" path="art" remote="aosp" revision="refs/tags/android-5.0.0_r2" />
   <project name="platform/bootable/bootloader/legacy" path="bootable/bootloader/legacy" remote="aosp" revision="refs/tags/android-5.0.0_r2" />
+  <project groups="pdk" name="platform/bootable/recovery" path="bootable/recovery" remote="aosp" revision="refs/tags/android-5.0.0_r2" />
   <project roups="cts,pdk-cw-fs" name="platform/cts" path="cts" remote="aosp" revision="refs/tags/android-5.0.0_r2" />
   <project name="platform/developers/build" path="developers/build" remote="aosp" revision="refs/tags/android-5.0.0_r2" />
   <project name="platform/developers/demos" path="developers/demos" remote="aosp" revision="refs/tags/android-5.0.0_r2" />
