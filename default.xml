@@ -21,6 +21,7 @@
   <project path="external/curl" name="android_external_curl" groups="ev-extra" />
   <project path="external/ffmpeg" name="android_external_ffmpeg" groups="ev-extra" />
   <project path="external/htop" name="android_external_htop" groups="ev-extra" />
+  <project path="external/jarjar" name="android_external_jarjar" groups="ev-extra" />
   <project path="external/libncurses" name="android_external_libncurses" groups="ev-extra" />
   <project path="external/libnfc-nci" name="android_external_libnfc-nci" groups="ev-extra" />
   <project path="external/nano" name="android_external_nano" groups="ev-extra" />
