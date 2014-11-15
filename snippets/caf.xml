@@ -4,6 +4,8 @@
   <project path="device/qcom/common" name="android_device_qcom_common" groups="pdk" remote="evervolv" >
     <linkfile src="os_pickup_aosp.mk" dest="hardware/qcom/Android.mk" />
   </project>
+  <project path="device/qcom/sepolicy" name="android_device_qcom_sepolicy" groups="pdk" remote="evervolv" />
+  <project path="device/qcom/sepolicy_vndr" name="android_device_qcom_sepolicy_vndr" groups="pdk" remote="evervolv" />
 
 </manifest>
 
