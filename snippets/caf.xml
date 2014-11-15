@@ -2,8 +2,13 @@
 <manifest>
 
   <project path="device/qcom/common" name="android_device_qcom_common" groups="pdk" remote="evervolv" >
+    <linkfile src="os_pickup_sepolicy_vndr.mk" dest="device/qcom/sepolicy_vndr/SEPolicy.mk" />
     <linkfile src="os_pickup_aosp.mk" dest="hardware/qcom/Android.mk" />
   </project>
+  <project path="device/qcom/sepolicy" name="android_device_qcom_sepolicy" groups="pdk" remote="evervolv" />
+  <project path="device/qcom/sepolicy_vndr/sm8450" name="android_device_qcom_sepolicy_vndr" groups="pdk" remote="evervolv" revision="u-14.0-8450" />
+  <project path="device/qcom/sepolicy_vndr/sm8550" name="android_device_qcom_sepolicy_vndr" groups="pdk" remote="evervolv" revision="u-14.0-8550" />
+  <project path="device/qcom/sepolicy_vndr/legacy-um" name="android_device_qcom_sepolicy_vndr" groups="pdk" remote="evervolv" revision="u-14.0-legacy-um" />
 
 </manifest>
 
