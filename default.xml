@@ -38,6 +38,7 @@
   <project path="vendor/ev" name="android_vendor_ev" groups="ev-extra" />
 
   <!--Evervolv (Github) Hosted Projects-->
+  <project path="art" name="android_art" groups="ev-aosp" />
   <project path="build" name="android_build" groups="ev-aosp" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
@@ -47,6 +48,7 @@
   <project path="device/generic/goldfish" name="android_device_generic_goldfish" groups="ev-aosp" />
   <project path="external/bluetooth/bluedroid" name="android_external_bluetooth_bluedroid" groups="ev-aosp" />
   <project path="external/clang" name="android_external_clang" groups="ev-aosp" />
+  <project path="external/chromium_org" name="android_external_chromium_org" groups="ev-aosp" />
   <project path="external/javasqlite" name="android_external_javasqlite" groups="ev-aosp" />
   <project path="external/sepolicy" name="android_external_sepolicy" groups="ev-aosp" />
   <project path="external/skia" name="android_external_skia" groups="ev-aosp" />
@@ -57,7 +59,10 @@
   <project path="frameworks/av" name="android_frameworks_av" groups="ev-aosp" />
   <project path="frameworks/base" name="android_frameworks_base" groups="ev-aosp" />
   <project path="frameworks/native" name="android_frameworks_native" groups="ev-aosp" />
+  <project path="frameworks/opt/bluetooth" name="android_frameworks_opt_bluetooth" groups="ev-aosp" />
+  <project path="frameworks/opt/net/ims" name="android_frameworks_opt_net_ims" groups="ev-aosp" />
   <project path="frameworks/opt/telephony" name="android_frameworks_opt_telephony" groups="ev-aosp" />
+  <project path="frameworks/opt/net/wifi" name="android_frameworks_opt_net_wifi" groups="ev-aosp" />
   <project path="frameworks/opt/vcard" name="android_frameworks_opt_vcard" groups="ev-aosp" />
   <project path="frameworks/rs" name="android_frameworks_rs" groups="ev-aosp" />
   <project path="hardware/broadcom/libbt" name="android_hardware_broadcom_libbt" groups="ev-aosp" />
@@ -76,19 +81,28 @@
   <project path="hardware/ril" name="android_hardware_ril" groups="ev-aosp" />
   <project path="libcore" name="android_libcore" groups="ev-aosp" />
   <project path="packages/apps/Bluetooth" name="android_packages_apps_Bluetooth" groups="ev-aosp" />
+  <project path="packages/apps/BluetoothExt" name="android_packages_apps_BluetoothExt" groups="ev-aosp" />
   <project path="packages/apps/Browser" name="android_packages_apps_Browser" groups="ev-aosp" />
   <project path="packages/apps/Camera2" name="android_packages_apps_Camera2" groups="ev-aosp" />
+  <project path="packages/apps/Contacts" name="android_packages_apps_Contacts" groups="ev-aosp" />
+  <project path="packages/apps/ContactsCommon" name="android_packages_apps_ContactsCommon" groups="ev-aosp" />
   <project path="packages/apps/DeskClock" name="android_packages_apps_DeskClock" groups="ev-aosp" />
   <project path="packages/apps/Dialer" name="android_packages_apps_Dialer" groups="ev-aosp" />
   <project path="packages/apps/Email" name="android_packages_apps_Email" groups="ev-aosp" />
   <project path="packages/apps/Gallery2" name="android_packages_apps_Gallery2" groups="ev-aosp" />
+  <project path="packages/apps/InCallUI" name="android_packages_apps_InCallUI" groups="ev-aosp" />
   <project path="packages/apps/Mms" name="android_packages_apps_Mms" groups="ev-aosp" />
   <project path="packages/apps/Phone" name="android_packages_apps_Phone" groups="ev-aosp" />
+  <project path="packages/apps/PhoneCommon" name="android_packages_apps_PhoneCommon" groups="ev-aosp" />
   <project path="packages/apps/Settings" name="android_packages_apps_Settings" groups="ev-aosp" />
+  <project path="packages/apps/Stk" name="android_packages_apps_Stk" groups="ev-aosp" />
   <project path="packages/apps/VoiceDialer" name="android_packages_apps_VoiceDialer" groups="ev-aosp" />
   <project path="packages/inputmethods/LatinIME" name="android_packages_inputmethods_LatinIME" groups="ev-aosp" />
+  <project path="packages/providers/ContactsProvider" name="android_packages_providers_ContactsProvider" groups="ev-aosp" />
   <project path="packages/providers/MediaProvider" name="android_packages_providers_MediaProvider" groups="ev-aosp" />
   <project path="packages/providers/TelephonyProvider" name="android_packages_providers_TelephonyProvider" groups="ev-aosp" />
+  <project path="packages/services/Mms" name="android_packages_services_Mms" groups="ev-aosp" />
+  <project path="packages/services/Telecomm" name="android_packages_services_Telecomm" groups="ev-aosp" />
   <project path="packages/services/Telephony" name="android_packages_services_Telephony" groups="ev-aosp" />
   <project path="prebuilts/misc" name="android_prebuilts_misc" groups="ev-aosp" />
   <project path="sdk" name="android_sdk" groups="ev-aosp" />
@@ -99,7 +113,6 @@
 
   <!--AOSP Hosted Projects-->
   <project groups="pdk" name="platform/abi/cpp" path="abi/cpp" remote="aosp" revision="refs/tags/android-5.0.0_r5" />
-  <project name="platform/art" path="art" remote="aosp" revision="refs/tags/android-5.0.0_r5" />
   <project name="platform/bootable/bootloader/legacy" path="bootable/bootloader/legacy" remote="aosp" revision="refs/tags/android-5.0.0_r5" />
   <project groups="pdk" name="platform/bootable/recovery" path="bootable/recovery" remote="aosp" revision="refs/tags/android-5.0.0_r5" />
   <project roups="cts,pdk-cw-fs" name="platform/cts" path="cts" remote="aosp" revision="refs/tags/android-5.0.0_r5" />
@@ -142,7 +155,6 @@
   <project groups="pdk" name="platform/external/checkpolicy" path="external/checkpolicy" remote="aosp" revision="refs/tags/android-5.0.0_r5" />
   <project name="platform/external/chromium-libpac" path="external/chromium-libpac" remote="aosp" revision="refs/tags/android-5.0.0_r5" />
   <project groups="pdk" name="platform/external/chromium-trace" path="external/chromium-trace" remote="aosp" revision="refs/tags/android-5.0.0_r5" />
-  <project name="platform/external/chromium_org" path="external/chromium_org" remote="aosp" revision="refs/tags/android-5.0.0_r5" />
   <project name="platform/external/chromium_org/sdch/open-vcdiff" path="external/chromium_org/sdch/open-vcdiff" remote="aosp" revision="refs/tags/android-5.0.0_r5" />
   <project name="platform/external/chromium_org/testing/gtest" path="external/chromium_org/testing/gtest" remote="aosp" revision="refs/tags/android-5.0.0_r5" />
   <project name="platform/external/chromium_org/third_party/WebKit" path="external/chromium_org/third_party/WebKit" remote="aosp" revision="refs/tags/android-5.0.0_r5" />
@@ -343,7 +355,6 @@
   <project groups="pdk-cw-fs" name="platform/frameworks/ml" path="frameworks/ml" remote="aosp" revision="refs/tags/android-5.0.0_r5" />
   <project groups="pdk-cw-fs" name="platform/frameworks/multidex" path="frameworks/multidex" remote="aosp" revision="refs/tags/android-5.0.0_r5" />
   <project groups="pdk-cw-fs" name="platform/frameworks/opt/bitmap" path="frameworks/opt/bitmap" remote="aosp" revision="refs/tags/android-5.0.0_r5" />
-  <project groups="pdk-cw-fs" name="platform/frameworks/opt/bluetooth" path="frameworks/opt/bluetooth" remote="aosp" revision="refs/tags/android-5.0.0_r5" />
   <project groups="pdk-cw-fs" name="platform/frameworks/opt/calendar" path="frameworks/opt/calendar" remote="aosp" revision="refs/tags/android-5.0.0_r5" />
   <project groups="pdk-cw-fs" name="platform/frameworks/opt/carddav" path="frameworks/opt/carddav" remote="aosp" revision="refs/tags/android-5.0.0_r5" />
   <project groups="pdk-cw-fs" name="platform/frameworks/opt/chips" path="frameworks/opt/chips" remote="aosp" revision="refs/tags/android-5.0.0_r5" />
@@ -352,9 +363,7 @@
   <project groups="pdk-cw-fs" name="platform/frameworks/opt/emoji" path="frameworks/opt/emoji" remote="aosp" revision="refs/tags/android-5.0.0_r5" />
   <project groups="pdk-cw-fs" name="platform/frameworks/opt/inputmethodcommon" path="frameworks/opt/inputmethodcommon" remote="aosp" revision="refs/tags/android-5.0.0_r5" />
   <project groups="pdk-cw-fs" name="platform/frameworks/opt/mms" path="frameworks/opt/mms" remote="aosp" revision="refs/tags/android-5.0.0_r5" />
-  <project groups="frameworks_ims,pdk-cw-fs" name="platform/frameworks/opt/net/ims" path="frameworks/opt/net/ims" remote="aosp" revision="refs/tags/android-5.0.0_r5" />
   <project groups="pdk-cw-fs" name="platform/frameworks/opt/net/voip" path="frameworks/opt/net/voip" remote="aosp" revision="refs/tags/android-5.0.0_r5" />
-  <project groups="pdk" name="platform/frameworks/opt/net/wifi" path="frameworks/opt/net/wifi" remote="aosp" revision="refs/tags/android-5.0.0_r5" />
   <project name="platform/frameworks/opt/net/ethernet" path="frameworks/opt/net/ethernet" remote="aosp" revision="refs/tags/android-5.0.0_r5" />
   <project groups="pdk-cw-fs" name="platform/frameworks/opt/photoviewer" path="frameworks/opt/photoviewer" remote="aosp" revision="refs/tags/android-5.0.0_r5" />
   <project groups="pdk-cw-fs" name="platform/frameworks/opt/setupwizard" path="frameworks/opt/setupwizard" remote="aosp" revision="refs/tags/android-5.0.0_r5" />
@@ -395,11 +404,8 @@
   <project name="platform/packages/apps/Calendar" path="packages/apps/Calendar" remote="aosp" revision="refs/tags/android-5.0.0_r5" />
   <project name="platform/packages/apps/CellBroadcastReceiver" path="packages/apps/CellBroadcastReceiver" remote="aosp" revision="refs/tags/android-5.0.0_r5" />
   <project groups="pdk-cw-fs" name="platform/packages/apps/CertInstaller" path="packages/apps/CertInstaller" remote="aosp" revision="refs/tags/android-5.0.0_r5" />
-  <project name="platform/packages/apps/Contacts" path="packages/apps/Contacts" remote="aosp" revision="refs/tags/android-5.0.0_r5" />
-  <project name="platform/packages/apps/ContactsCommon" path="packages/apps/ContactsCommon" remote="aosp" revision="refs/tags/android-5.0.0_r5" />
   <project name="platform/packages/apps/Exchange" path="packages/apps/Exchange" remote="aosp" revision="refs/tags/android-5.0.0_r5" />
   <project name="platform/packages/apps/HTMLViewer" path="packages/apps/HTMLViewer" remote="aosp" revision="refs/tags/android-5.0.0_r5" />
-  <project name="platform/packages/apps/InCallUI" path="packages/apps/InCallUI" remote="aosp" revision="refs/tags/android-5.0.0_r5" />
   <project name="platform/packages/apps/KeyChain" path="packages/apps/KeyChain" remote="aosp" revision="refs/tags/android-5.0.0_r5" />
   <project name="platform/packages/apps/Launcher3" path="packages/apps/Launcher3" remote="aosp" revision="refs/tags/android-5.0.0_r5" />
   <project name="platform/packages/apps/ManagedProvisioning" path="packages/apps/ManagedProvisioning" remote="aosp" revision="refs/tags/android-5.0.0_r5" />
@@ -409,7 +415,6 @@
   <project name="platform/packages/apps/OMA-DM" path="packages/apps/OMA-DM" remote="aosp" revision="refs/tags/android-5.0.0_r5" />
   <project name="platform/packages/apps/OneTimeInitializer" path="packages/apps/OneTimeInitializer" remote="aosp" revision="refs/tags/android-5.0.0_r5" />
   <project name="platform/packages/apps/PackageInstaller" path="packages/apps/PackageInstaller" remote="aosp" revision="refs/tags/android-5.0.0_r5" />
-  <project name="platform/packages/apps/PhoneCommon" path="packages/apps/PhoneCommon" remote="aosp" revision="refs/tags/android-5.0.0_r5" />
   <project name="platform/packages/apps/Protips" path="packages/apps/Protips" remote="aosp" revision="refs/tags/android-5.0.0_r5" />
   <project name="platform/packages/apps/Provision" path="packages/apps/Provision" remote="aosp" revision="refs/tags/android-5.0.0_r5" />
   <project name="platform/packages/apps/QuickSearchBox" path="packages/apps/QuickSearchBox" remote="aosp" revision="refs/tags/android-5.0.0_r5" />
@@ -417,14 +422,12 @@
   <project name="platform/packages/apps/SoundRecorder" path="packages/apps/SoundRecorder" remote="aosp" revision="refs/tags/android-5.0.0_r5" />
   <project name="platform/packages/apps/SpareParts" path="packages/apps/SpareParts" remote="aosp" revision="refs/tags/android-5.0.0_r5" />
   <project name="platform/packages/apps/SpeechRecorder" path="packages/apps/SpeechRecorder" remote="aosp" revision="refs/tags/android-5.0.0_r5" />
-  <project name="platform/packages/apps/Stk" path="packages/apps/Stk" remote="aosp" revision="refs/tags/android-5.0.0_r5" />
   <project name="platform/packages/apps/Tag" path="packages/apps/Tag" remote="aosp" revision="refs/tags/android-5.0.0_r5" />
   <project name="platform/packages/apps/TvSettings" path="packages/apps/TvSettings" remote="aosp" revision="refs/tags/android-5.0.0_r5" />
   <project name="platform/packages/apps/UnifiedEmail" path="packages/apps/UnifiedEmail" remote="aosp" revision="refs/tags/android-5.0.0_r5" />
   <project name="platform/packages/experimental" path="packages/experimental" remote="aosp" revision="refs/tags/android-5.0.0_r5" />
   <project name="platform/packages/providers/ApplicationsProvider" path="packages/providers/ApplicationsProvider" remote="aosp" revision="refs/tags/android-5.0.0_r5" />
   <project groups="pdk-cw-fs" name="platform/packages/providers/CalendarProvider" path="packages/providers/CalendarProvider" remote="aosp" revision="refs/tags/android-5.0.0_r5" />
-  <project groups="pdk-cw-fs" name="platform/packages/providers/ContactsProvider" path="packages/providers/ContactsProvider" remote="aosp" revision="refs/tags/android-5.0.0_r5" />
   <project groups="pdk-cw-fs" name="platform/packages/providers/DownloadProvider" path="packages/providers/DownloadProvider" remote="aosp" revision="refs/tags/android-5.0.0_r5" />
   <project name="platform/packages/providers/PartnerBookmarksProvider" path="packages/providers/PartnerBookmarksProvider" remote="aosp" revision="refs/tags/android-5.0.0_r5" />
   <project groups="pdk-cw-fs" name="platform/packages/providers/TvProvider" path="packages/providers/TvProvider" remote="aosp" revision="refs/tags/android-5.0.0_r5" />
@@ -432,8 +435,6 @@
   <project name="platform/packages/screensavers/Basic" path="packages/screensavers/Basic" remote="aosp" revision="refs/tags/android-5.0.0_r5" />
   <project name="platform/packages/screensavers/PhotoTable" path="packages/screensavers/PhotoTable" remote="aosp" revision="refs/tags/android-5.0.0_r5" />
   <project name="platform/packages/screensavers/WebView" path="packages/screensavers/WebView" remote="aosp" revision="refs/tags/android-5.0.0_r5" />
-  <project name="platform/packages/services/Mms" path="packages/services/Mms" remote="aosp" revision="refs/tags/android-5.0.0_r5" />
-  <project name="platform/packages/services/Telecomm" path="packages/services/Telecomm" remote="aosp" revision="refs/tags/android-5.0.0_r5" />
   <project name="platform/packages/wallpapers/Basic" path="packages/wallpapers/Basic" remote="aosp" revision="refs/tags/android-5.0.0_r5" />
   <project name="platform/packages/wallpapers/Galaxy4" path="packages/wallpapers/Galaxy4" remote="aosp" revision="refs/tags/android-5.0.0_r5" />
   <project name="platform/packages/wallpapers/HoloSpiral" path="packages/wallpapers/HoloSpiral" remote="aosp" revision="refs/tags/android-5.0.0_r5" />
