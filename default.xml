@@ -67,6 +67,7 @@
   <project path="frameworks/rs" name="android_frameworks_rs" groups="ev-aosp" />
   <project path="hardware/broadcom/libbt" name="android_hardware_broadcom_libbt" groups="ev-aosp" />
   <project path="hardware/broadcom/wlan" name="android_hardware_broadcom_wlan" groups="ev-aosp" />
+  <project path="hardware/invensense" name="android_hardware_invensense" groups="ev-aosp" />
   <project path="hardware/libhardware" name="android_hardware_libhardware" groups="ev-aosp" />
   <project path="hardware/libhardware_legacy" name="android_hardware_libhardware_legacy" groups="ev-aosp" />
   <project path="hardware/qcom/audio" name="android_hardware_qcom_audio" groups="ev-aosp" />
@@ -389,7 +390,6 @@
   <project groups="intel" name="platform/hardware/intel/img/libdrm" path="hardware/intel/img/libdrm" remote="aosp" revision="refs/tags/android-5.0.0_r7" />
   <project groups="intel" name="platform/hardware/intel/img/psb_headers" path="hardware/intel/img/psb_headers" remote="aosp" revision="refs/tags/android-5.0.0_r7" />
   <project groups="intel" name="platform/hardware/intel/img/psb_video" path="hardware/intel/img/psb_video" remote="aosp" revision="refs/tags/android-5.0.0_r7" />
-  <project groups="invensense" name="platform/hardware/invensense" path="hardware/invensense" remote="aosp" revision="refs/tags/android-5.0.0_r7" />
   <project groups="nvidia_audio" name="platform/hardware/nvidia/audio" path="hardware/nvidia/audio" remote="aosp" revision="refs/tags/android-5.0.0_r7" />
   <project groups="tegra124" name="platform/hardware/nvidia/tegra124" path="hardware/nvidia/tegra124" remote="aosp" revision="refs/tags/android-5.0.0_r7" />
   <project groups="qcom_msm8x74" name="platform/hardware/qcom/msm8x74" path="hardware/qcom/msm8x74" remote="aosp" revision="refs/tags/android-5.0.0_r7" />
