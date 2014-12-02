@@ -412,7 +412,6 @@
   <project name="platform/packages/apps/Music" path="packages/apps/Music" remote="aosp" revision="refs/tags/android-5.0.0_r7" />
   <project name="platform/packages/apps/MusicFX" path="packages/apps/MusicFX" remote="aosp" revision="refs/tags/android-5.0.0_r7" />
   <project name="platform/packages/apps/Nfc" path="packages/apps/Nfc" remote="aosp" revision="refs/tags/android-5.0.0_r7" />
-  <project name="platform/packages/apps/OMA-DM" path="packages/apps/OMA-DM" remote="aosp" revision="refs/tags/android-5.0.0_r7" />
   <project name="platform/packages/apps/OneTimeInitializer" path="packages/apps/OneTimeInitializer" remote="aosp" revision="refs/tags/android-5.0.0_r7" />
   <project name="platform/packages/apps/PackageInstaller" path="packages/apps/PackageInstaller" remote="aosp" revision="refs/tags/android-5.0.0_r7" />
   <project name="platform/packages/apps/Protips" path="packages/apps/Protips" remote="aosp" revision="refs/tags/android-5.0.0_r7" />
