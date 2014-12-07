@@ -44,12 +44,9 @@
   </project>
   <project path="bionic" name="android_bionic" groups="ev-aosp" />
   <project path="dalvik" name="android_dalvik" groups="ev-aosp" />
-  <project path="development" name="android_development" groups="ev-aosp" />
   <project path="device/generic/goldfish" name="android_device_generic_goldfish" groups="ev-aosp" />
   <project path="external/bluetooth/bluedroid" name="android_external_bluetooth_bluedroid" groups="ev-aosp" />
-  <project path="external/clang" name="android_external_clang" groups="ev-aosp" />
   <project path="external/chromium_org" name="android_external_chromium_org" groups="ev-aosp" />
-  <project path="external/javasqlite" name="android_external_javasqlite" groups="ev-aosp" />
   <project path="external/sepolicy" name="android_external_sepolicy" groups="ev-aosp" />
   <project path="external/skia" name="android_external_skia" groups="ev-aosp" />
   <project path="external/tinyalsa" name="android_external_tinyalsa" groups="ev-aosp" />
@@ -75,9 +72,7 @@
   <project path="hardware/qcom/display" name="android_hardware_qcom_display" groups="ev-aosp" />
   <project path="hardware/qcom/keymaster" name="android_hardware_qcom_keymaster" groups="ev-aosp" />
   <project path="hardware/qcom/media" name="android_hardware_qcom_media" groups="ev-aosp" />
-  <project path="hardware/qcom/msm8960" name="android_hardware_qcom_msm8960" groups="ev-aosp" />
   <project path="hardware/qcom/power" name="android_hardware_qcom_power" groups="ev-aosp" />
-  <project path="hardware/qcom/sensors" name="android_hardware_qcom_sensors" groups="ev-aosp" />
   <project path="hardware/qcom/wlan" name="android_hardware_qcom_wlan" groups="ev-aosp" />
   <project path="hardware/ril" name="android_hardware_ril" groups="ev-aosp" />
   <project path="libcore" name="android_libcore" groups="ev-aosp" />
@@ -93,7 +88,6 @@
   <project path="packages/apps/Gallery2" name="android_packages_apps_Gallery2" groups="ev-aosp" />
   <project path="packages/apps/InCallUI" name="android_packages_apps_InCallUI" groups="ev-aosp" />
   <project path="packages/apps/Mms" name="android_packages_apps_Mms" groups="ev-aosp" />
-  <project path="packages/apps/Phone" name="android_packages_apps_Phone" groups="ev-aosp" />
   <project path="packages/apps/PhoneCommon" name="android_packages_apps_PhoneCommon" groups="ev-aosp" />
   <project path="packages/apps/Settings" name="android_packages_apps_Settings" groups="ev-aosp" />
   <project path="packages/apps/Stk" name="android_packages_apps_Stk" groups="ev-aosp" />
@@ -106,7 +100,6 @@
   <project path="packages/services/Telecomm" name="android_packages_services_Telecomm" groups="ev-aosp" />
   <project path="packages/services/Telephony" name="android_packages_services_Telephony" groups="ev-aosp" />
   <project path="prebuilts/misc" name="android_prebuilts_misc" groups="ev-aosp" />
-  <project path="sdk" name="android_sdk" groups="ev-aosp" />
   <project path="system/core" name="android_system_core" groups="ev-aosp" />
   <project path="system/extras" name="android_system_extras" groups="ev-aosp" />
   <project path="system/netd" name="android_system_netd"  groups="ev-aosp"/>
@@ -121,6 +114,7 @@
   <project name="platform/developers/demos" path="developers/demos" remote="aosp" revision="refs/tags/android-5.0.1_r1" />
   <project name="platform/developers/docs" path="developers/docs" remote="aosp" revision="refs/tags/android-5.0.1_r1" />
   <project name="platform/developers/samples/android" path="developers/samples/android" remote="aosp" revision="refs/tags/android-5.0.1_r1" />
+  <project groups="pdk-cw-fs" name="platform/development" path="development" remote="aosp" revision="refs/tags/android-5.0.1_r1" />
   <project name="device/common" path="device/common" remote="aosp" revision="refs/tags/android-5.0.1_r1" />
   <project groups="pdk" name="device/generic/armv7-a-neon" path="device/generic/armv7-a-neon" remote="aosp" revision="refs/tags/android-5.0.1_r1" />
   <project groups="pdk" name="device/generic/common" path="device/generic/common" remote="aosp" revision="refs/tags/android-5.0.1_r1" />
@@ -187,6 +181,7 @@
   <project name="platform/external/chromium_org/tools/grit" path="external/chromium_org/tools/grit" remote="aosp" revision="refs/tags/android-5.0.1_r1" />
   <project name="platform/external/chromium_org/tools/gyp" path="external/chromium_org/tools/gyp" remote="aosp" revision="refs/tags/android-5.0.1_r1" />
   <project name="platform/external/chromium_org/v8" path="external/chromium_org/v8" remote="aosp" revision="refs/tags/android-5.0.1_r1" />
+  <project groups="pdk" name="platform/external/clang" path="external/clang" remote="aosp" revision="refs/tags/android-5.0.1_r1" />
   <project name="platform/external/cmockery" path="external/cmockery" remote="aosp" revision="refs/tags/android-5.0.1_r1" />
   <project groups="pdk" name="platform/external/compiler-rt" path="external/compiler-rt" remote="aosp" revision="refs/tags/android-5.0.1_r1" />
   <project groups="pdk-cw-fs" name="platform/external/conscrypt" path="external/conscrypt" remote="aosp" revision="refs/tags/android-5.0.1_r1" />
@@ -233,6 +228,7 @@
   <project groups="pdk-cw-fs" name="platform/external/iptables" path="external/iptables" remote="aosp" revision="refs/tags/android-5.0.1_r1" />
   <project groups="pdk-cw-fs" name="platform/external/iputils" path="external/iputils" remote="aosp" revision="refs/tags/android-5.0.1_r1" />
   <project groups="pdk-cw-fs" name="platform/external/jack" path="external/jack" remote="aosp" revision="refs/tags/android-5.0.1_r1" />
+  <project groups="pdk-cw-fs" name="platform/external/javasqlite" path="external/javasqlite" remote="aosp" revision="refs/tags/android-5.0.1_r1" />
   <project groups="pdk-cw-fs" name="platform/external/javassist" path="external/javassist" remote="aosp" revision="refs/tags/android-5.0.1_r1" />
   <project groups="pdk-cw-fs" name="platform/external/jdiff" path="external/jdiff" remote="aosp" revision="refs/tags/android-5.0.1_r1" />
   <project groups="pdk" name="platform/external/jemalloc" path="external/jemalloc" remote="aosp" revision="refs/tags/android-5.0.1_r1" />
@@ -392,7 +388,9 @@
   <project groups="intel" name="platform/hardware/intel/img/psb_video" path="hardware/intel/img/psb_video" remote="aosp" revision="refs/tags/android-5.0.1_r1" />
   <project groups="nvidia_audio" name="platform/hardware/nvidia/audio" path="hardware/nvidia/audio" remote="aosp" revision="refs/tags/android-5.0.1_r1" />
   <project groups="tegra124" name="platform/hardware/nvidia/tegra124" path="hardware/nvidia/tegra124" remote="aosp" revision="refs/tags/android-5.0.1_r1" />
+  <project groups="qcom_msm8960" name="platform/hardware/qcom/msm8960" path="hardware/qcom/msm8960" remote="aosp" revision="refs/tags/android-5.0.1_r1" />
   <project groups="qcom_msm8x74" name="platform/hardware/qcom/msm8x74" path="hardware/qcom/msm8x74" remote="aosp" revision="refs/tags/android-5.0.1_r1" />
+  <project groups="qcom" name="platform/hardware/qcom/sensors" path="hardware/qcom/sensors" remote="aosp" revision="refs/tags/android-5.0.1_r1" />
   <project groups="exynos5" name="platform/hardware/samsung_slsi/exynos5" path="hardware/samsung_slsi/exynos5" remote="aosp" revision="refs/tags/android-5.0.1_r1" />
   <project groups="omap3" name="platform/hardware/ti/omap3" path="hardware/ti/omap3" remote="aosp" revision="refs/tags/android-5.0.1_r1" />
   <project groups="omap4-aah" name="platform/hardware/ti/omap4-aah" path="hardware/ti/omap4-aah" remote="aosp" revision="refs/tags/android-5.0.1_r1" />
@@ -476,6 +474,7 @@
   <project groups="pdk" name="platform/prebuilts/qemu-kernel" path="prebuilts/qemu-kernel" clone-depth="1" remote="aosp" revision="refs/tags/android-5.0.1_r1" />
   <project groups="pdk-cw-fs" name="platform/prebuilts/sdk" path="prebuilts/sdk" remote="aosp" revision="refs/tags/android-5.0.1_r1" />
   <project groups="pdk,tools" name="platform/prebuilts/tools" path="prebuilts/tools" remote="aosp" revision="refs/tags/android-5.0.1_r1" />
+  <project groups="pdk-cw-fs" name="platform/sdk" path="sdk" remote="aosp" revision="refs/tags/android-5.0.1_r1" />
   <project groups="pdk" name="platform/system/keymaster" path="system/keymaster" remote="aosp" revision="refs/tags/android-5.0.1_r1" />
   <project groups="pdk" name="platform/system/media" path="system/media" remote="aosp" revision="refs/tags/android-5.0.1_r1" />
   <project groups="pdk" name="platform/system/security" path="system/security" remote="aosp" revision="refs/tags/android-5.0.1_r1" />
