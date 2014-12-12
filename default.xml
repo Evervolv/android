@@ -45,6 +45,7 @@
   <project path="device/generic/goldfish" name="android_device_generic_goldfish" groups="ev-aosp" />
   <project path="external/bluetooth/bluedroid" name="android_external_bluetooth_bluedroid" groups="ev-aosp" />
   <project path="external/chromium_org" name="android_external_chromium_org" groups="ev-aosp" />
+  <project path="external/e2fsprogs" name="platform/external/e2fsprogs" groups="ev-aosp" />
   <project path="external/jarjar" name="android_external_jarjar" groups="ev-aosp" />
   <project path="external/libnfc-nci" name="android_external_libnfc-nci" groups="ev-aosp" />
   <project path="external/sepolicy" name="android_external_sepolicy" groups="ev-aosp" />
@@ -191,7 +192,6 @@
   <project groups="pdk" name="platform/external/dnsmasq" path="external/dnsmasq" remote="aosp" revision="refs/tags/android-5.0.1_r1" />
   <project groups="pdk-cw-fs,tradefed" name="platform/external/doclava" path="external/doclava" remote="aosp" revision="master" />
   <project groups="pdk-cw-fs" name="platform/external/droiddriver" path="external/droiddriver" remote="aosp" revision="refs/tags/android-5.0.1_r1" />
-  <project groups="pdk" name="platform/external/e2fsprogs" path="external/e2fsprogs" remote="aosp" revision="refs/tags/android-5.0.1_r1" />
   <project name="platform/external/easymock" path="external/easymock" remote="aosp" revision="refs/tags/android-5.0.1_r1" />
   <project groups="pdk-cw-fs" name="platform/external/eclipse-basebuilder" path="external/eclipse-basebuilder" remote="aosp" revision="refs/tags/android-5.0.1_r1" />
   <project groups="pdk-cw-fs" name="platform/external/eclipse-windowbuilder" path="external/eclipse-windowbuilder" remote="aosp" revision="refs/tags/android-5.0.1_r1" />
