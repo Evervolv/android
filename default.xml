@@ -21,9 +21,7 @@
   <project path="external/curl" name="android_external_curl" groups="ev-extra" />
   <project path="external/ffmpeg" name="android_external_ffmpeg" groups="ev-extra" />
   <project path="external/htop" name="android_external_htop" groups="ev-extra" />
-  <project path="external/jarjar" name="android_external_jarjar" groups="ev-extra" />
   <project path="external/libncurses" name="android_external_libncurses" groups="ev-extra" />
-  <project path="external/libnfc-nci" name="android_external_libnfc-nci" groups="ev-extra" />
   <project path="external/nano" name="android_external_nano" groups="ev-extra" />
   <project path="external/rsync" name="android_external_rsync" groups="ev-extra" />
   <project path="external/stagefright-plugins" name="android_external_stagefright-plugins" groups="ev-extra" />
@@ -47,6 +45,8 @@
   <project path="device/generic/goldfish" name="android_device_generic_goldfish" groups="ev-aosp" />
   <project path="external/bluetooth/bluedroid" name="android_external_bluetooth_bluedroid" groups="ev-aosp" />
   <project path="external/chromium_org" name="android_external_chromium_org" groups="ev-aosp" />
+  <project path="external/jarjar" name="android_external_jarjar" groups="ev-aosp" />
+  <project path="external/libnfc-nci" name="android_external_libnfc-nci" groups="ev-aosp" />
   <project path="external/sepolicy" name="android_external_sepolicy" groups="ev-aosp" />
   <project path="external/skia" name="android_external_skia" groups="ev-aosp" />
   <project path="external/tinyalsa" name="android_external_tinyalsa" groups="ev-aosp" />
