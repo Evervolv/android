@@ -45,7 +45,7 @@
   <project path="device/generic/goldfish" name="android_device_generic_goldfish" groups="ev-aosp" />
   <project path="external/bluetooth/bluedroid" name="android_external_bluetooth_bluedroid" groups="ev-aosp" />
   <project path="external/chromium_org" name="android_external_chromium_org" groups="ev-aosp" />
-  <project path="external/e2fsprogs" name="platform/external/e2fsprogs" groups="ev-aosp" />
+  <project path="external/e2fsprogs" name="android_external_e2fsprogs" groups="ev-aosp" />
   <project path="external/jarjar" name="android_external_jarjar" groups="ev-aosp" />
   <project path="external/libnfc-nci" name="android_external_libnfc-nci" groups="ev-aosp" />
   <project path="external/sepolicy" name="android_external_sepolicy" groups="ev-aosp" />
