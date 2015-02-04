@@ -22,6 +22,7 @@
   <project path="external/curl" name="android_external_curl" groups="ev-extra" />
   <project path="external/ffmpeg" name="android_external_ffmpeg" groups="ev-extra" />
   <project path="external/htop" name="android_external_htop" groups="ev-extra" />
+  <project path="external/jpeg" name="android_external_jpeg" groups="ev-extra" />
   <project path="external/libncurses" name="android_external_libncurses" groups="ev-extra" />
   <project path="external/nano" name="android_external_nano" groups="ev-extra" />
   <project path="external/rsync" name="android_external_rsync" groups="ev-extra" />
@@ -237,7 +238,6 @@
   <project groups="pdk" name="platform/external/jhead" path="external/jhead" remote="aosp" revision="refs/tags/android-5.0.2_r1" />
   <project groups="notdefault,tradefed" name="platform/external/jline" path="external/jline" remote="aosp" revision="refs/tags/android-5.0.2_r1" />
   <project groups="pdk-cw-fs" name="platform/external/jmdns" path="external/jmdns" remote="aosp" revision="refs/tags/android-5.0.2_r1" />
-  <project groups="pdk" name="platform/external/jpeg" path="external/jpeg" remote="aosp" revision="refs/tags/android-5.0.2_r1" />
   <project groups="pdk-cw-fs,tradefed" name="platform/external/jsilver" path="external/jsilver" remote="aosp" revision="refs/tags/android-5.0.2_r1" />
   <project groups="pdk" name="platform/external/jsmn" path="external/jsmn" remote="aosp" revision="refs/tags/android-5.0.2_r1" />
   <project groups="pdk-cw-fs" name="platform/external/jsoncpp" path="external/jsoncpp" remote="aosp" revision="refs/tags/android-5.0.2_r1" />
