@@ -12,7 +12,7 @@ See [initializing the environment](http://source.android.com/source/initializing
 
 ######Required Packages
 
-    (Ubuntu 12.04 64-bit)
+#####Ubuntu 12.04 64-bit
     $ sudo apt-get install git gnupg flex bison gperf build-essential \
       zip curl libc6-dev libncurses5-dev:i386 x11proto-core-dev \
       libx11-dev:i386 libreadline6-dev:i386 libgl1-mesa-glx:i386 \
@@ -20,7 +20,7 @@ See [initializing the environment](http://source.android.com/source/initializing
       python-markdown libxml2-utils xsltproc zlib1g-dev:i386
     $ sudo ln -s /usr/lib/i386-linux-gnu/mesa/libGL.so.1 /usr/lib/i386-linux-gnu/libGL.so
 
-    (Ubuntu 14.04 64-bit)
+#####Ubuntu 14.04 64-bit
     $ sudo apt-get install bison g++-multilib git gperf libxml2-utils
 
 If you have dependency issues, try installing only a couple of packages at a time.
@@ -52,7 +52,7 @@ You may need to logout/login for path changes to take effect.
 ######Now enter the following to initialize the repository:
 
     cd ~/android/system/
-    repo init -u git://github.com/Evervolv/android.git -b lollipop
+    repo init -u git://github.com/Evervolv/android.git -b lollipop-5.1
     # Then to start the Sync. (This is gonna take awhile)
     repo sync -f
 
