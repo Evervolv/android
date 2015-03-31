@@ -395,6 +395,7 @@
   <project groups="tegra124" name="platform/hardware/nvidia/tegra124" path="hardware/nvidia/tegra124" remote="aosp" revision="refs/tags/android-5.1.0_r1" />
   <project groups="qcom_msm8960" name="platform/hardware/qcom/msm8960" path="hardware/qcom/msm8960" remote="aosp" revision="refs/tags/android-5.1.0_r1" />
   <project groups="qcom_msm8x74" name="platform/hardware/qcom/msm8x74" path="hardware/qcom/msm8x74" remote="aosp" revision="refs/tags/android-5.1.0_r1" />
+  <project groups="qcom_msm8x84" name="platform/hardware/qcom/msm8x84" path="hardware/qcom/msm8x84" remote="aosp" revision="refs/tags/android-5.1.0_r1" />
   <project groups="qcom" name="platform/hardware/qcom/sensors" path="hardware/qcom/sensors" remote="aosp" revision="refs/tags/android-5.1.0_r1" />
   <project groups="exynos5" name="platform/hardware/samsung_slsi/exynos5" path="hardware/samsung_slsi/exynos5" remote="aosp" revision="refs/tags/android-5.1.0_r1" />
   <project groups="omap3" name="platform/hardware/ti/omap3" path="hardware/ti/omap3" remote="aosp" revision="refs/tags/android-5.1.0_r1" />
