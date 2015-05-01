@@ -3,6 +3,8 @@
 
   <project path="android" name="android" remote="evervolv" />
 
+  <project path="evervolv/sdk" name="android_vendor_ev_sdk" groups="pdk" remote="evervolv" />
+
   <project path="hardware/evervolv/interfaces" name="android_hardware_evervolv_interfaces" remote="evervolv" />
   <project path="hardware/lineage" name="android_hardware_lineage" remote="evervolv" />
 
