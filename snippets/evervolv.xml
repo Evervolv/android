@@ -5,6 +5,8 @@
 
   <project path="device/evervolv/sepolicy" name="android_device_evervolv_sepolicy" remote="evervolv" />
 
+  <project path="evervolv/sdk" name="android_vendor_ev_sdk" groups="pdk" remote="evervolv" />
+
   <project path="hardware/lineage/interfaces" name="android_hardware_lineage_interfaces" remote="evervolv" />
 
   <project path="prebuilts/evervolv-tools" name="android_prebuilts_evervolv-tools" remote="evervolv-gitlab" clone-depth="1" />
