@@ -70,6 +70,7 @@
   <project path="hardware/qcom/audio" name="android_hardware_qcom_audio" groups="ev-aosp" />
   <project path="hardware/qcom/bt" name="android_hardware_qcom_bt" groups="ev-aosp" />
   <project path="hardware/qcom/display" name="android_hardware_qcom_display" groups="ev-aosp" />
+  <project path="hardware/qcom/gps" name="android_hardware_qcom_gps" groups="ev-aosp" />
   <project path="hardware/qcom/keymaster" name="android_hardware_qcom_keymaster" groups="ev-aosp" />
   <project path="hardware/qcom/media" name="android_hardware_qcom_media" groups="ev-aosp" />
   <project path="hardware/qcom/power" name="android_hardware_qcom_power" groups="ev-aosp" />
@@ -454,7 +455,7 @@
   <project groups="pdk,linux" name="platform/prebuilts/clang/linux-x86/3.1" path="prebuilts/clang/linux-x86/3.1" remote="aosp" />
   <project groups="pdk,linux" name="platform/prebuilts/clang/linux-x86/3.2" path="prebuilts/clang/linux-x86/3.2" remote="aosp" />
   <project groups="arm,linux,pdk-cw-fs" name="platform/prebuilts/clang/linux-x86/arm/3.3" path="prebuilts/clang/linux-x86/arm/3.3" remote="aosp" />
-  <project groups="pdk,linux" name="platform/prebuilts/clang/linux-x86/host/3.4" ath="prebuilts/clang/linux-x86/host/3.4" remote="aosp" />
+  <project groups="pdk,linux" name="platform/prebuilts/clang/linux-x86/host/3.4" path="prebuilts/clang/linux-x86/host/3.4" remote="aosp" />
   <project groups="pdk,linux" name="platform/prebuilts/clang/linux-x86/host/3.5" path="prebuilts/clang/linux-x86/host/3.5" remote="aosp" />
   <project groups="linux,mips,pdk-cw-fs" name="platform/prebuilts/clang/linux-x86/mips/3.3" path="prebuilts/clang/linux-x86/mips/3.3" remote="aosp" />
   <project groups="linux,pdk-cw-fs,x86" name="platform/prebuilts/clang/linux-x86/x86/3.3" path="prebuilts/clang/linux-x86/x86/3.3" remote="aosp" />
