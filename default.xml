@@ -3,7 +3,7 @@
 
   <remote  name="aosp"
            fetch="https://android.googlesource.com/"
-           revision="refs/tags/android-5.1.1_r6" />
+           revision="refs/tags/android-5.1.1_r7" />
   <remote  name="github"
            fetch="git://github.com/"/>
   <remote  name="evervolv"
