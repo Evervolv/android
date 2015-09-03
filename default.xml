@@ -17,7 +17,6 @@
   <project path="android" name="android" groups="ev-extra" >
     <copyfile src="eclipse-classpath" dest=".classpath" />
   </project>
-  <project path="developers/themes/resources" name="android_developers_themes_resources" groups="ev-extra" />
   <project path="device/qcom/sepolicy" name="android_device_qcom_sepolicy" groups="ev-extra" />
   <project path="external/bash" name="android_external_bash" groups="ev-extra" />
   <project path="external/busybox" name="android_external_busybox" groups="ev-extra" />
