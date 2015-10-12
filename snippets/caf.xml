@@ -32,6 +32,8 @@
   <project path="hardware/qcom-caf/vr" name="android_hardware_qcom_vr" groups="qcom,sdm660" remote="evervolv" />
   <project path="hardware/qcom-caf/wlan" name="android_hardware_qcom_wlan" groups="qcom,waipio-vendor" remote="evervolv" revision="u-14.0-caf" />
 
+  <project path="packages/apps/FMRadio" name="android_packages_apps_FMRadio" groups="qcom" remote="evervolv" />
+
   <project path="vendor/codeaurora/telephony" name="android_vendor_codeaurora_telephony" groups="qcom,qssi" remote="evervolv" />
 
   <project path="vendor/qcom/opensource/audio-hal/st-hal" name="android_vendor_qcom_opensource_audio-hal_st-hal" groups="qcom,lahaina" remote="evervolv"/>
