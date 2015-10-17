@@ -14,7 +14,7 @@
            sync-j="4" />
 
   <!--Evervolv (Github) Hosted Projects-->
-  <project path="android" name="android" revision="lollipop-5.1" >
+  <project path="android" name="android" >
     <copyfile src="eclipse-classpath" dest=".classpath" />
   </project>
   <project path="art" name="android_art" groups="pdk" />
