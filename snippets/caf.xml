@@ -17,6 +17,8 @@
   <project path="external/ant-wireless/hidl" name="android_external_ant-wireless_hidl" groups="qcom,qssi" remote="evervolv" />
   <project path="external/json-c" name="android_external_json-c" groups="qcom,qssi" remote="evervolv" />
 
+  <project path="hardware/qcom-caf/bt" name="android_hardware_qcom_bt" groups="qcom,legacy-qcom" remote="evervolv" revision="u-14.2-caf" />
+
   <project path="vendor/codeaurora/telephony" name="android_vendor_codeaurora_telephony" groups="qcom,qssi" remote="evervolv" />
 
   <project path="vendor/qcom/opensource/audio-hal/st-hal" name="android_vendor_qcom_opensource_audio-hal_st-hal" groups="qcom,lahaina" remote="evervolv"/>
