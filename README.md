@@ -21,7 +21,7 @@ See [initializing the environment](http://source.android.com/source/initializing
     $ sudo ln -s /usr/lib/i386-linux-gnu/mesa/libGL.so.1 /usr/lib/i386-linux-gnu/libGL.so
 
 #####Ubuntu 14.04 64-bit
-    $ sudo apt-get install bison g++-multilib git gperf libxml2-utils
+    $ sudo apt-get install bison g++-multilib git gperf libxml2-utils make python-networkx zlib1g-dev:i386 zip
 
 If you have dependency issues, try installing only a couple of packages at a time.
 
@@ -52,7 +52,7 @@ You may need to logout/login for path changes to take effect.
 ######Now enter the following to initialize the repository:
 
     cd ~/android/system/
-    repo init -u git://github.com/Evervolv/android.git -b lollipop-5.1
+    repo init -u git://github.com/Evervolv/android.git -b mm-6.0
     # Then to start the Sync. (This is gonna take awhile)
     repo sync -f
 
