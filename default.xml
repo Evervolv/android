@@ -29,8 +29,11 @@
   <project path="external/e2fsprogs" name="android_external_e2fsprogs" />
   <project path="external/htop" name="android_external_htop" />
   <project path="external/libncurses" name="android_external_libncurses" />
+  <project path="external/mm-dash" name="android_external_mm-dash" />
   <project path="external/nano" name="android_external_nano" />
   <project path="external/rsync" name="android_external_rsync" />
+  <project path="external/stlport" name="android_external_stlport" />
+  <project path="external/sony/boringssl-compat" name="android_external_sony_boringssl-compat" />
   <project path="external/su" name="android_external_su" />
   <project path="frameworks/av" name="android_frameworks_av" groups="pdk" />
   <project path="frameworks/base" name="android_frameworks_base" groups="pdk-cw-fs,pdk-fs" />
