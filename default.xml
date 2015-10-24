@@ -38,6 +38,7 @@
   <project path="external/sony/boringssl-compat" name="android_external_sony_boringssl-compat" />
   <project path="external/stagefright-plugins" name="android_external_stagefright-plugins" />
   <project path="external/su" name="android_external_su" />
+
   <project path="frameworks/av" name="android_frameworks_av" groups="pdk" />
   <project path="frameworks/base" name="android_frameworks_base" groups="pdk-cw-fs,pdk-fs" />
   <project path="frameworks/native" name="android_frameworks_native" groups="pdk" />
