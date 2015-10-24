@@ -27,6 +27,7 @@
   <project path="external/busybox" name="android_external_busybox" />
   <project path="external/curl" name="android_external_curl" />
   <project path="external/e2fsprogs" name="android_external_e2fsprogs" />
+  <project path="external/ffmpeg" name="android_external_ffmpeg" />
   <project path="external/htop" name="android_external_htop" />
   <project path="external/libncurses" name="android_external_libncurses" />
   <project path="external/mm-dash" name="android_external_mm-dash" />
@@ -34,7 +35,9 @@
   <project path="external/rsync" name="android_external_rsync" />
   <project path="external/stlport" name="android_external_stlport" />
   <project path="external/sony/boringssl-compat" name="android_external_sony_boringssl-compat" />
+  <project path="external/stagefright-plugins" name="android_external_stagefright-plugins" />
   <project path="external/su" name="android_external_su" />
+
   <project path="frameworks/av" name="android_frameworks_av" groups="pdk" />
   <project path="frameworks/base" name="android_frameworks_base" groups="pdk-cw-fs,pdk-fs" />
   <project path="frameworks/native" name="android_frameworks_native" groups="pdk" />
