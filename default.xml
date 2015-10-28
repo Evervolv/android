@@ -33,6 +33,7 @@
   <project path="external/mm-dash" name="android_external_mm-dash" />
   <project path="external/nano" name="android_external_nano" />
   <project path="external/rsync" name="android_external_rsync" />
+  <project path="external/sepolicy" name="android_external_sepolicy" />
   <project path="external/stlport" name="android_external_stlport" />
   <project path="external/sony/boringssl-compat" name="android_external_sony_boringssl-compat" />
   <project path="external/stagefright-plugins" name="android_external_stagefright-plugins" />
@@ -297,7 +298,6 @@
   <project path="external/safe-iop" name="platform/external/safe-iop" groups="pdk" remote="aosp" />
   <project path="external/scrypt" name="platform/external/scrypt" groups="pdk" remote="aosp" />
   <project path="external/selinux" name="platform/external/selinux" groups="pdk" remote="aosp" />
-  <project path="external/sepolicy" name="platform/external/sepolicy" groups="pdk" remote="aosp" />
   <project path="external/sfntly" name="platform/external/sfntly" groups="pdk,qcom_msm8x26" remote="aosp" />
   <project path="external/skia" name="platform/external/skia" groups="pdk,qcom_msm8x26" remote="aosp" />
   <project path="external/slf4j" name="platform/external/slf4j" groups="pdk-fs" remote="aosp" />
