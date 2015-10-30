@@ -23,6 +23,10 @@
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project path="device/qcom/sepolicy" name="android_device_qcom_sepolicy" groups="pdk" />
+  <project path="external/ant-glob" name="android_external_ant-glob" groups="pdk-cw-fs,pdk-fs" />
+  <project path="external/ant-wireless/ant_native" name="android_external_ant-wireless_ant_native" />
+  <project path="external/ant-wireless/ant_service" name="android_external_ant-wireless_ant_service" />
+  <project path="external/ant-wireless/antradio-library" name="android_external_ant-wireless_antradio-library" />
   <project path="external/bash" name="android_external_bash" />
   <project path="external/busybox" name="android_external_busybox" />
   <project path="external/curl" name="android_external_curl" />
@@ -38,7 +42,6 @@
   <project path="external/sony/boringssl-compat" name="android_external_sony_boringssl-compat" />
   <project path="external/stagefright-plugins" name="android_external_stagefright-plugins" />
   <project path="external/su" name="android_external_su" />
-
   <project path="frameworks/av" name="android_frameworks_av" groups="pdk" />
   <project path="frameworks/base" name="android_frameworks_base" groups="pdk-cw-fs,pdk-fs" />
   <project path="frameworks/native" name="android_frameworks_native" groups="pdk" />
@@ -96,6 +99,7 @@
   <project path="system/extras" name="android_system_extras" groups="pdk"   />
   <project path="system/media" name="android_system_media" groups="pdk"   />
   <project path="system/netd" name="android_system_netd" groups="pdk" />
+  <project path="system/qcom" name="android_system_qcom" groups="pdk" />
   <project path="system/vold" name="android_system_vold" groups="pdk" />
   <project path="vendor/ev" name="android_vendor_ev" />
   <project path="vendor/qcom/opensource/display-frameworks" name="android_vendor_qcom_opensource_display-frameworks" />
@@ -132,7 +136,6 @@
   <project path="external/android-clat" name="platform/external/android-clat" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
   <project path="external/android-mock" name="platform/external/android-mock" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
   <project path="external/androidplot" name="platform/external/androidplot" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
-  <project path="external/ant-glob" name="platform/external/ant-glob" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
   <project path="external/antlr" name="platform/external/antlr" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
   <project path="external/apache-commons-math" name="platform/external/apache-commons-math" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
   <project path="external/apache-harmony" name="platform/external/apache-harmony" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
