@@ -8,5 +8,7 @@
   <project path="device/qcom/sepolicy-legacy-um" name="android_device_qcom_sepolicy" groups="pdk" remote="evervolv" revision="s-12.1-legacy-um" />
   <project path="device/qcom/sepolicy_vndr" name="android_device_qcom_sepolicy_vndr" groups="pdk" remote="evervolv" />
 
+  <project path="external/connectivity" name="android_external_connectivity" remote="evervolv" />
+
 </manifest>
 
