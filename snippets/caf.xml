@@ -17,6 +17,7 @@
   <project path="external/ant-wireless/ant_service" name="android_external_ant-wireless_ant_service" remote="evervolv" />
   <project path="external/ant-wireless/antradio-library" name="android_external_ant-wireless_antradio-library" remote="evervolv" />
   <project path="external/ant-wireless/hidl" name="android_external_ant-wireless_hidl" remote="evervolv" />
+  <project path="external/connectivity" name="android_external_connectivity" remote="evervolv" />
 
 </manifest>
 
