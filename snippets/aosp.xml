@@ -33,6 +33,8 @@
     <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
   </project>
 
+  <project path="development" name="android_development" groups="pdk-cw-fs,pdk-fs" remote="evervolv" />
+
   <project path="device/generic/common" name="android_device_generic_common" groups="pdk" remote="evervolv" />
   <project path="device/google/contexthub" name="android_device_google_contexthub" groups="device,pdk" remote="evervolv" />
 
