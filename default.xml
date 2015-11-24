@@ -22,6 +22,7 @@
   <project path="build" name="android_build" groups="pdk" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
+  <project path="development" name="android_development" groups="pdk-cw-fs,pdk-fs" />
   <project path="device/qcom/sepolicy" name="android_device_qcom_sepolicy" groups="pdk" />
   <project path="external/ant-glob" name="android_external_ant-glob" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/ant-wireless/ant_native" name="android_external_ant-wireless_ant_native" />
@@ -115,7 +116,6 @@
   <project path="developers/demos" name="platform/developers/demos" remote="aosp" />
   <project path="developers/docs" name="platform/developers/docs" remote="aosp" />
   <project path="developers/samples/android" name="platform/developers/samples/android" remote="aosp" />
-  <project path="development" name="platform/development" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
   <project path="device/common" name="device/common" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
   <project path="device/generic/arm64" name="device/generic/arm64" groups="pdk" remote="aosp" />
   <project path="device/generic/armv7-a-neon" name="device/generic/armv7-a-neon" groups="pdk" remote="aosp" />
