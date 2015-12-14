@@ -19,6 +19,7 @@
   </project>
   <project path="art" name="android_art" groups="pdk" />
   <project path="bionic" name="android_bionic" groups="pdk" />
+  <project path="bootable/recovery" name="android_bootable_recovery" />
   <project path="build" name="android_build" groups="pdk" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
@@ -32,11 +33,15 @@
   <project path="external/busybox" name="android_external_busybox" />
   <project path="external/curl" name="android_external_curl" />
   <project path="external/e2fsprogs" name="android_external_e2fsprogs" />
+  <project path="external/exfat" name="android_external_exfat" />
+  <project path="external/f2fs-tools" name="android_external_f2fs-tools" />
   <project path="external/ffmpeg" name="android_external_ffmpeg" />
+  <project path="external/fuse" name="android_external_fuse" />
   <project path="external/htop" name="android_external_htop" />
   <project path="external/libncurses" name="android_external_libncurses" />
   <project path="external/mm-dash" name="android_external_mm-dash" />
   <project path="external/nano" name="android_external_nano" />
+  <project path="external/pigz" name="android_external_pigz" />
   <project path="external/rsync" name="android_external_rsync" />
   <project path="external/sepolicy" name="android_external_sepolicy" />
   <project path="external/stlport" name="android_external_stlport" />
@@ -115,7 +120,6 @@
 
   <!--AOSP Hosted Projects-->
   <project path="abi/cpp" name="platform/abi/cpp" groups="pdk" remote="aosp" />
-  <project path="bootable/recovery" name="platform/bootable/recovery" remote="aosp" />
   <project path="cts" name="platform/cts" groups="cts,pdk-cw-fs,pdk-fs" remote="aosp" />
   <project path="dalvik" name="platform/dalvik" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
   <project path="developers/build" name="platform/developers/build" remote="aosp" />
@@ -182,7 +186,6 @@
   <project path="external/esd" name="platform/external/esd" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
   <project path="external/expat" name="platform/external/expat" groups="pdk" remote="aosp" />
   <project path="external/eyes-free" name="platform/external/eyes-free" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
-  <project path="external/f2fs-tools" name="platform/external/f2fs-tools" groups="pdk" remote="aosp" />
   <project path="external/fdlibm" name="platform/external/fdlibm" groups="pdk" remote="aosp" />
   <project path="external/fio" name="platform/external/fio" groups="pdk-fs" remote="aosp" />
   <project path="external/flac" name="platform/external/flac" groups="pdk" remote="aosp" />
