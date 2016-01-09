@@ -120,7 +120,6 @@
   <project path="system/qcom" name="android_system_qcom" groups="pdk" />
   <project path="system/vold" name="android_system_vold" groups="pdk" />
   <project path="vendor/ev" name="android_vendor_ev" />
-  <project path="vendor/qcom/opensource/display-frameworks" name="android_vendor_qcom_opensource_display-frameworks" />
   <project path="vendor/qcom/opensource/dpm" name="android_vendor_qcom_opensource_dpm" />
   <project path="vendor/qcom/opensource/time-services" name="android_vendor_qcom_opensource_time-services" />
 
