@@ -26,6 +26,7 @@
   <project path="development" name="android_development" groups="pdk-cw-fs,pdk-fs" />
   <project path="device/qcom/common" name="android_device_qcom_common" groups="qcom,pdk" />
   <project path="device/qcom/sepolicy" name="android_device_qcom_sepolicy" groups="pdk" />
+  <project path="external/android-visualizer" name="android_external_android-visualizer" groups="pdk-fs" />
   <project path="external/ant-glob" name="android_external_ant-glob" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/ant-wireless/ant_native" name="android_external_ant-wireless_ant_native" />
   <project path="external/ant-wireless/ant_service" name="android_external_ant-wireless_ant_service" />
@@ -75,6 +76,7 @@
   <project path="hardware/qcom/media" name="android_hardware_qcom_media" groups="qcom" />
   <project path="hardware/qcom/wlan" name="android_hardware_qcom_wlan" groups="qcom_wlan" />
   <project path="hardware/invensense" name="android_hardware_invensense" groups="invensense" />
+  <project path="packages/apps/AudioFX" name="android_packages_apps_AudioFX" groups="pdk-fs" />
   <project path="packages/apps/Bluetooth" name="android_packages_apps_Bluetooth" groups="pdk-cw-fs,pdk-fs" />
   <project path="packages/apps/Calculator" name="android_packages_apps_Calculator" groups="pdk-fs" />
   <project path="packages/apps/Calendar" name="android_packages_apps_Calendar" groups="pdk-fs" />
@@ -84,6 +86,7 @@
   <project path="packages/apps/ContactsCommon" name="android_packages_apps_ContactsCommon" groups="pdk-fs" />
   <project path="packages/apps/DeskClock" name="android_packages_apps_DeskClock" groups="pdk-fs" />
   <project path="packages/apps/Dialer" name="android_packages_apps_Dialer" groups="pdk-fs" />
+  <project path="packages/apps/Eleven" name="android_packages_apps_Eleven" groups="pdk-fs" />
   <project path="packages/apps/Email" name="android_packages_apps_Email" groups="pdk-fs" />
   <project path="packages/apps/EVTips" name="android_packages_apps_EVTips" />
   <project path="packages/apps/EVToolbox" name="android_packages_apps_EVToolbox" />
@@ -94,7 +97,6 @@
   <project path="packages/apps/InCallUI" name="android_packages_apps_InCallUI" groups="pdk-fs" />
   <project path="packages/apps/Launcher3" name="android_packages_apps_Launcher3" groups="pdk-fs" />
   <project path="packages/apps/Messaging" name="android_packages_apps_Messaging" groups="pdk-fs" />
-  <project path="packages/apps/Music" name="android_packages_apps_Music" groups="pdk-fs" />
   <project path="packages/apps/PackageInstaller" name="android_packages_apps_PackageInstaller" groups="pdk-fs" />
   <project path="packages/apps/PhoneCommon" name="android_packages_apps_PhoneCommon" groups="pdk-cw-fs,pdk-fs" />
   <project path="packages/apps/Settings" name="android_packages_apps_Settings" groups="pdk-fs" />
