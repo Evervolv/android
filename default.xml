@@ -40,6 +40,7 @@
   <project path="external/fuse" name="android_external_fuse" />
   <project path="external/htop" name="android_external_htop" />
   <project path="external/libncurses" name="android_external_libncurses" />
+  <project path="external/lz4" name="android_external_lz4"/>
   <project path="external/mm-dash" name="android_external_mm-dash" />
   <project path="external/nano" name="android_external_nano" />
   <project path="external/pigz" name="android_external_pigz" />
@@ -272,7 +273,6 @@
   <project path="external/lldb" name="platform/external/lldb" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
   <project path="external/llvm" name="platform/external/llvm" groups="pdk" remote="aosp" />
   <project path="external/ltrace" name="platform/external/ltrace" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
-  <project path="external/lz4" name="platform/external/lz4" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
   <project path="external/lzma" name="platform/external/lzma" groups="pdk" remote="aosp" />
   <project path="external/marisa-trie" name="platform/external/marisa-trie" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
   <project path="external/markdown" name="platform/external/markdown" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
