@@ -51,6 +51,7 @@
   <project path="external/sony/boringssl-compat" name="android_external_sony_boringssl-compat" />
   <project path="external/stagefright-plugins" name="android_external_stagefright-plugins" />
   <project path="external/su" name="android_external_su" />
+  <project path="external/tinycompress" name="android_external_tinycompress" groups="pdk" />
   <project path="external/toybox" name="android_external_toybox" groups="pdk" />
   <project path="external/wpa_supplicant_8" name="android_external_wpa_supplicant_8" groups="pdk" />
   <project path="frameworks/av" name="android_frameworks_av" groups="pdk" />
@@ -332,7 +333,6 @@
   <project path="external/tcpdump" name="platform/external/tcpdump" groups="pdk,pdk-cw-fs,pdk-fs" remote="aosp" />
   <project path="external/timezonepicker-support" name="platform/external/timezonepicker-support" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
   <project path="external/tinyalsa" name="platform/external/tinyalsa" groups="pdk" remote="aosp" />
-  <project path="external/tinycompress" name="platform/external/tinycompress" groups="pdk" remote="aosp" />
   <project path="external/tinyxml" name="platform/external/tinyxml" groups="pdk" remote="aosp" />
   <project path="external/tinyxml2" name="platform/external/tinyxml2" groups="pdk" remote="aosp" />
   <project path="external/tremolo" name="platform/external/tremolo" groups="pdk" remote="aosp" />
