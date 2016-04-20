@@ -9,6 +9,7 @@
   <project path="device/qcom/sepolicy_vndr" name="android_device_qcom_sepolicy_vndr" groups="pdk" remote="evervolv" />
 
   <project path="external/connectivity" name="android_external_connectivity" remote="evervolv" />
+  <project path="external/json-c" name="android_external_json-c" remote="evervolv" />
 
 </manifest>
 
