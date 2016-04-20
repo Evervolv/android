@@ -24,6 +24,7 @@
   <project path="external/ant-wireless/antradio-library" name="android_external_ant-wireless_antradio-library" remote="evervolv" />
   <project path="external/ant-wireless/hidl" name="platform/external/ant-wireless/hidl" remote="caf-legacy" />
   <project path="external/connectivity" name="android_external_connectivity" remote="evervolv" />
+  <project path="external/json-c" name="android_external_json-c" remote="evervolv" />
 
 </manifest>
 
