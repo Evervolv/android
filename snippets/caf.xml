@@ -11,5 +11,7 @@
   <project path="device/qcom/sepolicy_vndr/sm8550" name="android_device_qcom_sepolicy_vndr" groups="qcom,kailua-vendor" remote="evervolv" revision="v-15.0-8550" />
   <project path="device/qcom/sepolicy_vndr/legacy-um" name="android_device_qcom_sepolicy_vndr" groups="qcom,lahaina" remote="evervolv" revision="v-15.0-legacy-um" />
 
+  <project path="external/json-c" name="android_external_json-c" groups="qcom,qssi" remote="evervolv" />
+
 </manifest>
 
