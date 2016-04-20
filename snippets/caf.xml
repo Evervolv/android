@@ -8,5 +8,7 @@
   <project path="device/qcom/sepolicy-legacy-um" name="android_device_qcom_sepolicy" groups="pdk" remote="evervolv" revision="t-13.0-legacy-um" />
   <project path="device/qcom/sepolicy_vndr" name="android_device_qcom_sepolicy_vndr" groups="pdk" remote="evervolv" />
 
+  <project path="external/json-c" name="android_external_json-c" remote="evervolv" />
+
 </manifest>
 
