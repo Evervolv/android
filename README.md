@@ -12,23 +12,25 @@ See [initializing the environment](http://source.android.com/source/initializing
 
 ######Required Packages
 
-#####Ubuntu 12.04 64-bit
-    $ sudo apt-get install git gnupg flex bison gperf build-essential \
-      zip curl libc6-dev libncurses5-dev:i386 x11proto-core-dev \
-      libx11-dev:i386 libreadline6-dev:i386 libgl1-mesa-glx:i386 \
-      libgl1-mesa-dev g++-multilib mingw32 tofrodos \
-      python-markdown libxml2-utils xsltproc zlib1g-dev:i386
-    $ sudo ln -s /usr/lib/i386-linux-gnu/mesa/libGL.so.1 /usr/lib/i386-linux-gnu/libGL.so
-
-#####Ubuntu 14.04 64-bit
-    $ sudo apt-get install bison g++-multilib git gperf libxml2-utils make python-networkx zlib1g-dev:i386 zip
+#####Ubuntu 14.04+ (64-bit)
+    $ sudo apt-get install git-core gnupg flex bison gperf build-essential \
+      zip curl zlib1g-dev gcc-multilib g++-multilib libc6-dev-i386 \
+      lib32ncurses5-dev x11proto-core-dev libx11-dev lib32z-dev ccache \
+      libgl1-mesa-dev libxml2-utils xsltproc unzip
 
 If you have dependency issues, try installing only a couple of packages at a time.
 
 ######Install Java
 
-As of Lollipop, Android requires openjdk7 or Oracle Java7 to build. You will have to install
-[Oracle's JDK7](http://www.oracle.com/technetwork/java/javase/downloads/index.html) manually.
+Nougat requires Java 8, OpenJDK is recommended
+
+######For Ubuntu 15.04+
+    $ sudo apt-get update
+    $ sudo apt-get install openjdk-8-jdk
+
+######For Ubuntu 14.04
+
+See [initializing the environment](http://source.android.com/source/initializing.html) for googles detailed instructions
 
 #####Create the Directories
 
@@ -52,7 +54,7 @@ You may need to logout/login for path changes to take effect.
 ######Now enter the following to initialize the repository:
 
     cd ~/android/system/
-    repo init -u git://github.com/Evervolv/android.git -b mm-6.0
+    repo init -u git://github.com/Evervolv/android.git -b ng-7.0
     # Then to start the Sync. (This is gonna take awhile)
     repo sync -f
 
