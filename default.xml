@@ -18,7 +18,7 @@
   <project path="build" name="android_build" groups="pdk,tradefed" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
-  <project path="build/kati" name="platform/build/kati" groups="pdk,tradefed" />
+  <project path="build/kati" name="android_build_kati" groups="pdk,tradefed" />
   <project path="build/soong" name="android_build_soong" groups="pdk,tradefed" >
     <linkfile src="root.bp" dest="Android.bp" />
     <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
