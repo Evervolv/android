@@ -45,6 +45,7 @@
   <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" name="android_prebuilts_gcc_linux-x86_arm_arm-eabi-4.8" groups="pdk,linux,arm" />
   <project path="system/bt" name="android_system_bt" groups="pdk" />
   <project path="system/core" name="android_system_core" groups="pdk" />
+  <project path="system/extras" name="android_system_extras" groups="pdk" />
   <project path="system/media" name="android_system_media" groups="pdk" />
   <project path="system/sepolicy" name="android_system_sepolicy" groups="pdk" />
   <project path="vendor/ev" name="android_vendor_ev" />
@@ -486,7 +487,6 @@
   <project path="system/connectivity/apmanager" name="platform/system/connectivity/apmanager" remote="aosp" />
   <project path="system/connectivity/dhcp_client" name="platform/system/connectivity/dhcp_client" remote="aosp" />
   <project path="system/connectivity/shill" name="platform/system/connectivity/shill" remote="aosp" />
-  <project path="system/extras" name="platform/system/extras" groups="pdk" remote="aosp" />
   <project path="system/firewalld" name="platform/system/firewalld" remote="aosp" />
   <project path="system/gatekeeper" name="platform/system/gatekeeper" groups="pdk" remote="aosp" />
   <project path="system/keymaster" name="platform/system/keymaster" groups="pdk" remote="aosp" />
