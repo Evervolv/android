@@ -24,8 +24,25 @@
     <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
   </project>
   <project path="bionic" name="android_bionic" groups="pdk" />
+  <project path="bootable/recovery" name="android_bootable_recovery" groups="pdk" />
+  <project path="device/qcom/common" name="android_device_qcom_common" />
   <project path="device/qcom/sepolicy" name="android_device_qcom_sepolicy" />
+  <project path="external/android-visualizer" name="android_external_android-visualizer" groups="pdk-fs" />
+  <project path="external/bash" name="android_external_bash" />
+  <project path="external/busybox" name="android_external_busybox" />
+  <project path="external/e2fsprogs" name="android_external_e2fsprogs" />
+  <project path="external/exfat" name="android_external_exfat" />
+  <project path="external/f2fs-tools" name="android_external_f2fs-tools" />
+  <project path="external/fuse" name="android_external_fuse" />
+  <project path="external/htop" name="android_external_htop" />
+  <project path="external/libncurses" name="android_external_libncurses" />
+  <project path="external/mm-dash" name="android_external_mm-dash" />
   <project path="external/libselinux" name="android_external_libselinux" groups="pdk" />
+  <project path="external/nano" name="android_external_nano" />
+  <project path="external/pigz" name="android_external_pigz" />
+  <project path="external/rsync" name="android_external_rsync" />
+  <project path="external/tinycompress" name="android_external_tinycompress" groups="pdk" />
+  <project path="external/toybox" name="android_external_toybox" groups="pdk" />
   <project path="frameworks/av" name="android_frameworks_av" groups="pdk" />
   <project path="frameworks/base" name="android_frameworks_base" groups="pdk-cw-fs,pdk-fs" />
   <project path="frameworks/native" name="android_frameworks_native" groups="pdk" />
@@ -40,7 +57,16 @@
   <project path="hardware/qcom/media" name="android_hardware_qcom_media" groups="qcom" />
   <project path="hardware/qcom/wlan" name="android_hardware_qcom_wlan" groups="qcom_wlan" />
   <project path="hardware/ril" name="android_hardware_ril" groups="pdk" />
+  <project path="packages/apps/AudioFX" name="android_packages_apps_AudioFX" groups="pdk-fs" />
   <project path="packages/apps/Bluetooth" name="android_packages_apps_Bluetooth" groups="pdk-cw-fs,pdk-fs" />
+  <project path="packages/apps/Calendar" name="android_packages_apps_Calendar" groups="pdk-fs" />
+  <project path="packages/apps/Eleven" name="android_packages_apps_Eleven" groups="pdk-fs" />
+  <project path="packages/apps/EVToolbox" name="android_packages_apps_EVToolbox" groups="pdk-fs" />
+  <project path="packages/apps/EVUpdater" name="android_packages_apps_EVUpdater" groups="pdk-fs" />
+  <project path="packages/apps/EVWallpapers" name="android_packages_apps_EVWallpapers" groups="pdk-fs" />
+  <project path="packages/apps/Gallery2" name="android_packages_apps_Gallery2" groups="pdk-fs" />
+  <project path="packages/apps/Launcher3" name="android_packages_apps_Launcher3" groups="pdk-fs" />
+  <project path="packages/apps/Nfc" name="android_packages_apps_Nfc" groups="pdk-fs" />
   <project path="packages/apps/Settings" name="android_packages_apps_Settings" groups="pdk-fs" />
   <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" name="android_prebuilts_gcc_linux-x86_arm_arm-eabi-4.8" groups="pdk,linux,arm" />
   <project path="system/bt" name="android_system_bt" groups="pdk" />
@@ -49,13 +75,16 @@
   <project path="system/extras/su" name="android_system_extras_su" groups="pdk" />
   <project path="system/media" name="android_system_media" groups="pdk" />
   <project path="system/sepolicy" name="android_system_sepolicy" groups="pdk" />
+  <project path="system/vold" name="android_system_vold" groups="pdk" />
   <project path="vendor/ev" name="android_vendor_ev" />
   <project path="vendor/qcom/opensource/bluetooth" name="android_vendor_qcom_opensource_bluetooth" />
+  <project path="vendor/qcom/opensource/dataservices" name="android_vendor_qcom_opensource_dataservices" />
+  <project path="vendor/qcom/opensource/dpm" name="android_vendor_qcom_opensource_dpm" />
+  <project path="vendor/qcom/opensource/time-services" name="android_vendor_qcom_opensource_time-services" />
 
   <!--AOSP Hosted Projects-->
   <project path="build/blueprint" name="platform/build/blueprint" groups="pdk,tradefed" remote="aosp" />
   <project path="abi/cpp" name="platform/abi/cpp" groups="pdk" remote="aosp" />
-  <project path="bootable/recovery" name="platform/bootable/recovery" groups="pdk" remote="aosp" />
   <project path="cts" name="platform/cts" groups="cts,pdk-cw-fs,pdk-fs" remote="aosp" />
   <project path="dalvik" name="platform/dalvik" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
   <project path="developers/build" name="platform/developers/build" remote="aosp" />
@@ -131,7 +160,6 @@
   <project path="external/drm_gralloc" name="platform/external/drm_gralloc" groups="drm_gralloc" remote="aosp" />
   <project path="external/drm_hwcomposer" name="platform/external/drm_hwcomposer" groups="drm_hwcomposer" remote="aosp" />
   <project path="external/droiddriver" name="platform/external/droiddriver" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
-  <project path="external/e2fsprogs" name="platform/external/e2fsprogs" groups="pdk" remote="aosp" />
   <project path="external/easymock" name="platform/external/easymock" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
   <project path="external/eclipse-basebuilder" name="platform/external/eclipse-basebuilder" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
   <project path="external/eclipse-windowbuilder" name="platform/external/eclipse-windowbuilder" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
@@ -141,7 +169,6 @@
   <project path="external/esd" name="platform/external/esd" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
   <project path="external/expat" name="platform/external/expat" groups="pdk" remote="aosp" />
   <project path="external/eyes-free" name="platform/external/eyes-free" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
-  <project path="external/f2fs-tools" name="platform/external/f2fs-tools" groups="pdk" remote="aosp" />
   <project path="external/fdlibm" name="platform/external/fdlibm" groups="pdk" remote="aosp" />
   <project path="external/fec" name="platform/external/fec" remote="aosp" />
   <project path="external/fio" name="platform/external/fio" groups="pdk-fs" remote="aosp" />
@@ -303,11 +330,9 @@
   <project path="external/tcpdump" name="platform/external/tcpdump" groups="pdk,pdk-cw-fs,pdk-fs" remote="aosp" />
   <project path="external/timezonepicker-support" name="platform/external/timezonepicker-support" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
   <project path="external/tinyalsa" name="platform/external/tinyalsa" groups="pdk" remote="aosp" />
-  <project path="external/tinycompress" name="platform/external/tinycompress" groups="pdk" remote="aosp" />
   <project path="external/tinyxml" name="platform/external/tinyxml" groups="pdk" remote="aosp" />
   <project path="external/tinyxml2" name="platform/external/tinyxml2" groups="pdk" remote="aosp" />
   <project path="external/tlsdate" name="platform/external/tlsdate" remote="aosp" />
-  <project path="external/toybox" name="platform/external/toybox" groups="pdk" remote="aosp" />
   <project path="external/tpm2" name="platform/external/tpm2" remote="aosp" />
   <project path="external/tremolo" name="platform/external/tremolo" groups="pdk" remote="aosp" />
   <project path="external/unicode" name="platform/external/unicode" groups="pdk" remote="aosp" />
@@ -393,9 +418,7 @@
   <project path="libnativehelper" name="platform/libnativehelper" groups="pdk" remote="aosp" />
   <project path="ndk" name="platform/ndk" groups="generic_fs" remote="aosp" />
   <project path="packages/apps/BasicSmsReceiver" name="platform/packages/apps/BasicSmsReceiver" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
-  <project path="packages/apps/Browser2" name="platform/packages/apps/Browser2" remote="aosp" />
   <project path="packages/apps/Calculator" name="platform/packages/apps/Calculator" groups="pdk-fs" remote="aosp" />
-  <project path="packages/apps/Calendar" name="platform/packages/apps/Calendar" groups="pdk-fs" remote="aosp" />
   <project path="packages/apps/Camera2" name="platform/packages/apps/Camera2" groups="pdk-fs" remote="aosp" />
   <project path="packages/apps/CarrierConfig" name="platform/packages/apps/CarrierConfig" groups="pdk-fs" remote="aosp" />
   <project path="packages/apps/CellBroadcastReceiver" name="platform/packages/apps/CellBroadcastReceiver" groups="pdk-fs" remote="aosp" />
@@ -408,15 +431,11 @@
   <project path="packages/apps/Email" name="platform/packages/apps/Email" groups="pdk-fs" remote="aosp" />
   <project path="packages/apps/EmergencyInfo" name="platform/packages/apps/EmergencyInfo" remote="aosp" />
   <project path="packages/apps/ExactCalculator" name="platform/packages/apps/ExactCalculator" groups="pdk-fs" remote="aosp" />
-  <project path="packages/apps/Gallery2" name="platform/packages/apps/Gallery2" groups="pdk-fs" remote="aosp" />
   <project path="packages/apps/HTMLViewer" name="platform/packages/apps/HTMLViewer" groups="pdk-fs" remote="aosp" />
   <project path="packages/apps/KeyChain" name="platform/packages/apps/KeyChain" groups="pdk-fs" remote="aosp" />
-  <project path="packages/apps/Launcher3" name="platform/packages/apps/Launcher3" groups="pdk-fs" remote="aosp" />
   <project path="packages/apps/ManagedProvisioning" name="platform/packages/apps/ManagedProvisioning" groups="pdk-fs" remote="aosp" />
   <project path="packages/apps/Messaging" name="platform/packages/apps/Messaging" groups="pdk-fs" remote="aosp" />
-  <project path="packages/apps/Music" name="platform/packages/apps/Music" groups="pdk-fs" remote="aosp" />
   <project path="packages/apps/MusicFX" name="platform/packages/apps/MusicFX" groups="pdk-fs" remote="aosp" />
-  <project path="packages/apps/Nfc" name="platform/packages/apps/Nfc" groups="apps_nfc,pdk-fs" remote="aosp" />
   <project path="packages/apps/OneTimeInitializer" name="platform/packages/apps/OneTimeInitializer" groups="pdk-fs" remote="aosp" />
   <project path="packages/apps/PackageInstaller" name="platform/packages/apps/PackageInstaller" groups="pdk-fs" remote="aosp" />
   <project path="packages/apps/Phone" name="platform/packages/apps/Phone" groups="pdk-fs" remote="aosp" />
@@ -498,7 +517,6 @@
   <project path="system/tools/aidl" name="platform/system/tools/aidl" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
   <project path="system/tpm" name="platform/system/tpm" remote="aosp" />
   <project path="system/update_engine" name="platform/system/update_engine" remote="aosp" />
-  <project path="system/vold" name="platform/system/vold" groups="pdk" remote="aosp" />
   <project path="system/weaved" name="platform/system/weaved" remote="aosp" />
   <project path="system/webservd" name="platform/system/webservd" remote="aosp" />
   <project path="toolchain/binutils" name="toolchain/binutils" remote="aosp" />
