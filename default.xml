@@ -39,6 +39,7 @@
   <project path="external/mm-dash" name="android_external_mm-dash" />
   <project path="external/libselinux" name="android_external_libselinux" groups="pdk" />
   <project path="external/nano" name="android_external_nano" />
+  <project path="external/openssh" name="android_external_openssh" />
   <project path="external/pigz" name="android_external_pigz" />
   <project path="external/rsync" name="android_external_rsync" />
   <project path="external/tinycompress" name="android_external_tinycompress" groups="pdk" />
