@@ -76,7 +76,6 @@
   <project path="system/sepolicy" name="android_system_sepolicy" groups="pdk" />
   <project path="system/vold" name="android_system_vold" groups="pdk" />
   <project path="vendor/ev" name="android_vendor_ev" />
-  <project path="vendor/qcom/opensource/bluetooth" name="android_vendor_qcom_opensource_bluetooth" />
   <project path="vendor/qcom/opensource/dataservices" name="android_vendor_qcom_opensource_dataservices" />
   <project path="vendor/qcom/opensource/dpm" name="android_vendor_qcom_opensource_dpm" />
   <project path="vendor/qcom/opensource/time-services" name="android_vendor_qcom_opensource_time-services" />
