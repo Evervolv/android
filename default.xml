@@ -29,6 +29,7 @@
   <project path="device/qcom/sepolicy" name="android_device_qcom_sepolicy" />
   <project path="external/android-visualizer" name="android_external_android-visualizer" groups="pdk-fs" />
   <project path="external/bash" name="android_external_bash" />
+  <project path="external/boringssl" name="android_external_boringssl" groups="pdk" />
   <project path="external/busybox" name="android_external_busybox" />
   <project path="external/e2fsprogs" name="android_external_e2fsprogs" />
   <project path="external/exfat" name="android_external_exfat" />
@@ -128,7 +129,6 @@
   <project path="external/avahi" name="platform/external/avahi" remote="aosp" />
   <project path="external/bison" name="platform/external/bison" groups="pdk" remote="aosp" />
   <project path="external/blktrace" name="platform/external/blktrace" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
-  <project path="external/boringssl" name="platform/external/boringssl" groups="pdk" remote="aosp" />
   <project path="external/bouncycastle" name="platform/external/bouncycastle" groups="pdk" remote="aosp" />
   <project path="external/bsdiff" name="platform/external/bsdiff" groups="pdk" remote="aosp" />
   <project path="external/bzip2" name="platform/external/bzip2" groups="pdk" remote="aosp" />
