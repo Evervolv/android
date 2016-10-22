@@ -3,91 +3,93 @@
 
   <remote  name="aosp"
            fetch="https://android.googlesource.com/"
-           revision="refs/tags/android-7.0.0_r14" />
+           revision="refs/tags/android-7.1.0_r4" />
   <remote  name="github"
            fetch="git://github.com/"/>
   <remote  name="evervolv"
            fetch="git://github.com/Evervolv/" />
+  <remote  name="staging"
+           fetch="git://github.com/ev-staging/"
+           revision="ng-7.1" />
   <default revision="ng-7.0"
            remote="evervolv"
            sync-j="4" />
 
   <!--Evervolv (Github) Hosted Projects-->
-  <project path="android" name="android" />
-  <project path="art" name="android_art" groups="pdk" />
-  <project path="build" name="android_build" groups="pdk,tradefed" >
+  <project path="android" name="android" remote="staging" />
+  <project path="art" name="android_art" groups="pdk" remote="staging" />
+  <project path="build" name="android_build" groups="pdk,tradefed" remote="staging" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
-  <project path="build/kati" name="android_build_kati" groups="pdk,tradefed" />
-  <project path="build/soong" name="android_build_soong" groups="pdk,tradefed" >
+  <project path="build/kati" name="android_build_kati" groups="pdk,tradefed" remote="staging" />
+  <project path="build/soong" name="android_build_soong" groups="pdk,tradefed"  remote="staging" >
     <linkfile src="root.bp" dest="Android.bp" />
     <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
   </project>
-  <project path="bionic" name="android_bionic" groups="pdk" />
-  <project path="bootable/recovery" name="android_bootable_recovery" groups="pdk" />
-  <project path="device/qcom/common" name="android_device_qcom_common" />
-  <project path="device/qcom/sepolicy" name="android_device_qcom_sepolicy" />
-  <project path="external/android-visualizer" name="android_external_android-visualizer" groups="pdk-fs" />
-  <project path="external/bash" name="android_external_bash" />
-  <project path="external/boringssl" name="android_external_boringssl" groups="pdk" />
-  <project path="external/busybox" name="android_external_busybox" />
-  <project path="external/e2fsprogs" name="android_external_e2fsprogs" />
-  <project path="external/exfat" name="android_external_exfat" />
-  <project path="external/f2fs-tools" name="android_external_f2fs-tools" />
-  <project path="external/ffmpeg" name="android_external_ffmpeg" />
-  <project path="external/fuse" name="android_external_fuse" />
-  <project path="external/htop" name="android_external_htop" />
-  <project path="external/libncurses" name="android_external_libncurses" />
-  <project path="external/mm-dash" name="android_external_mm-dash" />
-  <project path="external/libselinux" name="android_external_libselinux" groups="pdk" />
-  <project path="external/nano" name="android_external_nano" />
-  <project path="external/openssh" name="android_external_openssh" />
-  <project path="external/pigz" name="android_external_pigz" />
-  <project path="external/rsync" name="android_external_rsync" />
-  <project path="external/stagefright-plugins" name="android_external_stagefright-plugins" />
-  <project path="external/tinycompress" name="android_external_tinycompress" groups="pdk" />
-  <project path="external/toybox" name="android_external_toybox" groups="pdk" />
-  <project path="external/wpa_supplicant_8" name="android_external_wpa_supplicant_8" groups="pdk" />
-  <project path="frameworks/av" name="android_frameworks_av" groups="pdk" />
-  <project path="frameworks/base" name="android_frameworks_base" groups="pdk-cw-fs,pdk-fs" />
-  <project path="frameworks/native" name="android_frameworks_native" groups="pdk" />
-  <project path="hardware/libhardware" name="android_hardware_libhardware" groups="pdk" />
-  <project path="hardware/libhardware_legacy" name="android_hardware_libhardware_legacy" groups="pdk" />
-  <project path="hardware/qcom/audio" name="android_hardware_qcom_audio" groups="qcom,qcom_audio" />
-  <project path="hardware/qcom/bt" name="android_hardware_qcom_bt" groups="qcom" />
-  <project path="hardware/qcom/display" name="android_hardware_qcom_display" groups="pdk,qcom,qcom_display" />
-  <project path="hardware/qcom/gps" name="android_hardware_qcom_gps" groups="qcom,qcom_gps" />
-  <project path="hardware/qcom/keymaster" name="android_hardware_qcom_keymaster" groups="qcom,qcom_keymaster" />
-  <project path="hardware/qcom/media" name="android_hardware_qcom_media" groups="qcom" />
-  <project path="hardware/qcom/wlan" name="android_hardware_qcom_wlan" groups="qcom_wlan" />
-  <project path="hardware/ril" name="android_hardware_ril" groups="pdk" />
-  <project path="packages/apps/AudioFX" name="android_packages_apps_AudioFX" groups="pdk-fs" />
-  <project path="packages/apps/Bluetooth" name="android_packages_apps_Bluetooth" groups="pdk-cw-fs,pdk-fs" />
-  <project path="packages/apps/Calendar" name="android_packages_apps_Calendar" groups="pdk-fs" />
-  <project path="packages/apps/Camera2" name="android_packages_apps_Camera2" groups="pdk-fs" />
-  <project path="packages/apps/Eleven" name="android_packages_apps_Eleven" groups="pdk-fs" />
-  <project path="packages/apps/Email" name="android_packages_apps_Email" groups="pdk-fs" />
-  <project path="packages/apps/EVToolbox" name="android_packages_apps_EVToolbox" groups="pdk-fs" />
-  <project path="packages/apps/EVUpdater" name="android_packages_apps_EVUpdater" groups="pdk-fs" />
-  <project path="packages/apps/EVWallpapers" name="android_packages_apps_EVWallpapers" groups="pdk-fs" />
-  <project path="packages/apps/Gallery2" name="android_packages_apps_Gallery2" groups="pdk-fs" />
-  <project path="packages/apps/Launcher3" name="android_packages_apps_Launcher3" groups="pdk-fs" />
-  <project path="packages/apps/Messaging" name="android_packages_apps_Messaging" groups="pdk-fs" />
-  <project path="packages/apps/Nfc" name="android_packages_apps_Nfc" groups="pdk-fs" />
-  <project path="packages/apps/Settings" name="android_packages_apps_Settings" groups="pdk-fs" />
-  <project path="packages/apps/UnifiedEmail" name="android_packages_apps_UnifiedEmail" groups="pdk-fs" />
-  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" name="android_prebuilts_gcc_linux-x86_arm_arm-eabi-4.8" groups="pdk,linux,arm" />
-  <project path="system/bt" name="android_system_bt" groups="pdk" />
-  <project path="system/core" name="android_system_core" groups="pdk" />
-  <project path="system/extras" name="android_system_extras" groups="pdk" />
-  <project path="system/extras/su" name="android_system_extras_su" groups="pdk" />
-  <project path="system/media" name="android_system_media" groups="pdk" />
-  <project path="system/sepolicy" name="android_system_sepolicy" groups="pdk" />
-  <project path="system/vold" name="android_system_vold" groups="pdk" />
-  <project path="vendor/ev" name="android_vendor_ev" />
-  <project path="vendor/qcom/opensource/dataservices" name="android_vendor_qcom_opensource_dataservices" />
-  <project path="vendor/qcom/opensource/dpm" name="android_vendor_qcom_opensource_dpm" />
-  <project path="vendor/qcom/opensource/time-services" name="android_vendor_qcom_opensource_time-services" />
+  <project path="bionic" name="android_bionic" groups="pdk" remote="staging" />
+  <project path="bootable/recovery" name="android_bootable_recovery" groups="pdk" remote="staging" />
+  <project path="device/qcom/common" name="android_device_qcom_common" remote="staging" />
+  <project path="device/qcom/sepolicy" name="android_device_qcom_sepolicy" remote="staging" />
+  <project path="external/android-visualizer" name="android_external_android-visualizer" groups="pdk-fs" remote="staging" />
+  <project path="external/bash" name="android_external_bash" remote="staging" />
+  <project path="external/boringssl" name="android_external_boringssl" groups="pdk" remote="staging" />
+  <project path="external/busybox" name="android_external_busybox" remote="staging" />
+  <project path="external/e2fsprogs" name="android_external_e2fsprogs" remote="staging" />
+  <project path="external/exfat" name="android_external_exfat" remote="staging" />
+  <project path="external/f2fs-tools" name="android_external_f2fs-tools" remote="staging" />
+  <project path="external/ffmpeg" name="android_external_ffmpeg" remote="staging" />
+  <project path="external/fuse" name="android_external_fuse" remote="staging" />
+  <project path="external/htop" name="android_external_htop" remote="staging" />
+  <project path="external/libncurses" name="android_external_libncurses" remote="staging" />
+  <project path="external/mm-dash" name="android_external_mm-dash" remote="staging" />
+  <project path="external/libselinux" name="android_external_libselinux" groups="pdk" remote="staging" />
+  <project path="external/nano" name="android_external_nano" remote="staging" />
+  <project path="external/openssh" name="android_external_openssh" remote="staging" />
+  <project path="external/pigz" name="android_external_pigz" remote="staging" />
+  <project path="external/rsync" name="android_external_rsync" remote="staging" />
+  <project path="external/stagefright-plugins" name="android_external_stagefright-plugins" remote="staging" />
+  <project path="external/tinycompress" name="android_external_tinycompress" groups="pdk" remote="staging" />
+  <project path="external/toybox" name="android_external_toybox" groups="pdk" remote="staging" />
+  <project path="external/wpa_supplicant_8" name="android_external_wpa_supplicant_8" groups="pdk" remote="staging" />
+  <project path="frameworks/av" name="android_frameworks_av" groups="pdk" remote="staging" />
+  <project path="frameworks/base" name="android_frameworks_base" groups="pdk-cw-fs,pdk-fs" remote="staging" />
+  <project path="frameworks/native" name="android_frameworks_native" groups="pdk" remote="staging" />
+  <project path="hardware/libhardware" name="android_hardware_libhardware" groups="pdk" remote="staging" />
+  <project path="hardware/libhardware_legacy" name="android_hardware_libhardware_legacy" groups="pdk" remote="staging" />
+  <project path="hardware/qcom/audio" name="android_hardware_qcom_audio" groups="qcom,qcom_audio" remote="staging" />
+  <project path="hardware/qcom/bt" name="android_hardware_qcom_bt" groups="qcom" remote="staging" />
+  <project path="hardware/qcom/display" name="android_hardware_qcom_display" groups="pdk,qcom,qcom_display" remote="staging" />
+  <project path="hardware/qcom/gps" name="android_hardware_qcom_gps" groups="qcom,qcom_gps" remote="staging" />
+  <project path="hardware/qcom/keymaster" name="android_hardware_qcom_keymaster" groups="qcom,qcom_keymaster" remote="staging" />
+  <project path="hardware/qcom/media" name="android_hardware_qcom_media" groups="qcom" remote="staging" />
+  <project path="hardware/qcom/wlan" name="android_hardware_qcom_wlan" groups="qcom_wlan" remote="staging" />
+  <project path="hardware/ril" name="android_hardware_ril" groups="pdk" remote="staging" />
+  <project path="packages/apps/AudioFX" name="android_packages_apps_AudioFX" groups="pdk-fs" remote="staging" />
+  <project path="packages/apps/Bluetooth" name="android_packages_apps_Bluetooth" groups="pdk-cw-fs,pdk-fs" remote="staging" />
+  <project path="packages/apps/Calendar" name="android_packages_apps_Calendar" groups="pdk-fs" remote="staging" />
+  <project path="packages/apps/Camera2" name="android_packages_apps_Camera2" groups="pdk-fs" remote="staging" />
+  <project path="packages/apps/Eleven" name="android_packages_apps_Eleven" groups="pdk-fs" remote="staging" />
+  <project path="packages/apps/Email" name="android_packages_apps_Email" groups="pdk-fs" remote="staging" />
+  <project path="packages/apps/EVToolbox" name="android_packages_apps_EVToolbox" groups="pdk-fs" remote="staging" />
+  <project path="packages/apps/EVUpdater" name="android_packages_apps_EVUpdater" groups="pdk-fs" remote="staging" />
+  <project path="packages/apps/EVWallpapers" name="android_packages_apps_EVWallpapers" groups="pdk-fs" remote="staging" />
+  <project path="packages/apps/Gallery2" name="android_packages_apps_Gallery2" groups="pdk-fs" remote="staging" />
+  <project path="packages/apps/Launcher3" name="android_packages_apps_Launcher3" groups="pdk-fs" remote="staging" />
+  <project path="packages/apps/Messaging" name="android_packages_apps_Messaging" groups="pdk-fs" remote="staging" />
+  <project path="packages/apps/Nfc" name="android_packages_apps_Nfc" groups="pdk-fs" remote="staging" />
+  <project path="packages/apps/Settings" name="android_packages_apps_Settings" groups="pdk-fs" remote="staging" />
+  <project path="packages/apps/UnifiedEmail" name="android_packages_apps_UnifiedEmail" groups="pdk-fs" remote="staging" />
+  <project path="system/bt" name="android_system_bt" groups="pdk" remote="staging" />
+  <project path="system/core" name="android_system_core" groups="pdk" remote="staging" />
+  <project path="system/extras" name="android_system_extras" groups="pdk" remote="staging" />
+  <project path="system/extras/su" name="android_system_extras_su" groups="pdk" remote="staging" />
+  <project path="system/media" name="android_system_media" groups="pdk" remote="staging" />
+  <project path="system/sepolicy" name="android_system_sepolicy" groups="pdk" remote="staging" />
+  <project path="system/vold" name="android_system_vold" groups="pdk" remote="staging" />
+  <project path="vendor/ev" name="android_vendor_ev" remote="staging" />
+  <project path="vendor/qcom/opensource/dataservices" name="android_vendor_qcom_opensource_dataservices" remote="staging" />
+  <project path="vendor/qcom/opensource/dpm" name="android_vendor_qcom_opensource_dpm" remote="staging" />
+  <project path="vendor/qcom/opensource/time-services" name="android_vendor_qcom_opensource_time-services" remote="staging" />
 
   <!--AOSP Hosted Projects-->
   <project path="build/blueprint" name="platform/build/blueprint" groups="pdk,tradefed" remote="aosp" />
@@ -201,6 +203,8 @@
   <project path="external/harfbuzz_ng" name="platform/external/harfbuzz_ng" groups="pdk,qcom_msm8x26" remote="aosp" />
   <project path="external/hyphenation-patterns" name="platform/external/hyphenation-patterns" groups="pdk-fs" remote="aosp" />
   <project path="external/icu" name="platform/external/icu" groups="pdk" remote="aosp" />
+  <project path="external/ImageMagick" name="platform/external/ImageMagick" groups="pdk" remote="aosp" />
+  <project path="external/ims" name="platform/external/ims" groups="pdk" remote="aosp" />
   <project path="external/iproute2" name="platform/external/iproute2" groups="pdk" remote="aosp" />
   <project path="external/ipsec-tools" name="platform/external/ipsec-tools" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
   <project path="external/iptables" name="platform/external/iptables" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
@@ -238,6 +242,7 @@
   <project path="external/libdaemon" name="platform/external/libdaemon" remote="aosp" />
   <project path="external/libevent" name="platform/external/libevent" remote="aosp" />
   <project path="external/libexif" name="platform/external/libexif" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
+  <project path="external/libgdx" name="platform/external/libgdx" groups="pdk" remote="aosp" />
   <project path="external/libgsm" name="platform/external/libgsm" groups="pdk" remote="aosp" />
   <project path="external/libhevc" name="platform/external/libhevc" groups="pdk-fs" remote="aosp" />
   <project path="external/libjpeg-turbo" name="platform/external/libjpeg-turbo" groups="pdk" remote="aosp" />
@@ -342,6 +347,7 @@
   <project path="external/tpm2" name="platform/external/tpm2" remote="aosp" />
   <project path="external/tremolo" name="platform/external/tremolo" groups="pdk" remote="aosp" />
   <project path="external/unicode" name="platform/external/unicode" groups="pdk" remote="aosp" />
+  <project path="external/universal-tween-engine" name="platform/external/universal-tween-engine" remote="aosp" />
   <project path="external/v8" name="platform/external/v8" groups="pdk" remote="aosp" />
   <project path="external/valgrind" name="platform/external/valgrind" groups="pdk" remote="aosp" />
   <project path="external/vboot_reference" name="platform/external/vboot_reference" groups="vboot" remote="aosp" />
@@ -445,10 +451,12 @@
   <project path="packages/apps/PhoneCommon" name="platform/packages/apps/PhoneCommon" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
   <project path="packages/apps/Protips" name="platform/packages/apps/Protips" groups="pdk-fs" remote="aosp" />
   <project path="packages/apps/Provision" name="platform/packages/apps/Provision" groups="pdk-fs" remote="aosp" />
+  <project path="packages/apps/SafetyRegulatoryInfo" name="platform/packages/apps/SafetyRegulatoryInfo" remote="aosp" />
   <project path="packages/apps/SoundRecorder" name="platform/packages/apps/SoundRecorder" groups="pdk-fs" remote="aosp" />
   <project path="packages/apps/SpareParts" name="platform/packages/apps/SpareParts" groups="pdk-fs" remote="aosp" />
   <project path="packages/apps/SpeechRecorder" name="platform/packages/apps/SpeechRecorder" groups="pdk-fs" remote="aosp" />
   <project path="packages/apps/Stk" name="platform/packages/apps/Stk" groups="apps_stk,pdk-fs" remote="aosp" />
+  <project path="packages/apps/StorageManager" name="platform/packages/apps/StorageManager" remote="aosp" />
   <project path="packages/apps/Tag" name="platform/packages/apps/Tag" groups="pdk-fs" remote="aosp" />
   <project path="packages/apps/Terminal" name="platform/packages/apps/Terminal" groups="pdk-fs" remote="aosp" />
   <project path="packages/apps/Test/connectivity" name="platform/packages/apps/Test/connectivity" remote="aosp" />
@@ -486,6 +494,7 @@
   <project path="prebuilts/eclipse" name="platform/prebuilts/eclipse" groups="pdk" remote="aosp" />
   <project path="prebuilts/eclipse-build-deps" name="platform/prebuilts/eclipse-build-deps" groups="notdefault,eclipse" remote="aosp" />
   <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" name="platform/prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" groups="pdk,linux,arm" remote="aosp" />
+  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" name="platform/prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" groups="pdk,linux,arm" remote="aosp" />
   <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" name="platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" groups="pdk,linux,arm" remote="aosp" />
   <project path="prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.11-4.8" name="platform/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.11-4.8" groups="pdk,linux" remote="aosp" />
   <project path="prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8" name="platform/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8" groups="pdk,linux" remote="aosp" />
