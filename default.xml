@@ -38,6 +38,8 @@
   <project path="external/fuse" name="android_external_fuse" />
   <project path="external/htop" name="android_external_htop" />
   <project path="external/libncurses" name="android_external_libncurses" />
+  <project path="external/libnetfilter_conntrack" name="android_external_libnetfilter_conntrack" />
+  <project path="external/libnfnetlink" name="android_external_libnfnetlink" />
   <project path="external/mm-dash" name="android_external_mm-dash" />
   <project path="external/libselinux" name="android_external_libselinux" groups="pdk" />
   <project path="external/nano" name="android_external_nano" />
@@ -55,6 +57,7 @@
   <project path="hardware/libhardware_legacy" name="android_hardware_libhardware_legacy" groups="pdk" />
   <project path="hardware/qcom/audio" name="android_hardware_qcom_audio" groups="qcom,qcom_audio" />
   <project path="hardware/qcom/bt" name="android_hardware_qcom_bt" groups="qcom" />
+  <project path="hardware/qcom/camera" name="android_hardware_qcom_camera" groups="qcom" />
   <project path="hardware/qcom/display" name="android_hardware_qcom_display" groups="pdk,qcom,qcom_display" />
   <project path="hardware/qcom/gps" name="android_hardware_qcom_gps" groups="qcom,qcom_gps" />
   <project path="hardware/qcom/keymaster" name="android_hardware_qcom_keymaster" groups="qcom,qcom_keymaster" />
@@ -412,7 +415,6 @@
   <project path="hardware/invensense" name="platform/hardware/invensense" groups="invensense" remote="aosp" />
   <project path="hardware/marvell/bt" name="platform/hardware/marvell/bt" groups="marvell_bt" remote="aosp" />
   <project path="hardware/qcom/bootctrl" name="platform/hardware/qcom/bootctrl" groups="pdk" remote="aosp" />
-  <project path="hardware/qcom/camera" name="platform/hardware/qcom/camera" groups="qcom" remote="aosp" />
   <project path="hardware/qcom/msm8960" name="platform/hardware/qcom/msm8960" groups="qcom_msm8960" remote="aosp" />
   <project path="hardware/qcom/msm8994" name="platform/hardware/qcom/msm8994" groups="qcom_msm8994" remote="aosp" />
   <project path="hardware/qcom/msm8996" name="platform/hardware/qcom/msm8996" groups="qcom_msm8996" remote="aosp" />
