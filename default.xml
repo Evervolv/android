@@ -3,7 +3,7 @@
 
   <remote  name="aosp"
            fetch="https://android.googlesource.com/"
-           revision="refs/tags/android-7.1.1_r4" />
+           revision="refs/tags/android-7.1.1_r7" />
   <remote  name="github"
            fetch="git://github.com/"/>
   <remote  name="evervolv"
@@ -466,7 +466,6 @@
   <project path="packages/apps/Test/connectivity" name="platform/packages/apps/Test/connectivity" remote="aosp" />
   <project path="packages/apps/TvSettings" name="platform/packages/apps/TvSettings" groups="generic_fs" remote="aosp" />
   <project path="packages/apps/TV" name="platform/packages/apps/TV" remote="aosp" />
-  <project path="packages/apps/WallpaperPicker" name="platform/packages/apps/WallpaperPicker" remote="aosp" />
   <project path="packages/experimental" name="platform/packages/experimental" remote="aosp" />
   <project path="packages/inputmethods/LatinIME" name="platform/packages/inputmethods/LatinIME" groups="pdk-fs" remote="aosp" />
   <project path="packages/providers/ApplicationsProvider" name="platform/packages/providers/ApplicationsProvider" groups="pdk-fs" remote="aosp" />
