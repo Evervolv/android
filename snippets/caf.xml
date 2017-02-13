@@ -18,5 +18,7 @@
   <project path="external/ant-wireless/hidl" name="platform/external/ant-wireless/hidl" remote="caf" revision="refs/tags/LA.UM.10.2.1.r1-04000-sdm660.0" />
   <project path="external/json-c" name="android_external_json-c" remote="evervolv" />
 
+  <project path="vendor/qcom/opensource/commonsys/cryptfs_hw" name="android_vendor_qcom_opensource_cryptfs_hw" remote="evervolv" />
+
 </manifest>
 
