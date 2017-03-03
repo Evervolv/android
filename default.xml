@@ -87,7 +87,6 @@
   <project path="packages/apps/Sudo" name="android_packages_apps_Sudo" />
   <project path="packages/apps/ThemeInterfacer" name="android_packages_apps_ThemeInterfacer" />
   <project path="packages/apps/UnifiedEmail" name="android_packages_apps_UnifiedEmail" groups="pdk-fs" />
-  <project path="packages/apps/WallpaperPicker" name="android_packages_apps_WallpaperPicker" />
   <project path="packages/services/Telephony" name="android_packages_services_Telephony" groups="pdk-cw-fs,pdk-fs" />
   <project path="system/bt" name="android_system_bt" groups="pdk" />
   <project path="system/core" name="android_system_core" groups="pdk" />
