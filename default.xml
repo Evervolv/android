@@ -25,7 +25,6 @@
   </project>
   <project path="bionic" name="android_bionic" groups="pdk" />
   <project path="bootable/recovery" name="android_bootable_recovery" groups="pdk" />
-  <project path="device/qcom/common" name="android_device_qcom_common" />
   <project path="device/qcom/sepolicy" name="android_device_qcom_sepolicy" />
   <project path="external/android-visualizer" name="android_external_android-visualizer" groups="pdk-fs" />
   <project path="external/bash" name="android_external_bash" />
@@ -98,7 +97,9 @@
   <project path="system/sepolicy" name="android_system_sepolicy" groups="pdk" />
   <project path="system/vold" name="android_system_vold" groups="pdk" />
   <project path="vendor/ev" name="android_vendor_ev" />
+  <project path="vendor/qcom/opensource/cryptfs_hw" name="android_vendor_qcom_opensource_cryptfs_hw" />
   <project path="vendor/qcom/opensource/dataservices" name="android_vendor_qcom_opensource_dataservices" />
+  <project path="vendor/qcom/opensource/dtbtool" name="android_vendor_qcom_opensource_dtbtool" />
   <project path="vendor/qcom/opensource/dpm" name="android_vendor_qcom_opensource_dpm" />
   <project path="vendor/qcom/opensource/time-services" name="android_vendor_qcom_opensource_time-services" />
 
