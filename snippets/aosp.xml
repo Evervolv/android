@@ -56,6 +56,7 @@
   <project path="system/security" name="android_system_security" groups="pdk" remote="evervolv" />
   <project path="system/sepolicy" name="android_system_sepolicy" groups="pdk" remote="evervolv" />
   <project path="system/tools/mkbootimg" name="android_system_tools_mkbootimg" groups="pdk" remote="evervolv" />
+  <project path="system/update_engine" name="android_system_update_engine" groups="pdk" remote="evervolv" />
   <project path="system/vold" name="android_system_vold" groups="pdk" remote="evervolv" />
 
 </manifest>
