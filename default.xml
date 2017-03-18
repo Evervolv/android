@@ -38,8 +38,6 @@
   <project path="external/fuse" name="android_external_fuse" />
   <project path="external/htop" name="android_external_htop" />
   <project path="external/libncurses" name="android_external_libncurses" />
-  <project path="external/libnetfilter_conntrack" name="android_external_libnetfilter_conntrack" />
-  <project path="external/libnfnetlink" name="android_external_libnfnetlink" />
   <project path="external/libselinux" name="android_external_libselinux" groups="pdk" />
   <project path="external/nano" name="android_external_nano" />
   <project path="external/ntfs-3g" name="android_external_ntfs-3g" />
