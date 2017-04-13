@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <remote  name="evervolv"
+           fetch="https://github.com/Evervolv/"
+           review="http://review.evervolv.com/"
+           revision="v-15.0" />
+
+  <remote  name="evervolv-gitlab"
+           fetch="https://gitlab.com/evervolv/"
+           revision="v-15.0" />
+
+  <remote  name="github"
+           fetch="https://github.com" />
+
+  <remote  name="gitlab"
+           fetch="https://gitlab.com" />
+
+  <project path="bionic" name="android_bionic" groups="pdk" remote="evervolv" />
+  <project path="bootable/recovery" name="android_bootable_recovery" groups="pdk" remote="evervolv" />
+
+  <project path="build/make" name="android_build" groups="pdk,sysui-studio" remote="evervolv" >
+    <linkfile dest="build/CleanSpec.mk" src="CleanSpec.mk" />
+    <linkfile dest="build/buildspec.mk.default" src="buildspec.mk.default" />
+    <linkfile dest="build/core" src="core" />
+    <linkfile dest="build/envsetup.sh" src="envsetup.sh" />
+    <linkfile dest="build/target" src="target" />
+    <linkfile dest="build/tools" src="tools" />
+  </project>
+  <project path="build/soong" name="android_build_soong" groups="pdk,tradefed" remote="evervolv" >
+    <linkfile dest="Android.bp" src="root.bp" />
+    <linkfile dest="bootstrap.bash" src="bootstrap.bash" />
+  </project>
+
+  <project path="frameworks/av" name="android_frameworks_av" groups="pdk" remote="evervolv" />
+  <project path="frameworks/base" name="android_frameworks_base" groups="pdk-cw-fs,pdk-fs,sysui-studio" remote="evervolv" />
+  <project path="frameworks/native" name="android_frameworks_native" groups="pdk" remote="evervolv" />
+
+  <project path="hardware/interfaces" name="android_hardware_interfaces" groups="pdk,sysui-studio" remote="evervolv" />
+  <project path="hardware/libhardware" name="android_hardware_libhardware" groups="pdk" remote="evervolv" />
+  <project path="hardware/ril" name="android_hardware_ril" groups="pdk" remote="evervolv" />
+
+  <project path="packages/apps/Settings" name="android_packages_apps_Settings" groups="pdk-fs" remote="evervolv" />
+
+  <project path="system/core" name="android_system_core" groups="pdk" remote="evervolv" />
+  <project path="system/sepolicy" name="android_system_sepolicy" groups="pdk" remote="evervolv" />
+  <project path="system/tools/mkbootimg" name="android_system_tools_mkbootimg" groups="pdk" remote="evervolv" />
+  <project path="system/vold" name="android_system_vold" groups="pdk" remote="evervolv" />
+
+</manifest>
