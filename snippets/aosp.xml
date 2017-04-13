@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <remote  name="evervolv"
+           fetch="../Evervolv/"
+           review="http://review.evervolv.com/"
+           revision="s-12.0" />
+
+  <remote  name="github"
+           fetch=".."/>
+
+</manifest>
+
