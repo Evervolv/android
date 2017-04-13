@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <project path="android" name="android" remote="evervolv" />
+
+  <project path="evervolv/sdk" name="android_vendor_ev_sdk" groups="pdk" remote="evervolv" />
+
+  <project path="hardware/evervolv/interfaces" name="android_hardware_evervolv_interfaces" remote="evervolv" />
+  <project path="hardware/legacy/interfaces" name="android_hardware_legacy_interfaces" remote="evervolv" />
+  <project path="hardware/lineage" name="android_hardware_lineage" remote="evervolv" />
+
+  <project path="packages/resources/devicesettings" name="android_packages_resources_devicesettings" groups="pdk-fs" remote="evervolv" />
+
+  <project path="prebuilts/evervolv-tools" name="android_prebuilts_evervolv-tools" remote="evervolv" clone-depth="1" />
+
+  <project path="vendor/ev" name="android_vendor_ev" remote="evervolv" />
+  <project path="vendor/ev/build" name="android_vendor_ev_build" remote="evervolv" />
+
+</manifest>
+
