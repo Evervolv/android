@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <!-- Manifest -->
+  <project path="android" name="android" remote="evervolv" />
+
+  <!-- External -->
+  <project path="external/bash" name="android_external_bash" remote="evervolv" />
+  <project path="external/exfat" name="android_external_exfat" groups="pdk" remote="evervolv" />
+  <project path="external/fuse" name="android_external_fuse" remote="evervolv" />
+  <project path="external/htop" name="android_external_htop" remote="evervolv" />
+  <project path="external/libncurses" name="android_external_libncurses" groups="pdk" remote="evervolv" />
+  <project path="external/libnfc-nxp" name="android_external_libnfc-nxp" remote="evervolv" />
+  <project path="external/nano" name="android_external_nano" groups="pdk" remote="evervolv" />
+  <project path="external/ntfs-3g" name="android_external_ntfs-3g" remote="evervolv" />
+  <project path="external/pigz" name="android_external_pigz" remote="evervolv" />
+  <project path="external/rsync" name="android_external_rsync" remote="evervolv" />
+  <project path="external/stlport" name="android_external_stlport" remote="evervolv" />
+
+  <!-- Packages -->
+  <project path="packages/apps/AudioFX" name="android_packages_apps_AudioFX" groups="pdk-fs" remote="evervolv" />
+  <project path="packages/apps/Eleven" name="android_packages_apps_Eleven" groups="pdk-fs" remote="evervolv" />
+  <project path="packages/apps/EVUpdater" name="android_packages_apps_EVUpdater" groups="pdk-fs" remote="evervolv" />
+  <project path="packages/apps/Jelly" name="android_packages_apps_Jelly" remote="evervolv" />
+
+  <!-- Vendor -->
+  <project path="vendor/cm/support" name="android_vendor_cm_support" remote="evervolv" />
+  <project path="vendor/ev" name="android_vendor_ev" remote="evervolv" />
+  <project path="vendor/ev/build" name="android_vendor_ev_build" remote="evervolv" />
+  <project path="vendor/google" name="android_vendor_google" remote="evervolv" />
+
+</manifest>
+
