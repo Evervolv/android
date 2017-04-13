@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <remote  name="evervolv"
+           fetch="git://github.com/Evervolv/"
+           review="http://review.evervolv.com/"
+           revision="o-8.0" />
+  <remote  name="github"
+           fetch="git://github.com/"/>
+
+  <!-- Manifest -->
+  <project path="android" name="android" remote="evervolv" />
+
+  <!-- Build -->
+  <project path="build/make" name="android_build" groups="pdk" remote="evervolv" >
+    <copyfile src="core/root.mk" dest="Makefile" />
+    <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
+    <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
+    <linkfile src="core" dest="build/core" />
+    <linkfile src="envsetup.sh" dest="build/envsetup.sh" />
+    <linkfile src="target" dest="build/target" />
+    <linkfile src="tools" dest="build/tools" />
+  </project>
+  <project path="build/kati" name="android_build_kati" groups="pdk,tradefed" remote="evervolv" />
+  <project path="build/soong" name="android_build_soong" groups="pdk,tradefed" remote="evervolv" >
+    <linkfile src="root.bp" dest="Android.bp" />
+    <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
+  </project>
+
+  <!-- Framework -->
+  <project path="frameworks/av" name="android_frameworks_av" groups="pdk" remote="evervolv" />
+  <project path="frameworks/base" name="android_frameworks_base" groups="pdk-cw-fs,pdk-fs" remote="evervolv" />
+  <project path="frameworks/native" name="android_frameworks_native" groups="pdk" remote="evervolv" />
+
+  <!-- Hardware -->
+  <project path="hardware/libhardware" name="android_hardware_libhardware" groups="pdk" remote="evervolv" />
+  <project path="hardware/qcom/audio" name="android_hardware_qcom_audio" groups="qcom,qcom_audio,pdk" remote="evervolv" />
+  <project path="hardware/qcom/bt" name="android_hardware_qcom_bt" groups="qcom,pdk" remote="evervolv" />
+  <project path="hardware/qcom/display" name="android_hardware_qcom_display" groups="pdk,qcom,qcom_display" remote="evervolv" />
+  <project path="hardware/qcom/gps" name="android_hardware_qcom_gps" groups="qcom,qcom_gps,pdk" remote="evervolv" />
+  <project path="hardware/qcom/keymaster" name="android_hardware_qcom_keymaster" groups="qcom,qcom_keymaster,pdk" remote="evervolv" />
+  <project path="hardware/qcom/media" name="android_hardware_qcom_media" groups="qcom,pdk" remote="evervolv" />
+  <project path="hardware/qcom/wlan" name="android_hardware_qcom_wlan" groups="qcom_wlan,pdk" remote="evervolv" />
+
+  <!-- System -->
+  <project path="system/core" name="android_system_core" groups="pdk" remote="evervolv" />
+
+  <!-- Vendor -->
+  <project path="vendor/ev" name="android_vendor_ev" remote="evervolv" />
+  <project path="vendor/ev/build" name="android_vendor_ev_build" remote="evervolv" />
+
+</manifest>
+
