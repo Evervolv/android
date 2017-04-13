@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <project path="android" name="android" remote="evervolv" />
+
+  <project path="device/evervolv/sepolicy" name="android_device_evervolv_sepolicy" remote="evervolv" />
+
+  <project path="prebuilts/evervolv-tools" name="android_prebuilts_evervolv-tools" remote="evervolv-gitlab" clone-depth="1" />
+
+  <project path="vendor/ev" name="android_vendor_ev" remote="evervolv" >
+    <linkfile src="vars" dest="vendor/lineage/vars" />
+  </project>
+  <project path="vendor/ev/build" name="android_vendor_ev_build" remote="evervolv" />
+
+</manifest>
+
