@@ -8,6 +8,7 @@
   <project path="evervolv/sdk" name="android_vendor_ev_sdk" groups="pdk" remote="evervolv" />
 
   <project path="hardware/evervolv/interfaces" name="android_hardware_evervolv_interfaces" remote="evervolv" />
+  <project path="hardware/legacy/interfaces" name="android_hardware_legacy_interfaces" remote="evervolv" />
   <project path="hardware/lineage" name="android_hardware_lineage" remote="evervolv" />
 
   <project path="packages/apps/EVToolbox" name="android_packages_apps_EVToolbox" groups="pdk-fs" remote="evervolv" />
