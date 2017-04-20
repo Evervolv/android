@@ -6,6 +6,11 @@
            review="http://review.evervolv.com/"
            revision="s-12.0" />
 
+  <remote  name="lineage"
+           fetch="../LineageOS/"
+           review="https://review.lineageos.org/"
+           revision="lineage-19.0" />
+
   <remote  name="github"
            fetch=".."/>
 
