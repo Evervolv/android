@@ -36,6 +36,7 @@
   <project path="external/fuse" name="android_external_fuse" />
   <project path="external/htop" name="android_external_htop" />
   <project path="external/libncurses" name="android_external_libncurses" />
+  <project path="external/libnfc-nci" name="android_external_libnfc-nci" groups="pdk" />
   <project path="external/libselinux" name="android_external_libselinux" groups="pdk" />
   <project path="external/nano" name="android_external_nano" />
   <project path="external/ntfs-3g" name="android_external_ntfs-3g" />
@@ -263,7 +264,6 @@
   <project path="external/libmicrohttpd" name="platform/external/libmicrohttpd" groups="pdk" remote="aosp" />
   <project path="external/libmpeg2" name="platform/external/libmpeg2" groups="pdk" remote="aosp" />
   <project path="external/libmtp" name="platform/external/libmtp" groups="pdk" remote="aosp" />
-  <project path="external/libnfc-nci" name="platform/external/libnfc-nci" groups="pdk" remote="aosp" />
   <project path="external/libnfc-nxp" name="platform/external/libnfc-nxp" groups="pdk" remote="aosp" />
   <project path="external/libnl" name="platform/external/libnl" groups="pdk" remote="aosp" />
   <project path="external/libogg" name="platform/external/libogg" groups="pdk" remote="aosp" />
