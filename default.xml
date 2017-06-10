@@ -62,6 +62,7 @@
   <project path="hardware/qcom/gps" name="android_hardware_qcom_gps" groups="qcom,qcom_gps" />
   <project path="hardware/qcom/keymaster" name="android_hardware_qcom_keymaster" groups="qcom,qcom_keymaster" />
   <project path="hardware/qcom/media" name="android_hardware_qcom_media" groups="qcom" />
+  <project path="hardware/qcom/power" name="android_hardware_qcom_power" groups="qcom,pdk" />
   <project path="hardware/qcom/wlan" name="android_hardware_qcom_wlan" groups="qcom_wlan" />
   <project path="hardware/ril" name="android_hardware_ril" groups="pdk" />
   <project path="libcore" name="android_libcore" groups="pdk" />
@@ -435,7 +436,6 @@
   <project path="hardware/qcom/msm8x26" name="platform/hardware/qcom/msm8x26" groups="qcom_msm8x26,pdk" remote="aosp" />
   <project path="hardware/qcom/msm8x27" name="platform/hardware/qcom/msm8x27" groups="qcom_msm8x27,pdk" remote="aosp" />
   <project path="hardware/qcom/msm8x84" name="platform/hardware/qcom/msm8x84" groups="qcom_msm8x84,pdk" remote="aosp" />
-  <project path="hardware/qcom/power" name="platform/hardware/qcom/power" groups="qcom,pdk" remote="aosp" />
   <project path="hardware/ti/omap3" name="platform/hardware/ti/omap3" groups="omap3,pdk" remote="aosp" />
   <project path="hardware/ti/omap4-aah" name="platform/hardware/ti/omap4-aah" groups="omap4-aah,pdk" remote="aosp" />
   <project path="hardware/ti/omap4xxx" name="platform/hardware/ti/omap4xxx" groups="omap4,pdk" remote="aosp" />
