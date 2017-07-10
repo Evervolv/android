@@ -24,6 +24,7 @@
     <linkfile src="os_pickup.bp" dest="hardware/qcom-caf/msm8974/Android.bp" />
     <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/msm8996/Android.mk" />
     <linkfile src="os_pickup.bp" dest="hardware/qcom-caf/msm8996/Android.bp" />
+    <linkfile src="os_pickup.bp" dest="hardware/qcom-caf/msm8998/Android.bp" />
     <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/sm8150/Android.mk" />
     <linkfile src="os_pickup.bp" dest="hardware/qcom-caf/sm8150/Android.bp" />
   </project>
@@ -54,6 +55,9 @@
   <project path="hardware/qcom-caf/msm8996/audio" name="android_hardware_qcom_audio-caf" groups="qcom,qcom_audio,pdk" remote="evervolv" revision="s-12.0-8996" />
   <project path="hardware/qcom-caf/msm8996/display" name="android_hardware_qcom_display-caf" groups="pdk,qcom,qcom_display" remote="evervolv" revision="s-12.0-8996" />
   <project path="hardware/qcom-caf/msm8996/media" name="android_hardware_qcom_media-caf" groups="qcom,pdk" remote="evervolv" revision="s-12.0-8996" />
+  <project path="hardware/qcom-caf/msm8998/audio" name="android_hardware_qcom_audio-caf" groups="qcom,qcom_audio,pdk" remote="evervolv" revision="s-12.0-8998" />
+  <project path="hardware/qcom-caf/msm8998/display" name="android_hardware_qcom_display-caf" groups="pdk,qcom,qcom_display" remote="evervolv" revision="s-12.0-8998" />
+  <project path="hardware/qcom-caf/msm8998/media" name="android_hardware_qcom_media-caf" groups="qcom,pdk" remote="evervolv" revision="s-12.0-8998" />
   <project path="hardware/qcom-caf/sm8150/audio" name="android_hardware_qcom_audio-caf" groups="qcom,qcom_audio,pdk" remote="evervolv" revision="s-12.0-8150" />
   <project path="hardware/qcom-caf/sm8150/display" name="android_hardware_qcom_display-caf" groups="pdk,qcom,qcom_display" remote="evervolv" revision="s-12.0-8150" />
   <project path="hardware/qcom-caf/sm8150/media" name="android_hardware_qcom_media-caf" groups="qcom,pdk" remote="evervolv" revision="s-12.0-8150" />
