@@ -99,6 +99,7 @@
   <project path="system/qcom" name="android_system_qcom" />
   <project path="system/sepolicy" name="android_system_sepolicy" groups="pdk" />
   <project path="system/vold" name="android_system_vold" groups="pdk" />
+  <project path="vendor/cm/support" name="android_vendor_cm_support" />
   <project path="vendor/ev" name="android_vendor_ev" />
   <project path="vendor/qcom/opensource/cryptfs_hw" name="android_vendor_qcom_opensource_cryptfs_hw" />
   <project path="vendor/qcom/opensource/dataservices" name="android_vendor_qcom_opensource_dataservices" />
