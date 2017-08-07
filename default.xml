@@ -92,6 +92,7 @@
   <project path="packages/apps/Settings" name="android_packages_apps_Settings" groups="pdk-fs" />
   <project path="packages/apps/ThemeInterfacer" name="android_packages_apps_ThemeInterfacer" />
   <project path="packages/apps/UnifiedEmail" name="android_packages_apps_UnifiedEmail" groups="pdk-fs" />
+  <project path="packages/inputmethods/LatinIME" name="android_packages_inputmethods_LatinIME" groups="pdk-fs" />
   <project path="packages/services/Telephony" name="android_packages_services_Telephony" groups="pdk-cw-fs,pdk-fs" />
   <project path="packages/services/Telecomm" name="android_packages_services_Telecomm" groups="pdk-cw-fs,pdk-fs" />
   <project path="system/bt" name="android_system_bt" groups="pdk" />
@@ -469,7 +470,6 @@
   <project path="packages/apps/TV" name="platform/packages/apps/TV" remote="aosp" />
   <project path="packages/apps/WallpaperPicker" name="platform/packages/apps/WallpaperPicker" groups="pdk-fs" remote="aosp" />
   <project path="packages/experimental" name="platform/packages/experimental" remote="aosp" />
-  <project path="packages/inputmethods/LatinIME" name="platform/packages/inputmethods/LatinIME" groups="pdk-fs" remote="aosp" />
   <project path="packages/providers/ApplicationsProvider" name="platform/packages/providers/ApplicationsProvider" groups="pdk-fs" remote="aosp" />
   <project path="packages/providers/BlockedNumberProvider" name="platform/packages/providers/BlockedNumberProvider" groups="pdk-fs" remote="aosp" />
   <project path="packages/providers/BookmarkProvider" name="platform/packages/providers/BookmarkProvider" groups="pdk-fs" remote="aosp" />
