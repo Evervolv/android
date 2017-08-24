@@ -17,6 +17,7 @@
   <project path="external/bson" name="android_external_bson" remote="evervolv" />
   <project path="external/connectivity" name="android_external_connectivity" remote="evervolv" />
   <project path="external/json-c" name="android_external_json-c" remote="evervolv" />
+  <project path="external/libnfc-nxp" name="android_external_libnfc-nxp" remote="evervolv" />
 
   <project path="vendor/nxp/opensource/interfaces/nfc" name="android_vendor_nxp_interfaces_opensource_nfc" remote="evervolv" />
   <project path="vendor/nxp/opensource/commonsys/external/libnfc-nci" name="android_vendor_nxp_opensource_external_libnfc-nci" remote="evervolv" />
