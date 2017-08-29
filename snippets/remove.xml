@@ -57,6 +57,7 @@
   <remove-project path="prebuilts/go/darwin-x86" name="platform/prebuilts/go/darwin-x86" />
   <remove-project path="prebuilts/python/darwin-x86/2.7.5" name="platform/prebuilts/python/darwin-x86/2.7.5" />
 
+  <remove-project path="system/bt" name="platform/system/bt" />
   <remove-project path="system/core" name="platform/system/core" />
 
 </manifest>

@@ -46,6 +46,7 @@
   <project path="hardware/qcom/wlan" name="android_hardware_qcom_wlan" groups="qcom_wlan,pdk" remote="evervolv" />
 
   <!-- System -->
+  <project path="system/bt" name="android_system_bt" groups="pdk" remote="evervolv" />
   <project path="system/core" name="android_system_core" groups="pdk" remote="evervolv" />
 
   <!-- Vendor -->
