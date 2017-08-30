@@ -59,6 +59,7 @@
   <project path="hardware/qcom/media-caf/msm8937" name="android_hardware_qcom_media-caf" groups="qcom,pdk" remote="evervolv" revision="o-8.0-8937" />
   <project path="hardware/qcom/media-caf/msm8960" name="android_hardware_qcom_media-caf" groups="qcom,pdk" remote="evervolv" revision="o-8.0-8960" />
   <project path="hardware/qcom/media-caf/msm8996" name="android_hardware_qcom_media-caf" groups="qcom,pdk" remote="evervolv" revision="o-8.0-8996" />
+  <project path="hardware/qcom/msm8x74" name="android_hardware_qcom_msm8x74" groups="qcom_msm8x74,pdk" remote="evervolv" />
   <project path="hardware/qcom/wlan" name="android_hardware_qcom_wlan" groups="qcom_wlan,pdk" remote="evervolv" />
 
   <!-- Packages -->
