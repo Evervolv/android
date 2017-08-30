@@ -25,6 +25,8 @@
   <remove-project path="device/linaro/hikey" name="device/linaro/hikey" />
   <remove-project path="device/linaro/hikey-kernel" name="device/linaro/hikey-kernel" />
 
+  <remove-project path="external/tinycompress" name="platform/external/tinycompress" />
+
   <remove-project path="frameworks/av" name="platform/frameworks/av" />
   <remove-project path="frameworks/base" name="platform/frameworks/base" />
   <remove-project path="frameworks/native" name="platform/frameworks/native" />

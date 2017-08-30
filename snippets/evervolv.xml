@@ -29,6 +29,7 @@
 
   <!-- External -->
   <project path="external/stlport" name="android_external_stlport" remote="evervolv" />
+  <project path="external/tinycompress" name="android_external_tinycompress" groups="pdk" remote="evervolv" />
 
   <!-- Framework -->
   <project path="frameworks/av" name="android_frameworks_av" groups="pdk" remote="evervolv" />
@@ -38,11 +39,24 @@
   <!-- Hardware -->
   <project path="hardware/libhardware" name="android_hardware_libhardware" groups="pdk" remote="evervolv" />
   <project path="hardware/qcom/audio" name="android_hardware_qcom_audio" groups="qcom,qcom_audio,pdk" remote="evervolv" />
+  <project path="hardware/qcom/audio-caf/msm8916" name="android_hardware_qcom_audio-caf" groups="qcom,qcom_audio,pdk" remote="evervolv" revision="o-8.0-8916" />
+  <project path="hardware/qcom/audio-caf/msm8937" name="android_hardware_qcom_audio-caf" groups="qcom,qcom_audio,pdk" remote="evervolv" revision="o-8.0-8937" />
+  <project path="hardware/qcom/audio-caf/msm8960" name="android_hardware_qcom_audio-caf" groups="qcom,qcom_audio,pdk" remote="evervolv" revision="o-8.0-8960" />
+  <project path="hardware/qcom/audio-caf/msm8996" name="android_hardware_qcom_audio-caf" groups="qcom,qcom_audio,pdk" remote="evervolv" revision="o-8.0-8996" />
   <project path="hardware/qcom/bt" name="android_hardware_qcom_bt" groups="qcom,pdk" remote="evervolv" />
+  <project path="hardware/qcom/bt-caf" name="android_hardware_qcom_bt" remote="evervolv" revision="o-8.0-caf" />
   <project path="hardware/qcom/display" name="android_hardware_qcom_display" groups="pdk,qcom,qcom_display" remote="evervolv" />
+  <project path="hardware/qcom/display-caf/msm8916" name="android_hardware_qcom_display-caf" groups="pdk,qcom,qcom_display" remote="evervolv" revision="o-8.0-8916" />
+  <project path="hardware/qcom/display-caf/msm8937" name="android_hardware_qcom_display-caf" groups="pdk,qcom,qcom_display" remote="evervolv" revision="o-8.0-8937" />
+  <project path="hardware/qcom/display-caf/msm8960" name="android_hardware_qcom_display-caf" groups="pdk,qcom,qcom_display" remote="evervolv" revision="o-8.0-8960" />
+  <project path="hardware/qcom/display-caf/msm8996" name="android_hardware_qcom_display-caf" groups="pdk,qcom,qcom_display" remote="evervolv" revision="o-8.0-8996" />
   <project path="hardware/qcom/gps" name="android_hardware_qcom_gps" groups="qcom,qcom_gps,pdk" remote="evervolv" />
   <project path="hardware/qcom/keymaster" name="android_hardware_qcom_keymaster" groups="qcom,qcom_keymaster,pdk" remote="evervolv" />
   <project path="hardware/qcom/media" name="android_hardware_qcom_media" groups="qcom,pdk" remote="evervolv" />
+  <project path="hardware/qcom/media-caf/msm8916" name="android_hardware_qcom_media-caf" groups="qcom,pdk" remote="evervolv" revision="o-8.0-8916" />
+  <project path="hardware/qcom/media-caf/msm8937" name="android_hardware_qcom_media-caf" groups="qcom,pdk" remote="evervolv" revision="o-8.0-8937" />
+  <project path="hardware/qcom/media-caf/msm8960" name="android_hardware_qcom_media-caf" groups="qcom,pdk" remote="evervolv" revision="o-8.0-8960" />
+  <project path="hardware/qcom/media-caf/msm8996" name="android_hardware_qcom_media-caf" groups="qcom,pdk" remote="evervolv" revision="o-8.0-8996" />
   <project path="hardware/qcom/wlan" name="android_hardware_qcom_wlan" groups="qcom_wlan,pdk" remote="evervolv" />
 
   <!-- Packages -->
@@ -53,9 +67,11 @@
   <project path="system/core" name="android_system_core" groups="pdk" remote="evervolv" />
 
   <!-- Vendor -->
+  <project path="vendor/cm/support" name="android_vendor_cm_support" remote="evervolv" />
   <project path="vendor/ev" name="android_vendor_ev" remote="evervolv" />
   <project path="vendor/ev/build" name="android_vendor_ev_build" remote="evervolv" />
   <project path="vendor/google" name="android_vendor_google" remote="evervolv" />
+  <project path="vendor/qcom/opensource/dtbtool" name="android_vendor_qcom_opensource_dtbtool" />
 
 </manifest>
 
