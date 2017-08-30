@@ -28,6 +28,7 @@
   </project>
 
   <!-- External -->
+  <project path="external/selinux" name="android_external_selinux" groups="pdk" remote="evervolv" />
   <project path="external/stlport" name="android_external_stlport" remote="evervolv" />
   <project path="external/tinycompress" name="android_external_tinycompress" groups="pdk" remote="evervolv" />
 
