@@ -45,6 +45,7 @@
   <remove-project path="packages/apps/Protips" name="platform/packages/apps/Protips" />
   <remove-project path="packages/apps/QuickSearchBox" name="platform/packages/apps/QuickSearchBox" />
   <remove-project path="packages/apps/SpareParts" name="platform/packages/apps/SpareParts" />
+  <remove-project path="packages/inputmethods/LatinIME" name="platform/packages/inputmethods/LatinIME" />
   <remove-project path="packages/inputmethods/OpenWnn" name="platform/packages/inputmethods/OpenWnn" />
 
   <remove-project path="prebuilts/clang/host/darwin-x86" name="platform/prebuilts/clang/host/darwin-x86" />
