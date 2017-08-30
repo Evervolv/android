@@ -72,7 +72,7 @@
   <project path="vendor/ev" name="android_vendor_ev" remote="evervolv" />
   <project path="vendor/ev/build" name="android_vendor_ev_build" remote="evervolv" />
   <project path="vendor/google" name="android_vendor_google" remote="evervolv" />
-  <project path="vendor/qcom/opensource/dtbtool" name="android_vendor_qcom_opensource_dtbtool" />
+  <project path="vendor/qcom/opensource/dtbtool" name="android_vendor_qcom_opensource_dtbtool" remote="evervolv" />
 
 </manifest>
 
