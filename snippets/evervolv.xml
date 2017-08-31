@@ -40,6 +40,7 @@
 
   <!-- Hardware -->
   <project path="hardware/libhardware" name="android_hardware_libhardware" groups="pdk" remote="evervolv" />
+  <project path="hardware/libhardware_legacy" name="android_hardware_libhardware_legacy" groups="pdk" remote="evervolv" />
   <project path="hardware/qcom/audio" name="android_hardware_qcom_audio" groups="qcom,qcom_audio,pdk" remote="evervolv" />
   <project path="hardware/qcom/audio-caf/msm8916" name="android_hardware_qcom_audio-caf" groups="qcom,qcom_audio,pdk" remote="evervolv" revision="o-8.0-8916" />
   <project path="hardware/qcom/audio-caf/msm8937" name="android_hardware_qcom_audio-caf" groups="qcom,qcom_audio,pdk" remote="evervolv" revision="o-8.0-8937" />
