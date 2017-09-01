@@ -11,6 +11,9 @@
   <!-- Manifest -->
   <project path="android" name="android" remote="evervolv" />
 
+  <project path="art" name="android_art" groups="pdk" remote="evervolv" />
+  <project path="bionic" name="android_bionic" groups="pdk" remote="evervolv" />
+
   <!-- Build -->
   <project path="build/make" name="android_build" groups="pdk" remote="evervolv" >
     <copyfile src="core/root.mk" dest="Makefile" />
@@ -69,6 +72,8 @@
   <!-- System -->
   <project path="system/bt" name="android_system_bt" groups="pdk" remote="evervolv" />
   <project path="system/core" name="android_system_core" groups="pdk" remote="evervolv" />
+  <project path="system/sepolicy" name="android_system_sepolicy" groups="pdk" remote="evervolv" />
+  <project path="system/vold" name="android_system_vold" groups="pdk" remote="evervolv" />
 
   <!-- Vendor -->
   <project path="vendor/cm/support" name="android_vendor_cm_support" remote="evervolv" />
