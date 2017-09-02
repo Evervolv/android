@@ -30,6 +30,9 @@
     <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
   </project>
 
+  <!-- Device -->
+  <project path="device/qcom/sepolicy" name="android_device_qcom_sepolicy" groups="pdk" remote="evervolv" />
+
   <!-- External -->
   <project path="external/selinux" name="android_external_selinux" groups="pdk" remote="evervolv" />
   <project path="external/stlport" name="android_external_stlport" remote="evervolv" />
