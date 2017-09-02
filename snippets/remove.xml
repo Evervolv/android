@@ -44,13 +44,18 @@
   <remove-project path="hardware/qcom/keymaster" name="platform/hardware/qcom/keymaster" />
   <remove-project path="hardware/qcom/media" name="platform/hardware/qcom/media" />
   <remove-project path="hardware/qcom/wlan" name="platform/hardware/qcom/wlan" />
+  <remove-project path="hardware/ril" name="platform/hardware/ril" />
 
+  <remove-project path="packages/apps/Bluetooth" name="platform/packages/apps/Bluetooth" />
   <remove-project path="packages/apps/DevCamera" name="platform/packages/apps/DevCamera" />
   <remove-project path="packages/apps/Gallery" name="platform/packages/apps/Gallery" />
   <remove-project path="packages/apps/Launcher2" name="platform/packages/apps/Launcher2" />
+  <remove-project path="packages/apps/Launcher3" name="platform/packages/apps/Launcher3" />
   <remove-project path="packages/apps/LegacyCamera" name="platform/packages/apps/LegacyCamera" />
+  <remove-project path="packages/apps/Nfc" name="platform/packages/apps/Nfc" />
   <remove-project path="packages/apps/Protips" name="platform/packages/apps/Protips" />
   <remove-project path="packages/apps/QuickSearchBox" name="platform/packages/apps/QuickSearchBox" />
+  <remove-project path="packages/apps/Settings" name="platform/packages/apps/Settings" />
   <remove-project path="packages/apps/SpareParts" name="platform/packages/apps/SpareParts" />
   <remove-project path="packages/inputmethods/LatinIME" name="platform/packages/inputmethods/LatinIME" />
   <remove-project path="packages/inputmethods/OpenWnn" name="platform/packages/inputmethods/OpenWnn" />
@@ -67,6 +72,7 @@
 
   <remove-project path="system/bt" name="platform/system/bt" />
   <remove-project path="system/core" name="platform/system/core" />
+  <remove-project path="system/media" name="platform/system/media" />
   <remove-project path="system/sepolicy" name="platform/system/sepolicy" />
   <remove-project path="system/vold" name="platform/system/vold" />
 
