@@ -19,6 +19,7 @@
   <project path="external/json-c" name="android_external_json-c" remote="evervolv" />
 
   <project path="vendor/qcom/opensource/commonsys/cryptfs_hw" name="android_vendor_qcom_opensource_cryptfs_hw" remote="evervolv" />
+  <project path="vendor/qcom/opensource/interfaces" name="android_vendor_qcom_opensource_interfaces" remote="evervolv" />
 
 </manifest>
 
