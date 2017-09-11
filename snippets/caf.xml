@@ -16,5 +16,7 @@
   <project path="external/ant-wireless/hidl" name="android_external_ant-wireless_hidl" groups="qcom,qssi" remote="evervolv" />
   <project path="external/json-c" name="android_external_json-c" remote="evervolv" />
 
+  <project path="vendor/qcom/opensource/interfaces" name="android_vendor_qcom_opensource_interfaces" remote="evervolv" />
+
 </manifest>
 
