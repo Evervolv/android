@@ -48,8 +48,11 @@
   <remove-project path="hardware/ril" name="platform/hardware/ril" />
 
   <remove-project path="packages/apps/Bluetooth" name="platform/packages/apps/Bluetooth" />
+  <remove-project path="packages/apps/Browser2" name="platform/packages/apps/Browser2" />
+  <remove-project path="packages/apps/Camera2" name="platform/packages/apps/Camera2" />
   <remove-project path="packages/apps/DevCamera" name="platform/packages/apps/DevCamera" />
   <remove-project path="packages/apps/Gallery" name="platform/packages/apps/Gallery" />
+  <remove-project path="packages/apps/Gallery2" name="platform/packages/apps/Gallery2" />
   <remove-project path="packages/apps/Launcher2" name="platform/packages/apps/Launcher2" />
   <remove-project path="packages/apps/Launcher3" name="platform/packages/apps/Launcher3" />
   <remove-project path="packages/apps/LegacyCamera" name="platform/packages/apps/LegacyCamera" />
