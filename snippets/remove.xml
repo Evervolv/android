@@ -54,6 +54,8 @@
   <remove-project path="packages/apps/Launcher3" name="platform/packages/apps/Launcher3" />
   <remove-project path="packages/apps/LegacyCamera" name="platform/packages/apps/LegacyCamera" />
   <remove-project path="packages/apps/Messaging" name="platform/packages/apps/Messaging" />
+  <remove-project path="packages/apps/Music" name="platform/packages/apps/Music" />
+  <remove-project path="packages/apps/MusicFX" name="platform/packages/apps/MusicFX" />
   <remove-project path="packages/apps/Nfc" name="platform/packages/apps/Nfc" />
   <remove-project path="packages/apps/Protips" name="platform/packages/apps/Protips" />
   <remove-project path="packages/apps/QuickSearchBox" name="platform/packages/apps/QuickSearchBox" />
