@@ -35,6 +35,7 @@
   <remove-project path="frameworks/native" name="platform/frameworks/native" />
   <remove-project path="frameworks/support" name="platform/frameworks/support" />
 
+  <remove-project path="hardware/interfaces" name="platform/hardware/interfaces" />
   <remove-project path="hardware/libhardware" name="platform/hardware/libhardware" />
   <remove-project path="hardware/libhardware_legacy" name="platform/hardware/libhardware_legacy" />
   <remove-project path="hardware/qcom/audio" name="platform/hardware/qcom/audio" />
