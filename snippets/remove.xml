@@ -49,6 +49,7 @@
 
   <remove-project path="packages/apps/Bluetooth" name="platform/packages/apps/Bluetooth" />
   <remove-project path="packages/apps/Browser2" name="platform/packages/apps/Browser2" />
+  <remove-project path="packages/apps/Calendar" name="platform/packages/apps/Calendar" />
   <remove-project path="packages/apps/Camera2" name="platform/packages/apps/Camera2" />
   <remove-project path="packages/apps/DevCamera" name="platform/packages/apps/DevCamera" />
   <remove-project path="packages/apps/Gallery" name="platform/packages/apps/Gallery" />
