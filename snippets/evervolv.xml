@@ -34,10 +34,15 @@
   <project path="device/qcom/sepolicy" name="android_device_qcom_sepolicy" groups="pdk" remote="evervolv" />
 
   <!-- External -->
+  <project path="external/brctl" name="android_external_brctl" remote="evervolv" />
+  <project path="external/ebtables" name="android_external_ebtables" remote="evervolv" />
   <project path="external/exfat" name="android_external_exfat" groups="pdk" remote="evervolv" />
   <project path="external/fuse" name="android_external_fuse" groups="pdk" remote="evervolv" />
   <project path="external/htop" name="android_external_htop" remote="evervolv" />
+  <project path="external/json-c" name="android_external_json-c" remote="evervolv" />
   <project path="external/libncurses" name="android_external_libncurses" groups="pdk" remote="evervolv" />
+  <project path="external/libnetfilter_conntrack" name="android_external_libnetfilter_conntrack" groups="pdk" remote="evervolv" />
+  <project path="external/libnfnetlink" name="android_external_libnfnetlink" groups="pdk" remote="evervolv" />
   <project path="external/nano" name="android_external_nano" groups="pdk" remote="evervolv" />
   <project path="external/selinux" name="android_external_selinux" groups="pdk" remote="evervolv" />
   <project path="external/stlport" name="android_external_stlport" remote="evervolv" />
@@ -59,7 +64,7 @@
   <project path="hardware/qcom/audio-caf/msm8960" name="android_hardware_qcom_audio-caf" groups="qcom,qcom_audio,pdk" remote="evervolv" revision="o-8.0-8960" />
   <project path="hardware/qcom/audio-caf/msm8996" name="android_hardware_qcom_audio-caf" groups="qcom,qcom_audio,pdk" remote="evervolv" revision="o-8.0-8996" />
   <project path="hardware/qcom/bt" name="android_hardware_qcom_bt" groups="qcom,pdk" remote="evervolv" />
-  <project path="hardware/qcom/bt-caf" name="android_hardware_qcom_bt" remote="evervolv" revision="o-8.0-caf" />
+  <project path="hardware/qcom/bt-caf" name="android_hardware_qcom_bt" groups="qcom,pdk" remote="evervolv" revision="o-8.0-caf" />
   <project path="hardware/qcom/display" name="android_hardware_qcom_display" groups="pdk,qcom,qcom_display" remote="evervolv" />
   <project path="hardware/qcom/display-caf/msm8916" name="android_hardware_qcom_display-caf" groups="pdk,qcom,qcom_display" remote="evervolv" revision="o-8.0-8916" />
   <project path="hardware/qcom/display-caf/msm8937" name="android_hardware_qcom_display-caf" groups="pdk,qcom,qcom_display" remote="evervolv" revision="o-8.0-8937" />
@@ -108,7 +113,13 @@
   <project path="vendor/ev/build" name="android_vendor_ev_build" remote="evervolv" />
   <project path="vendor/google" name="android_vendor_google" remote="evervolv" />
   <project path="vendor/qcom/opensource/cryptfs_hw" name="android_vendor_qcom_opensource_cryptfs_hw" remote="evervolv" />
+  <project path="vendor/qcom/opensource/dataservices" name="android_vendor_qcom_opensource_dataservices" remote="evervolv" />
+  <project path="vendor/qcom/opensource/dpm" name="android_vendor_qcom_opensource_dpm" remote="evervolv" />
   <project path="vendor/qcom/opensource/dtbtool" name="android_vendor_qcom_opensource_dtbtool" remote="evervolv" />
+  <project path="vendor/qcom/opensource/interfaces" name="android_vendor_qcom_opensource_interfaces" remote="evervolv" >
+    <copyfile src="os_pickup.bp" dest="vendor/qcom/opensource/Android.bp" />
+  </project>
+  <project path="vendor/qcom/opensource/time-services" name="android_vendor_qcom_opensource_time-services" remote="evervolv" />
 
 </manifest>
 
