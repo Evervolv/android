@@ -34,6 +34,7 @@
   <project path="device/qcom/sepolicy" name="android_device_qcom_sepolicy" groups="pdk" remote="evervolv" />
 
   <!-- External -->
+  <project path="external/bson" name="android_external_bson" remote="evervolv" />
   <project path="external/brctl" name="android_external_brctl" remote="evervolv" />
   <project path="external/ebtables" name="android_external_ebtables" remote="evervolv" />
   <project path="external/exfat" name="android_external_exfat" groups="pdk" remote="evervolv" />
