@@ -48,11 +48,14 @@
   <project path="external/selinux" name="android_external_selinux" groups="pdk" remote="evervolv" />
   <project path="external/stlport" name="android_external_stlport" remote="evervolv" />
   <project path="external/tinycompress" name="android_external_tinycompress" groups="pdk" remote="evervolv" />
+  <project path="external/toybox" name="android_external_toybox" groups="pdk" remote="evervolv" />
+  <project path="external/wpa_supplicant_8" name="android_external_wpa_supplicant_8" groups="pdk" remote="evervolv" />
 
   <!-- Framework -->
   <project path="frameworks/av" name="android_frameworks_av" groups="pdk" remote="evervolv" />
   <project path="frameworks/base" name="android_frameworks_base" groups="pdk-cw-fs,pdk-fs" remote="evervolv" />
   <project path="frameworks/native" name="android_frameworks_native" groups="pdk" remote="evervolv" />
+  <project path="frameworks/opt/telephony" name="android_frameworks_opt_telephony" groups="pdk" remote="evervolv" />
   <project path="frameworks/support" name="android_frameworks_support" groups="pdk-cw-fs,pdk-fs" remote="evervolv" />
 
   <!-- Hardware -->

@@ -31,10 +31,13 @@
   <remove-project path="external/libnfnetlink" name="platform/external/libnfnetlink" />
   <remove-project path="external/selinux" name="platform/external/selinux" groups="pdk" />
   <remove-project path="external/tinycompress" name="platform/external/tinycompress" />
+  <remove-project path="external/toybox" name="platform/external/toybox" />
+  <remove-project path="external/wpa_supplicant_8" name="platform/external/wpa_supplicant_8" />
 
   <remove-project path="frameworks/av" name="platform/frameworks/av" />
   <remove-project path="frameworks/base" name="platform/frameworks/base" />
   <remove-project path="frameworks/native" name="platform/frameworks/native" />
+  <remove-project path="frameworks/opt/telephony" name="platform/frameworks/opt/telephony" />
   <remove-project path="frameworks/support" name="platform/frameworks/support" />
 
   <remove-project path="hardware/interfaces" name="platform/hardware/interfaces" />
