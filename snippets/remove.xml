@@ -27,6 +27,10 @@
   <remove-project path="device/linaro/hikey" name="device/linaro/hikey" />
   <remove-project path="device/linaro/hikey-kernel" name="device/linaro/hikey-kernel" />
 
+  <remove-project path="external/e2fsprogs" name="platform/external/e2fsprogs" />
+  <remove-project path="external/f2fs-tools" name="platform/external/f2fs-tools" />
+  <remove-project path="external/gptfdisk" name="platform/external/gptfdisk" />
+  <remove-project path="external/mksh" name="platform/external/mksh" />
   <remove-project path="external/libnetfilter_conntrack" name="platform/external/libnetfilter_conntrack" />
   <remove-project path="external/libnfnetlink" name="platform/external/libnfnetlink" />
   <remove-project path="external/selinux" name="platform/external/selinux" groups="pdk" />

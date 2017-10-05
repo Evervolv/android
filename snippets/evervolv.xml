@@ -34,17 +34,25 @@
   <project path="device/qcom/sepolicy" name="android_device_qcom_sepolicy" groups="pdk" remote="evervolv" />
 
   <!-- External -->
+  <project path="external/bash" name="android_external_bash" remote="evervolv" />
   <project path="external/bson" name="android_external_bson" remote="evervolv" />
   <project path="external/brctl" name="android_external_brctl" remote="evervolv" />
+  <project path="external/e2fsprogs" name="android_external_e2fsprogs" groups="pdk" />
   <project path="external/ebtables" name="android_external_ebtables" remote="evervolv" />
   <project path="external/exfat" name="android_external_exfat" groups="pdk" remote="evervolv" />
+  <project path="external/f2fs-tools" name="platform/external/f2fs-tools" />
   <project path="external/fuse" name="android_external_fuse" groups="pdk" remote="evervolv" />
+  <project path="external/gptfdisk" name="platform/external/gptfdisk" groups="pdk" />
   <project path="external/htop" name="android_external_htop" remote="evervolv" />
   <project path="external/json-c" name="android_external_json-c" remote="evervolv" />
   <project path="external/libncurses" name="android_external_libncurses" groups="pdk" remote="evervolv" />
   <project path="external/libnetfilter_conntrack" name="android_external_libnetfilter_conntrack" groups="pdk" remote="evervolv" />
   <project path="external/libnfnetlink" name="android_external_libnfnetlink" groups="pdk" remote="evervolv" />
+  <project path="external/mksh" name="platform/external/mksh" groups="pdk" />
   <project path="external/nano" name="android_external_nano" groups="pdk" remote="evervolv" />
+  <project path="external/ntfs-3g" name="android_external_ntfs-3g" remote="evervolv" />
+  <project path="external/pigz" name="android_external_pigz" remote="evervolv" />
+  <project path="external/rsync" name="android_external_rsync" remote="evervolv" />
   <project path="external/selinux" name="android_external_selinux" groups="pdk" remote="evervolv" />
   <project path="external/stlport" name="android_external_stlport" remote="evervolv" />
   <project path="external/tinycompress" name="android_external_tinycompress" groups="pdk" remote="evervolv" />
