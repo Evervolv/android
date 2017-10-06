@@ -107,6 +107,8 @@
   <project path="packages/apps/Settings" name="android_packages_apps_Settings" groups="pdk-fs" remote="evervolv" />
   <project path="packages/inputmethods/LatinIME" name="android_packages_inputmethods_LatinIME" remote="evervolv" />
   <project path="packages/providers/MediaProvider" name="android_packages_providers_MediaProvider" groups="pdk-cw-fs,pdk-fs" remote="evervolv" />
+  <project path="packages/services/Telecomm" name="android_packages_services_Telecomm" groups="pdk-cw-fs,pdk-fs" remote="evervolv" />
+  <project path="packages/services/Telephony" name="android_packages_services_Telephony" groups="pdk-cw-fs,pdk-fs" remote="evervolv" />
 
   <!-- System -->
   <project path="system/bt" name="android_system_bt" groups="pdk" remote="evervolv" />

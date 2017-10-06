@@ -77,6 +77,8 @@
   <remove-project path="packages/inputmethods/LatinIME" name="platform/packages/inputmethods/LatinIME" />
   <remove-project path="packages/inputmethods/OpenWnn" name="platform/packages/inputmethods/OpenWnn" />
   <remove-project path="packages/providers/MediaProvider" name="platform/packages/providers/MediaProvider" />
+  <remove-project path="packages/services/Telecomm" name="platform/packages/services/Telecomm" />
+  <remove-project path="packages/services/Telephony" name="platform/packages/services/Telephony" />
 
   <remove-project path="prebuilts/clang/host/darwin-x86" name="platform/prebuilts/clang/host/darwin-x86" />
   <remove-project path="prebuilts/gcc/darwin-x86/aarch64/aarch64-linux-android-4.9" name="platform/prebuilts/gcc/darwin-x86/aarch64/aarch64-linux-android-4.9" />
