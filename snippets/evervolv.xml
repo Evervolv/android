@@ -121,12 +121,12 @@
 
   <!-- Vendor -->
   <project path="vendor/cm/support" name="android_vendor_cm_support" remote="evervolv" />
+  <project path="vendor/codeaurora/telephony" name="android_vendor_codeaurora_telephony" remote="evervolv" />
   <project path="vendor/ev" name="android_vendor_ev" remote="evervolv" />
   <project path="vendor/ev/build" name="android_vendor_ev_build" remote="evervolv" />
   <project path="vendor/google" name="android_vendor_google" remote="evervolv" />
   <project path="vendor/qcom/opensource/cryptfs_hw" name="android_vendor_qcom_opensource_cryptfs_hw" remote="evervolv" />
   <project path="vendor/qcom/opensource/dataservices" name="android_vendor_qcom_opensource_dataservices" remote="evervolv" />
-  <project path="vendor/qcom/opensource/dpm" name="android_vendor_qcom_opensource_dpm" remote="evervolv" />
   <project path="vendor/qcom/opensource/dtbtool" name="android_vendor_qcom_opensource_dtbtool" remote="evervolv" />
   <project path="vendor/qcom/opensource/interfaces" name="android_vendor_qcom_opensource_interfaces" remote="evervolv" >
     <copyfile src="os_pickup.bp" dest="vendor/qcom/opensource/Android.bp" />
