@@ -92,7 +92,9 @@
 
   <remove-project path="system/bt" name="platform/system/bt" />
   <remove-project path="system/core" name="platform/system/core" />
+  <remove-project path="system/hardware/interfaces" name="platform/system/hardware/interfaces" />
   <remove-project path="system/media" name="platform/system/media" />
+  <remove-project path="system/netd" name="platform/system/netd" />
   <remove-project path="system/nfc" name="platform/system/nfc" />
   <remove-project path="system/sepolicy" name="platform/system/sepolicy" />
   <remove-project path="system/vold" name="platform/system/vold" />
