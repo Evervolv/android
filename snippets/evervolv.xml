@@ -1,139 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-  <remote  name="evervolv"
-           fetch="git://github.com/Evervolv/"
-           review="http://review.evervolv.com/"
-           revision="o-8.0" />
-  <remote  name="github"
-           fetch="git://github.com/"/>
-
   <!-- Manifest -->
   <project path="android" name="android" remote="evervolv" />
 
-  <project path="art" name="android_art" groups="pdk" remote="evervolv" />
-  <project path="bionic" name="android_bionic" groups="pdk" remote="evervolv" />
-
-  <!-- Build -->
-  <project path="build/make" name="android_build" groups="pdk" remote="evervolv" >
-    <copyfile src="core/root.mk" dest="Makefile" />
-    <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
-    <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
-    <linkfile src="core" dest="build/core" />
-    <linkfile src="envsetup.sh" dest="build/envsetup.sh" />
-    <linkfile src="target" dest="build/target" />
-    <linkfile src="tools" dest="build/tools" />
-  </project>
-  <project path="build/kati" name="android_build_kati" groups="pdk,tradefed" remote="evervolv" />
-  <project path="build/soong" name="android_build_soong" groups="pdk,tradefed" remote="evervolv" >
-    <linkfile src="root.bp" dest="Android.bp" />
-    <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
-  </project>
-
-  <!-- Device -->
-  <project path="device/qcom/sepolicy" name="android_device_qcom_sepolicy" groups="pdk" remote="evervolv" />
-
   <!-- External -->
   <project path="external/bash" name="android_external_bash" remote="evervolv" />
-  <project path="external/bson" name="android_external_bson" remote="evervolv" />
-  <project path="external/brctl" name="android_external_brctl" remote="evervolv" />
-  <project path="external/e2fsprogs" name="android_external_e2fsprogs" groups="pdk" remote="evervolv" />
-  <project path="external/ebtables" name="android_external_ebtables" remote="evervolv" />
   <project path="external/exfat" name="android_external_exfat" groups="pdk" remote="evervolv" />
-  <project path="external/f2fs-tools" name="android_external_f2fs-tools" remote="evervolv" />
-  <project path="external/fuse" name="android_external_fuse" groups="pdk" remote="evervolv" />
-  <project path="external/gptfdisk" name="android_external_gptfdisk" groups="pdk" remote="evervolv" />
+  <project path="external/fuse" name="android_external_fuse" remote="evervolv" />
   <project path="external/htop" name="android_external_htop" remote="evervolv" />
-  <project path="external/json-c" name="android_external_json-c" remote="evervolv" />
   <project path="external/libncurses" name="android_external_libncurses" groups="pdk" remote="evervolv" />
-  <project path="external/libnetfilter_conntrack" name="android_external_libnetfilter_conntrack" groups="pdk" remote="evervolv" />
-  <project path="external/libnfnetlink" name="android_external_libnfnetlink" groups="pdk" remote="evervolv" />
-  <project path="external/mksh" name="android_external_mksh" groups="pdk" remote="evervolv" />
   <project path="external/nano" name="android_external_nano" groups="pdk" remote="evervolv" />
   <project path="external/ntfs-3g" name="android_external_ntfs-3g" remote="evervolv" />
   <project path="external/pigz" name="android_external_pigz" remote="evervolv" />
   <project path="external/rsync" name="android_external_rsync" remote="evervolv" />
-  <project path="external/selinux" name="android_external_selinux" groups="pdk" remote="evervolv" />
   <project path="external/stlport" name="android_external_stlport" remote="evervolv" />
-  <project path="external/tinycompress" name="android_external_tinycompress" groups="pdk" remote="evervolv" />
-  <project path="external/toybox" name="android_external_toybox" groups="pdk" remote="evervolv" />
-  <project path="external/wpa_supplicant_8" name="android_external_wpa_supplicant_8" groups="pdk" remote="evervolv" />
-
-  <!-- Framework -->
-  <project path="frameworks/av" name="android_frameworks_av" groups="pdk" remote="evervolv" />
-  <project path="frameworks/base" name="android_frameworks_base" groups="pdk-cw-fs,pdk-fs" remote="evervolv" />
-  <project path="frameworks/native" name="android_frameworks_native" groups="pdk" remote="evervolv" />
-  <project path="frameworks/opt/telephony" name="android_frameworks_opt_telephony" groups="pdk" remote="evervolv" />
-  <project path="frameworks/support" name="android_frameworks_support" groups="pdk-cw-fs,pdk-fs" remote="evervolv" />
-
-  <!-- Hardware -->
-  <project path="hardware/interfaces" name="android_hardware_interfaces" groups="pdk" remote="evervolv" />
-  <project path="hardware/libhardware" name="android_hardware_libhardware" groups="pdk" remote="evervolv" />
-  <project path="hardware/libhardware_legacy" name="android_hardware_libhardware_legacy" groups="pdk" remote="evervolv" />
-  <project path="hardware/qcom/audio" name="android_hardware_qcom_audio" groups="qcom,qcom_audio,pdk" remote="evervolv" />
-  <project path="hardware/qcom/audio-caf/msm8916" name="android_hardware_qcom_audio-caf" groups="qcom,qcom_audio,pdk" remote="evervolv" revision="o-8.0-8916" />
-  <project path="hardware/qcom/audio-caf/msm8960" name="android_hardware_qcom_audio-caf" groups="qcom,qcom_audio,pdk" remote="evervolv" revision="o-8.0-8960" />
-  <project path="hardware/qcom/audio-caf/msm8996" name="android_hardware_qcom_audio-caf" groups="qcom,qcom_audio,pdk" remote="evervolv" revision="o-8.0-8996" />
-  <project path="hardware/qcom/bt" name="android_hardware_qcom_bt" groups="qcom,pdk" remote="evervolv" />
-  <project path="hardware/qcom/bt-caf" name="android_hardware_qcom_bt" groups="qcom,pdk" remote="evervolv" revision="o-8.0-caf" />
-  <project path="hardware/qcom/display" name="android_hardware_qcom_display" groups="pdk,qcom,qcom_display" remote="evervolv" />
-  <project path="hardware/qcom/display-caf/msm8916" name="android_hardware_qcom_display-caf" groups="pdk,qcom,qcom_display" remote="evervolv" revision="o-8.0-8916" />
-  <project path="hardware/qcom/display-caf/msm8960" name="android_hardware_qcom_display-caf" groups="pdk,qcom,qcom_display" remote="evervolv" revision="o-8.0-8960" />
-  <project path="hardware/qcom/display-caf/msm8996" name="android_hardware_qcom_display-caf" groups="pdk,qcom,qcom_display" remote="evervolv" revision="o-8.0-8996" />
-  <project path="hardware/qcom/gps" name="android_hardware_qcom_gps" groups="qcom,qcom_gps,pdk" remote="evervolv" />
-  <project path="hardware/qcom/fm" name="android_hardware_qcom_fm" groups="qcom,qcom_fm" remote="evervolv" />
-  <project path="hardware/qcom/keymaster" name="android_hardware_qcom_keymaster" groups="qcom,qcom_keymaster,pdk" remote="evervolv" />
-  <project path="hardware/qcom/media" name="android_hardware_qcom_media" groups="qcom,pdk" remote="evervolv" />
-  <project path="hardware/qcom/media-caf/msm8916" name="android_hardware_qcom_media-caf" groups="qcom,pdk" remote="evervolv" revision="o-8.0-8916" />
-  <project path="hardware/qcom/media-caf/msm8960" name="android_hardware_qcom_media-caf" groups="qcom,pdk" remote="evervolv" revision="o-8.0-8960" />
-  <project path="hardware/qcom/media-caf/msm8996" name="android_hardware_qcom_media-caf" groups="qcom,pdk" remote="evervolv" revision="o-8.0-8996" />
-  <project path="hardware/qcom/msm8x74" name="android_hardware_qcom_msm8x74" groups="qcom_msm8x74,pdk" remote="evervolv" />
-  <project path="hardware/qcom/wlan" name="android_hardware_qcom_wlan" groups="qcom_wlan,pdk" remote="evervolv" />
-  <project path="hardware/ril" name="android_hardware_ril" groups="pdk" remote="evervolv" />
-  <project path="hardware/ril-caf" name="android_hardware_ril" groups="pdk" remote="evervolv" revision="o-8.0-caf" />
 
   <!-- Packages -->
   <project path="packages/apps/AudioFX" name="android_packages_apps_AudioFX" groups="pdk-fs" remote="evervolv" />
-  <project path="packages/apps/Bluetooth" name="android_packages_apps_Bluetooth" groups="pdk-cw-fs,pdk-fs" remote="evervolv" />
-  <project path="packages/apps/Calendar" name="android_packages_apps_Calendar" groups="pdk-fs" remote="evervolv" />
-  <project path="packages/apps/Camera2" name="android_packages_apps_Camera2" groups="pdk-fs" remote="evervolv" />
   <project path="packages/apps/Eleven" name="android_packages_apps_Eleven" groups="pdk-fs" remote="evervolv" />
   <project path="packages/apps/EVUpdater" name="android_packages_apps_EVUpdater" groups="pdk-fs" remote="evervolv" />
-  <project path="packages/apps/FMRadio" name="android_packages_apps_FMRadio" remote="evervolv" />
-  <project path="packages/apps/Gallery2" name="android_packages_apps_Gallery2" groups="pdk-fs" remote="evervolv" />
   <project path="packages/apps/Jelly" name="android_packages_apps_Jelly" remote="evervolv" />
-  <project path="packages/apps/Launcher3" name="android_packages_apps_Launcher3" groups="pdk-fs" remote="evervolv" />
-  <project path="packages/apps/Messaging" name="android_packages_apps_Messaging" groups="pdk-fs" remote="evervolv" />
-  <project path="packages/apps/Nfc" name="android_packages_apps_Nfc" groups="apps_nfc,pdk-fs" remote="evervolv" />
-  <project path="packages/apps/Settings" name="android_packages_apps_Settings" groups="pdk-fs" remote="evervolv" />
-  <project path="packages/inputmethods/LatinIME" name="android_packages_inputmethods_LatinIME" remote="evervolv" />
-  <project path="packages/providers/MediaProvider" name="android_packages_providers_MediaProvider" groups="pdk-cw-fs,pdk-fs" remote="evervolv" />
-  <project path="packages/services/Telecomm" name="android_packages_services_Telecomm" groups="pdk-cw-fs,pdk-fs" remote="evervolv" />
-  <project path="packages/services/Telephony" name="android_packages_services_Telephony" groups="pdk-cw-fs,pdk-fs" remote="evervolv" />
-
-  <!-- System -->
-  <project path="system/bt" name="android_system_bt" groups="pdk" remote="evervolv" />
-  <project path="system/core" name="android_system_core" groups="pdk" remote="evervolv" />
-  <project path="system/hardware/interfaces" name="android_system_hardware_interfaces" groups="pdk" remote="evervolv" />
-  <project path="system/media" name="android_system_media" groups="pdk" remote="evervolv" />
-  <project path="system/netd" name="android_system_netd" groups="pdk" remote="evervolv" />
-  <project path="system/nfc" name="android_system_nfc" groups="pdk" remote="evervolv" />
-  <project path="system/sepolicy" name="android_system_sepolicy" groups="pdk" remote="evervolv" />
-  <project path="system/vold" name="android_system_vold" groups="pdk" remote="evervolv" />
 
   <!-- Vendor -->
   <project path="vendor/cm/support" name="android_vendor_cm_support" remote="evervolv" />
-  <project path="vendor/codeaurora/telephony" name="android_vendor_codeaurora_telephony" remote="evervolv" />
   <project path="vendor/ev" name="android_vendor_ev" remote="evervolv" />
   <project path="vendor/ev/build" name="android_vendor_ev_build" remote="evervolv" />
   <project path="vendor/google" name="android_vendor_google" remote="evervolv" />
-  <project path="vendor/qcom/opensource/cryptfs_hw" name="android_vendor_qcom_opensource_cryptfs_hw" remote="evervolv" />
-  <project path="vendor/qcom/opensource/dataservices" name="android_vendor_qcom_opensource_dataservices" remote="evervolv" />
-  <project path="vendor/qcom/opensource/dtbtool" name="android_vendor_qcom_opensource_dtbtool" remote="evervolv" />
-  <project path="vendor/qcom/opensource/interfaces" name="android_vendor_qcom_opensource_interfaces" remote="evervolv" >
-    <copyfile src="os_pickup.bp" dest="vendor/qcom/opensource/Android.bp" />
-  </project>
-  <project path="vendor/qcom/opensource/time-services" name="android_vendor_qcom_opensource_time-services" remote="evervolv" />
 
 </manifest>
 
