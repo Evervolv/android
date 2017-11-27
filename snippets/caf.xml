@@ -5,6 +5,7 @@
            fetch="https://source.codeaurora.org/quic/la/"/>
 
   <!-- Device -->
+  <project path="device/qcom/common" name="android_device_qcom_common" groups="pdk" remote="evervolv" />
   <project path="device/qcom/sepolicy" name="android_device_qcom_sepolicy" groups="pdk" remote="evervolv" />
 
   <!-- External -->
