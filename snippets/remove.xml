@@ -3,6 +3,7 @@
 
   <remove-project path="art" name="platform/art" />
   <remove-project path="bionic" name="platform/bionic" />
+  <remove-project path="bootable/recovery" name="platform/bootable/recovery" />
   <remove-project path="build/make" name="platform/build" />
   <remove-project path="build/kati" name="platform/build/kati" />
   <remove-project path="build/soong" name="platform/build/soong" />
