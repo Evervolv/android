@@ -15,18 +15,18 @@
   <project path="external/json-c" name="android_external_json-c" remote="evervolv" />
 
   <!-- Hardware -->
-  <project path="hardware/qcom/audio-caf/msm8916" name="android_hardware_qcom_audio-caf" groups="qcom,qcom_audio,pdk" remote="evervolv" revision="o-8.0-8916" />
-  <project path="hardware/qcom/audio-caf/msm8960" name="android_hardware_qcom_audio-caf" groups="qcom,qcom_audio,pdk" remote="evervolv" revision="o-8.0-8960" />
+  <project path="hardware/qcom/audio-caf/msm8916" name="android_hardware_qcom_audio-caf" groups="qcom,qcom_audio,pdk" remote="evervolv" revision="o-8.1-8916" />
+  <project path="hardware/qcom/audio-caf/msm8960" name="android_hardware_qcom_audio-caf" groups="qcom,qcom_audio,pdk" remote="evervolv" revision="o-8.1-8960" />
   <project path="hardware/qcom/audio-caf/msm8996" name="android_hardware_qcom_audio-caf" groups="qcom,qcom_audio,pdk" remote="evervolv" revision="o-8.1-8996" />
-  <project path="hardware/qcom/bt-caf" name="android_hardware_qcom_bt" groups="qcom,pdk" remote="evervolv" revision="o-8.0-caf" />
-  <project path="hardware/qcom/display-caf/msm8916" name="android_hardware_qcom_display-caf" groups="pdk,qcom,qcom_display" remote="evervolv" revision="o-8.0-8916" />
-  <project path="hardware/qcom/display-caf/msm8960" name="android_hardware_qcom_display-caf" groups="pdk,qcom,qcom_display" remote="evervolv" revision="o-8.0-8960" />
+  <project path="hardware/qcom/bt-caf" name="android_hardware_qcom_bt" groups="qcom,pdk" remote="evervolv" revision="o-8.1-caf" />
+  <project path="hardware/qcom/display-caf/msm8916" name="android_hardware_qcom_display-caf" groups="pdk,qcom,qcom_display" remote="evervolv" revision="o-8.1-8916" />
+  <project path="hardware/qcom/display-caf/msm8960" name="android_hardware_qcom_display-caf" groups="pdk,qcom,qcom_display" remote="evervolv" revision="o-8.1-8960" />
   <project path="hardware/qcom/display-caf/msm8996" name="android_hardware_qcom_display-caf" groups="pdk,qcom,qcom_display" remote="evervolv" revision="o-8.1-8996" />
   <project path="hardware/qcom/fm" name="android_hardware_qcom_fm" groups="qcom,qcom_fm" remote="evervolv" />
-  <project path="hardware/qcom/media-caf/msm8916" name="android_hardware_qcom_media-caf" groups="qcom,pdk" remote="evervolv" revision="o-8.0-8916" />
+  <project path="hardware/qcom/media-caf/msm8916" name="android_hardware_qcom_media-caf" groups="qcom,pdk" remote="evervolv" revision="o-8.1-8916" />
   <project path="hardware/qcom/media-caf/msm8960" name="android_hardware_qcom_media-caf" groups="qcom,pdk" remote="evervolv" revision="o-8.1-8960" />
-  <project path="hardware/qcom/media-caf/msm8996" name="android_hardware_qcom_media-caf" groups="qcom,pdk" remote="evervolv" revision="o-8.0-8996" />
-  <project path="hardware/ril-caf" name="android_hardware_ril" groups="pdk" remote="evervolv" revision="o-8.0-caf" />
+  <project path="hardware/qcom/media-caf/msm8996" name="android_hardware_qcom_media-caf" groups="qcom,pdk" remote="evervolv" revision="o-8.1-8996" />
+  <project path="hardware/ril-caf" name="android_hardware_ril" groups="pdk" remote="evervolv" revision="o-8.1-caf" />
 
   <!-- Packages -->
   <project path="packages/apps/FMRadio" name="android_packages_apps_FMRadio" remote="evervolv" />
