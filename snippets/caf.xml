@@ -29,6 +29,8 @@
   <project path="vendor/qcom/opensource/commonsys/dpm" name="android_vendor_qcom_opensource_dpm" remote="evervolv" />
   <project path="vendor/qcom/opensource/data-ipa-cfg-mgr" name="android_vendor_qcom_opensource_data-ipa-cfg-mgr" groups="qcom,pdk" remote="evervolv" />
   <project path="vendor/qcom/opensource/interfaces" name="android_vendor_qcom_opensource_interfaces" remote="evervolv" />
+  <project path="vendor/qcom/opensource/power" name="android_vendor_qcom_opensource_power" groups="qcom,pdk" remote="evervolv" />
+  <project path="vendor/qcom/opensource/power-legacy" name="android_vendor_qcom_opensource_power" groups="qcom,pdk" remote="evervolv" revision="r-11.0-legacy" />
 
 </manifest>
 
