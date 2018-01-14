@@ -29,8 +29,6 @@
   </project>
 
   <!-- External -->
-  <project path="external/libnetfilter_conntrack" name="android_external_libnetfilter_conntrack" groups="pdk" remote="evervolv" />
-  <project path="external/libnfnetlink" name="android_external_libnfnetlink" groups="pdk" remote="evervolv" />
   <project path="external/selinux" name="android_external_selinux" groups="pdk" remote="evervolv" />
   <project path="external/tinycompress" name="android_external_tinycompress" groups="pdk" remote="evervolv" />
   <project path="external/toybox" name="android_external_toybox" groups="pdk" remote="evervolv" />
