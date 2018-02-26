@@ -122,6 +122,8 @@
   <remove-project name="platform/packages/services/Telephony" />
   <remove-project name="platform/packages/wallpapers/LivePicker" />
 
+  <remove-project name="platform/prebuilts/build-tools" />
+
   <remove-project name="platform/system/bpf" />
   <remove-project name="platform/system/core" />
   <remove-project name="platform/system/extras" />
