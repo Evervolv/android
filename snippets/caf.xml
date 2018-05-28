@@ -13,6 +13,8 @@
   <project path="external/json-c" name="android_external_json-c" groups="qcom,qssi" remote="lineage" />
 
   <project path="hardware/qcom-caf/bt" name="android_hardware_qcom_bt" groups="qcom,pakala-vendor" remote="lineage" revision="lineage-23.0-caf" />
+  <project path="hardware/qcom-caf/thermal" name="android_hardware_qcom_thermal" groups="qcom,pakala-vendor" remote="lineage" />
+  <project path="hardware/qcom-caf/thermal-legacy-um" name="android_hardware_qcom_thermal" groups="qcom,lanai-vendor" remote="lineage" revision="lineage-23.0-legacy-um" />
   <project path="hardware/qcom-caf/wlan" name="android_hardware_qcom_wlan" groups="qcom,pakala-vendor" remote="lineage" revision="lineage-23.0-caf" />
 
   <project path="vendor/codeaurora/telephony" name="android_vendor_codeaurora_telephony" groups="qcom,qssi" remote="lineage" />
