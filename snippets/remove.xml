@@ -44,6 +44,7 @@
   <remove-project name="platform/build/soong" />
 
   <remove-project name="platform/external/libcxx" />
+  <remove-project name="platform/external/perfetto" />
   <remove-project name="platform/external/tinycompress" />
   <remove-project name="platform/external/toybox" />
 
