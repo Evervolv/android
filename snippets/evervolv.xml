@@ -3,6 +3,8 @@
 
   <project path="android" name="android" remote="evervolv" />
 
+  <project path="external/ntfs-3g" name="android_external_ntfs-3g" groups="pdk" remote="evervolv" />
+
   <project path="hardware/evervolv/interfaces" name="android_hardware_evervolv_interfaces" remote="evervolv" />
   <project path="hardware/legacy/interfaces" name="android_hardware_legacy_interfaces" remote="evervolv" />
 
