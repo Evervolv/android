@@ -3,7 +3,19 @@
 
   <project path="android" name="android" remote="evervolv" />
 
+  <project path="external/bash" name="android_external_bash" groups="pdk" remote="evervolv" />
+  <project path="external/exfat" name="android_external_exfat" groups="pdk" remote="evervolv" />
+  <project path="external/htop" name="android_external_htop" groups="pdk" remote="evervolv" />
+  <project path="external/libncurses" name="android_external_libncurses" groups="pdk" remote="evervolv" />
+  <project path="external/nano" name="android_external_nano" groups="pdk" remote="evervolv" />
   <project path="external/ntfs-3g" name="android_external_ntfs-3g" groups="pdk" remote="evervolv" />
+  <project path="external/openssh" name="android_external_openssh" groups="pdk" remote="evervolv" />
+  <project path="external/p7zip" name="android_external_p7zip" groups="pdk" remote="evervolv" />
+  <project path="external/pigz" name="android_external_pigz" groups="pdk" remote="evervolv" />
+  <project path="external/rsync" name="android_external_rsync" groups="pdk" remote="evervolv" />
+  <project path="external/unrar" name="android_external_unrar" groups="pdk" remote="evervolv" />
+  <project path="external/vim" name="android_external_vim" groups="pdk" remote="evervolv" />
+  <project path="external/zip" name="android_external_zip" groups="pdk" remote="evervolv" />
 
   <project path="hardware/legacy/interfaces" name="android_hardware_legacy_interfaces" remote="evervolv" />
 
