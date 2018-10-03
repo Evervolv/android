@@ -26,6 +26,7 @@
   <project path="vendor/cm/support" name="android_vendor_cm_support" remote="evervolv" />
   <project path="vendor/ev" name="android_vendor_ev" remote="evervolv" />
   <project path="vendor/ev/build" name="android_vendor_ev_build" remote="evervolv" />
+  <project path="vendor/ev/sdk" name="android_vendor_ev_sdk" groups="pdk" remote="evervolv" />
   <project path="vendor/google" name="android_vendor_google" remote="evervolv" />
 
 </manifest>
