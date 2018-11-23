@@ -85,6 +85,7 @@
   <remove-project name="platform/packages/apps/Protips" />
   <remove-project name="platform/packages/apps/QuickSearchBox" />
   <remove-project name="platform/packages/apps/Settings" />
+  <remove-project name="platform/packages/apps/SettingsIntelligence" />
   <remove-project name="platform/packages/apps/Stk" />
   <remove-project name="platform/packages/apps/SpareParts" />
   <remove-project name="platform/packages/apps/UnifiedEmail" />
@@ -96,6 +97,7 @@
   <remove-project name="platform/packages/providers/CalendarProvider" />
   <remove-project name="platform/packages/providers/CallLogProvider" />
   <remove-project name="platform/packages/providers/ContactsProvider" />
+  <remove-project name="platform/packages/providers/DownloadProvider" />
   <remove-project name="platform/packages/providers/MediaProvider" />
   <remove-project name="platform/packages/providers/TelephonyProvider" />
   <remove-project name="platform/packages/services/Mms" />
