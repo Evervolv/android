@@ -18,6 +18,8 @@
 
   <project path="vendor/codeaurora/telephony" name="android_vendor_codeaurora_telephony" remote="evervolv" />
 
+  <project path="vendor/qcom/opensource/data-ipa-cfg-mgr" name="android_vendor_qcom_opensource_data-ipa-cfg-mgr" groups="qcom,pdk" remote="evervolv" />
+  <project path="vendor/qcom/opensource/data-ipa-cfg-mgr-legacy-um" name="android_vendor_qcom_opensource_data-ipa-cfg-mgr" groups="qcom,pdk" remote="evervolv" revision="u-14.0-legacy-um" />
   <project path="vendor/qcom/opensource/dataservices" name="android_vendor_qcom_opensource_dataservices" remote="evervolv" />
   <project path="vendor/qcom/opensource/interfaces" name="android_vendor_qcom_opensource_interfaces" remote="evervolv" />
 
