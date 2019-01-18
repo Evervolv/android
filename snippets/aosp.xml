@@ -31,8 +31,11 @@
   <project path="device/generic/goldfish" name="android_device_generic_goldfish" groups="pdk" remote="evervolv" />
   <project path="device/generic/goldfish-opengl" name="android_device_generic_goldfish-opengl" groups="pdk" remote="evervolv" />
 
+  <project path="external/e2fsprogs" name="android_external_e2fsprogs" groups="pdk" remote="evervolv" />
+  <project path="external/gptfdisk" name="android_external_gptfdisk" groups="pdk" remote="evervolv" />
   <project path="external/guice" name="android_external_guice" groups="pdk" remote="evervolv" />
   <project path="external/libcxx" name="android_external_libcxx" groups="pdk" remote="evervolv" />
+  <project path="external/mksh" name="android_external_mksh" groups="pdk" remote="evervolv" />
   <project path="external/perfetto" name="android_external_perfetto" groups="pdk" remote="evervolv" />
   <project path="external/tinycompress" name="android_external_tinycompress" groups="pdk" remote="evervolv" />
   <project path="external/toybox" name="android_external_toybox" groups="pdk" remote="evervolv" />
