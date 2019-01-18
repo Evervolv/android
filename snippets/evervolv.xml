@@ -7,6 +7,7 @@
   <project path="external/exfat" name="android_external_exfat" groups="pdk" remote="evervolv" />
   <project path="external/htop" name="android_external_htop" groups="pdk" remote="evervolv" />
   <project path="external/libncurses" name="android_external_libncurses" groups="pdk" remote="evervolv" />
+  <project path="external/libtar" name="android_external_libtar" groups="pdk" remote="evervolv" />
   <project path="external/nano" name="android_external_nano" groups="pdk" remote="evervolv" />
   <project path="external/ntfs-3g" name="android_external_ntfs-3g" groups="pdk" remote="evervolv" />
   <project path="external/openssh" name="android_external_openssh" groups="pdk" remote="evervolv" />

@@ -31,6 +31,7 @@
   <remove-project name="platform/build/soong" />
   <remove-project name="platform/external/e2fsprogs" />
   <remove-project name="platform/external/f2fs-tools" />
+  <remove-project name="platform/external/fsck_msdos" />
   <remove-project name="platform/external/gptfdisk" />
   <remove-project name="platform/external/mksh" />
   <remove-project name="platform/external/one-true-awk" />
