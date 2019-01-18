@@ -32,7 +32,10 @@
     <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
   </project>
 
+  <project path="external/e2fsprogs" name="android_external_e2fsprogs" groups="pdk" remote="evervolv" />
+  <project path="external/gptfdisk" name="android_external_gptfdisk" groups="pdk" remote="evervolv" />
   <project path="external/libcxx" name="android_external_libcxx" groups="pdk" remote="evervolv" />
+  <project path="external/mksh" name="android_external_mksh" groups="pdk" remote="evervolv" />
 
   <project path="frameworks/av" name="android_frameworks_av" groups="pdk" remote="evervolv" />
   <project path="frameworks/base" name="android_frameworks_base" groups="pdk-cw-fs,pdk-fs" remote="evervolv" />
