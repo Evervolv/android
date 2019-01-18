@@ -17,6 +17,7 @@
            fetch="https://gitlab.com" />
 
   <project path="bionic" name="android_bionic" groups="pdk" remote="evervolv" />
+  <project path="bootable/deprecated-ota" name="android_bootable_deprecated-ota" groups="pdk-cw" remote="evervolv" />
   <project path="bootable/recovery" name="android_bootable_recovery" groups="pdk" remote="evervolv" />
 
   <project path="build/make" name="android_build" groups="pdk,sysui-studio" remote="evervolv" >
@@ -32,7 +33,10 @@
     <linkfile dest="bootstrap.bash" src="bootstrap.bash" />
   </project>
 
+  <project path="external/e2fsprogs" name="android_external_e2fsprogs" groups="pdk" remote="evervolv" />
+  <project path="external/gptfdisk" name="android_external_gptfdisk" groups="pdk" remote="evervolv" />
   <project path="external/libcxx" name="android_external_libcxx" groups="pdk" remote="evervolv" />
+  <project path="external/mksh" name="android_external_mksh" groups="pdk" remote="evervolv" />
 
   <project path="frameworks/av" name="android_frameworks_av" groups="pdk" remote="evervolv" />
   <project path="frameworks/base" name="android_frameworks_base" groups="pdk-cw-fs,pdk-fs,sysui-studio" remote="evervolv" />
