@@ -35,6 +35,7 @@
   <project path="external/mksh" name="android_external_mksh" groups="pdk" remote="evervolv" />
   <project path="external/one-true-awk" name="android_external_one-true-awk" groups="pdk" remote="evervolv" />
   <project path="external/perfetto" name="android_external_perfetto" groups="pdk" remote="evervolv" />
+  <project path="external/proguard" name="android_external_proguard" groups="pdk" remote="evervolv" />
   <project path="external/selinux" name="android_external_selinux" groups="pdk" remote="evervolv" />
   <project path="external/skia" name="android_external_skia" groups="pdk,qcom_msm8x26" remote="evervolv" />
   <project path="external/tinycompress" name="android_external_tinycompress" groups="pdk" remote="evervolv" />
