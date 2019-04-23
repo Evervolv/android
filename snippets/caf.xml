@@ -22,6 +22,7 @@
   <project path="hardware/qcom/display-caf/msm8960" name="android_hardware_qcom_display-caf" groups="pdk,qcom,qcom_display" remote="evervolv" revision="p-9.0-8960" />
   <project path="hardware/qcom/display-caf/msm8916" name="android_hardware_qcom_display-caf" groups="pdk,qcom,qcom_display" remote="evervolv" revision="p-9.0-8916" />
   <project path="hardware/qcom/display-caf/msm8996" name="android_hardware_qcom_display-caf" groups="pdk,qcom,qcom_display" remote="evervolv" revision="p-9.0-8996" />
+  <project path="hardware/qcom/bt-caf" name="android_hardware_qcom_fm" groups="qcom,pdk" remote="evervolv" revision="p-9.0" />
   <project path="hardware/qcom/media-caf/msm8960" name="android_hardware_qcom_media-caf" groups="qcom,pdk" remote="evervolv" revision="p-9.0-8960" />
   <project path="hardware/qcom/media-caf/msm8916" name="android_hardware_qcom_media-caf" groups="qcom,pdk" remote="evervolv" revision="p-9.0-8916" />
   <project path="hardware/qcom/media-caf/msm8996" name="android_hardware_qcom_media-caf" groups="qcom,pdk" remote="evervolv" revision="p-9.0-8996" />
