@@ -26,16 +26,20 @@
   <project path="hardware/qcom/media-caf/msm8916" name="android_hardware_qcom_media-caf" groups="qcom,pdk" remote="evervolv" revision="p-9.0-8916" />
   <project path="hardware/qcom/media-caf/msm8996" name="android_hardware_qcom_media-caf" groups="qcom,pdk" remote="evervolv" revision="p-9.0-8996" />
   <project path="hardware/qcom/power" name="android_hardware_qcom_power" groups="qcom,pdk" remote="evervolv" />
+  <project path="hardware/qcom/thermal" name="android_hardware_qcom_thermal" groups="qcom,pdk" remote="evervolv" />
+  <project path="hardware/qcom/vr" name="android_hardware_qcom_vr" groups="qcom,pdk" remote="evervolv" />
   <project path="hardware/qcom/wlan-caf" name="android_hardware_qcom_wlan" groups="qcom_wlan,pdk" remote="evervolv" revision="p-9.0-caf" />
   <project path="hardware/ril-caf" name="android_hardware_ril" groups="pdk" remote="evervolv" revision="p-9.0-caf" />
 
   <project path="vendor/codeaurora/telephony" name="android_vendor_codeaurora_telephony" remote="evervolv" />
   <project path="vendor/qcom/opensource/audio" name="android_vendor_qcom_opensource_audio" remote="evervolv" />
   <project path="vendor/qcom/opensource/cryptfs_hw" name="android_vendor_qcom_opensource_cryptfs_hw" remote="evervolv" />
+  <project path="vendor/qcom/opensource/data-ipa-cfg-mgr" name="android_vendor_qcom_opensource_data-ipa-cfg-mgr" groups="qcom,pdk" remote="evervolv" />
   <project path="vendor/qcom/opensource/dataservices" name="android_vendor_qcom_opensource_dataservices" remote="evervolv" />
   <project path="vendor/qcom/opensource/dpm" name="android_vendor_qcom_opensource_dpm" remote="evervolv" />
   <project path="vendor/qcom/opensource/dtbtool" name="android_vendor_qcom_opensource_dtbtool" remote="evervolv" />
   <project path="vendor/qcom/opensource/interfaces" name="android_vendor_qcom_opensource_interfaces" remote="evervolv" />
+  <project path="vendor/qcom/opensource/thermal-engine" name="android_vendor_qcom_opensource_thermal-engine" groups="qcom,pdk"  remote="evervolv" />
   <project path="vendor/qcom/opensource/time-services" name="android_vendor_qcom_opensource_time-services" remote="evervolv" />
 
 </manifest>
