@@ -4,6 +4,8 @@
   <project path="device/qcom/common" name="android_device_qcom_common" groups="pdk" remote="evervolv" >
     <linkfile src="os_pickup_sepolicy_vndr.mk" dest="device/qcom/sepolicy_vndr/SEPolicy.mk" />
     <linkfile src="os_pickup_aosp.mk" dest="hardware/qcom/Android.mk" />
+    <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/sm8150/Android.mk" />
+    <linkfile src="os_pickup_qssi.bp" dest="hardware/qcom-caf/sm8150/Android.bp" />
   </project>
   <project path="device/qcom/sepolicy" name="android_device_qcom_sepolicy" groups="pdk" remote="evervolv" />
   <project path="device/qcom/sepolicy_vndr/sm8450" name="android_device_qcom_sepolicy_vndr" groups="pdk" remote="evervolv" revision="u-14.0-8450" />
@@ -18,6 +20,9 @@
 
   <project path="hardware/qcom-caf/bootctrl" name="android_hardware_qcom_bootctrl" groups="qcom,pdk" remote="evervolv" revision="u-14.0-caf" />
   <project path="hardware/qcom-caf/bt" name="android_hardware_qcom_bt" groups="qcom,pdk" remote="evervolv" revision="u-14.0-caf" />
+  <project path="hardware/qcom-caf/sm8150/audio" name="android_hardware_qcom_audio-caf" groups="qcom,qcom_audio,pdk" remote="evervolv" revision="u-14.0-8150" />
+  <project path="hardware/qcom-caf/sm8150/display" name="android_hardware_qcom_display-caf" groups="pdk,qcom,qcom_display" remote="evervolv" revision="u-14.0-8150" />
+  <project path="hardware/qcom-caf/sm8150/media" name="android_hardware_qcom_media-caf" groups="qcom,pdk" remote="evervolv" revision="u-14.0-8150" />
   <project path="hardware/qcom-caf/thermal" name="android_hardware_qcom_thermal" groups="qcom,pdk" remote="evervolv" />
   <project path="hardware/qcom-caf/vr" name="android_hardware_qcom_vr" groups="qcom,pdk" remote="evervolv" />
   <project path="hardware/qcom-caf/wlan" name="android_hardware_qcom_wlan" groups="qcom,pdk" remote="evervolv" revision="u-14.0-caf" />
