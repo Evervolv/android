@@ -6,6 +6,8 @@
            review="https://review.lineageos.org/"
            revision="lineage-20.0" />
 
+  <project path="device/lineage/atv" name="android_device_lineage_atv" remote="lineage" />
+
   <project path="prebuilts/extract-tools" name="android_prebuilts_extract-tools" remote="lineage" clone-depth="1" />
   <project path="tools/extract-utils" name="android_tools_extract-utils" remote="lineage" />
 
