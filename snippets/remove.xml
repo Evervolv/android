@@ -37,6 +37,7 @@
   <remove-project name="platform/build/soong" />
   <remove-project name="platform/external/e2fsprogs" />
   <remove-project name="platform/external/gptfdisk" />
+  <remove-project name="platform/external/libcxx" />
   <remove-project name="platform/external/libhevc" />
   <remove-project name="platform/external/mksh" />
   <remove-project name="platform/external/selinux" />
