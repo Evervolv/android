@@ -26,6 +26,7 @@
     <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
   </project>
 
+  <project path="external/libcxx" name="android_external_libcxx" groups="pdk" remote="evervolv" />
   <project path="external/toybox" name="android_external_toybox" groups="pdk" remote="evervolv" />
 
   <project path="frameworks/av" name="android_frameworks_av" groups="pdk" remote="evervolv" />
