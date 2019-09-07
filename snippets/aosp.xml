@@ -32,6 +32,8 @@
     <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
   </project>
 
+  <project path="external/libcxx" name="android_external_libcxx" groups="pdk" remote="evervolv" />
+
   <project path="frameworks/av" name="android_frameworks_av" groups="pdk" remote="evervolv" />
   <project path="frameworks/base" name="android_frameworks_base" groups="pdk-cw-fs,pdk-fs" remote="evervolv" />
   <project path="frameworks/native" name="android_frameworks_native" groups="pdk" remote="evervolv" />
