@@ -46,6 +46,7 @@
 
   <project path="hardware/interfaces" name="android_hardware_interfaces" groups="pdk,sysui-studio" remote="evervolv" />
   <project path="hardware/libhardware" name="android_hardware_libhardware" groups="pdk" remote="evervolv" />
+  <project path="hardware/nxp/nfc" name="android_hardware_nxp_nfc" groups="pdk" remote="evervolv" />
   <project path="hardware/ril" name="android_hardware_ril" groups="pdk" remote="evervolv" />
 
   <project path="packages/apps/Camera2" name="android_packages_apps_Camera2" groups="pdk-fs" remote="evervolv" />
