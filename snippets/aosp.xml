@@ -13,6 +13,7 @@
   <project path="bionic" name="android_bionic" groups="pdk" remote="evervolv" />
   <project path="bootable/recovery" name="android_bootable_recovery" groups="pdk" remote="evervolv" />
 
+  <project path="build/blueprint" name="android_build_blueprint" groups="pdk,tradefed" remote="evervolv" />
   <project path="build/make" name="android_build" groups="pdk" remote="evervolv" >
     <copyfile src="core/root.mk" dest="Makefile" />
     <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
