@@ -70,6 +70,7 @@
   <remove-project name="platform/bootable/deprecated-ota" />
 
   <remove-project name="platform/build" />
+  <remove-project name="platform/build/blueprint" />
   <remove-project name="platform/build/soong" />
 
   <remove-project name="platform/development" />
