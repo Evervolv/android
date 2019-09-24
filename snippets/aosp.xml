@@ -21,6 +21,7 @@
   <project path="bootable/deprecated-ota" name="android_bootable_deprecated-ota" groups="pdk-cw" remote="evervolv" />
   <project path="bootable/recovery" name="android_bootable_recovery" groups="pdk" remote="evervolv" />
 
+  <project path="build/blueprint" name="android_build_blueprint" groups="pdk,tradefed" remote="evervolv" />
   <project path="build/make" name="android_build" groups="pdk,sysui-studio" remote="evervolv" >
     <linkfile dest="build/CleanSpec.mk" src="CleanSpec.mk" />
     <linkfile dest="build/buildspec.mk.default" src="buildspec.mk.default" />
