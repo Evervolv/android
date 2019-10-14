@@ -11,6 +11,7 @@
   </project>
   <project path="device/qcom/sepolicy" name="android_device_qcom_sepolicy" groups="pdk" remote="evervolv" />
   <project path="device/qcom/sepolicy-legacy" name="android_device_qcom_sepolicy" groups="pdk" remote="evervolv" revision="s-12.0-legacy" />
+  <project path="device/qcom/sepolicy-legacy-um" name="android_device_qcom_sepolicy" groups="pdk" remote="evervolv" revision="s-12.0-legacy-um" />
   <project path="device/qcom/sepolicy_vndr" name="android_device_qcom_sepolicy_vndr" groups="pdk" remote="evervolv" />
 
 </manifest>
