@@ -9,6 +9,7 @@
   </project>
   <project path="device/qcom/sepolicy" name="android_device_qcom_sepolicy" groups="pdk" remote="evervolv" />
   <project path="device/qcom/sepolicy-legacy" name="android_device_qcom_sepolicy" groups="pdk" remote="evervolv" revision="q-10.0-legacy" />
+  <project path="device/qcom/sepolicy-legacy-um" name="android_device_qcom_sepolicy" groups="pdk" remote="evervolv" revision="q-10.0-legacy-um" />
 
   <project path="vendor/nxp/opensource/interfaces/nfc" name="android_vendor_nxp_interfaces_opensource_nfc" remote="evervolv" />
   <project path="vendor/nxp/opensource/commonsys/external/libnfc-nci" name="android_vendor_nxp_opensource_external_libnfc-nci" remote="evervolv" />
