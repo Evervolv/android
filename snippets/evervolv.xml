@@ -5,6 +5,7 @@
 
   <project path="external/ntfs-3g" name="android_external_ntfs-3g" groups="pdk" remote="evervolv" />
 
+  <project path="hardware/broadcom/nfc" name="android_hardware_broadcom_nfc" groups="pdk,broadcom_nfc" remote="evervolv" />
   <project path="hardware/evervolv/interfaces" name="android_hardware_evervolv_interfaces" remote="evervolv" />
   <project path="hardware/legacy/interfaces" name="android_hardware_legacy_interfaces" remote="evervolv" />
 
