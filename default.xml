@@ -1094,6 +1094,7 @@
 
   <include name="snippets/remove.xml"/>
   <include name="snippets/aosp.xml"/>
+  <include name="snippets/caf.xml"/>
   <include name="snippets/evervolv.xml"/>
 
 </manifest>
