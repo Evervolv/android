@@ -35,6 +35,7 @@
   <remove-project name="platform/packages/apps/SampleLocationAttribution" />
   <remove-project name="platform/packages/apps/Settings" />
   <remove-project name="platform/packages/apps/SpareParts" />
+  <remove-project name="platform/packages/apps/ThemePicker" />
 
   <remove-project name="platform/system/core" />
   <remove-project name="platform/system/libhidl" />
