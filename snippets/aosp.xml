@@ -47,6 +47,7 @@
   <project path="hardware/ril" name="android_hardware_ril" groups="pdk" remote="evervolv" />
 
   <project path="packages/apps/Settings" name="android_packages_apps_Settings" groups="pdk-fs" remote="evervolv" />
+  <project path="packages/apps/ThemePicker" name="android_packages_apps_ThemePicker" groups="pdk-fs" remote="evervolv" />
 
   <project path="system/core" name="android_system_core" groups="pdk" remote="evervolv" />
   <project path="system/libziparchive" name="android_system_libziparchive" groups="pdk" remote="evervolv" />
