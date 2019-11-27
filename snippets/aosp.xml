@@ -92,6 +92,7 @@
   <project path="prebuilts/build-tools" name="android_prebuilts_build-tools" groups="pdk" clone-depth="1" remote="evervolv" />
   <project path="prebuilts/kernel-build-tools" name="kernel/prebuilts/build-tools" clone-depth="1" revision="android-gs-pantah-5.10-android14-qpr2" />
 
+  <project path="system/bpf" name="android_system_bpf" groups="pdk" remote="evervolv" />
   <project path="system/core" name="android_system_core" groups="pdk" remote="evervolv" />
   <project path="system/extras" name="android_system_extras" groups="pdk" remote="evervolv" />
   <project path="system/libhidl" name="android_system_libhidl" groups="pdk" remote="evervolv" />
