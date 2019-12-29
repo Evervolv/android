@@ -2,12 +2,12 @@
 <manifest>
 
   <remote  name="evervolv"
-           fetch="git://github.com/Evervolv/"
+           fetch="../Evervolv/"
            review="http://review.evervolv.com/"
            revision="p-9.0" />
 
   <remote  name="github"
-           fetch="git://github.com/"/>
+           fetch=".."/>
 
   <project path="art" name="android_art" groups="pdk" remote="evervolv" />
   <project path="bionic" name="android_bionic" groups="pdk" remote="evervolv" />
