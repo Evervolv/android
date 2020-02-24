@@ -6,6 +6,8 @@
            review="https://review.lineageos.org/"
            revision="lineage-22.0" />
 
+  <project path="external/chromium-webview" name="android_external_chromium-webview" groups="pdk" clone-depth="1" remote="lineage" revision="master" />
+
   <project path="prebuilts/extract-tools" name="android_prebuilts_extract-tools" remote="lineage" clone-depth="1" />
   <project path="tools/extract-utils" name="android_tools_extract-utils" remote="lineage" />
 
