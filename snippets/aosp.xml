@@ -28,6 +28,7 @@
     <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
   </project>
 
+  <project path="external/chromium-webview" name="android_external_chromium-webview" groups="pdk" clone-depth="1" remote="evervolv" />
   <project path="external/e2fsprogs" name="android_external_e2fsprogs" groups="pdk" remote="evervolv" />
   <project path="external/gptfdisk" name="android_external_gptfdisk" groups="pdk" remote="evervolv" />
   <project path="external/libcxx" name="android_external_libcxx" groups="pdk" remote="evervolv" />
