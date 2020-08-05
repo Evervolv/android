@@ -98,6 +98,7 @@
 
   <project path="system/bt" name="android_system_bt" groups="pdk" remote="evervolv" />
   <project path="system/core" name="android_system_core" groups="pdk" remote="evervolv" />
+  <project path="system/libufdt" name="android_system_libufdt" groups="pdk" remote="evervolv" />
   <project path="system/sepolicy" name="android_system_sepolicy" groups="pdk" remote="evervolv" />
   <project path="system/update_engine" name="android_system_update_engine" groups="pdk" remote="evervolv" />
   <project path="system/vold" name="android_system_vold" groups="pdk" remote="evervolv" />
