@@ -81,6 +81,7 @@
   <project path="system/bt" name="android_system_bt" groups="pdk" remote="evervolv" />
   <project path="system/core" name="android_system_core" groups="pdk" remote="evervolv" />
   <project path="system/sepolicy" name="android_system_sepolicy" groups="pdk" remote="evervolv" />
+  <project path="system/tools/mkbootimg" name="android_system_tools_mkbootimg" groups="pdk" remote="evervolv" />
   <project path="system/vold" name="android_system_vold" groups="pdk" remote="evervolv" />
 
 </manifest>

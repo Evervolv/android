@@ -96,6 +96,7 @@
   <remove-project name="platform/system/bt" />
   <remove-project name="platform/system/core" />
   <remove-project name="platform/system/sepolicy" />
+  <remove-project name="platform/system/tools/mkbootimg" />
   <remove-project name="platform/system/vold" />
 
 </manifest>
