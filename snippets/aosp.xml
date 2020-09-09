@@ -31,6 +31,7 @@
   <project path="device/generic/goldfish" name="android_device_generic_goldfish" groups="pdk" remote="evervolv" />
   <project path="device/generic/goldfish-opengl" name="android_device_generic_goldfish-opengl" groups="pdk" remote="evervolv" />
 
+  <project path="external/guice" name="android_external_guice" groups="pdk" remote="evervolv" />
   <project path="external/libcxx" name="android_external_libcxx" groups="pdk" remote="evervolv" />
   <project path="external/tinycompress" name="android_external_tinycompress" groups="pdk" remote="evervolv" />
   <project path="external/toybox" name="android_external_toybox" groups="pdk" remote="evervolv" />
@@ -88,6 +89,7 @@
 
   <project path="system/bt" name="android_system_bt" groups="pdk" remote="evervolv" />
   <project path="system/core" name="android_system_core" groups="pdk" remote="evervolv" />
+  <project path="system/incremental_delivery" name="android_system_incremental_delivery" groups="pdk" remote="evervolv" />
   <project path="system/libufdt" name="android_system_libufdt" groups="pdk" remote="evervolv" />
   <project path="system/sepolicy" name="android_system_sepolicy" groups="pdk" remote="evervolv" />
   <project path="system/tools/mkbootimg" name="android_system_tools_mkbootimg" groups="pdk" remote="evervolv" />
