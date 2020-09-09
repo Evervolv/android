@@ -90,6 +90,7 @@
   <project path="system/tools/mkbootimg" name="android_system_tools_mkbootimg" groups="pdk" remote="evervolv" />
   <project path="system/update_engine" name="android_system_update_engine" groups="pdk" remote="evervolv" />
   <project path="system/vold" name="android_system_vold" groups="pdk" remote="evervolv" />
+  <project path="tools/metalava" name="android_tools_metalava" groups="pdk,tools" remote="evervolv" />
 
 </manifest>
 
