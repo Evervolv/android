@@ -28,13 +28,17 @@
     <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
   </project>
 
+  <project path="external/aac" name="android_external_aac" groups="pdk" remote="evervolv" />
   <project path="external/chromium-webview" name="android_external_chromium-webview" groups="pdk" clone-depth="1" remote="evervolv" />
   <project path="external/e2fsprogs" name="android_external_e2fsprogs" groups="pdk" remote="evervolv" />
   <project path="external/gptfdisk" name="android_external_gptfdisk" groups="pdk" remote="evervolv" />
+  <project path="external/libaom" name="android_external_libaom" groups="pdk" remote="evervolv" />
   <project path="external/libcxx" name="android_external_libcxx" groups="pdk" remote="evervolv" />
+  <project path="external/libexif" name="android_external_libexif" groups="pdk" remote="evervolv" />
   <project path="external/libhevc" name="android_external_libhevc" groups="pdk" remote="evervolv" />
   <project path="external/mksh" name="android_external_mksh" groups="pdk" remote="evervolv" />
   <project path="external/selinux" name="android_external_selinux" groups="pdk" remote="evervolv" />
+  <project path="external/sonivox" name="android_external_sonivox" groups="pdk" remote="evervolv" />
   <project path="external/tinycompress" name="android_external_tinycompress" groups="pdk" remote="evervolv" />
   <project path="external/toybox" name="android_external_toybox" groups="pdk" remote="evervolv" />
 
@@ -102,6 +106,8 @@
   <project path="system/bt" name="android_system_bt" groups="pdk" remote="evervolv" />
   <project path="system/core" name="android_system_core" groups="pdk" remote="evervolv" />
   <project path="system/libufdt" name="android_system_libufdt" groups="pdk" remote="evervolv" />
+  <project path="system/netd" name="android_system_netd" groups="pdk" remote="evervolv" />
+  <project path="system/nfc" name="android_system_nfc" groups="pdk" remote="evervolv" />
   <project path="system/sepolicy" name="android_system_sepolicy" groups="pdk" remote="evervolv" />
   <project path="system/update_engine" name="android_system_update_engine" groups="pdk" remote="evervolv" />
   <project path="system/vold" name="android_system_vold" groups="pdk" remote="evervolv" />
