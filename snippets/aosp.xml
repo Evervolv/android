@@ -50,7 +50,6 @@
   <project path="hardware/broadcom/wlan" name="android_hardware_broadcom_wlan" groups="pdk,broadcom_wlan" remote="evervolv" />
   <project path="hardware/interfaces" name="android_hardware_interfaces" groups="pdk" remote="evervolv" />
   <project path="hardware/libhardware" name="android_hardware_libhardware" groups="pdk" remote="evervolv" />
-  <project path="hardware/libhardware_legacy" name="android_hardware_libhardware_legacy" groups="pdk" remote="evervolv" />
   <project path="hardware/nxp/nfc" name="android_hardware_nxp_nfc" groups="pdk" remote="evervolv" />
   <project path="hardware/qcom/audio" name="android_hardware_qcom_audio" groups="qcom,qcom_audio,pdk" remote="evervolv" />
   <project path="hardware/qcom/bt" name="android_hardware_qcom_bt" groups="qcom,pdk" remote="evervolv" />
