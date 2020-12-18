@@ -10,6 +10,7 @@
 
   <project path="packages/apps/EVToolbox" name="android_packages_apps_EVToolbox" groups="pdk-fs" remote="evervolv" />
   <project path="packages/apps/Jelly" name="android_packages_apps_Jelly" groups="pdk-fs" remote="evervolv" />
+  <project path="packages/apps/SimpleDeviceConfig" name="android_packages_apps_SimpleDeviceConfig" groups="pdk-fs" remote="evervolv" />
   <project path="packages/resources/devicesettings" name="android_packages_resources_devicesettings" groups="pdk-fs" remote="evervolv" />
 
   <project path="vendor/ev" name="android_vendor_ev" remote="evervolv" />
