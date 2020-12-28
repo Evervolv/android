@@ -31,6 +31,7 @@
   <project path="device/generic/goldfish" name="android_device_generic_goldfish" groups="pdk" remote="evervolv" />
   <project path="device/generic/goldfish-opengl" name="android_device_generic_goldfish-opengl" groups="pdk" remote="evervolv" />
 
+  <project path="external/boringssl" name="android_external_boringssl" groups="pdk" remote="evervolv" />
   <project path="external/e2fsprogs" name="android_external_e2fsprogs" groups="pdk" remote="evervolv" />
   <project path="external/gptfdisk" name="android_external_gptfdisk" groups="pdk" remote="evervolv" />
   <project path="external/guice" name="android_external_guice" groups="pdk" remote="evervolv" />
