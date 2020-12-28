@@ -1264,5 +1264,6 @@
   <include name="snippets/remove.xml"/>
   <include name="snippets/aosp.xml"/>
   <include name="snippets/evervolv.xml"/>
+  <include name="snippets/lineage.xml"/>
 
 </manifest>
