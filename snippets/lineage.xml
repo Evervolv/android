@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <remote  name="lineage"
+           fetch="https://github.com/LineageOS/"
+           review="https://review.lineageos.org/"
+           revision="lineage-22.0" />
+
+  <project path="prebuilts/extract-tools" name="android_prebuilts_extract-tools" remote="lineage" clone-depth="1" />
+  <project path="tools/extract-utils" name="android_tools_extract-utils" remote="lineage" />
+
+</manifest>
