@@ -68,6 +68,7 @@
   <project path="vendor/codeaurora/telephony" name="android_vendor_codeaurora_telephony" remote="evervolv" />
 
   <project path="vendor/qcom/opensource/audio" name="platform/vendor/qcom-opensource/audio" remote="caf" />
+  <project path="vendor/qcom/opensource/commonsys-intf/display" name="android_vendor_qcom_opensource_display-commonsys-intf" groups="qcom,pdk" remote="evervolv" />
   <project path="vendor/qcom/opensource/commonsys/cryptfs_hw" name="android_vendor_qcom_opensource_cryptfs_hw" remote="evervolv" />
   <project path="vendor/qcom/opensource/commonsys/dataservices" name="android_vendor_qcom_opensource_dataservices" remote="evervolv" />
   <project path="vendor/qcom/opensource/commonsys/dpm" name="platform/vendor/qcom-opensource/dpm-commonsys" remote="caf" />
