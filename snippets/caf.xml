@@ -23,6 +23,7 @@
   <project path="external/connectivity" name="android_external_connectivity" remote="evervolv" />
   <project path="external/json-c" name="android_external_json-c" remote="evervolv" />
 
+  <project path="hardware/qcom-caf/bootctrl" name="android_hardware_qcom_bootctrl" groups="qcom,pdk" remote="evervolv" revision="s-12.1-caf" />
   <project path="hardware/qcom-caf/bt" name="android_hardware_qcom_bt" groups="qcom,pdk" remote="evervolv" revision="s-12.1-caf" />
   <project path="hardware/qcom-caf/msm8998/audio" name="android_hardware_qcom_audio-caf" groups="qcom,qcom_audio,pdk" remote="evervolv" revision="s-12.1-8998" />
   <project path="hardware/qcom-caf/msm8998/display" name="android_hardware_qcom_display-caf" groups="pdk,qcom,qcom_display" remote="evervolv" revision="s-12.1-8998" />
