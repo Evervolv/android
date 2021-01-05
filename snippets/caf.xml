@@ -23,6 +23,7 @@
   <project path="external/ant-wireless/hidl" name="platform/external/ant-wireless/hidl" remote="caf" revision="refs/tags/LA.UM.10.2.1.r1-04000-sdm660.0" />
   <project path="external/json-c" name="android_external_json-c" remote="evervolv" />
 
+  <project path="hardware/qcom-caf/bootctrl" name="android_hardware_qcom_bootctrl" groups="qcom,pdk" remote="evervolv" revision="t-13.0-caf" />
   <project path="hardware/qcom-caf/bt" name="android_hardware_qcom_bt" groups="qcom,pdk" remote="evervolv" revision="t-13.0-caf" />
   <project path="hardware/qcom-caf/msm8998/audio" name="android_hardware_qcom_audio-caf" groups="qcom,qcom_audio,pdk" remote="evervolv" revision="t-13.0-8998" />
   <project path="hardware/qcom-caf/msm8998/display" name="android_hardware_qcom_display-caf" groups="pdk,qcom,qcom_display" remote="evervolv" revision="t-13.0-8998" />
