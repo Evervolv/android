@@ -103,8 +103,6 @@
   <remove-project name="platform/packages/providers/BookmarkProvider" />
   <remove-project name="platform/packages/providers/CalendarProvider" />
   <remove-project name="platform/packages/providers/CallLogProvider" />
-  <remove-project name="platform/packages/providers/ContactsProvider" />
-  <remove-project name="platform/packages/providers/DownloadProvider" />
   <remove-project name="platform/packages/providers/MediaProvider" />
   <remove-project name="platform/packages/providers/TelephonyProvider" />
   <remove-project name="platform/packages/services/Mms" />
@@ -120,7 +118,6 @@
   <remove-project name="platform/system/libufdt" />
   <remove-project name="platform/system/sepolicy" />
   <remove-project name="platform/system/tools/mkbootimg" />
-  <remove-project name="platform/system/update_engine" />
   <remove-project name="platform/system/vold" />
   <remove-project name="platform/tools/metalava" />
 
