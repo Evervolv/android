@@ -93,7 +93,6 @@
   <project path="vendor/qcom/opensource/interfaces" name="android_vendor_qcom_opensource_interfaces" remote="evervolv" />
   <project path="vendor/qcom/opensource/libfmjni" name="android_vendor_qcom_opensource_libfmjni" groups="qcom,qcom_fm" remote="evervolv" />
   <project path="vendor/qcom/opensource/power" name="android_vendor_qcom_opensource_power" groups="qcom,pdk" remote="evervolv" />
-  <project path="vendor/qcom/opensource/power-legacy" name="android_vendor_qcom_opensource_power" groups="qcom,pdk" remote="evervolv" revision="r-11.0-legacy" />
   <project path="vendor/qcom/opensource/softap" name="android_system_qcom" groups="qcom,pdk" remote="evervolv" />
   <project path="vendor/qcom/opensource/usb" name="android_vendor_qcom_opensource_usb" groups="qcom,pdk" remote="evervolv" />
   <project path="vendor/qcom/opensource/vibrator" name="android_vendor_qcom_opensource_vibrator" groups="qcom,pdk" remote="evervolv" />
