@@ -41,7 +41,7 @@
   <project path="external/ant-wireless/hidl" name="platform/external/ant-wireless/hidl" remote="caf-legacy" />
   <project path="external/bson" name="android_external_bson" remote="evervolv" />
   <project path="external/connectivity" name="android_external_connectivity" remote="evervolv" />
-  <project path="external/json-c" name="platform/external/json-c" remote="caf" />
+  <project path="external/json-c" name="android_external_json-c" remote="evervolv" />
 
   <project path="hardware/qcom-caf/bootctrl" name="android_hardware_qcom_bootctrl" groups="qcom,pdk" remote="evervolv" revision="r-11.0-caf" />
   <project path="hardware/qcom-caf/bt" name="android_hardware_qcom_bt" groups="qcom,pdk" remote="evervolv" revision="r-11.0-caf" />
@@ -67,7 +67,7 @@
   <project path="packages/apps/FMRadio" name="android_packages_apps_FMRadio" groups="pdk-fs" remote="evervolv" />
   <project path="packages/apps/Snap" name="android_packages_apps_Snap" groups="pdk-fs" remote="evervolv" />
 
-  <project path="vendor/codeaurora/telephony" name="platform/vendor/codeaurora/telephony" remote="caf" />
+  <project path="vendor/codeaurora/telephony" name="android_vendor_codeaurora_telephony" remote="evervolv" />
 
   <project path="vendor/nxp/opensource/interfaces/nfc" name="platform/vendor/nxp/interfaces/opensource/nfc" remote="caf" />
   <project path="vendor/nxp/opensource/commonsys/external/libnfc-nci" name="platform/vendor/nxp/opensource/external/libnfc-nci" remote="caf" />
