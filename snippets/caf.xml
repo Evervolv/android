@@ -3,11 +3,11 @@
 
   <remote  name="caf"
            fetch="https://source.codeaurora.org/quic/la"
-           revision="refs/tags/LA.QSSI.11.0.r1-09400-qssi.0" />
+           revision="refs/tags/LA.QSSI.11.0.r1-11400-qssi.0" />
 
   <remote  name="caf-legacy"
            fetch="https://source.codeaurora.org/quic/la"
-           revision="refs/tags/LA.UM.9.2.r1-02000-SDMxx0.0" />
+           revision="refs/tags/LA.UM.9.2.r1-02700-SDMxx0.0" />
 
   <project path="device/qcom/common" name="android_device_qcom_common" groups="pdk" remote="evervolv" >
     <linkfile src="os_pickup_aosp.mk" dest="hardware/qcom/Android.mk" />
