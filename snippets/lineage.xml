@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
+  <project path="hardware/sony/thermanager" name="android_hardware_sony_thermanager" remote="lineage" />
   <project path="hardware/sony/timekeep" name="android_hardware_sony_timekeep" groups="pdk" remote="lineage" />
 
   <project path="packages/apps/Jelly" name="android_packages_apps_Jelly" groups="pdk-fs" remote="lineage" />
