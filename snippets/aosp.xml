@@ -54,6 +54,8 @@
   <project path="frameworks/opt/telephony" name="android_frameworks_opt_telephony" groups="pdk" remote="evervolv" />
   <project path="frameworks/opt/timezonepicker" name="android_frameworks_opt_timezonepicker" groups="pdk-cw-fs,pdk-fs" remote="evervolv" />
 
+  <project path="hardware/google/pixel" name="android_hardware_google_pixel" groups="generic_fs,pixel" remote="evervolv" />
+  <project path="hardware/google/pixel-sepolicy" name="android_hardware_google_pixel-sepolicy" groups="generic_fs,pixel" remote="evervolv" />
   <project path="hardware/interfaces" name="android_hardware_interfaces" groups="pdk" remote="evervolv" />
   <project path="hardware/libhardware" name="android_hardware_libhardware" groups="pdk" remote="evervolv" />
   <project path="hardware/libhardware_legacy" name="android_hardware_libhardware_legacy" groups="pdk" remote="evervolv" />
