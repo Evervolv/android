@@ -58,6 +58,7 @@
   <remove-project name="platform/packages/modules/adb" />
   <remove-project name="platform/packages/modules/Bluetooth" />
   <remove-project name="platform/packages/modules/common" />
+  <remove-project name="platform/packages/modules/Connectivity" />
   <remove-project name="platform/packages/modules/Nfc" />
   <remove-project name="platform/packages/modules/Permission" />
   <remove-project name="platform/packages/modules/Wifi" />
