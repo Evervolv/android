@@ -7,6 +7,7 @@
   <remove-project name="device/google/akita" />
   <remove-project name="device/google/akita-sepolicy" />
   <remove-project name="device/google/akita-kernels/5.15" />
+  <remove-project name="device/google/atv" />
   <remove-project name="device/google/bluejay" />
   <remove-project name="device/google/bluejay-sepolicy" />
   <remove-project name="device/google/bluejay-kernels/5.10" />
