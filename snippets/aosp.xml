@@ -38,6 +38,7 @@
   <project path="development" name="android_development" groups="pdk-cw-fs,pdk-fs" remote="evervolv" />
 
   <project path="device/generic/common" name="android_device_generic_common" groups="pdk" remote="evervolv" />
+  <project path="device/google/atv" name="android_device_google_atv" groups="device,broadcom_pdk,generic_fs,pdk" remote="evervolv" />
 
   <project path="external/avb" name="android_external_avb" groups="pdk" remote="evervolv" />
   <project path="external/cronet" name="android_external_cronet" groups="pdk" remote="evervolv" />
