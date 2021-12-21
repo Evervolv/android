@@ -56,6 +56,7 @@
   <project path="packages/apps/WallpaperPicker" name="android_packages_apps_WallpaperPicker" groups="pdk-fs" remote="evervolv" />
   <project path="packages/apps/WallpaperPicker2" name="android_packages_apps_WallpaperPicker2" groups="pdk-fs" remote="evervolv" />
   <project path="packages/modules/adb" name="android_packages_modules_adb" groups="pdk" remote="evervolv" />
+  <project path="packages/modules/common" name="android_packages_modules_common" groups="pdk-cw-fs,pdk-fs" remote="evervolv" />
   <project path="packages/modules/Permission" name="android_packages_modules_Permission" groups="pdk" remote="evervolv" />
   <project path="packages/providers/BlockedNumberProvider" name="android_packages_providers_BlockedNumberProvider" groups="pdk-fs" remote="evervolv" />
   <project path="packages/providers/BookmarkProvider" name="android_packages_providers_BookmarkProvider" groups="pdk-fs" remote="evervolv" />
