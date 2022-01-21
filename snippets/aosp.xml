@@ -11,6 +11,10 @@
            review="https://review.lineageos.org/"
            revision="lineage-19.0" />
 
+  <remote  name="proton"
+           fetch="../ProtonAOSP/"
+           revision="sc" />
+
   <remote  name="github"
            fetch=".."/>
 

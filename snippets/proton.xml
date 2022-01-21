@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <project path="external/colorkt" name="android_external_colorkt" remote="proton" />
+  <project path="external/themelib" name="android_external_themelib" remote="proton" />
+
+</manifest>
