@@ -50,6 +50,7 @@
 
   <project path="frameworks/av" name="android_frameworks_av" groups="pdk" remote="evervolv" />
   <project path="frameworks/base" name="android_frameworks_base" groups="pdk-cw-fs,pdk-fs" remote="evervolv" />
+  <project path="frameworks/libs/net" name="android_frameworks_libs_net" groups="pdk-cw-fs,pdk-fs" remote="evervolv" />
   <project path="frameworks/native" name="android_frameworks_native" groups="pdk" remote="evervolv" />
   <project path="frameworks/opt/telephony" name="android_frameworks_opt_telephony" groups="pdk" remote="evervolv" />
 
@@ -105,6 +106,7 @@
   <project path="system/logging" name="android_system_logging" groups="pdk" remote="evervolv" />
   <project path="system/media" name="android_system_media" groups="pdk" remote="evervolv" />
   <project path="system/memory/lmkd" name="android_system_memory_lmkd" groups="pdk" remote="evervolv" />
+  <project path="system/netd" name="android_system_netd" groups="pdk" remote="evervolv" />
   <project path="system/security" name="android_system_security" groups="pdk" remote="evervolv" />
   <project path="system/sepolicy" name="android_system_sepolicy" groups="pdk" remote="evervolv" />
   <project path="system/tools/mkbootimg" name="android_system_tools_mkbootimg" groups="pdk" remote="evervolv" />
