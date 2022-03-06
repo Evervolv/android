@@ -62,6 +62,8 @@
   <remove-project name="device/linaro/poplar" />
   <remove-project name="device/linaro/poplar-kernel" />
 
+  <remove-project name="kernel/configs" />
+
   <remove-project name="platform/bionic" />
   <remove-project name="platform/bootable/recovery" />
   <remove-project name="platform/bootable/deprecated-ota" />
