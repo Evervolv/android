@@ -47,6 +47,7 @@
   <project path="external/libcxx" name="android_external_libcxx" groups="pdk" remote="evervolv" />
   <project path="external/libnl" name="android_external_libnl" groups="pdk" remote="evervolv" />
   <project path="external/mksh" name="android_external_mksh" groups="pdk" remote="evervolv" />
+  <project path="external/setupcompat" name="android_external_setupcompat" groups="pdk" remote="evervolv" />
   <project path="external/tinycompress" name="android_external_tinycompress" groups="pdk" remote="evervolv" />
   <project path="external/wpa_supplicant_8" name="android_external_wpa_supplicant_8" groups="pdk" remote="evervolv" />
 
