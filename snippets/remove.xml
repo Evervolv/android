@@ -3,6 +3,7 @@
 
   <remove-project name="device/amlogic/yukawa" />
   <remove-project name="device/amlogic/yukawa-kernel" />
+  <remove-project name="device/generic/common" />
   <remove-project name="device/google/akita" />
   <remove-project name="device/google/akita-sepolicy" />
   <remove-project name="device/google/akita-kernels/5.15" />
