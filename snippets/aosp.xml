@@ -45,6 +45,7 @@
   <project path="external/fastrpc" name="android_external_fastrpc" groups="pdk" remote="evervolv" />
   <project path="external/gptfdisk" name="android_external_gptfdisk" groups="pdk" remote="evervolv" />
   <project path="external/mksh" name="android_external_mksh" groups="pdk" remote="evervolv" />
+  <project path="external/setupcompat" name="android_external_setupcompat" groups="pdk" remote="evervolv" />
   <project path="external/tinycompress" name="android_external_tinycompress" groups="pdk" remote="evervolv" />
 
   <project path="frameworks/av" name="android_frameworks_av" groups="pdk" remote="evervolv" />
