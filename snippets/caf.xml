@@ -3,7 +3,7 @@
 
   <remote  name="caf"
            fetch="https://source.codeaurora.org/quic/la"
-           revision="refs/tags/LA.UM.10.2.1.r1-02900-sdm660.0" />
+           revision="refs/tags/LA.UM.10.2.1.r1-03400-sdm660.0" />
 
   <project path="device/qcom/common" name="android_device_qcom_common" groups="pdk" remote="evervolv" >
     <linkfile src="os_pickup_aosp.mk" dest="hardware/qcom/Android.mk" />
