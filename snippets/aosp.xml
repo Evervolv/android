@@ -9,6 +9,9 @@
   <remote  name="github"
            fetch=".."/>
 
+  <remote  name="gitlab"
+           fetch="https://gitlab.com" />
+
   <project path="bionic" name="android_bionic" groups="pdk" remote="evervolv" />
   <project path="bootable/recovery" name="android_bootable_recovery" groups="pdk" remote="evervolv" />
 
