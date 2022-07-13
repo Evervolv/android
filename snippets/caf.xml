@@ -3,7 +3,7 @@
 
   <remote  name="caf"
            fetch="https://git.codelinaro.org/clo/la"
-           revision="refs/tags/LA.QSSI.12.0.r1-07600-qssi.0" />
+           revision="refs/tags/LA.QSSI.12.0.r1-08200-qssi.0" />
 
   <project path="device/qcom/common" name="android_device_qcom_common" groups="pdk" remote="evervolv" >
     <linkfile src="os_pickup_aosp.mk" dest="hardware/qcom/Android.mk" />
@@ -20,9 +20,9 @@
   <project path="device/qcom/sepolicy_vndr" name="android_device_qcom_sepolicy_vndr" groups="pdk" remote="evervolv" />
 
   <project path="external/ant-wireless/ant_client" name="android_external_ant-wireless_ant_client" remote="evervolv" />
-  <project path="external/ant-wireless/ant_native" name="platform/external/ant-wireless/ant_native" remote="caf" revision="refs/tags/LA.UM.10.2.1.r1-03700-sdm660.0" />
+  <project path="external/ant-wireless/ant_native" name="platform/external/ant-wireless/ant_native" remote="caf" revision="refs/tags/LA.UM.10.2.1.r1-04000-sdm660.0" />
   <project path="external/ant-wireless/ant_service" name="android_external_ant-wireless_ant_service" remote="evervolv" />
-  <project path="external/ant-wireless/hidl" name="platform/external/ant-wireless/hidl" remote="caf" revision="refs/tags/LA.UM.10.2.1.r1-03700-sdm660.0" />
+  <project path="external/ant-wireless/hidl" name="platform/external/ant-wireless/hidl" remote="caf" revision="refs/tags/LA.UM.10.2.1.r1-04000-sdm660.0" />
   <project path="external/bson" name="android_external_bson" remote="evervolv" />
   <project path="external/connectivity" name="android_external_connectivity" remote="evervolv" />
   <project path="external/json-c" name="android_external_json-c" remote="evervolv" />
