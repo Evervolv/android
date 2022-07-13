@@ -6,6 +6,10 @@
            review="http://review.evervolv.com/"
            revision="s-12.1" />
 
+  <remote  name="evervolv-gitlab"
+           fetch="https://gitlab.com/evervolv/"
+           revision="s-12.1" />
+
   <remote  name="github"
            fetch=".."/>
 
