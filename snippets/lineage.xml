@@ -6,7 +6,6 @@
            review="https://review.lineageos.org/"
            revision="lineage-19.1" />
 
-  <project path="device/generic/common" name="android_device_generic_common" groups="pdk" remote="lineage" />
   <project path="device/lineage/atv" name="android_device_lineage_atv" remote="lineage" />
 
   <project path="external/chromium-webview" name="android_external_chromium-webview" groups="pdk" clone-depth="1" remote="lineage" revision="master" />

@@ -16,6 +16,7 @@
   <remote  name="gitlab"
            fetch="https://gitlab.com" />
 
+
   <project path="bionic" name="android_bionic" groups="pdk" remote="evervolv" />
   <project path="bootable/recovery" name="android_bootable_recovery" groups="pdk" remote="evervolv" />
 
@@ -32,6 +33,8 @@
     <linkfile src="root.bp" dest="Android.bp" />
     <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
   </project>
+
+  <project path="device/generic/common" name="android_device_generic_common" groups="pdk" remote="evervolv" />
 
   <project path="external/android-nn-driver" name="android_external_android-nn-driver" groups="pdk-lassen" remote="evervolv" />
   <project path="external/armnn" name="android_external_armnn" groups="pdk-lassen" remote="evervolv" />
