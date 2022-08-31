@@ -38,6 +38,7 @@
 
   <project path="external/android-nn-driver" name="android_external_android-nn-driver" groups="pdk-lassen" remote="evervolv" />
   <project path="external/armnn" name="android_external_armnn" groups="pdk-lassen" remote="evervolv" />
+  <project path="external/arm-optimized-routines" name="android_external_arm-optimized-routines" groups="pdk" remote="evervolv" />
   <project path="external/avb" name="android_external_avb" groups="pdk" remote="evervolv" />
   <project path="external/boringssl" name="android_external_boringssl" groups="pdk" remote="evervolv" />
   <project path="external/dwarves" name="platform/external/dwarves" revision="master" />
