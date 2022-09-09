@@ -1,10 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-  <remote  name="caf"
-           fetch="https://git.codelinaro.org/clo/la"
-           revision="refs/tags/LA.QSSI.13.0.r1-05500-qssi.0" />
-
   <project path="device/qcom/common" name="android_device_qcom_common" groups="pdk" remote="evervolv" >
     <linkfile src="os_pickup_aosp.mk" dest="hardware/qcom/Android.mk" />
     <linkfile src="os_pickup.bp" dest="hardware/qcom-caf/msm8998/Android.bp" />
@@ -20,9 +16,9 @@
   <project path="device/qcom/sepolicy_vndr" name="android_device_qcom_sepolicy_vndr" groups="pdk" remote="evervolv" />
 
   <project path="external/ant-wireless/ant_client" name="android_external_ant-wireless_ant_client" remote="evervolv" />
-  <project path="external/ant-wireless/ant_native" name="platform/external/ant-wireless/ant_native" remote="caf" revision="refs/tags/LA.UM.10.2.1.r1-04000-sdm660.0" />
+  <project path="external/ant-wireless/ant_native" name="android_external_ant-wireless_ant_native" remote="evervolv" />
   <project path="external/ant-wireless/ant_service" name="android_external_ant-wireless_ant_service" remote="evervolv" />
-  <project path="external/ant-wireless/hidl" name="platform/external/ant-wireless/hidl" remote="caf" revision="refs/tags/LA.UM.10.2.1.r1-04000-sdm660.0" />
+  <project path="external/ant-wireless/hidl" name="android_external_ant-wireless_hidl" remote="evervolv" />
   <project path="external/json-c" name="android_external_json-c" remote="evervolv" />
 
   <project path="hardware/qcom-caf/bootctrl" name="android_hardware_qcom_bootctrl" groups="qcom,pdk" remote="evervolv" revision="t-13.0-caf" />
@@ -45,7 +41,7 @@
 
   <project path="vendor/codeaurora/telephony" name="android_vendor_codeaurora_telephony" remote="evervolv" />
 
-  <project path="vendor/qcom/opensource/audio" name="platform/vendor/qcom-opensource/audio" remote="caf" />
+  <project path="vendor/qcom/opensource/audio" name="android_vendor_qcom_opensource_audio" groups="qcom,pdk" remote="evervolv"/>
   <project path="vendor/qcom/opensource/audio-hal/st-hal" name="android_vendor_qcom_opensource_audio-hal_st-hal" groups="qcom,pdk" remote="evervolv"/>
   <project path="vendor/qcom/opensource/commonsys-intf/display" name="android_vendor_qcom_opensource_display-commonsys-intf" groups="qcom,pdk" remote="evervolv" />
   <project path="vendor/qcom/opensource/commonsys/display" name="android_vendor_qcom_opensource_display-commonsys" groups="qcom,pdk" remote="evervolv" />
