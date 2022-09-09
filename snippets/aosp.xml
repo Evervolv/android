@@ -36,6 +36,7 @@
 
   <project path="external/android-nn-driver" name="android_external_android-nn-driver" groups="pdk-lassen" remote="evervolv" />
   <project path="external/armnn" name="android_external_armnn" groups="pdk-lassen" remote="evervolv" />
+  <project path="external/dwarves" name="platform/external/dwarves" revision="master" />
   <project path="external/e2fsprogs" name="android_external_e2fsprogs" groups="pdk" remote="evervolv" />
   <project path="external/gptfdisk" name="android_external_gptfdisk" groups="pdk" remote="evervolv" />
   <project path="external/libcxx" name="android_external_libcxx" groups="pdk" remote="evervolv" />
