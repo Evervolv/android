@@ -42,6 +42,8 @@
 
   <project path="packages/apps/Settings" name="android_packages_apps_Settings" groups="pdk-fs" remote="evervolv" />
 
+  <project path="prebuilts/kernel-build-tools" name="kernel/prebuilts/build-tools" clone-depth="1" revision="android-gs-pantah-5.10-android14" />
+
   <project path="system/core" name="android_system_core" groups="pdk" remote="evervolv" />
   <project path="system/sepolicy" name="android_system_sepolicy" groups="pdk" remote="evervolv" />
   <project path="system/tools/mkbootimg" name="android_system_tools_mkbootimg" groups="pdk" remote="evervolv" />
