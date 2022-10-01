@@ -102,6 +102,7 @@
   <project path="system/libziparchive" name="android_system_libziparchive" groups="pdk" remote="evervolv" />
   <project path="system/logging" name="android_system_logging" groups="pdk" remote="evervolv" />
   <project path="system/media" name="android_system_media" groups="pdk" remote="evervolv" />
+  <project path="system/memory/lmkd" name="android_system_memory_lmkd" groups="pdk" remote="evervolv" />
   <project path="system/security" name="android_system_security" groups="pdk" remote="evervolv" />
   <project path="system/sepolicy" name="android_system_sepolicy" groups="pdk" remote="evervolv" />
   <project path="system/tools/mkbootimg" name="android_system_tools_mkbootimg" groups="pdk" remote="evervolv" />
