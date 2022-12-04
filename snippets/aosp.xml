@@ -36,6 +36,7 @@
   <project path="device/generic/common" name="android_device_generic_common" groups="pdk" remote="evervolv" />
   <project path="device/google/contexthub" name="android_device_google_contexthub" groups="device,pdk" remote="evervolv" />
 
+  <project path="external/avb" name="android_external_avb" groups="pdk" remote="evervolv" />
   <project path="external/dtc" name="android_external_dtc" groups="pdk" remote="evervolv" />
   <project path="external/e2fsprogs" name="android_external_e2fsprogs" groups="pdk" remote="evervolv" />
   <project path="external/fastrpc" name="android_external_fastrpc" groups="pdk" remote="evervolv" />
