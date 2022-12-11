@@ -12,9 +12,9 @@
     <linkfile src="os_pickup_qssi.bp" dest="hardware/qcom-caf/sm8350/Android.bp" />
   </project>
   <project path="device/qcom/sepolicy" name="android_device_qcom_sepolicy" groups="qcom,qssi" remote="evervolv" />
-  <project path="device/qcom/sepolicy-legacy-um" name="android_device_qcom_sepolicy" groups="qcom,sdm660" remote="evervolv" revision="t-13.0-legacy-um" />
+  <project path="device/qcom/sepolicy-legacy-um" name="android_device_qcom_sepolicy" groups="qcom,sdm660" remote="evervolv" revision="t-13.1-legacy-um" />
   <project path="device/qcom/sepolicy_vndr" name="android_device_qcom_sepolicy_vndr" groups="qcom,waipio-vendor" remote="evervolv" />
-  <project path="device/qcom/sepolicy_vndr-legacy-um" name="android_device_qcom_sepolicy_vndr" groups="qcom,lahaina" remote="evervolv" revision="t-13.0-legacy-um" />
+  <project path="device/qcom/sepolicy_vndr-legacy-um" name="android_device_qcom_sepolicy_vndr" groups="qcom,lahaina" remote="evervolv" revision="t-13.1-legacy-um" />
 
   <project path="external/ant-wireless/ant_client" name="android_external_ant-wireless_ant_client" groups="qcom,sdm660" remote="evervolv" />
   <project path="external/ant-wireless/ant_native" name="android_external_ant-wireless_ant_native" groups="qcom,sdm660" remote="evervolv" />
@@ -22,23 +22,23 @@
   <project path="external/ant-wireless/hidl" name="android_external_ant-wireless_hidl" groups="qcom,qssi" remote="evervolv" />
   <project path="external/json-c" name="android_external_json-c" groups="qcom,qssi" remote="evervolv" />
 
-  <project path="hardware/qcom-caf/bootctrl" name="android_hardware_qcom_bootctrl" groups="qcom,waipio-vendor" remote="evervolv" revision="t-13.0-caf" />
-  <project path="hardware/qcom-caf/bt" name="android_hardware_qcom_bt" groups="qcom,legacy-qcom" remote="evervolv" revision="t-13.0-caf" />
-  <project path="hardware/qcom-caf/msm8996/audio" name="android_hardware_qcom_audio-caf" groups="qcom,legacy-qcom" remote="evervolv" revision="t-13.0-8996" />
-  <project path="hardware/qcom-caf/msm8996/display" name="android_hardware_qcom_display-caf" groups="qcom,legacy-qcom" remote="evervolv" revision="t-13.0-8996" />
-  <project path="hardware/qcom-caf/msm8996/media" name="android_hardware_qcom_media-caf" groups="qcom,legacy-qcom" remote="evervolv" revision="t-13.0-8996" />
-  <project path="hardware/qcom-caf/msm8998/audio" name="android_hardware_qcom_audio-caf" groups="qcom,legacy-qcom" remote="evervolv" revision="t-13.0-8998" />
-  <project path="hardware/qcom-caf/msm8998/display" name="android_hardware_qcom_display-caf" groups="qcom,legacy-qcom" remote="evervolv" revision="t-13.0-8998" />
-  <project path="hardware/qcom-caf/msm8998/media" name="android_hardware_qcom_media-caf" groups="qcom,legacy-qcom" remote="evervolv" revision="t-13.0-8998" />
-  <project path="hardware/qcom-caf/sm8150/audio" name="android_hardware_qcom_audio-caf" groups="qcom,msmnile" remote="evervolv" revision="t-13.0-8150" />
-  <project path="hardware/qcom-caf/sm8150/display" name="android_hardware_qcom_display-caf" groups="qcom,msmnile" remote="evervolv" revision="t-13.0-8150" />
-  <project path="hardware/qcom-caf/sm8150/media" name="android_hardware_qcom_media-caf" groups="qcom,msmnile" remote="evervolv" revision="t-13.0-8150" />
-  <project path="hardware/qcom-caf/sm8350/audio" name="android_hardware_qcom_audio-caf" groups="qcom,lahaina" remote="evervolv" revision="t-13.0-8350" />
-  <project path="hardware/qcom-caf/sm8350/display" name="android_hardware_qcom_display-caf" groups="qcom,lahaina" remote="evervolv" revision="t-13.0-8350" />
-  <project path="hardware/qcom-caf/sm8350/media" name="android_hardware_qcom_media-caf" groups="qcom,lahaina" remote="evervolv" revision="t-13.0-8350" />
+  <project path="hardware/qcom-caf/bootctrl" name="android_hardware_qcom_bootctrl" groups="qcom,waipio-vendor" remote="evervolv" revision="t-13.1-caf" />
+  <project path="hardware/qcom-caf/bt" name="android_hardware_qcom_bt" groups="qcom,legacy-qcom" remote="evervolv" revision="t-13.1-caf" />
+  <project path="hardware/qcom-caf/msm8996/audio" name="android_hardware_qcom_audio-caf" groups="qcom,legacy-qcom" remote="evervolv" revision="t-13.1-8996" />
+  <project path="hardware/qcom-caf/msm8996/display" name="android_hardware_qcom_display-caf" groups="qcom,legacy-qcom" remote="evervolv" revision="t-13.1-8996" />
+  <project path="hardware/qcom-caf/msm8996/media" name="android_hardware_qcom_media-caf" groups="qcom,legacy-qcom" remote="evervolv" revision="t-13.1-8996" />
+  <project path="hardware/qcom-caf/msm8998/audio" name="android_hardware_qcom_audio-caf" groups="qcom,legacy-qcom" remote="evervolv" revision="t-13.1-8998" />
+  <project path="hardware/qcom-caf/msm8998/display" name="android_hardware_qcom_display-caf" groups="qcom,legacy-qcom" remote="evervolv" revision="t-13.1-8998" />
+  <project path="hardware/qcom-caf/msm8998/media" name="android_hardware_qcom_media-caf" groups="qcom,legacy-qcom" remote="evervolv" revision="t-13.1-8998" />
+  <project path="hardware/qcom-caf/sm8150/audio" name="android_hardware_qcom_audio-caf" groups="qcom,msmnile" remote="evervolv" revision="t-13.1-8150" />
+  <project path="hardware/qcom-caf/sm8150/display" name="android_hardware_qcom_display-caf" groups="qcom,msmnile" remote="evervolv" revision="t-13.1-8150" />
+  <project path="hardware/qcom-caf/sm8150/media" name="android_hardware_qcom_media-caf" groups="qcom,msmnile" remote="evervolv" revision="t-13.1-8150" />
+  <project path="hardware/qcom-caf/sm8350/audio" name="android_hardware_qcom_audio-caf" groups="qcom,lahaina" remote="evervolv" revision="t-13.1-8350" />
+  <project path="hardware/qcom-caf/sm8350/display" name="android_hardware_qcom_display-caf" groups="qcom,lahaina" remote="evervolv" revision="t-13.1-8350" />
+  <project path="hardware/qcom-caf/sm8350/media" name="android_hardware_qcom_media-caf" groups="qcom,lahaina" remote="evervolv" revision="t-13.1-8350" />
   <project path="hardware/qcom-caf/thermal" name="android_hardware_qcom_thermal" groups="qcom,waipio-vendor" remote="evervolv" />
   <project path="hardware/qcom-caf/vr" name="android_hardware_qcom_vr" groups="qcom,sdm660" remote="evervolv" />
-  <project path="hardware/qcom-caf/wlan" name="android_hardware_qcom_wlan" groups="qcom,waipio-vendor" remote="evervolv" revision="t-13.0-caf" />
+  <project path="hardware/qcom-caf/wlan" name="android_hardware_qcom_wlan" groups="qcom,waipio-vendor" remote="evervolv" revision="t-13.1-caf" />
 
   <project path="vendor/codeaurora/telephony" name="android_vendor_codeaurora_telephony" groups="qcom,qssi" remote="evervolv" />
 
@@ -48,7 +48,7 @@
   <project path="vendor/qcom/opensource/commonsys/display" name="android_vendor_qcom_opensource_display-commonsys" groups="qcom,qssi" remote="evervolv" />
   <project path="vendor/qcom/opensource/commonsys/wfd" name="android_vendor_qcom_opensource_wfd-commonsys" groups="qcom,waipio-video" remote="evervolv" />
   <project path="vendor/qcom/opensource/data-ipa-cfg-mgr" name="android_vendor_qcom_opensource_data-ipa-cfg-mgr" groups="qcom,waipio-vendor" remote="evervolv" />
-  <project path="vendor/qcom/opensource/data-ipa-cfg-mgr-legacy-um" name="android_vendor_qcom_opensource_data-ipa-cfg-mgr" groups="qcom,lahaina" remote="evervolv" revision="t-13.0-legacy-um" />
+  <project path="vendor/qcom/opensource/data-ipa-cfg-mgr-legacy-um" name="android_vendor_qcom_opensource_data-ipa-cfg-mgr" groups="qcom,lahaina" remote="evervolv" revision="t-13.1-legacy-um" />
   <project path="vendor/qcom/opensource/dataservices" name="android_vendor_qcom_opensource_dataservices" groups="qcom,waipio-vendor" remote="evervolv" />
   <project path="vendor/qcom/opensource/interfaces" name="android_vendor_qcom_opensource_interfaces" groups="qcom,qssi" remote="evervolv" />
   <project path="vendor/qcom/opensource/power" name="android_vendor_qcom_opensource_power" groups="qcom,waipio-vendor" remote="evervolv" />
