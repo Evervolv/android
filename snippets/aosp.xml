@@ -41,7 +41,6 @@
   <project path="external/arm-optimized-routines" name="platform/external/arm-optimized-routines" revision="master" />
   <project path="external/avb" name="android_external_avb" groups="pdk" remote="evervolv" />
   <project path="external/dtc" name="android_external_dtc" groups="pdk" remote="evervolv" />
-  <project path="external/dwarves" name="platform/external/dwarves" revision="master" />
   <project path="external/e2fsprogs" name="android_external_e2fsprogs" groups="pdk" remote="evervolv" />
   <project path="external/fastrpc" name="android_external_fastrpc" groups="pdk" remote="evervolv" />
   <project path="external/gptfdisk" name="android_external_gptfdisk" groups="pdk" remote="evervolv" />
