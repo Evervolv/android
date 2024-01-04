@@ -64,6 +64,7 @@
 
   <remove-project name="platform/development" />
 
+  <remove-project name="platform/external/arm-trusted-firmware" />
   <remove-project name="platform/external/avb" />
   <remove-project name="platform/external/chromium-webview" />
   <remove-project name="platform/external/cronet" />
