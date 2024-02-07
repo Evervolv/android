@@ -1475,4 +1475,5 @@
   <include name="snippets/caf.xml"/>
   <include name="snippets/evervolv.xml"/>
   <include name="snippets/lineage.xml"/>
+  <include name="snippets/pixel.xml"/>
 </manifest>
