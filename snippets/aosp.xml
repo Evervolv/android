@@ -52,6 +52,7 @@
 
   <project path="hardware/interfaces" name="android_hardware_interfaces" groups="pdk,sysui-studio" remote="evervolv" />
   <project path="hardware/libhardware" name="android_hardware_libhardware" groups="pdk" remote="evervolv" />
+  <project path="hardware/st/nfc" name="android_hardware_st_nfc" groups="pdk" remote="evervolv" />
 
   <project path="kernel/configs" name="android_kernel_configs" groups="vts,pdk" remote="evervolv" />
 
