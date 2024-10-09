@@ -29,6 +29,7 @@
     <linkfile dest="build/target" src="target" />
     <linkfile dest="build/tools" src="tools" />
   </project>
+  <project path="build/release" name="android_build_release" groups="pdk,tradefed" remote="evervolv" />
   <project path="build/soong" name="android_build_soong" groups="pdk,tradefed" remote="evervolv" >
     <linkfile dest="Android.bp" src="root.bp" />
     <linkfile dest="bootstrap.bash" src="bootstrap.bash" />
