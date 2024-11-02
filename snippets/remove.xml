@@ -69,6 +69,9 @@
   <remove-project name="platform/external/e2fsprogs" />
   <remove-project name="platform/external/fastrpc" />
   <remove-project name="platform/external/gptfdisk" />
+  <remove-project name="platform/external/kotlinc" />
+  <remove-project name="platform/external/kotlinx.coroutines" />
+  <remove-project name="platform/external/kotlinx.serialization" />
   <remove-project name="platform/external/mksh" />
   <remove-project name="platform/external/setupcompat" />
   <remove-project name="platform/external/tinycompress" />
