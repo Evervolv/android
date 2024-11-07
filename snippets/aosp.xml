@@ -64,6 +64,8 @@
 
   <project path="hardware/google/pixel" name="android_hardware_google_pixel" groups="generic_fs,pixel" remote="evervolv" />
   <project path="hardware/google/pixel-sepolicy" name="android_hardware_google_pixel-sepolicy" groups="generic_fs,pixel" remote="evervolv" />
+  <project path="hardware/google/gchips" name="android_hardware_google_gchips" groups="generic_fs,pixel" remote="evervolv" />
+  <project path="hardware/google/graphics/common" name="android_hardware_google_graphics_common" groups="generic_fs,pixel" remote="evervolv" />
   <project path="hardware/interfaces" name="android_hardware_interfaces" groups="pdk,sysui-studio" remote="evervolv" />
   <project path="hardware/libhardware" name="android_hardware_libhardware" groups="pdk" remote="evervolv" />
   <project path="hardware/nxp/nfc" name="android_hardware_nxp_nfc" groups="pdk" remote="evervolv" />
