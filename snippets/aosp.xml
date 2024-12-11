@@ -68,6 +68,14 @@
   <project path="hardware/interfaces" name="android_hardware_interfaces" groups="pdk,sysui-studio" remote="evervolv" />
   <project path="hardware/libhardware" name="android_hardware_libhardware" groups="pdk" remote="evervolv" />
   <project path="hardware/nxp/nfc" name="android_hardware_nxp_nfc" groups="pdk" remote="evervolv" />
+  <project path="hardware/qcom/audio" name="platform/hardware/qcom/audio" groups="qcom,qcom_audio,pdk-qcom" revision="refs/tags/android-15.0.0_r5" />
+  <project path="hardware/qcom/bootctrl" name="platform/hardware/qcom/bootctrl" groups="qcom,pdk-qcom" revision="refs/tags/android-15.0.0_r5" />
+  <project path="hardware/qcom/bt" name="platform/hardware/qcom/bt" groups="qcom,pdk-qcom" revision="refs/tags/android-15.0.0_r5" />
+  <project path="hardware/qcom/camera" name="platform/hardware/qcom/camera" groups="qcom,qcom_camera,pdk-qcom" revision="refs/tags/android-15.0.0_r5" />
+  <project path="hardware/qcom/data/ipacfg-mgr" name="platform/hardware/qcom/data/ipacfg-mgr" groups="qcom,pdk-qcom" revision="refs/tags/android-15.0.0_r5" />
+  <project path="hardware/qcom/display" name="platform/hardware/qcom/display" groups="qcom,qcom_display,pdk-qcom" revision="refs/tags/android-15.0.0_r5" />
+  <project path="hardware/qcom/gps" name="platform/hardware/qcom/gps" groups="qcom,qcom_gps,pdk-qcom" revision="refs/tags/android-15.0.0_r5" />
+  <project path="hardware/qcom/media" name="platform/hardware/qcom/media" groups="qcom,pdk-qcom" revision="refs/tags/android-15.0.0_r5" />
   <project path="hardware/ril" name="android_hardware_ril" groups="pdk" remote="evervolv" />
   <project path="hardware/st/nfc" name="android_hardware_st_nfc" groups="pdk" remote="evervolv" />
 
