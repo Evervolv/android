@@ -4,7 +4,7 @@
   <remote  name="lineage"
            fetch="https://github.com/LineageOS/"
            review="https://review.lineageos.org/"
-           revision="lineage-22.0" />
+           revision="lineage-22.1" />
 
   <project path="external/chromium-webview/patches" name="android_external_chromium-webview_patches" groups="pdk" remote="lineage" revision="main" >
     <linkfile src="Android.mk" dest="external/chromium-webview/Android.mk" />
