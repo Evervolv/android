@@ -116,6 +116,7 @@
   <project path="packages/wallpapers/LivePicker" name="android_packages_wallpapers_LivePicker" groups="pdk-fs" remote="evervolv" />
 
   <project path="system/bpf" name="android_system_bpf" groups="pdk" remote="evervolv" />
+  <project path="system/chre" name="android_system_chre" groups="pdk" remote="evervolv" />
   <project path="system/core" name="android_system_core" groups="pdk" remote="evervolv" />
   <project path="system/extras" name="android_system_extras" groups="pdk" remote="evervolv" />
   <project path="system/keymaster" name="android_system_keymaster" groups="pdk" remote="evervolv" />
