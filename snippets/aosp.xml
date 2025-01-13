@@ -72,7 +72,7 @@
   <project path="hardware/nxp/nfc" name="android_hardware_nxp_nfc" groups="pdk" remote="evervolv" />
   <project path="hardware/qcom/audio" name="platform/hardware/qcom/audio" groups="qcom,qcom_audio,pdk-qcom" revision="refs/tags/android-15.0.0_r5" />
   <project path="hardware/qcom/bootctrl" name="platform/hardware/qcom/bootctrl" groups="qcom,pdk-qcom" revision="refs/tags/android-15.0.0_r5" />
-  <project path="hardware/qcom/bt" name="platform/hardware/qcom/bt" groups="qcom,pdk-qcom" revision="refs/tags/android-15.0.0_r5" />
+  <project path="hardware/qcom/bt" name="android_hardware_qcom_bt" groups="qcom,pdk-qcom" remote="evervolv" />
   <project path="hardware/qcom/camera" name="platform/hardware/qcom/camera" groups="qcom,qcom_camera,pdk-qcom" revision="refs/tags/android-15.0.0_r5" />
   <project path="hardware/qcom/data/ipacfg-mgr" name="platform/hardware/qcom/data/ipacfg-mgr" groups="qcom,pdk-qcom" revision="refs/tags/android-15.0.0_r5" />
   <project path="hardware/qcom/display" name="platform/hardware/qcom/display" groups="qcom,qcom_display,pdk-qcom" revision="refs/tags/android-15.0.0_r5" />
