@@ -38,7 +38,6 @@
   <project path="hardware/qcom-caf/sm8350/audio" name="android_hardware_qcom_audio-caf" groups="qcom,lahaina" remote="evervolv" revision="v-15.1-8350" />
   <project path="hardware/qcom-caf/sm8350/display" name="android_hardware_qcom_display-caf" groups="qcom,lahaina" remote="evervolv" revision="v-15.1-8350" />
   <project path="hardware/qcom-caf/thermal" name="android_hardware_qcom_thermal" groups="qcom,waipio-vendor" remote="evervolv" />
-  <project path="hardware/qcom-caf/vr" name="android_hardware_qcom_vr" groups="qcom,sdm660" remote="evervolv" />
   <project path="hardware/qcom-caf/wlan" name="android_hardware_qcom_wlan" groups="qcom,waipio-vendor" remote="evervolv" revision="v-15.1-caf" />
 
   <project path="vendor/codeaurora/telephony" name="android_vendor_codeaurora_telephony" groups="qcom,qssi" remote="evervolv" />
